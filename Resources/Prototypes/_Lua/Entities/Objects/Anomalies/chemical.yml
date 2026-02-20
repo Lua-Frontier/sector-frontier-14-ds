@@ -1,0 +1,96 @@
+- type: entity
+  parent: ZoneAnomalyBase
+  id: ZoneAnomalyBaseChemical
+  abstract: true
+  components:
+    - type: PointLight
+      radius: 3
+      energy: 3
+      color: "#c0f133"
+      castShadows: false
+    - type: AmbientSound
+      enabled: true
+      volume: -18
+      range: 10
+      sound:
+        path: /Audio/_Lua/Effects/acidic_idle.ogg
+    - type: STAnomalyTips
+      icon:
+        sprite: /Textures/_Lua/Interface/Overlays/anomaly_tips.rsi
+        state: toxic
+
+- type: entity
+  id: ZoneAnomalyKissel
+  parent: ZoneAnomalyBaseChemical
+  suffix: Stalker, Kissel, Anomaly
+  components:
+    - type: ZoneAnomalyUpdateTriggerCollide
+    - type: ZoneAnomalyEffectDamage
+      damage:
+        types:
+          Caustic: 10
+    - type: ZoneAnomalyEffectDestroy
+      whitelist:
+        tags:
+        - STBolt
+    - type: ZoneAnomaly
+      detectedLevel: 0
+      preparingDelay: 0
+      activationDelay: 0
+      chargeTime: 0.05
+    - type: Sprite
+      sprite: _Lua/Objects/Other/Anomalys/kissel.rsi
+      layers:
+        - state: idle
+          shader: unshaded
+
+- type: entity
+  parent: ZoneAnomalyBaseChemical
+  id: ZoneAnomalyGazirovka
+  suffix: Stalker, Gazirovka, Anomaly
+  components:
+    - type: ZoneAnomalyUpdateTriggerCollide
+    - type: ZoneAnomalyEffectDamage
+      damage:
+        types:
+          Caustic: 90
+    - type: ZoneAnomalyEffectDestroy
+      whitelist:
+        tags:
+        - STBolt
+    # - type: ZoneAnomalyEffectSpawn  # GazirovkaActiveEffect not ported yet
+    #   entry:
+    #     - id: GazirovkaActiveEffect
+    #       amount: 3
+    - type: ZoneAnomalyEffectPlaySound
+      sound: /Audio/_Lua/Effects/acidic_active.ogg
+    - type: ZoneAnomaly
+      detectedLevel: 3
+      activationDelay: 0
+      preparingDelay: 0
+      chargeTime: 3
+
+- type: entity
+  parent: ZoneAnomalyBaseChemical
+  id: ZoneAnomalySmoke
+  suffix: Stalker, Smoke, Anomaly
+  components:
+    - type: PointLight
+      radius: 3
+      energy: 3
+      color: "Yellow"
+      castShadows: false
+    - type: ZoneAnomalyUpdateTriggerCollide
+      blacklist:
+        components:
+          - Smoke
+    - type: ZoneAnomalyEffectFoam
+      reagent: AbsoluteAbsorber
+      reagentAmount: 20
+      range: 20
+      duration: 30
+    - type: ZoneAnomaly
+      detectedLevel: 3
+      activationDelay: 0
+      preparingDelay: 0
+      chargeTime: 10

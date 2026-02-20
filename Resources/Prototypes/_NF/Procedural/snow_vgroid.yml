@@ -113,13 +113,6 @@
     - !type:OreDunGen
       entityMask:
       - WallRockSnow
-      entity: WallRockSnowArtifactFragment
-      count: 25
-      minGroupSize: 1
-      maxGroupSize: 3
-    - !type:OreDunGen
-      entityMask:
-      - WallRockSnow
       entity: WallRockSnowDiamond
       count: 15
       minGroupSize: 1

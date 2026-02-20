@@ -97,14 +97,6 @@
       # replacement: IronRock # upstream#33105
       entityMask: # upstream#33105
       - IronRock # upstream#33105
-      entity: IronRockArtifactFragment
-      count: 25
-      minGroupSize: 1
-      maxGroupSize: 3
-    - !type:OreDunGen
-      # replacement: IronRock # upstream#33105
-      entityMask: # upstream#33105
-      - IronRock # upstream#33105
       entity: IronRockDiamond
       count: 15
       minGroupSize: 1

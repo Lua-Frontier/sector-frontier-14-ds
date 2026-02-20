@@ -9,7 +9,6 @@
     OreSilver: 0.25
     OrePlasma: 0.20
     OreUranium: 0.20
-    OreArtifactFragment: 0.10
     OreBananium: 0.10
 
 - type: oreDunGen
@@ -101,13 +100,3 @@
   count: 6
   minGroupSize: 3
   maxGroupSize: 6
-
-- type: oreDunGen
-  id: OreArtifactFragment
-  # replacement: AsteroidRock # upstream#33105
-  entityMask: # upstream#33105
-  - AsteroidRock # upstream#33105
-  entity: AsteroidRockArtifactFragment
-  count: 5
-  minGroupSize: 1
-  maxGroupSize: 2

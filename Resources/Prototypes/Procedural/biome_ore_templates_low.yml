@@ -140,7 +140,7 @@
     WallRockChromite: WallRockChromiteArtifactFragment
     WallRockSand: WallRockSandArtifactFragment
     WallRockSnow: WallRockSnowArtifactFragment
-  maxCount: 3
+  maxCount: 0 # Disable
   minGroupSize: 1
   maxGroupSize: 2
   radius: 4

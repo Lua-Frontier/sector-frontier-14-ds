@@ -1,0 +1,238 @@
+- type: entity
+  parent: ZoneAnomalyBase
+  id: ZoneAnomalyBaseThermal
+  abstract: true
+  components:
+  - type: STAnomalyTips
+    icon:
+      sprite: /Textures/_Lua/Interface/Overlays/anomaly_tips.rsi
+      state: fiery
+
+- type: entity
+  parent: ZoneAnomalyBaseThermal
+  id: ZoneAnomalyJarka
+  suffix: Stalker, Jarka, Anomaly
+  components:
+    - type: ZoneAnomalyUpdateTriggerCollide
+    - type: ZoneAnomalyEffectDamage
+      fireStacks: 0.25
+      damageUpdate: true
+      damage:
+        types:
+          Heat: 2
+    - type: ZoneAnomalyEffectDestroy
+      whitelist:
+        tags:
+          - STBolt
+    - type: ZoneAnomalyEffectPointLight
+    - type: ZoneAnomaly
+      detectedLevel: 0
+      preparingDelay: 0
+      activationDelay: 4
+      chargeTime: 0
+    - type: Stealth
+    - type: Sprite
+      sprite: _Lua/Objects/Anomalies/jarka.rsi
+      offset: 0, 0.5
+      layers:
+      - state: idle
+        map: ["base"]
+    - type: PointLight
+      radius: 10
+      energy: 12
+      color: "#f37011"
+      castShadows: true
+      enabled: false
+    - type: AmbientSound
+      volume: -16
+      range: 8
+      sound:
+        path: /Audio/_Lua/Effects/fireball_idle.ogg
+    - type: GenericVisualizer
+      visuals:
+        enum.ZoneAnomalyVisuals.Layer:
+          base:
+            Activated: { state: active }
+            Charging: { state: idle }
+            Idle: { state: idle }
+
+- type: entity
+  parent: ZoneAnomalyJarka
+  id: ZoneAnomalyJarkaStrong
+  suffix: Stalker, Jarka strong, Anomaly
+  components:
+    - type: ZoneAnomaly
+      detectedLevel: 1
+    - type: ZoneAnomalyEffectDamage
+      fireStacks: 0.4
+      damageUpdate: true
+      damage:
+        types:
+          Heat: 5
+    - type: Stealth
+    - type: Sprite
+      sprite: _Lua/Objects/Anomalies/jarka_strong.rsi
+
+- type: entity
+  parent: ZoneAnomalyBaseThermal
+  id: ZoneAnomalyJarkaLong
+  suffix: Stalker, Jarka, Anomaly
+  components:
+    - type: ZoneAnomalyUpdateTriggerCollide
+    - type: ZoneAnomalyEffectDamage
+      fireStacks: 0.25
+      damageUpdate: true
+      damage:
+        types:
+          Heat: 2
+    - type: ZoneAnomalyEffectDestroy
+      whitelist:
+        tags:
+          - STBolt
+    - type: ZoneAnomalyEffectPointLight
+    - type: ZoneAnomaly
+      detectedLevel: 0
+      preparingDelay: 0
+      activationDelay: 4000
+      chargeTime: 0
+    - type: Stealth
+    - type: Sprite
+      sprite: _Lua/Objects/Anomalies/jarka.rsi
+      offset: 0, 0.5
+      layers:
+      - state: idle
+        map: ["base"]
+    - type: PointLight
+      radius: 10
+      energy: 12
+      color: "#f37011"
+      castShadows: true
+      enabled: false
+    - type: AmbientSound
+      volume: -16
+      range: 8
+      sound:
+        path: /Audio/_Lua/Effects/fireball_idle.ogg
+    - type: GenericVisualizer
+      visuals:
+        enum.ZoneAnomalyVisuals.Layer:
+          base:
+            Activated: { state: active }
+            Charging: { state: idle }
+            Idle: { state: idle }
+
+- type: entity
+  parent: ZoneAnomalyJarka
+  id: ZoneAnomalySteam
+  suffix: Stalker, Steam, Anomaly
+  components:
+    - type: ZoneAnomalyUpdateTriggerCollide
+    - type: ZoneAnomalyEffectDamage
+      fireStacks: 0.5
+      damageUpdate: true
+      damage:
+        types:
+          Heat: 8
+    - type: ZoneAnomaly
+      detectedLevel: 0
+      preparingDelay: 0
+      activationDelay: 4
+      chargeTime: 0
+    - type: Stealth
+    - type: Sprite
+      sprite: _Lua/Objects/Anomalies/steam.rsi
+      offset: 0, 1
+
+- type: entity
+  id: ZoneAnomalySol
+  parent: ZoneAnomalyBaseThermal
+  suffix: Stalker, Sol, Anomaly
+  components:
+    - type: ZoneAnomalyUpdateTriggerCollide
+    - type: ZoneAnomalyEffectExplosion
+      protoId: Son
+      totalIntensity: 300
+      slope: 10
+      maxTileIntensity: 700
+    - type: ZoneAnomalyEffectDestroy
+      whitelist:
+        tags:
+          - STBolt
+    - type: ZoneAnomalyEffectPointLight
+    - type: ZoneAnomaly
+      detectedLevel: 2
+      preparingDelay: 0
+      activationDelay: 3
+      chargeTime: 5
+    - type: Sprite
+      sprite: _Lua/Objects/Other/Anomalys/sol.rsi
+      layers:
+        - state: idle
+          map: ["base"]
+          shader: unshaded
+    - type: PointLight
+      radius: 10
+      energy: 12
+      color: "#f3b511"
+      castShadows: true
+      enabled: false
+    - type: AmbientSound
+      volume: -16
+      range: 8
+      sound:
+        path: /Audio/_Lua/Effects/fireball_idle.ogg
+    - type: GenericVisualizer
+      visuals:
+        enum.ZoneAnomalyVisuals.Layer:
+          base:
+            Activated: { state: active }
+            Idle: { state: idle }
+
+- type: entity
+  parent: ZoneAnomalyBaseThermal
+  id: ZoneAnomalyJarkaNoArts
+  suffix: Stalker, Jarka, Anomaly, NO ARTS
+  categories: [ HideSpawnMenu ]
+  components:
+    - type: ZoneAnomalyUpdateTriggerCollide
+    - type: ZoneAnomalyEffectDamage
+      fireStacks: 0.4
+      damageUpdate: true
+      damage:
+        types:
+          Heat: 3
+    - type: ZoneAnomalyEffectDestroy
+      whitelist:
+        tags:
+          - STBolt
+    - type: ZoneAnomalyEffectPointLight
+    - type: ZoneAnomaly
+      detectedLevel: 0
+      preparingDelay: 0
+      activationDelay: 4
+      chargeTime: 0
+    - type: Stealth
+    - type: Sprite
+      sprite: _Lua/Objects/Anomalies/jarka.rsi
+      offset: 0, 0.5
+      layers:
+      - state: idle
+        map: ["base"]
+    - type: PointLight
+      radius: 10
+      energy: 12
+      color: "#f37011"
+      castShadows: true
+      enabled: false
+    - type: AmbientSound
+      volume: -16
+      range: 8
+      sound:
+        path: /Audio/_Lua/Effects/fireball_idle.ogg
+    - type: GenericVisualizer
+      visuals:
+        enum.ZoneAnomalyVisuals.Layer:
+          base:
+            Activated: { state: active }
+            Charging: { state: idle }
+            Idle: { state: idle }

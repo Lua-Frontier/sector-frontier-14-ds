@@ -1,0 +1,220 @@
+- type: entity
+  parent: ZoneAnomalyBase
+  id: ZoneAnomalyBaseElectrical
+  abstract: true
+  components:
+  - type: STAnomalyTips
+    icon:
+      sprite: /Textures/_Lua/Interface/Overlays/anomaly_tips.rsi
+      state: electric
+
+- type: entity
+  parent: ZoneAnomalyBase
+  id: ZoneAnomalyElectra
+  suffix: Stalker, Electra, Anomaly
+  components:
+    - type: ZoneAnomalyUpdateTriggerCollide
+    - type: ZoneAnomalyEffectDamage
+      damage:
+        types:
+          Shock: 80
+    - type: ZoneAnomalyEffectDestroy
+      whitelist:
+        tags:
+          - STBolt
+    - type: ZoneAnomalyEffectPlaySound
+      sound: /Audio/_Lua/Effects/electra_blast.ogg
+    - type: ZoneAnomaly
+      detectedLevel: 0
+      preparingDelay: 0
+      activationDelay: 0.3
+      chargeTime: 2
+    - type: Sprite
+      sprite: _Lua/Objects/Anomalies/electra.rsi
+      layers:
+      - state: idle
+        map: ["base"]
+        shader: unshaded
+    - type: GenericVisualizer
+      visuals:
+        enum.ZoneAnomalyVisuals.Layer:
+          base:
+            Activated: { state: active }
+            Charging: { state: idle }
+            Idle: { state: idle }
+    - type: AmbientSound
+      enabled: true
+      volume: -5
+      range: 8
+      sound:
+        path: /Audio/_Lua/Effects/electra_idle.ogg
+
+- type: entity
+  parent: ZoneAnomalyBase
+  id: ZoneAnomalyEMP
+  name: EMP anomaly
+  suffix: Stalker, EMP, Anomaly
+  components:
+    - type: ZoneAnomalyUpdateTriggerCollide
+    - type: ZoneAnomalyEffectDamage
+      damage:
+        types:
+          Shock: 15
+    - type: ZoneAnomalyEffectDestroy
+      whitelist:
+        tags:
+          - STBolt
+    - type: ZoneAnomalyEffectPlaySound
+      sound: /Audio/_Lua/Effects/emp_activation.ogg
+    - type: ZoneAnomalyEffectDischarge
+    - type: ZoneAnomaly
+      detectedLevel: 0
+      preparingDelay: 1
+      activationDelay: 0.75
+      chargeTime: 5
+    - type: Sprite
+      sprite: _Lua/Objects/Anomalies/emp.rsi
+      layers:
+      - state: idle
+        map: ["base"]
+        shader: unshaded
+    - type: GenericVisualizer
+      visuals:
+        enum.ZoneAnomalyVisuals.Layer:
+          base:
+            Activated: { state: active }
+            Charging: { state: idle }
+            Idle: { state: idle }
+    - type: AmbientSound
+      enabled: true
+      volume: -40
+      range: 20
+      sound:
+        path: /Audio/_Lua/Effects/electra_idle.ogg
+    - type: ZoneAnomalyEffectFlash
+      range: 5
+    - type: Fixtures
+      fixtures:
+        fix1:
+          shape:
+            !type:PhysShapeCircle
+            radius: 4
+          hard: false
+          mask:
+            - MobMask
+          layer:
+            - MobLayer
+            - LowImpassable
+
+- type: entity
+  parent: ZoneAnomalyBaseElectrical
+  id: ZoneAnomalyGarland
+  suffix: Stalker, Garland, Anomaly
+  components:
+    - type: Tag
+      tags:
+        - AnomalyGarlandActivationTarget
+        - HideContextMenu
+    - type: ZoneAnomalyTriggerStartCollide
+    - type: ZoneAnomalyTriggerEndCollide
+    - type: ZoneAnomalyEffectLightArc
+      whitelist:
+        components:
+          - ZoneAnomalyActivator
+          - Battery
+        tags:
+          - AnomalyGarlandActivationTarget
+      lighting: GarlandLightning
+      chargePercent: 0.1
+      distance: 3
+    - type: ZoneAnomalyEffectActivator
+      whitelist:
+        tags:
+          - AnomalyGarlandActivationTarget
+      distance: 8
+    - type: ZoneAnomalyEffectPlaySound
+      sound: /Audio/_Lua/Effects/electra_blast.ogg
+    - type: ZoneAnomaly
+      detectedLevel: 3
+      preparingDelay: 0
+      activationDelay: 1
+      chargeTime: 6
+    - type: Fixtures
+      fixtures:
+        fix1:
+          shape:
+            !type:PhysShapeCircle
+            radius: 0.35
+          density: 50
+          hard: false
+          mask:
+            - MobMask
+          layer:
+            - MobLayer
+            - LowImpassable
+    - type: Sprite
+      sprite: _Lua/Objects/Other/Anomalys/garland.rsi
+      layers:
+        - state: idle
+          shader: unshaded
+    - type: AmbientSound
+      enabled: true
+      volume: -7
+      range: 2
+      sound:
+        path: /Audio/_Lua/Effects/electra_idle.ogg
+
+- type: entity
+  parent: ZoneAnomalyBaseElectrical
+  id: ZoneAnomalySource
+  suffix: Stalker, Source, Anomaly
+  components:
+    - type: ZoneAnomalyTriggerStartCollide
+    - type: ZoneAnomalyTriggerEndCollide
+    - type: ZoneAnomalyEffectLightArc
+      whitelist:
+        components:
+        - ZoneAnomalyActivator
+        - Battery
+      lighting: SourceLightning
+      chargePercent: 1
+      distance: 6
+    - type: ZoneAnomalyEffectPlaySound
+      sound: /Audio/_Lua/Effects/electra_blast.ogg
+    - type: ZoneAnomaly
+      detectedLevel: 1
+      preparingDelay: 0
+      activationDelay: 3
+      chargeTime: 5
+    - type: Fixtures
+      fixtures:
+        fix1:
+          shape:
+            !type:PhysShapeCircle
+            radius: 1.5
+          density: 50
+          hard: false
+          mask:
+            - MobMask
+          layer:
+            - MobLayer
+            - LowImpassable
+    - type: Sprite
+      sprite: _Lua/Objects/Other/Anomalys/source.rsi
+      layers:
+        - state: idle
+          map: ["base"]
+          shader: unshaded
+    - type: GenericVisualizer
+      visuals:
+        enum.ZoneAnomalyVisuals.Layer:
+          base:
+            Activated: { state: active }
+            Charging: { state: charge }
+            Idle: { state: idle }
+    - type: AmbientSound
+      enabled: true
+      volume: -10
+      range: 3
+      sound:
+        path: /Audio/_Lua/Effects/electra_idle.ogg

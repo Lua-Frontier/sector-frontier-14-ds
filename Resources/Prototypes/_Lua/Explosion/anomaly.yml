@@ -1,0 +1,8 @@
+# Explosion prototype for Sol anomaly
+- type: explosion
+  id: Son
+  damagePerIntensity:
+    types:
+      Heat: 10
+  tileBreakChance: [0, 0, 0]
+  tileBreakIntensity: [0, 0, 0]

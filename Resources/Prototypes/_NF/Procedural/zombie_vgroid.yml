@@ -108,13 +108,6 @@
     - !type:OreDunGen
       entityMask:
       - WallRock
-      entity: WallRockArtifactFragment
-      count: 25
-      minGroupSize: 1
-      maxGroupSize: 3
-    - !type:OreDunGen
-      entityMask:
-      - WallRock
       entity: WallRockDiamond
       count: 15
       minGroupSize: 1

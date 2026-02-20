@@ -47,9 +47,6 @@
           - id: WallRockBananium
             prob: 0.02
             orGroup: rock
-          - id: WallRockArtifactFragment
-            prob: 0.01
-            orGroup: rock
           # Lua start
           - id: SalvageMobSpawner
             prob: 0.001

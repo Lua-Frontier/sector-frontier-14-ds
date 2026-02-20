@@ -1,0 +1,81 @@
+- type: entity
+  parent: ZoneAnomalyBase
+  id: ZoneAnomalyLamp
+  suffix: Stalker, Lamp, Anomaly
+  components:
+  - type: ZoneAnomalyUpdateTriggerCollide
+  - type: ZoneAnomalyEffectPointLight
+  - type: ZoneAnomaly
+    detectedLevel: 0
+    preparingDelay: 0
+    activationDelay: 60
+    chargeTime: 5
+  - type: Sprite
+    sprite: _Lua/Objects/Anomalies/lamp.rsi
+    layers:
+    - state: idle
+      map: ["base"]
+  - type: PointLight
+    radius: 30
+    energy: 16
+    color: "#fce16e"
+    castShadows: true
+    enabled: false
+  - type: GenericVisualizer
+    visuals:
+      enum.ZoneAnomalyVisuals.Layer:
+        base:
+          Activated: { state: active }
+          Charging: { state: idle }
+          Idle: { state: idle2 }
+  - type: AmbientSound
+    volume: -22
+    range: 3
+    sound:
+      path: /Audio/_Lua/Effects/electra_idle.ogg
+  - type: STAnomalyTips
+    icon:
+      sprite: /Textures/_Lua/Interface/Overlays/anomaly_tips.rsi
+      state: unknown
+
+- type: entity
+  parent: ZoneAnomalyBase
+  id: ZoneAnomalyRift
+  suffix: Stalker, Rift, Anomaly
+  components:
+  - type: ZoneAnomalyTriggerStartCollide
+  - type: ZoneAnomalyEffectDamage
+    ignoreResistances: true
+    damage:
+      types:
+        Psy: 60
+  - type: ZoneAnomalyEffectSpawn
+    entry:
+      - id: EffectEmpPulse
+  - type: ZoneAnomalyEffectStealth
+    idle: 0
+    activated: -0.6
+  - type: ZoneAnomalyEffectRandomTeleport
+  - type: ZoneAnomaly
+    detectedLevel: 4
+    preparingDelay: 0
+    activationDelay: 1
+    chargeTime: 1
+  - type: Stealth
+  - type: Sprite
+    sprite: _Lua/Objects/Other/Anomalys/rift.rsi
+    layers:
+      - state: idle
+        map: ["base"]
+        shader: unshaded
+  - type: GenericVisualizer
+    visuals:
+      enum.ZoneAnomalyVisuals.Layer:
+        base:
+          Activated: { state: active }
+          Idle: { state: idle }
+  - type: STAnomalyTips
+    icon:
+      sprite: /Textures/_Lua/Interface/Overlays/anomaly_tips.rsi
+      state: unknown
+  # AddOrDelOnCollideSafeZone - not ported yet

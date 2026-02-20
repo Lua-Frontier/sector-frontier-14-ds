@@ -264,6 +264,7 @@
   - type: Physics
     bodyType: Static
   - type: AnomalyGenerator
+    spawnerPrototype: RandomLuaAnomalySpawner
     generatingSound:
       path: /Audio/Machines/anomaly_generate.ogg
     generatingFinishedSound:

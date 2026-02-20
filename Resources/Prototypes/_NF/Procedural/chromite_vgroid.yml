@@ -113,13 +113,6 @@
     - !type:OreDunGen
       entityMask:
       - WallRockChromite
-      entity: WallRockChromiteArtifactFragment
-      count: 25
-      minGroupSize: 1
-      maxGroupSize: 3
-    - !type:OreDunGen
-      entityMask:
-      - WallRockChromite
       entity: WallRockChromiteDiamond
       count: 15
       minGroupSize: 1

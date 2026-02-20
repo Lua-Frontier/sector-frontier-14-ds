@@ -1,0 +1,9 @@
+# Tags used by the anomaly systems
+- type: Tag
+  id: STBolt
+
+- type: Tag
+  id: AnomalyGarlandActivationTarget
+
+- type: Tag
+  id: STAnomalyGenerationIntersectionSkip

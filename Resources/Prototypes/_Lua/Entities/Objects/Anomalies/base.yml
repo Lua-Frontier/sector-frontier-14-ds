@@ -1,0 +1,30 @@
+- type: entity
+  parent: BaseAnomaly
+  id: ZoneAnomalyBase
+  name: anomaly
+  suffix: Stalker, Anomaly
+  abstract: true
+  components:
+  - type: Clickable
+  - type: InteractionOutline
+  - type: Physics
+    bodyType: Static
+    fixedRotation: true
+  - type: ZoneAnomaly
+  - type: Appearance
+  - type: Fixtures
+    fixtures:
+      fix1:
+        shape:
+          !type:PhysShapeCircle
+          radius: 0.45
+        hard: false
+        mask:
+          - MobMask
+        layer:
+          - MobLayer
+          - LowImpassable
+  # ZoneArtifactDetectorTarget - not ported yet
+  # ZoneArtifactSpawner - not ported yet
+  - type: STAnomalyTips
+  # ESViewconeOccludable - not ported yet

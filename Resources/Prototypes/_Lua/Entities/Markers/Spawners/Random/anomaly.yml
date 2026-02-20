@@ -1,0 +1,40 @@
+# Spawner for MachineAnomalyGenerator / MachineMiniAnomalyGenerator: Lua (Zone + ST) anomalies only
+- type: entity
+  id: RandomLuaAnomalySpawner
+  name: random Lua anomaly spawner
+  parent: MarkerBase
+  components:
+  - type: Sprite
+    layers:
+    - state: red
+    - sprite: Structures/Specific/anomaly.rsi
+      state: anom1
+  - type: RandomSpawner
+    chance: 1
+    prototypes:
+    # ZoneAnomaly - chemical
+    - ZoneAnomalyKissel
+    - ZoneAnomalyGazirovka
+    - ZoneAnomalySmoke
+    - ZoneAnomalyBeer
+    # ZoneAnomaly - electrical
+    - ZoneAnomalyElectra
+    - ZoneAnomalyEMP
+    - ZoneAnomalyGarland
+    - ZoneAnomalySource
+    # ZoneAnomaly - gravity
+    - ZoneAnomalyGravi
+    - ZoneAnomalyGrabber
+    - ZoneAnomalySpringboard
+    - ZoneAnomalyPulse
+    - ZoneAnomalyVortex
+    - ZoneAnomalyGlassShards
+    # ZoneAnomaly - thermal
+    - ZoneAnomalyJarka
+    - ZoneAnomalyJarkaStrong
+    - ZoneAnomalySteam
+    - ZoneAnomalySol
+    # ZoneAnomaly - psy / spatial
+    - ZoneAnomalyLamp
+    - ZoneAnomalyRift
+    offset: 0.15

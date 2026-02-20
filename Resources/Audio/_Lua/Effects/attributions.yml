@@ -1,0 +1,31 @@
+# Ported from docs/stalker (Stalker fork) for STAnomaly / ZoneAnomaly systems
+- files:
+    - springboard_blowout.ogg
+    - hush.ogg
+    - acidic_active.ogg
+    - acidic_idle.ogg
+    - anomaly_gravy_idle.ogg
+    - electra_blast.ogg
+    - electra_idle.ogg
+    - emp_activation.ogg
+    - fireball_idle.ogg
+    - sear.ogg
+  license: "Ported from Stalker"
+  copyright: "Ported from docs/stalker/Resources/Audio/_Stalker/Effects for sector-frontier-14 _Lua"
+  source: "Stalker fork / docs/stalker"
+
+- files:
+    - glass_shards_passthrough.ogg
+    - glass_hit_01.ogg
+    - glass_hit_02.ogg
+    - glass_hit_03.ogg
+  license: "Ported from Stalker EN"
+  copyright: "Ported from docs/stalker/Resources/Audio/_Stalker_EN/Effects for sector-frontier-14 _Lua"
+  source: "Stalker fork / docs/stalker"
+
+- files:
+    - Vortex/blowout.ogg
+    - Vortex/idle.ogg
+  license: "Ported from Stalker EN"
+  copyright: "Ported from docs/stalker/Resources/Audio/_Stalker_EN/Anomalies/Vortex for sector-frontier-14 _Lua"
+  source: "Stalker fork / docs/stalker"

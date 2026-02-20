@@ -111,13 +111,6 @@
     - !type:OreDunGen
       entityMask:
       - NFWallRockScrapPile
-      entity: NFWallRockScrapPileArtifactFragment
-      count: 15
-      minGroupSize: 1
-      maxGroupSize: 3
-    - !type:OreDunGen
-      entityMask:
-      - NFWallRockScrapPile
       entity: NFWallRockScrapPileDiamond
       count: 5
       minGroupSize: 1
