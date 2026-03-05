@@ -3511,3 +3511,12 @@ Entries:
   id: 242
   time: '2026-03-05T11:45:50.0000000+00:00'
   url: https://github.com/Lua-Frontier/sector-frontier-14/pull/477
+- author: KiraFaust
+  changes:
+    - type: Add
+      message: >-
+        Портативные консоли управления шаттлом (пока отсутствуют в автоматах,
+        пока будут выдаваться в тесты).
+  id: 243
+  time: '2026-03-05T12:05:37.0000000+00:00'
+  url: https://github.com/Lua-Frontier/sector-frontier-14/pull/454
