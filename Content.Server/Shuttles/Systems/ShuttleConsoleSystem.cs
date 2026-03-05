@@ -1,10 +1,12 @@
- using Content.Server._Mono.FireControl; // Lua
+using Content.Server._Mono.FireControl; // Lua
 using Content.Server._Mono.Ships.Systems;
 using Content.Server.Power.EntitySystems;
 using Content.Server.Radio.EntitySystems;
 using Content.Server.Shuttles.Components;
 using Content.Server.Shuttles.Events;
 using Content.Server.Station.Systems;
+using Content.Server._Lua.Shuttles.Systems; // Lua
+using Content.Shared._Lua.Shuttles.Components; // Lua
 using Content.Shared._Lua.Starmap;
 using Content.Shared._NF.Shipyard.Components;
 using Content.Shared._NF.Shuttles.Events; // Frontier
@@ -57,6 +59,7 @@ public sealed partial class ShuttleConsoleSystem : SharedShuttleConsoleSystem
     [Dependency] private readonly IConfigurationManager _cfg = default!; // Lua
     [Dependency] private readonly ILogManager _log = default!;
     [Dependency] private readonly FireControlSystem _fireControl = default!; // Lua
+    [Dependency] private readonly ShuttleTabletSystem _tablet = default!; // Lua
 
     private ISawmill _sawmill = default!;
 
@@ -69,6 +72,7 @@ public sealed partial class ShuttleConsoleSystem : SharedShuttleConsoleSystem
     private readonly HashSet<EntityUid> _starMapVisibleConsoles = new();
 
     private static readonly ProtoId<TagPrototype> CanPilotTag = "CanPilot";
+    private static readonly ProtoId<TagPrototype> StructureTag = "Structure"; // Lua
 
     public override void Initialize()
     {
@@ -140,6 +144,13 @@ public sealed partial class ShuttleConsoleSystem : SharedShuttleConsoleSystem
 
     private void OnConsoleGetVerbs(EntityUid uid, ShuttleConsoleComponent comp, GetVerbsEvent<AlternativeVerb> args)
     {
+        // Lua start
+        if (HasComp<ShuttleTabletComponent>(uid))
+        {
+            return;
+        }
+        // Lua end
+
         AddPanicButtonVerb(uid, comp, args);
         AddPreventRemoverVerb(uid, comp, args);
     }
@@ -249,11 +260,25 @@ public sealed partial class ShuttleConsoleSystem : SharedShuttleConsoleSystem
         if (!_tags.HasTag(user, CanPilotTag) ||
             !TryComp<ShuttleConsoleComponent>(uid, out var component) ||
             !this.IsPowered(uid, EntityManager) ||
-            !Transform(uid).Anchored ||
+            //!Transform(uid).Anchored || // Lua
             !_blocker.CanInteract(user, uid))
         {
             return false;
         }
+
+        // Lua start
+        if (_tags.HasTag(uid, StructureTag)
+            && !Transform(uid).Anchored)
+        {
+            return false;
+        }
+
+        if (TryComp<ShuttleTabletComponent>(uid, out var tabletComp)
+            && !_tablet.IsValidTablet(uid, tabletComp, out _))
+        {
+            return false;
+        }
+        // Lua end
 
         if (!_access.IsAllowed(user, uid)) // Frontier: check access
             return false; // Frontier
@@ -428,6 +453,14 @@ public sealed partial class ShuttleConsoleSystem : SharedShuttleConsoleSystem
 
     private void UpdateState(EntityUid consoleUid, ref DockingInterfaceState? dockState)
     {
+        // Lua start
+        if (TryComp<ShuttleTabletComponent>(consoleUid, out var tabletComp))
+        {
+            _tablet.UpdateTabletState(consoleUid, tabletComp, dockState);
+            return;
+        }
+        // Lua end
+
         EntityUid? entity = consoleUid;
 
         var getShuttleEv = new ConsoleShuttleEvent
@@ -557,6 +590,8 @@ public sealed partial class ShuttleConsoleSystem : SharedShuttleConsoleSystem
         ActionBlockerSystem.UpdateCanMove(entity);
         pilotComponent.Position = Comp<TransformComponent>(entity).Coordinates;
         Dirty(entity, pilotComponent);
+        DockingInterfaceState? dockState = null; // Lua
+        UpdateState(uid, ref dockState); // Lua
     }
 
     public void RemovePilot(EntityUid pilotUid, PilotComponent pilotComponent)
@@ -614,10 +649,12 @@ public sealed partial class ShuttleConsoleSystem : SharedShuttleConsoleSystem
             portNames = consoleComp.PortNames;
         }
 
+        var coordinates = _tablet.GetTabletCoordinates(entity.Owner) ?? entity.Comp2.Coordinates; // Lua
+
         return GetNavState(
             entity,
             docks,
-            entity.Comp2.Coordinates,
+            coordinates, // Lua
             entity.Comp2.LocalRotation,
             portNames);
     }
