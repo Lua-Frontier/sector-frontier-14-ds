@@ -1,7 +1,7 @@
 #region WizDen
 - type: entity
   id: NFWeaponRifleSniperHristov
-  parent: [ NFBaseWeaponRifleChamber60, NFBaseWeaponFrameRifleSniperCybersun ]
+  parent: [NFBaseWeaponFrameRifleSniperCybersun ] #NFBaseWeaponRifleChamber60
   name: Hristov
   description: A portable anti-materiel rifle.
   suffix: Need balance test
@@ -12,6 +12,8 @@
     sprite: Objects/Weapons/Guns/Snipers/heavy_sniper.rsi
   - type: Gun #Lua
     examineCaliber: gun-examine-caliber-127
+    soundGunshot:
+      path: /Audio/Weapons/Guns/Gunshots/sniper.ogg
   - type: Item #Lua
     shape:
     - 0,0,4,3

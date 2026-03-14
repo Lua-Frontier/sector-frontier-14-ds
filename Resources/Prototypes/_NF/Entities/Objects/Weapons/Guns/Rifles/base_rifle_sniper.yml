@@ -67,7 +67,7 @@
     whitelist:
       tags:
       - Cartridge127x99mm #Lua NFCartridgeRifle60<Cartridge127x99mm
-  # - type: ContainerContainer # comment from _Lua
-  #   containers:
-  #     ballistic-ammo: !type:Container
-  #       ents: []
+  - type: ContainerContainer
+    containers:
+      ballistic-ammo: !type:Container
+        ents: []
