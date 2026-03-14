@@ -26,6 +26,11 @@
     capacity: 1
   - type: AltFireMelee
     attackType: Light
+  - type: ContainerContainer #Lua
+    containers:
+      ballistic-ammo: !type:Container
+        ents: []
+
 
 - type: entity
   id: NFWeaponRifleFoam

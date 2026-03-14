@@ -149,7 +149,7 @@
 
 - type: entity
   name: .50 NCR rifle
-  parent: [BaseC3SyndicateContraband, BaseWeaponSniper]
+  parent: [BaseC3SyndicateContraband, BaseWeaponSniperNoContainer]
   id: N14Weapon50NcrRifle
   description: A try by the NCR to make .50 ammo a standart on normal infantry, very cheap but it will deal a lot of damage. Uses .50 anti-material ammo.
   suffix: Need balance test
