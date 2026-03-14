@@ -38,6 +38,10 @@
     - type: EyeCursorOffset
       maxOffset: 10
       pvsIncrease: 1
+  - type: ContainerContainer #Lua
+    containers:
+      gun_magazine: !type:ContainerSlot
+      gun_chamber: !type:ContainerSlot
   - type: ItemSlots #Lua
     slots:
       gun_magazine:

@@ -161,6 +161,10 @@
   - type: Item #Lua
     shape:
     - 0,0,4,3
+  - type: ContainerContainer #Lua
+    containers:
+      gun_magazine: !type:ContainerSlot
+      gun_chamber: !type:ContainerSlot
   - type: ItemSlots #Lua
     slots:
       gun_magazine:
