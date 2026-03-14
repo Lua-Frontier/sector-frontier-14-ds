@@ -767,7 +767,7 @@
       amount: 1
 
 - type: entity
-  parent: WeaponCaseLong
+  parent: WeaponCaseHeavy
   id: WeaponCaseLongRMCWeaponLMGM60
   categories: [ HideSpawnMenu ]
   components:
