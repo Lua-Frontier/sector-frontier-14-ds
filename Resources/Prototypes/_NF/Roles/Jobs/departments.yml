@@ -22,17 +22,17 @@
   - Pilot
   - MailCarrier
 
-- type: department
-  id: NFSD
-  name: department-security
-  description: department-security-description
-  color: "#96B089"
-  weight: 70 # accounted for in jobs
-  roles:
-  - Sheriff
-  - Bailiff
-  - SeniorOfficer
-  - Brigmedic
-  - SDEngineer
-  - Deputy
-  - Cadet
+# - type: department
+#   id: NFSD
+#   name: department-security
+#   description: department-security-description
+#   color: "#96B089"
+#   weight: 70 # accounted for in jobs
+#   roles:
+#   - Sheriff
+#   - Bailiff
+#   - SeniorOfficer
+#   - Brigmedic
+#   - SDEngineer
+#   - Deputy
+#   - Cadet
