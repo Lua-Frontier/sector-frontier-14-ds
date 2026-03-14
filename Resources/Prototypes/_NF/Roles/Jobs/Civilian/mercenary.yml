@@ -4,14 +4,26 @@
   description: job-description-mercenary
   playTimeTracker: JobMercenary
   requirements:
-    - !type:OverallPlaytimeRequirement
-      time: 108000
+    - !type:RoleTimeRequirement
+      role: JobPassenger
+      time: 72000 #Lua 20h 
+    - !type:DepartmentTimeRequirement
+      department: Medical
+      time: 72000 #Lua 20h
+    - !type:RoleTimeRequirement
+      role: JobFrontierEngineer
+      time: 72000 #Lua 20h 
+    - !type:RoleTimeRequirement
+      role: JobSecurityCadet
+      time: 72000 #Lua 20h 
+#    - !type:OverallPlaytimeRequirement
+#      time: 108000
   startingGear: MercenaryGear
   canBeAntag: true
   icon: "JobIconMercenary"
   supervisors: job-supervisors-hire
   weight: 3 # Prioritize station & department jobs
-  displayWeight: 20 # Second from the bottom
+  displayWeight: 40 # Second from the bottom
   setPreference: true
   access:
   - Mercenary

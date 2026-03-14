@@ -5,7 +5,7 @@
 - type: job
   id: OutpostSyndicateTelecommunicationsOfficer
   name: job-name-typan-telecommunications-officer
-  playTimeTracker: JobOutpostTypanTelecommunicationsOfficer
+  playTimeTracker: JobOutpostSyndicateTelecommunicationsOfficer
   salary: 65000
   description: Офицер телекомуникаций из далёкого космоса.
   startingGear: SyndicateFormal
@@ -14,20 +14,23 @@
   canBeAntag: true
   hideConsoleVisibility: true
   requirements:
-    - !type:DepartmentTimeRequirement
-      department: Antag
-      time: 30000
-    - !type:DepartmentTimeRequirement
-      department: Civilian
-      time: 95000
-    - !type:DepartmentTimeRequirement
-      department: Frontier
-      time: 108000
-    - !type:DepartmentTimeRequirement
-      department: Security
-      time: 108000
-    - !type:OverallPlaytimeRequirement
-      time: 360000
+  - !type:RoleTimeRequirement
+    role: JobHeadOfPersonnel
+    time: 72000 # 20h
+  - !type:DepartmentTimeRequirement
+    department: OutpostSyndicate
+    time: 72000 # 20h
+#    - !type:DepartmentTimeRequirement
+#      department: Civilian
+#      time: 95000
+#    - !type:DepartmentTimeRequirement
+#      department: Frontier
+#      time: 108000
+#    - !type:DepartmentTimeRequirement
+#      department: Security
+#      time: 108000
+#    - !type:OverallPlaytimeRequirement
+#      time: 360000
   access:
   - SyndicateAgent
   - NuclearOperative
@@ -35,6 +38,8 @@
   accessGroups:
   - AllAccess
   special:
+  - !type:AddImplantSpecial
+    implants: [ DeathAcidifierImplantLWTypan ]
   - !type:AddComponentSpecial
     components:
       - type: Company

@@ -26,8 +26,8 @@
     - id: BluespaceVaultError
     - id: BluespaceVaultSmallError
     - id: BluespaceSyndicateFTLInterception
-    - id: BluespaceWizardFederationScout
-    - id: BluespaceBloodMoon
+#    - id: BluespaceWizardFederationScout # comment from _Lua
+#    - id: BluespaceBloodMoon
     - id: BluespaceAsteroid
     - id: BluespaceAsteroidBunker
     - id: BluespaceShipyardLuaTech

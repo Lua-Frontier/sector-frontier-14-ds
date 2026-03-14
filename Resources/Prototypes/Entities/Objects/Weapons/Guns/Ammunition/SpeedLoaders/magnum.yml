@@ -11,7 +11,7 @@
   - type: BallisticAmmoProvider
     whitelist:
       tags:
-        - CartridgeMagnum
+        - Cartridge45_magnumFMJ #Lua CartridgeMagnum<Cartridge45_magnumFMJ
     capacity: 6
   - type: Sprite
   - type: ContainerContainer

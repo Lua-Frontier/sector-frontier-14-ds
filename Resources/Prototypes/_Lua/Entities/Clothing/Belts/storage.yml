@@ -81,6 +81,16 @@
   - type: Sprite
     sprite: _Lua/Clothing/Belt/webbing.rsi
 
+- type: entity
+  parent: ClothingBeltSecurity
+  id: ClothingBeltStormCreedWebbing
+  name: РПС Кодекса
+  description: Ременно-плечевая система тактических ремней, которую носят жители Бури.
+  components:
+  - type: Clothing
+    sprite: _Lua/Clothing/Belt/stormcreedwebbing.rsi
+  - type: Sprite
+    sprite: _Lua/Clothing/Belt/stormcreedwebbing.rsi
 
 - type: entity
   name: сумка для растений синдиката

@@ -64,6 +64,68 @@
       collection: RiflesDrop
   # Goobstation edit end
 
+- type: entity #Lua
+  name: BaseWeaponRifleUnwieldable
+  parent: [BaseItem]
+  id: BaseWeaponRifleUnwieldable
+  description: A rooty tooty point and shooty.
+  abstract: true
+  components:
+  - type: Sprite
+  - type: Item
+    size: Huge
+  - type: Clothing
+    sprite: Objects/Weapons/Guns/Rifles/ak.rsi
+    quickEquip: false
+    slots:
+    - Back
+    - suitStorage
+  - type: AmmoCounter
+  - type: Gun
+    fireRate: 5
+    projectileSpeed: 55
+    selectedMode: FullAuto
+    availableModes:
+      - FullAuto
+      - SemiAuto
+    soundGunshot:
+      path: /Audio/Weapons/Guns/Gunshots/batrifle.ogg
+  - type: ChamberMagazineAmmoProvider
+    soundRack:
+      path: /Audio/Weapons/Guns/Cock/sf_rifle_cock.ogg
+  - type: ItemSlots
+    slots:
+      gun_magazine:
+        name: Magazine
+        insertSound: /Audio/Weapons/Guns/MagIn/batrifle_magin.ogg
+        ejectSound: /Audio/Weapons/Guns/MagOut/batrifle_magout.ogg
+        priority: 2
+        whitelist:
+          tags:
+            - MagazineLightRifle
+        whitelistFailPopup: gun-magazine-whitelist-fail
+      gun_chamber:
+        name: Chamber
+        priority: 1
+        whitelist:
+          tags:
+            - CartridgeLightRifle
+  - type: ContainerContainer
+    containers:
+      gun_magazine: !type:ContainerSlot
+      gun_chamber: !type:ContainerSlot
+  - type: StaticPrice
+    price: 500
+  - type: EmitSoundOnPickup
+    sound:
+      collection: RiflesPickUp
+  - type: EmitSoundOnDrop
+    sound:
+      collection: RiflesDrop
+  - type: EmitSoundOnLand
+    sound:
+      collection: RiflesDrop
+
 - type: entity
   categories: [ HideSpawnMenu ] # Frontier
   name: AKMS
@@ -129,6 +191,8 @@
         map: ["enum.GunVisualLayers.Mag"]
   - type: Clothing
     sprite: Objects/Weapons/Guns/Rifles/carbine.rsi
+  - type: Gun #Lua
+    examineCaliber: gun-examine-caliber-76251
   - type: ItemSlots
     slots:
       gun_magazine:

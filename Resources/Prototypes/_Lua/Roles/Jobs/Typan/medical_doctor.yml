@@ -5,9 +5,9 @@
 - type: job
   id: OutpostSyndicateMedic
   name: job-name-typan-medic
-  playTimeTracker: JobOutpostTypanMedic
-  salary: 50000 #Lua 35000<50000
-  description: Боевой медик, конвертирующий фарш обратно в оперативников Нордфолла
+  playTimeTracker: JobOutpostSyndicateMedic
+  salary: 35000
+  description: Медик из далёкого космоса.
   startingGear: SyndicateParamedic
   icon: "JobIconSyndicateParamedic"
   supervisors: job-supervisors-typan-telecommunications-officer
@@ -15,29 +15,24 @@
   hideConsoleVisibility: true
   requirements:
     # - !type:RoleTimeRequirement
-    #   role: JobOutpostTypanBotanist
+    #   role: JobOutpostSyndicateBotanist
     #   time: 20600
-
-    - !type:RoleTimeRequirement
-      role: JobChemist
-      time: 25000 #Lua
     - !type:DepartmentTimeRequirement
-      department: Medical
-      time: 75000 #Lua
-    - !type:DepartmentTimeRequirement
-      department: Antag
-      time: 50000 #Lua 31<50
+      department: Civilian
+      time: 18000
     - !type:DepartmentTimeRequirement
       department: Security
-      time: 100000 #Lua 72<100
+      time: 72000 # 20 hours
     - !type:OverallPlaytimeRequirement
-      time: 100000 #Lua 360<100
+      time: 360000
   access:
   - SyndicateAgent
   - NuclearOperative
   accessGroups:
   - AllAccess
   special:
+  - !type:AddImplantSpecial
+    implants: [ DeathAcidifierImplantLWTypan ]
   - !type:AddComponentSpecial
     components:
       - type: Company

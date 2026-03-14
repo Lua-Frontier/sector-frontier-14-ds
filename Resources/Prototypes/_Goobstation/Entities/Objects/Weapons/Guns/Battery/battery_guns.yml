@@ -23,7 +23,11 @@
     - Back
     sprite: _Goobstation/Objects/Weapons/Guns/Battery/erevolver.rsi
   - type: Gun
-    fireRate: 1.5
+    minAngle: 3.1 #Lua
+    maxAngle: 15.5 #Lua
+    angleIncrease: 0.7 #Lua
+    angleDecay: 5 #Lua
+    fireRate: 6 #Lua 1.5<6
     soundGunshot:
       path: /Audio/Weapons/Guns/Gunshots/laser_cannon.ogg
     soundEmpty:
@@ -61,4 +65,3 @@
   - type: BatterySelfRecharger
     autoRecharge: true
     autoRechargeRate: 75 # Mono - 75 < 35
-

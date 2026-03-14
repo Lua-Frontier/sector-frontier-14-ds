@@ -4,7 +4,7 @@
   name: Vulture
   description: Огромный артиллерийский флагман с радаром. Неповоротлив, но при метком попадании способен нанести огромный урон.
   limit: 1
-  price: 460000
+  price: 550000
   category: Large
   group: BlackMarket
   shuttlePath: /Maps/_Mono/Shuttles/BlackMarket/vulture.yml
@@ -35,6 +35,3 @@
           nameGenerator:
             !type:NanotrasenNameGenerator
             prefixCreator: '14'
-        - type: StationJobs
-          availableJobs:
-            NFPirate: [ 0, 0 ]

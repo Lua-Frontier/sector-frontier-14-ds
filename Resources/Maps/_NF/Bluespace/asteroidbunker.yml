@@ -12459,18 +12459,6 @@ entities:
     - type: Transform
       pos: -13.355428,7.4423165
       parent: 1
-- proto: NFWeaponEnergyRifleCarbinePractice
-  entities:
-  - uid: 2081
-    components:
-    - type: Transform
-      pos: -12.574178,13.558234
-      parent: 1
-  - uid: 2082
-    components:
-    - type: Transform
-      pos: -12.568472,9.607377
-      parent: 1
 - proto: NFWeaponPistolMk58
   entities:
   - uid: 2083

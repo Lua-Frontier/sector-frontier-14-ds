@@ -42,7 +42,7 @@
               acts: [ "Destruction" ]
         - trigger:
             !type:DamageTrigger
-            damage: 100 #This is probably enough damage before it breaks
+            damage: 200 #This is probably enough damage before it breaks #Lua 100<200
           behaviors:
             - !type:DoActsBehavior
               acts: [ "Destruction" ]

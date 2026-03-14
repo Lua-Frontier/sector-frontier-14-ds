@@ -5,7 +5,7 @@
 - type: job
   id: OutpostSyndicateScience
   name: job-name-typan-science
-  playTimeTracker: JobOutpostTypanScience
+  playTimeTracker: JobOutpostSyndicateScience
   salary: 35000
   description: Учёный из далёкого космоса.
   startingGear: SyndicateScience
@@ -15,14 +15,11 @@
   hideConsoleVisibility: true
   requirements:
     # - !type:RoleTimeRequirement
-    #   role: JobOutpostTypanBotanist
+    #   role: JobOutpostSyndicateBotanist
     #   time: 20600
     - !type:DepartmentTimeRequirement
       department: Security
       time: 12000
-    - !type:DepartmentTimeRequirement
-      department: Antag
-      time: 25000
     - !type:DepartmentTimeRequirement
       department: Civilian
       time: 60000
@@ -34,6 +31,8 @@
   accessGroups:
   - AllAccess
   special:
+  - !type:AddImplantSpecial
+    implants: [ DeathAcidifierImplantLWTypan ]
   - !type:AddComponentSpecial
     components:
       - type: Company

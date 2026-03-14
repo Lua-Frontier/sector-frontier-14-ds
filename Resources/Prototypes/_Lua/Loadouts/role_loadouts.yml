@@ -320,3 +320,70 @@
   - TopUnderwear
   - PantsUnderwear
   - SocksUnderwear
+
+# Storm Creed
+- type: roleLoadout
+  id: JobSCSoldier
+  groups:
+  - NFSpeciesSpecific
+  - PirateCaptainWallet
+  - TopUnderwear
+  - PantsUnderwear
+  - SocksUnderwear
+  - StormCreedPDA
+  - SCJumpsuit
+  - SCOuterClothing
+  - SCNeck
+  - SCHands
+  - SCEyes
+  - SCEars
+  - SCBack
+  - SCFace
+  - SCShoes
+  - SCHead
+  - SCBackpackItems
+  - SCBelt
+
+- type: roleLoadout
+  id: JobSCFirstmate
+  groups:
+  - NFSpeciesSpecific
+  - PirateCaptainWallet
+  - TopUnderwear
+  - PantsUnderwear
+  - SocksUnderwear
+  - StormCreedPDA
+  - SCJumpsuit
+  - SCOuterClothing
+  - SCNeck
+  - SCHands
+  - SCEyes
+  - SCEars
+  - SCBack
+  - SCFace
+  - SCShoes
+  - SCHead
+  - SCBackpackItems
+  - SCBelt
+
+- type: roleLoadout
+  id: JobSCCaptain
+  groups:
+  - NFSpeciesSpecific
+  - PirateCaptainWallet
+  - TopUnderwear
+  - PantsUnderwear
+  - SocksUnderwear
+  - SCCaptainPDA
+  - SCJumpsuit
+  - SCOuterClothing
+  - SCNeck
+  - SCHands
+  - SCEyes
+  - SCEars
+  - SCBack
+  - SCFace
+  - SCShoes
+  - SCHead
+  - SCBackpackItems
+  - SCBelt

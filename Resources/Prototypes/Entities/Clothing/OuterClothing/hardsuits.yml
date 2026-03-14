@@ -48,6 +48,7 @@
   id: ClothingOuterHardsuitEngineering
   name: engineering hardsuit
   description: A special suit that protects against hazardous, low pressure environments. Has radiation shielding.
+  suffix: Civil, Medium, Standart #Lua
   components:
   - type: Sprite
     sprite: _Lua/Clothing/OuterClothing/Hardsuits/engineering.rsi #Lua
@@ -60,17 +61,19 @@
     damageCoefficient: 0.5
   - type: Armor
     modifiers:
-      coefficients:
-        Blunt: 0.9
-        Slash: 0.9
-        Piercing: 0.9
-        Heat: 0.5 #Lua
-        Shock: 0.5 #Lua 0.8<0.5
-        Caustic: 0.5
-        Radiation: 0.2
+      coefficients: # 30/30/30//20/80//20/20//50/10
+        Blunt: 0.7 #Lua 0.9<0.7
+        Slash: 0.7 #Lua 0.9<0.7
+        Piercing: 0.7 #Lua 0.9<0.7
+        Heat: 0.8 #Lua
+        Radiation: 0.2 #Rad resist is out of balance
+        Shock: 0.8 #Lua 0.8<0.8
+        Caustic: 0.8 #Lua 0.5<0.8
+  - type: StaminaResistance #Lua
+    damageCoefficient: 0.5
   - type: ClothingSpeedModifier
-    walkModifier: 0.7
-    sprintModifier: 0.75 #Lua 0.7<0.75
+    walkModifier: 0.9 #Lua 0.7<0.9
+    sprintModifier: 0.9 #Lua 0.7<0.9
   - type: HeldSpeedModifier
   - type: ToggleableClothing
     clothingPrototype: ClothingHeadHelmetHardsuitEngineering
@@ -86,6 +89,7 @@
   id: ClothingOuterHardsuitSpatio
   name: spationaut hardsuit
   description: A lightweight hardsuit designed for industrial EVA in zero gravity.
+  suffix: Civil, Light, Standart #Lua
   components:
   - type: Sprite
     sprite: _Lua/Clothing/OuterClothing/Hardsuits/spatio.rsi #Lua
@@ -96,16 +100,22 @@
     lowPressureMultiplier: 1000
   - type: Armor
     modifiers:
-      coefficients:
-        Blunt: 0.65 #Lua 0.9<0.65
-        Slash: 0.65 #Lua 0.9<0.65
-        Piercing: 0.9
+      coefficients: # 30/30/20//30/30//20/20//30/0
+        #Mechanical
+        Blunt: 0.7 #Lua 0.9<0.7
+        Slash: 0.7 #Lua 0.9<0.7
+        Piercing: 0.8 #Lua 0.9<0.8
+        #Physical
         Heat: 0.7 #Lua
-        Radiation: 0.3 #salv is supposed to have radiation hazards in the future
+        Radiation: 0.7 #Lua 0.3<0.7
+        #Special
+        Shock: 0.8 #Lua
         Caustic: 0.8
+  - type: StaminaResistance #Lua
+    damageCoefficient: 0.7
   - type: ClothingSpeedModifier
-    walkModifier: 0.9
-    sprintModifier: 0.85 #Lua 0.8<0.85
+    walkModifier: 1 #Lua 0.9<1
+    sprintModifier: 1 #Lua 0.8<1
   - type: HeldSpeedModifier
   - type: ToggleableClothing
     clothingPrototype: ClothingHeadHelmetHardsuitSpatio
@@ -328,6 +338,7 @@
   id: ClothingOuterHardsuitCap
   name: captain's armored spacesuit
   description: A formal armored spacesuit, made for the station's captain.
+  suffix: Civil, Heavy, Standart #Lua
   components:
   - type: Sprite
     sprite: _Lua/Clothing/OuterClothing/Hardsuits/capspace.rsi #Lua
@@ -340,16 +351,19 @@
     damageCoefficient: 0.5
   - type: Armor
     modifiers:
-      coefficients:
-        Blunt: 0.75 #Lua 0.8<0.75
-        Slash: 0.75 #Lua 0.8<0.75
-        Piercing: 0.65 #Lua 0.7<0.65
+      coefficients: # 20/20/30//30/30//20/20//70/20
+        Blunt: 0.8
+        Slash: 0.8
+        Piercing: 0.7
         Heat: 0.7 #Lua 0.75<0.7
-        Radiation: 0.75 #Frontier 0.5<0.75
-        Caustic: 0.85 #Frontier 0.6<0.85
+        Radiation: 0.7 #Lua 0.5<0.7
+        Shock: 0.8 #Lua 
+        Caustic: 0.8 #Lua 0.6<0.8
+  - type: StaminaResistance #Lua
+    damageCoefficient: 0.3
   - type: ClothingSpeedModifier
     walkModifier: 0.8
-    sprintModifier: 0.85 #Lua 0.8<0.85
+    sprintModifier: 0.8
   - type: HeldSpeedModifier
   - type: ToggleableClothing
     clothingPrototype: ClothingHeadHelmetHardsuitCap
@@ -441,6 +455,7 @@
   id: ClothingOuterHardsuitRd
   name: experimental research hardsuit
   description: A special suit that protects against hazardous, low pressure environments. Has an additional layer of armor.
+  suffix: Civil, Medium, Special #Lua
   components:
   - type: Sprite
     sprite: _Lua/Clothing/OuterClothing/Hardsuits/rd.rsi #Lua
@@ -451,18 +466,21 @@
     lowPressureMultiplier: 1000
   - type: Armor
     modifiers:
-      coefficients:
-        Blunt: 0.6
+      coefficients: # 20/20/20//30/80//30/30//50/10
+        Blunt: 0.8 #Lua 0.6<0.8
         Slash: 0.8
-        Piercing: 0.9
-        Heat: 0.3
-        Radiation: 0.1
-        Caustic: 0.2
+        Piercing: 0.8
+        Heat: 0.7 
+        Radiation: 0.2 #Radiation resistance is out-of-balance because rd is special hardsuit for work with high radiation background
+        Shock: 0.7 #Lua
+        Caustic: 0.7 #Lua 0.2<0.7
+  - type: StaminaResistance #Lua
+    damageCoefficient: 0.5
   - type: ExplosionResistance
     damageCoefficient: 0.1
   - type: ClothingSpeedModifier
-    walkModifier: 0.75
-    sprintModifier: 0.75
+    walkModifier: 0.8 #Lua 0.75<0.8
+    sprintModifier: 0.8 #Lua 0.75<0.8
   - type: HeldSpeedModifier
   - type: Item
     size: Huge
@@ -754,9 +772,9 @@
   description: A bizarre gem-encrusted suit that radiates magical energies.
   components:
   - type: Sprite
-    sprite: _Lua/Clothing/OuterClothing/Hardsuits/wizard.rsi #Lua
+    sprite: Clothing/OuterClothing/Hardsuits/wizard.rsi
   - type: Clothing
-    sprite: _Lua/Clothing/OuterClothing/Hardsuits/wizard.rsi #Lua
+    sprite: Clothing/OuterClothing/Hardsuits/wizard.rsi
   - type: ThermalCloak #Lua
     enabled: false
   - type: PressureProtection
@@ -769,8 +787,8 @@
       coefficients:
         Blunt: 0.6
         Slash: 0.6
-        Piercing: 0.25 #Lua 0.4<0.25
-        Heat: 0.3 #Lua 0.25<0.3
+        Piercing: 0.4
+        Heat: 0.25
         Radiation: 0.25
         Caustic: 0.75
   - type: ClothingSpeedModifier
@@ -781,7 +799,7 @@
     clothingPrototype: ClothingHeadHelmetHardsuitWizard
   - type: Tag
     tags:
-#    - CorgiWearable #Lua
+    - CorgiWearable
     - Hardsuit
     - WhitelistChameleon
 

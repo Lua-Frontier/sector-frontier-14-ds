@@ -75,7 +75,7 @@
   id: EncryptionKeyOutpostSyndicate
   name: красный ключ шифрования
   description: Ключ шифрования, используемый... хм... кем же?
-  suffix: Нордфолл
+  suffix: Тайпан
   components:
   - type: EncryptionKey
     channels:

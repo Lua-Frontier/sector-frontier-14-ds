@@ -16,8 +16,8 @@
     - suitStorage
   - type: AmmoCounter
   - type: Gun
-    minAngle: 2
-    maxAngle: 16
+    minAngle: 1 #Lua 2<1
+    maxAngle: 5 #Lua 16<5
     fireRate: 8
     burstFireRate: 8
     angleIncrease: 3

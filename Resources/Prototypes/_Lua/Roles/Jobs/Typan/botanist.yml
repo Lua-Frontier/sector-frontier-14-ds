@@ -5,7 +5,7 @@
 - type: job
   id: OutpostSyndicateBotanist
   name: job-name-typan-botanist
-  playTimeTracker: JobOutpostTypanBotanist
+  playTimeTracker: JobOutpostSyndicateBotanist
   salary: 25000
   description: Ботаник из далёкого космоса.
   startingGear: SyndicateBotanist
@@ -15,11 +15,8 @@
   hideConsoleVisibility: true
   requirements:
     # - !type:RoleTimeRequirement
-    #   role: JobOutpostTypanAtmosTech
+    #   role: JobOutpostSyndicateAtmosTech
     #   time: 20600
-    - !type:DepartmentTimeRequirement
-      department: Antag
-      time: 26000
     - !type:DepartmentTimeRequirement
       department: Civilian
       time: 24000
@@ -34,6 +31,8 @@
   accessGroups:
   - AllAccess
   special:
+  - !type:AddImplantSpecial
+    implants: [ DeathAcidifierImplantLWTypan ]
   - !type:AddComponentSpecial
     components:
       - type: Company

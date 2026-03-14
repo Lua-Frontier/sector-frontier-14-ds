@@ -37,7 +37,7 @@
 
 - type: entity
   abstract: true
-  parent: ClothingBeltBase
+  parent: [ClothingBeltBase, ClothingSlotBase] #Lua
   id: ClothingBeltStorageBase
   components:
   - type: Storage
@@ -55,6 +55,16 @@
     interfaces:
       enum.StorageUiKey.Key:
         type: StorageBoundUserInterface
+  - type: Matchbox #Lua
+  - type: ItemSlots #Lua
+    slots:
+      item:
+        name: clothing-webbing-sidearm
+        whitelist:
+          components:
+          - Gun
+          - MeleeWeapon
+          - WeaponCaseInsertable
 
 - type: entity
   abstract: true

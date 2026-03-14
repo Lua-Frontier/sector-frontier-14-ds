@@ -37,7 +37,7 @@
             Vip: [ -1, -1 ]
             Contractor: [ -1, -1 ]
             Pilot: [ -1, -1 ]
-#            MedicalDoctor: [ 1, 1 ] #comment (28-29) from _Lua
+#            MedicalDoctor: [ 1, 1 ] #comment (28-29; 44; 47) from _Lua
 #            Chemist: [ 1, 1 ]
             Borg: [ -1, -1 ]
             StationRepresentative: [ 1, 1 ]

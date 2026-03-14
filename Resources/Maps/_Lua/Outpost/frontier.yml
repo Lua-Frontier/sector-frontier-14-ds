@@ -5107,7 +5107,7 @@ entities:
       pos: -0.5,-10.5
       parent: 2
     - type: Docking
-      name: '3A - ДСБФ '
+      name: '3A - СРБС '
   - uid: 149
     components:
     - type: Transform

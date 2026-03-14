@@ -21,6 +21,7 @@
   parent: [ NFBlueprintReceiverBase, SecurityTechFab ]
   name: NFSD techfab
   description: Prints equipment for use by NFSD.
+  suffix: Need balance test
   components:
   - type: Sprite
     sprite: _NF/Structures/Machines/techfab.rsi
@@ -42,7 +43,7 @@
     idleState: icon
     runningState: icon
     staticPacks:
-    - MonoAmmoPack
+    - MonoAmmoPackModified #Lua MonoAmmoPack<MonoAmmoPackModified
     - NFLightsStatic
     - NFBasicToolsStatic
     - NFBasicStorageStatic
@@ -53,9 +54,6 @@
     - NFMaterialElectronicsStatic
     - ReportingStatic # DeltaV
     - NfsdWeaponsStatic
-    - NfsdPracticeStatic
-    - NfsdAmmoStatic
-    - NFMercenaryMagazineStatic
     - NFMercenaryStorageStatic
     - NfsdToolsStatic
     - NfsdTargetsStatic
@@ -93,7 +91,7 @@
     idleState: icon
     runningState: icon
     staticPacks:
-    - MonoAmmoPack
+    - MonoAmmoPackModifiedCivilian
     - NFMercenaryTechfabDeprecatedStatic
     - NFLightsStatic
     - NFBasicToolsStatic
@@ -108,9 +106,6 @@
     - NFMercenaryClothesStatic
     - NFMercenaryStorageStatic
     - NFMercenaryWeaponsStatic
-    - NFMercenaryAmmoBoxesStatic
-    - NfsdPracticeStatic
-    - NFMercenaryMagazineStatic
     - NFTopicalsStatic
     - NFMercenaryArchetypeStatic
   - type: BlueprintReceiver

@@ -1,0 +1,400 @@
+- type: loadoutGroup
+  id: SCJumpsuit
+  name: loadout-group-contractor-jumpsuit
+  loadouts:
+  - N14ClothingUniformJumpsuitEnclave
+  - N14ClothingUniformJumpsuitwinter
+  - N14ClothingUniformJumpsuitLeatherSuit
+  - N14ClothingUniformNCRDesert
+  - N14ClothingOfficerUniformNCRDesert
+  - N14ClothingUniformNCRSnow
+  - N14ClothingUniformJumpsuitChinese
+  - N14ClothingUniformJumpsuitTownGuard
+  - N14ClothingUniformJumpsuitTownGuardLight
+  fallbacks:
+  - N14ClothingUniformJumpsuitEnclave
+
+- type: loadout
+  id: N14ClothingUniformJumpsuitEnclave
+  equipment:
+    jumpsuit: N14ClothingUniformJumpsuitEnclave
+
+- type: loadout
+  id: N14ClothingUniformJumpsuitwinter
+  equipment:
+    jumpsuit: N14ClothingUniformJumpsuitwinter
+
+- type: loadout
+  id: N14ClothingUniformJumpsuitLeatherSuit
+  equipment:
+    jumpsuit: N14ClothingUniformJumpsuitLeatherSuit
+
+- type: loadout
+  id: N14ClothingUniformNCRDesert
+  equipment:
+    jumpsuit: N14ClothingUniformNCRDesert
+
+- type: loadout
+  id: N14ClothingOfficerUniformNCRDesert
+  equipment:
+    jumpsuit: N14ClothingOfficerUniformNCRDesert
+
+- type: loadout
+  id: N14ClothingUniformNCRSnow
+  equipment:
+    jumpsuit: N14ClothingUniformNCRSnow
+
+- type: loadout
+  id: N14ClothingUniformJumpsuitChinese
+  equipment:
+    jumpsuit: N14ClothingUniformJumpsuitChinese
+
+- type: loadout
+  id: N14ClothingUniformJumpsuitTownGuard
+  equipment:
+    jumpsuit: N14ClothingUniformJumpsuitTownGuard
+
+- type: loadout
+  id: N14ClothingUniformJumpsuitTownGuardLight
+  equipment:
+    jumpsuit: N14ClothingUniformJumpsuitTownGuardLight
+
+
+
+- type: loadoutGroup
+  id: StormCreedPDA
+  name: loadout-group-contractor-pda
+  loadouts:
+  - StormCreedPDA
+  fallbacks:
+  - StormCreedPDA
+
+- type: loadout
+  id: StormCreedPDA
+  equipment:
+    id: StormCreedPDA
+
+
+
+- type: loadoutGroup
+  id: SCCaptainPDA
+  name: loadout-group-contractor-pda
+  loadouts:
+  - SCCaptainPDA
+  fallbacks:
+  - SCCaptainPDA
+
+- type: loadout
+  id: SCCaptainPDA
+  equipment:
+    id: SCCaptainPDA
+
+
+
+- type: loadoutGroup
+  id: SCBelt
+  name: loadout-group-contractor-belt
+  loadouts:
+  - ClothingBeltStormCreedWebbing
+  - MercenaryClothingBeltMilitaryWebbing
+  - ContractorClothingBeltUtilityFilled
+  - ContractorClothingBeltSalvageWebbingFilledNF
+  fallbacks:
+  - ClothingBeltStormCreedWebbing
+
+- type: loadout
+  id: ClothingBeltStormCreedWebbing
+  equipment:
+    jumpsuit: ClothingBeltStormCreedWebbing
+
+
+
+- type: loadoutGroup
+  id: SCOuterClothing
+  name: loadout-group-contractor-outerclothing
+  loadouts:
+  - N14ClothingOuterMaskmanCoat
+  - N14ClothingOuterBrotherhoodFieldScribeCoat
+  - N14ClothingOuterSlickCoat6
+
+- type: loadout
+  id: N14ClothingOuterMaskmanCoat
+  equipment:
+    outerClothing: N14ClothingOuterMaskmanCoat
+
+- type: loadout
+  id: N14ClothingOuterBrotherhoodFieldScribeCoat
+  equipment:
+    outerClothing: N14ClothingOuterBrotherhoodFieldScribeCoat
+
+- type: loadout
+  id: N14ClothingOuterSlickCoat6
+  equipment:
+    outerClothing: N14ClothingOuterSlickCoat6
+
+
+
+- type: loadoutGroup
+  id: SCNeck
+  name: loadout-group-contractor-neck
+  loadouts:
+  - N14ClothingNeckCloakLeather
+  - N14ClothingNeckCloakYaoguai
+  - N14ClothingNeckShawl
+  - N14ClothingNeckTownGuardCloak
+  - N14ClothingNeckMantleLeather
+  - N14ClothingNeckBeige
+  fallbacks:
+  - N14ClothingNeckBeige
+
+- type: loadout
+  id: N14ClothingNeckCloakLeather
+  equipment:
+    neck: N14ClothingNeckCloakLeather
+
+- type: loadout
+  id: N14ClothingNeckCloakYaoguai
+  equipment:
+    neck: N14ClothingNeckCloakYaoguai
+
+- type: loadout
+  id: N14ClothingNeckShawl
+  equipment:
+    neck: N14ClothingNeckShawl
+
+- type: loadout
+  id: N14ClothingNeckTownGuardCloak
+  equipment:
+    neck: N14ClothingNeckTownGuardCloak
+
+- type: loadout
+  id: N14ClothingNeckMantleLeather
+  equipment:
+    neck: N14ClothingNeckMantleLeather
+
+- type: loadout
+  id: N14ClothingNeckBeige
+  equipment:
+    neck: N14ClothingNeckBeige
+
+
+
+- type: loadoutGroup
+  id: SCHands
+  name: loadout-group-contractor-gloves
+  loadouts:
+  - N14ClothingHandsGlovesBlackBiker
+  - N14ClothingHandsGlovesBrownBiker
+  - N14ClothingHandsGlovesBlackLeather
+  - N14ClothingHandsGlovesLeather
+  - N14ClothingHandsGlovesDriver
+  fallbacks:
+  - N14ClothingHandsGlovesDriver
+
+- type: loadout
+  id: N14ClothingHandsGlovesBlackBiker
+  equipment:
+    gloves: N14ClothingHandsGlovesBlackBiker
+
+- type: loadout
+  id: N14ClothingHandsGlovesBrownBiker
+  equipment:
+    gloves: N14ClothingHandsGlovesBrownBiker
+
+- type: loadout
+  id: N14ClothingHandsGlovesBlackLeather
+  equipment:
+    gloves: N14ClothingHandsGlovesBlackLeather
+
+- type: loadout
+  id: N14ClothingHandsGlovesLeather
+  equipment:
+    gloves: N14ClothingHandsGlovesLeather
+
+- type: loadout
+  id: N14ClothingHandsGlovesDriver
+  equipment:
+    gloves: N14ClothingHandsGlovesDriver
+
+
+
+- type: loadoutGroup
+  id: SCEyes
+  name: loadout-group-contractor-glasses
+  loadouts:
+  - N14ClothingEyesGlassesPilot
+  - N14ClothingSnowGoggles
+  fallbacks:
+  - N14ClothingSnowGoggles
+
+- type: loadout
+  id: N14ClothingEyesGlassesPilot
+  equipment:
+    eyes: N14ClothingEyesGlassesPilot
+
+- type: loadout
+  id: N14ClothingSnowGoggles
+  equipment:
+    eyes: N14ClothingSnowGoggles
+
+
+
+- type: loadoutGroup
+  id: SCEars
+  name: loadout-group-contractor-ears
+  loadouts:
+  - N14ClothingHeadsetLightScribe
+  fallbacks:
+  - N14ClothingHeadsetLightScribe
+
+- type: loadout
+  id: N14ClothingHeadsetLightScribe
+  equipment:
+    ears: N14ClothingHeadsetLightScribe
+
+
+
+- type: loadoutGroup
+  id: SCBack
+  name: loadout-group-contractor-backpack
+  loadouts:
+  - N14ClothingBackpackSatchelExplorer
+  fallbacks:
+  - N14ClothingBackpackSatchelExplorer
+
+- type: loadout
+  id: N14ClothingBackpackSatchelExplorer
+  equipment:
+    back: N14ClothingBackpackSatchelExplorer
+
+
+
+- type: loadoutGroup
+  id: SCFace
+  name: loadout-group-contractor-face
+  minLimit: 0
+  loadouts:
+  - ContractorClothingMaskBreath
+  - ContractorClothingMaskBreathMedical
+  - ContractorClothingMaskGas
+  - N14ClothingMaskNcr
+  - N14ClothingMaskdrylandergoggles
+  - N14ClothingMaskDrylanderHeadwrap
+  - N14ClothingSackMask
+  fallbacks:
+  - N14ClothingMaskDrylanderHeadwrap
+
+- type: loadout
+  id: N14ClothingMaskNcr
+  equipment:
+    mask: N14ClothingMaskNcr
+
+- type: loadout
+  id: N14ClothingMaskdrylandergoggles
+  equipment:
+    mask: N14ClothingMaskdrylandergoggles
+
+- type: loadout
+  id: N14ClothingMaskDrylanderHeadwrap
+  equipment:
+    mask: N14ClothingMaskDrylanderHeadwrap
+
+- type: loadout
+  id: N14ClothingSackMask
+  equipment:
+    mask: N14ClothingSackMask
+
+
+
+- type: loadoutGroup
+  id: SCShoes
+  name: loadout-group-contractor-shoes
+  loadouts:
+  - N14ClothingBootsFire
+  - ClothingShoesBootsJack
+  - ClothingShoesBootsCombat
+  fallbacks:
+  - NFPirateClothingShoesBootsLaceup
+
+- type: loadout
+  id: N14ClothingBootsFire
+  equipment:
+    shoes: N14ClothingBootsFire
+
+- type: loadout
+  id: ClothingShoesBootsJack
+  equipment:
+    shoes: ClothingShoesBootsJack
+
+- type: loadout
+  id: ClothingShoesBootsCombat
+  equipment:
+    shoes: ClothingShoesBootsCombat
+
+
+
+- type: loadoutGroup
+  id: SCHead
+  name: loadout-group-contractor-head
+  minLimit: 0
+  loadouts:
+  - NFPirateClothingHeadBandBlack
+  - NFPirateClothingHeadBandBrown
+  - N14ClothingHeadHatArmyBeretRanger
+  - N14ClothingHeadHatArmyBeretSpecial
+  - N14ClothingHeadHatBrotherhoodCap
+  - N14ClothingHeadHatBrotherhoodFieldCap
+  fallbacks:
+  - N14ClothingHeadHatBrotherhoodCap
+
+- type: loadout
+  id: N14ClothingHeadHatArmyBeretRanger
+  equipment:
+    head: N14ClothingHeadHatArmyBeretRanger
+
+- type: loadout
+  id: N14ClothingHeadHatArmyBeretSpecial
+  equipment:
+    head: N14ClothingHeadHatArmyBeretSpecial
+
+- type: loadout
+  id: N14ClothingHeadHatBrotherhoodCap
+  equipment:
+    head: N14ClothingHeadHatBrotherhoodCap
+
+- type: loadout
+  id: N14ClothingHeadHatBrotherhoodFieldCap
+  equipment:
+    head: N14ClothingHeadHatBrotherhoodFieldCap
+
+
+
+- type: loadoutGroup
+  id: SCBackpackItems
+  name: loadout-group-contractor-backpack-items
+  minLimit: 0
+  maxLimit: 3
+  loadouts:
+  - PirateNFPouchPirate
+  - ContractorCigPackBlue
+  - ContractorCigPackRed
+  - ContractorCigPackBlack
+  - ContractorCigPackGreen
+  - ContractorCigarCase
+  - ContractorNFAshtray
+  - ContractorSmokingPipeFilledTobacco
+  - ContractorTobaccoPouchBrownFilled
+  - ContractorTobaccoPouchBlueFilled
+  - ContractorTobaccoPouchRedFilled
+  - ContractorTobaccoPouchPurpleFilled
+  - ContractorMatchbox
+  - ContractorLighter
+  - ContractorFlippoLighter
+  - ContractorFlippoEngravedLighter
+  - ContractorDrinkFlaskOld
+  - ContractorDrinkShinyFlask
+  - ContractorDrinkFlask
+  - ContractorDrinkVacuumFlask
+  - ContractorCardBoxBlack
+  - ContractorHarmonicaInstrument
+  - ContractorAcousticGuitarInstrument

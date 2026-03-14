@@ -5,44 +5,35 @@
 - type: job
   id: OutpostSyndicateResearcher
   name: job-name-typan-researcher
-  playTimeTracker: JobOutpostTypanResearcher
-  salary: 35000 #Lua 25<35
-  description: Самый мирный человек в секторе, распространяющий исключительно добро и позитив.
+  playTimeTracker: JobOutpostSyndicateResearcher
+  salary: 25000
+  description: Исследователь из далёкого космоса.
   startingGear: SyndicateResearcher
   icon: "JobIconSyndicateResearcher"
   supervisors: job-supervisors-typan-telecommunications-officer
   canBeAntag: false
   hideConsoleVisibility: true
   requirements:
-    # - !type:RoleTimeRequirement
-    #   role: JobOutpostTypanAtmosTech
-    #   time: 29600
-    # - !type:RoleTimeRequirement
-    #   role: JobOutpostTypanMedic
-    #   time: 25600
-    # - !type:RoleTimeRequirement
-    #   role: JobOutpostTypanScience
-    #   time: 32500
-    # - !type:RoleTimeRequirement
-    #   role: JobOutpostTypanBotanist
-    #   time: 33600
-    - !type:DepartmentTimeRequirement
-      department: Security
-      time: 100000 #Lua 39<100
-    - !type:DepartmentTimeRequirement
-      department: Antag
-      time: 50000 #Lua 36<50
-    - !type:DepartmentTimeRequirement
-      department: Civilian
-      time: 50000 #Lua 43<50
-    - !type:OverallPlaytimeRequirement
-      time: 250000 #Lua 360<250
+  - !type:RoleTimeRequirement
+    role: JobPilot
+    time: 72000 # 20h
+  - !type:RoleTimeRequirement
+    role: JobPassenger
+    time: 72000 # 20h
+  - !type:RoleTimeRequirement
+    role: JobFrontierEngineer
+    time: 72000 # 20h
+  - !type:DepartmentTimeRequirement
+    department: Medical
+    time: 72000 # 20h
   access:
   - SyndicateAgent
   - NuclearOperative
   accessGroups:
   - AllAccess
   special:
+  - !type:AddImplantSpecial
+    implants: [ DeathAcidifierImplantLWTypan ]
   - !type:AddComponentSpecial
     components:
       - type: Company

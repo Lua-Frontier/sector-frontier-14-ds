@@ -233,7 +233,7 @@
   tier: 3
   cost: 15000
   recipeUnlocks:
-  - WeaponTemperatureGun
+#  - WeaponTemperatureGun # comment from _Lua
   - WeaponMechCombatImmolationGun # Goobstation
 
 - type: technology

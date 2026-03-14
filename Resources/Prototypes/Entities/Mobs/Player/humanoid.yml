@@ -29,7 +29,7 @@
     - Reptilian
     - SlimePerson
     - Vox
-    - Demon
+    # - Demon
     - Shark
     - Tajaran
     - Vulpkanin
@@ -100,18 +100,18 @@
   id: EventHumanoidFSF
   parent: EventHumanoidMindShielded
   speciesBlacklist:
-    # - Arachnid
+    - Arachnid
     - Diona
     # - Dwarf
     # - Human
-    # - Moth
-    # - Reptilian
-    # - SlimePerson
+    - Moth
+    - Reptilian
+    - SlimePerson
     - Vox
-    # - Demon
-    # - Shark
-    # - Tajaran
-    # - Vulpkanin
+    - Demon
+    - Shark
+    - Tajaran
+    - Vulpkanin
     - Goblin
     - Harpy
     - Felinid

@@ -8,8 +8,8 @@
     - !type:OverallPlaytimeRequirement
       time: 72000 # 20 hrs
     - !type:RoleTimeRequirement
-      role: JobSecurityGuard
-      time: 10800 # 3 hrs as security guard
+      role: JobFrontierEngineer
+      time: 72000 #Lua 20h 
   whitelisted: false
   startingGear: SrGear
   alwaysUseSpawner: true
@@ -17,7 +17,7 @@
   requireAdminNotify: true
   supervisors: job-supervisors-centcom
   weight: 170
-  displayWeight: 60 # Top
+  displayWeight: 80 # Top
   canBeAntag: false
   accessGroups:
   - AllAccess

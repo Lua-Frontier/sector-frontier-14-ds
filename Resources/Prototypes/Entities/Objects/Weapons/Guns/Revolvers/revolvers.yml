@@ -30,8 +30,8 @@
     soundGunshot:
       path: /Audio/Weapons/Guns/Gunshots/revolver.ogg
     projectileSpeed: 45 # Mono
-  - type: UseDelay
-    delay: 0.66
+#  - type: UseDelay #comment from _Lua
+#    delay: 0.66
   - type: ContainerContainer
     containers:
       revolver-ammo: !type:Container

@@ -80,7 +80,8 @@
         - type: PreventPilot
         - type: ForceAnchor
         paths:
-        - /Maps/_NF/Bluespace/vault.yml
+        - /Maps/_Lua/Bluespace/NTcachemini.yml #Lua
+#        - /Maps/_NF/Bluespace/vault.yml # comment from _Lua
     rewardAccounts:
       Nfsd: 0.25
       Frontier: 0.25
@@ -124,7 +125,8 @@
         - type: PreventPilot
         - type: ForceAnchor
         paths:
-        - /Maps/_NF/Bluespace/vaultsmall.yml
+        - /Maps/_Lua/Bluespace/NTcachemini.yml #Lua
+#        - /Maps/_NF/Bluespace/vaultsmall.yml # comment from _Lua
     rewardAccounts:
       Nfsd: 0.25
       Frontier: 0.25
@@ -171,85 +173,85 @@
         paths:
         - /Maps/_NF/Bluespace/syndieftlintercept.yml
 
-- type: entity
-  id: BluespaceWizardFederationScout
-  parent: BaseStationEventShortDelay
-  components:
-  - type: StationEvent
-    startAnnouncement: station-event-bluespace-generic-ftl-start-announcement
-    startAudio:
-      path: /Audio/_NF/Announcements/PocketSizedAndy/andy2_bluespace_ship_arrival.ogg
-    warningAnnouncement: station-event-bluespace-generic-ftl-warning-announcement
-    endAnnouncement: station-event-bluespace-generic-ftl-end-announcement
-    endAudio:
-      path: /Audio/_NF/Announcements/PocketSizedAndy/andy2_bluespace_ship_leave.ogg
-    earliestStart: 100
-    minimumPlayers: 15
-    weight: 1
-    duration: 900
-    maxDuration: 1200
-    reoccurrenceDelay: 360 # 6 hours
-  - type: BluespaceErrorRule
-    asteroid: true
-    groups:
-      grid: !type:GridSpawnGroup
-        nameLoc:
-        - station-event-bluespace-name-UnidentifiedVessel
-        minimumDistance: 1500
-        maximumDistance: 2500
-        addComponents:
-        - type: Gravity
-          enabled: true
-          inherent: true
-        - type: IFF
-          color: "#E10F9B"
-        - type: LinkedLifecycleGridParent
-        - type: ProtectedGrid
-          preventArtifactTriggers: true
-        - type: PreventPilot
-        - type: ForceAnchor
-        paths:
-        - /Maps/_NF/Bluespace/wizardprobealt.yml
+#- type: entity
+#  id: BluespaceWizardFederationScout
+#  parent: BaseStationEventShortDelay
+#  components:
+#  - type: StationEvent
+#    startAnnouncement: station-event-bluespace-generic-ftl-start-announcement
+#    startAudio:
+#      path: /Audio/_NF/Announcements/PocketSizedAndy/andy2_bluespace_ship_arrival.ogg
+#    warningAnnouncement: station-event-bluespace-generic-ftl-warning-announcement
+#    endAnnouncement: station-event-bluespace-generic-ftl-end-announcement
+#    endAudio:
+#      path: /Audio/_NF/Announcements/PocketSizedAndy/andy2_bluespace_ship_leave.ogg
+#    earliestStart: 100
+#    minimumPlayers: 15
+#    weight: 1
+#    duration: 900
+#    maxDuration: 1200
+#    reoccurrenceDelay: 360 # 6 hours
+#  - type: BluespaceErrorRule
+#    asteroid: true
+#    groups:
+#      grid: !type:GridSpawnGroup
+#        nameLoc:
+#        - station-event-bluespace-name-UnidentifiedVessel
+#        minimumDistance: 1500
+#        maximumDistance: 2500
+#        addComponents:
+#        - type: Gravity
+#          enabled: true
+#          inherent: true
+#        - type: IFF
+#          color: "#E10F9B"
+#        - type: LinkedLifecycleGridParent
+#        - type: ProtectedGrid
+#          preventArtifactTriggers: true
+#        - type: PreventPilot
+#        - type: ForceAnchor
+#        paths:
+#        - /Maps/_NF/Bluespace/wizardprobealt.yml
 
-- type: entity
-  id: BluespaceBloodMoon
-  parent: BaseStationEventShortDelay
-  components:
-  - type: StationEvent
-    startAnnouncement: station-event-bluespace-generic-ftl-start-announcement
-    startAudio:
-      path: /Audio/_NF/Announcements/PocketSizedAndy/andy2_bluespace_ship_arrival.ogg
-    warningAnnouncement: station-event-bluespace-generic-ftl-warning-announcement
-    endAnnouncement: station-event-bluespace-generic-ftl-end-announcement
-    endAudio:
-      path: /Audio/_NF/Announcements/PocketSizedAndy/andy2_bluespace_ship_leave.ogg
-    earliestStart: 80
-    minimumPlayers: 15
-    weight: 1
-    duration: 1800
-    maxDuration: 2400
-    reoccurrenceDelay: 360 # 6 hours
-  - type: BluespaceErrorRule
-    asteroid: true
-    groups:
-      grid: !type:GridSpawnGroup
-        nameLoc:
-        - station-event-bluespace-name-UnidentifiedVessel
-        minimumDistance: 1500
-        maximumDistance: 2500
-        addComponents:
-        - type: Gravity
-          enabled: true
-          inherent: true
-        - type: IFF
-          color: "#E10F9B"
-        - type: LinkedLifecycleGridParent
-        - type: ProtectedGrid
-          preventArtifactTriggers: true
-        - type: PreventPilot
-        - type: ForceAnchor
-        paths:
-        - /Maps/_NF/Bluespace/bloodmoon.yml
+#- type: entity # comment from _Lua
+#  id: BluespaceBloodMoon
+#  parent: BaseStationEventShortDelay
+#  components:
+#  - type: StationEvent
+#    startAnnouncement: station-event-bluespace-generic-ftl-start-announcement
+#    startAudio:
+#      path: /Audio/_NF/Announcements/PocketSizedAndy/andy2_bluespace_ship_arrival.ogg
+#    warningAnnouncement: station-event-bluespace-generic-ftl-warning-announcement
+#    endAnnouncement: station-event-bluespace-generic-ftl-end-announcement
+#    endAudio:
+#      path: /Audio/_NF/Announcements/PocketSizedAndy/andy2_bluespace_ship_leave.ogg
+#    earliestStart: 80
+#    minimumPlayers: 15
+#    weight: 1
+#    duration: 1800
+#    maxDuration: 2400
+#    reoccurrenceDelay: 360 # 6 hours
+#  - type: BluespaceErrorRule
+#    asteroid: true
+#    groups:
+#      grid: !type:GridSpawnGroup
+#        nameLoc:
+#        - station-event-bluespace-name-UnidentifiedVessel
+#        minimumDistance: 1500
+#        maximumDistance: 2500
+#        addComponents:
+#        - type: Gravity
+#          enabled: true
+#          inherent: true
+#        - type: IFF
+#          color: "#E10F9B"
+#        - type: LinkedLifecycleGridParent
+#        - type: ProtectedGrid
+#          preventArtifactTriggers: true
+#        - type: PreventPilot
+#        - type: ForceAnchor
+#        paths:
+#        - /Maps/_NF/Bluespace/bloodmoon.yml
 
 - type: entity
   id: BluespaceCave
@@ -339,7 +341,7 @@
     warningAnnouncement: station-event-bluespace-asteroid-warning-announcement
     endAnnouncement: station-event-bluespace-asteroid-end-announcement
     earliestStart: 100
-    minimumPlayers: 15
+    minimumPlayers: 25 #Lua 15<25
     weight: 5
     duration: 1500
     maxDuration: 1800
@@ -377,7 +379,7 @@
     warningAnnouncement: station-event-bluespace-asteroid-warning-announcement
     endAnnouncement: station-event-bluespace-asteroid-end-announcement
     earliestStart: 100
-    minimumPlayers: 15
+    minimumPlayers: 25 #Lua 15<25
     weight: 3
     duration: 2100
     maxDuration: 2400
