@@ -286,7 +286,7 @@
 #region Energy
 - type: entity
   parent: [WeaponCaseHeavy] #Lua
-  id: WeaponCaseShortLaserGunExpedition
+  id: WeaponCaseLongGunTurboExpedition
   suffix: Dungeon, GunTurbo
   categories: [ HideSpawnMenu ]
   components:
