@@ -109,6 +109,18 @@
       - id: AmmoBox762x51mmFMJ
 
 - type: entity
+  id: WeaponCaseLongM90Bundle
+  parent: WeaponCaseLong
+  suffix: M90 76251
+  components:
+  - type: StorageFill
+    contents:
+      - id: WeaponRifleM90
+      - id: Magazine762x51mmFMJ
+        amount: 2
+      - id: AmmoBox762x51mmFMJ
+
+- type: entity
   id: WeaponCaseLongFirestarterBundle
   parent: WeaponCaseLong
   suffix: HWM Firestarter (.45 ACP)
@@ -128,6 +140,17 @@
   - type: StorageFill
     contents:
       - id: WeaponShotgunBigBuddy
+      - id: AmmoBox23x75mmBuckshot
+        amount: 2
+
+- type: entity
+  id: WeaponCaseLongBigJohnnyBundle
+  parent: WeaponCaseLong
+  suffix: Big Johnny (4 gauge)
+  components:
+  - type: StorageFill
+    contents:
+      - id: WeaponShotgunBigJohnny
       - id: AmmoBox23x75mmBuckshot
         amount: 2
 
@@ -336,6 +359,18 @@
   - type: StorageFill
     contents:
       - id: WeaponRifleAK410
+      - id: Magazine762x54mmRFMJ
+        amount: 3
+      - id: AmmoBox762x54mmRFMJ
+
+- type: entity
+  id: WeaponCaseLongBurnerBundle
+  parent: WeaponCaseLong
+  suffix: Burner 7.62x54mmR
+  components:
+  - type: StorageFill
+    contents:
+      - id: WeaponRifleBurner
       - id: Magazine762x54mmRFMJ
         amount: 3
       - id: AmmoBox762x54mmRFMJ

@@ -147,7 +147,7 @@
     contents:
     - id: NFWeaponRevolverLucky
       amount: 1
-    - id: SpeedLoader45_magnumFMJ #Lua 45 -> Magnum
+    - id: AmmoBox45_ACPFMJ #Lua 45 -> Magnum
       amount: 2
 
 #region Shotguns
@@ -214,7 +214,7 @@
     contents:
     - id: NFWeaponSubMachineGunC20r
       amount: 1
-    - id: Magazine9x19mmSubMachineGunFMJ #Lua 35 -> 9x19
+    - id: Magazine45_ACPSubMachineGunFMJ #Lua 35 -> 9x19
       amount: 3
 
 #region Rifles
@@ -278,12 +278,23 @@
   components:
   - type: StorageFill
     contents:
-    - id: NFWeaponRifleAssaultJackdaw
+    - id: WeaponRifleJackdaw
       amount: 1
-    - id: Magazine556x45mmFMJ #Lua 20 -> 556x45
+    - id: Magazine762x51mmFMJ #Lua 20 -> 556x45
       amount: 2
 
 #region Energy
+- type: entity
+  parent: [WeaponCaseHeavy] #Lua
+  id: WeaponCaseShortLaserGunExpedition
+  suffix: Dungeon, GunTurbo
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: StorageFill
+    contents:
+    - id: NFWeaponEnergyLightMachineGunTurbo
+      amount: 1
+
 - type: entity
   parent: [WeaponCaseShort] #Lua
   id: WeaponCaseShortLaserGunExpedition
@@ -326,6 +337,17 @@
   - type: StorageFill
     contents:
     - id: NFWeaponEnergyPistolLaserAdvanced
+      amount: 1
+
+- type: entity
+  parent: [WeaponCaseShort] #Lua
+  id: WeaponCaseShortAsakim
+  suffix: Dungeon, Asakim
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: StorageFill
+    contents:
+    - id: WeaponRifleAsakimAutopulser
       amount: 1
 
 - type: entity
@@ -373,5 +395,5 @@
     contents:
     - id: NFWeaponRifleCeremonial
       amount: 1
-    - id: AmmoBox556x45mmFMJ #Lua 20 -> 556x45
+    - id: AmmoBox762x54mmRFMJ #Lua 20 -> 556x45
       amount: 2

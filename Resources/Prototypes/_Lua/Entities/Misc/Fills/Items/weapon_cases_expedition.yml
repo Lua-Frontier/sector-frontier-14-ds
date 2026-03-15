@@ -19,6 +19,18 @@
       amount: 3
 
 - type: entity
+  parent: WeaponCaseHeavy
+  id: WeaponCaseLongN14AutoRifle
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: StorageFill
+    contents:
+    - id: N14WeaponAutoRifle
+      amount: 1
+    - id: Magazine68x52mmCaselessBig
+      amount: 3
+
+- type: entity
   parent: WeaponCaseShort
   id: WeaponCaseShortN14WeaponLaserPistol
   categories: [ HideSpawnMenu ]
