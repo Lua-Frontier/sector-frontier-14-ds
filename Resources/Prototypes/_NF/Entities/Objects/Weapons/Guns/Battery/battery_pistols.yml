@@ -112,7 +112,7 @@
     maxAngle: 15.5 #Lua
     angleIncrease: 0.7 #Lua
     angleDecay: 5 #Lua
-    fireRate: 3
+    fireRate: 3.2
 
 # Frontier
 - type: entity

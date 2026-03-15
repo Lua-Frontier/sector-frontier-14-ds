@@ -27,7 +27,7 @@
     maxAngle: 15.5 #Lua
     angleIncrease: 0.7 #Lua
     angleDecay: 5 #Lua
-    fireRate: 6 #Lua 1.5<6
+    fireRate: 4.8 #Lua 1.5<4.8
     soundGunshot:
       path: /Audio/Weapons/Guns/Gunshots/laser_cannon.ogg
     soundEmpty:

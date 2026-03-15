@@ -177,7 +177,7 @@
     maxAngle: 15.5 #Lua
     angleIncrease: 0.7 #Lua
     angleDecay: 5 #Lua
-    fireRate: 5 #Lua 2.5<5
+    fireRate: 4 #Lua 2.5<4
 
 # MARK: Recharger
 
@@ -381,7 +381,7 @@
     maxAngle: 3.5 #Lua
     angleIncrease: 0.2 #Lua
     angleDecay: 1 #Lua
-    fireRate: 6 #Lua 4<6
+    fireRate: 5 #Lua 4<5
     soundGunshot:
       collection: N14PlasmaAutoRifleGunshot
     selectedMode: FullAuto
@@ -539,7 +539,7 @@
     maxAngle: 3.5 #Lua
     angleIncrease: 0.2 #Lua
     angleDecay: 1 #Lua
-    fireRate: 4.8 #Lua 3<4.8
+    fireRate: 4 #Lua 3<4
     soundGunshot:
       collection: N14PlasmaAutoRifleGunshot
     selectedMode: SemiAuto
@@ -591,7 +591,7 @@
     maxAngle: 3.5 #Lua
     angleIncrease: 0.2 #Lua
     angleDecay: 1 #Lua
-    fireRate: 7.2 #Lua 4<7.2
+    fireRate: 6 #Lua 4<6
     soundGunshot:
       collection: N14PlasmaAutoRifleGunshot
     selectedMode: SemiAuto
@@ -645,7 +645,7 @@
     maxAngle: 3.5 #Lua
     angleIncrease: 0.2 #Lua
     angleDecay: 1 #Lua
-    fireRate: 8.4 # Lua 2<8.4
+    fireRate: 7 # Lua 2<7
     soundGunshot:
       collection: N14MultiplasGunshot
 

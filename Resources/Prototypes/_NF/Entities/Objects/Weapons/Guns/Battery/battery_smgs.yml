@@ -13,7 +13,7 @@
     maxAngle: 3.5 #Lua
     angleIncrease: 0.2 #Lua
     angleDecay: 1 #Lua
-    fireRate: 3.6
+    fireRate: 3 #Lua 3.6<3
   - type: Sprite
     sprite: _DV/Objects/Weapons/Guns/Battery/energygun.rsi
   - type: Clothing

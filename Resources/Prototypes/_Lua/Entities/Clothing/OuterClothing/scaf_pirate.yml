@@ -6,11 +6,11 @@
   suffix: Pirate, Heavy, Special
   components:
   - type: Sprite
-    sprite: _Lua/Clothing/OuterClothing/Hardsuits/pirateva.rsi
+    sprite: _Lua/Clothing/OuterClothing/SCHardsuits/heavy_special.rsi
   - type: Item
     size: Huge
   - type: Clothing
-    sprite: _Lua/Clothing/OuterClothing/Hardsuits/pirateva.rsi
+    sprite: _Lua/Clothing/OuterClothing/SCHardsuits/heavy_special.rsi
   - type: PressureProtection
     highPressureMultiplier: 0.05
     lowPressureMultiplier: 1000
@@ -51,11 +51,11 @@
   suffix: Pirate, Light, Special
   components:
   - type: Sprite
-    sprite: _Mono/Clothing/OuterClothing/Hardsuits/syndicate.rsi
+    sprite: _Lua/Clothing/OuterClothing/SCHardsuits/light_special.rsi
   - type: Item
     size: Huge
   - type: Clothing
-    sprite: _Mono/Clothing/OuterClothing/Hardsuits/syndicate.rsi
+    sprite: _Lua/Clothing/OuterClothing/SCHardsuits/light_special.rsi
   - type: PressureProtection
     highPressureMultiplier: 0.05
     lowPressureMultiplier: 1000
@@ -96,11 +96,11 @@
   suffix: Pirate, Light, Standart
   components:
   - type: Sprite
-    sprite: _Mono/Clothing/OuterClothing/Hardsuits/syndieelite.rsi
+    sprite: _Lua/Clothing/OuterClothing/SCHardsuits/light_standart.rsi
   - type: Item
     size: Huge
   - type: Clothing
-    sprite: _Mono/Clothing/OuterClothing/Hardsuits/syndieelite.rsi
+    sprite: _Lua/Clothing/OuterClothing/SCHardsuits/light_standart.rsi
   - type: PressureProtection
     highPressureMultiplier: 0.05
     lowPressureMultiplier: 1000
@@ -143,9 +143,9 @@
   - type: PointLight
     color: "#faa70f"
   - type: Sprite
-    sprite: _Lua/Clothing/Head/Hardsuits/pirateva.rsi
+    sprite: _Lua/Clothing/Head/SCHardsuits/heavy_special.rsi
   - type: Clothing
-    sprite: _Lua/Clothing/Head/Hardsuits/pirateva.rsi
+    sprite: _Lua/Clothing/Head/SCHardsuits/heavy_special.rsi
   - type: PressureProtection
     highPressureMultiplier: 0.08
     lowPressureMultiplier: 1000
@@ -173,9 +173,9 @@
   - type: PointLight
     color: "#faa70f"
   - type: Sprite
-    sprite: _Mono/Clothing/Head/Hardsuits/syndicate.rsi
+    sprite: _Lua/Clothing/Head/SCHardsuits/light_special.rsi
   - type: Clothing
-    sprite: _Mono/Clothing/Head/Hardsuits/syndicate.rsi
+    sprite: _Lua/Clothing/Head/SCHardsuits/light_special.rsi
   - type: PressureProtection
     highPressureMultiplier: 0.08
     lowPressureMultiplier: 1000
@@ -203,9 +203,9 @@
   - type: PointLight
     color: "#faa70f"
   - type: Sprite
-    sprite: _Mono/Clothing/Head/Hardsuits/syndieelite.rsi
+    sprite: _Lua/Clothing/Head/SCHardsuits/light_standart.rsi
   - type: Clothing
-    sprite: _Mono/Clothing/Head/Hardsuits/syndieelite.rsi
+    sprite: _Lua/Clothing/Head/SCHardsuits/light_standart.rsi
   - type: PressureProtection
     highPressureMultiplier: 0.08
     lowPressureMultiplier: 1000

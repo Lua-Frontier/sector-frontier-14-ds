@@ -6,11 +6,11 @@
   suffix: Pirate, Medium, Special #Lua
   components:
   - type: Sprite
-    sprite: _Mono/Clothing/OuterClothing/Hardsuits/viper_group_standard.rsi
+    sprite: _Lua/Clothing/OuterClothing/SCHardsuits/medium_special.rsi
   - type: Item
     size: Huge
   - type: Clothing
-    sprite: _Mono/Clothing/OuterClothing/Hardsuits/viper_group_standard.rsi
+    sprite: _Lua/Clothing/OuterClothing/SCHardsuits/medium_special.rsi
   - type: PressureProtection
     highPressureMultiplier: 0.05
     lowPressureMultiplier: 1000
@@ -56,11 +56,11 @@
   suffix: Pirate, Medium, Standart #Lua
   components:
   - type: Sprite
-    sprite: _Mono/Clothing/OuterClothing/Hardsuits/viper_group_medic.rsi
+    sprite: _Lua/Clothing/OuterClothing/SCHardsuits/medium_standart.rsi
   - type: Item
     size: Huge
   - type: Clothing
-    sprite: _Mono/Clothing/OuterClothing/Hardsuits/viper_group_medic.rsi
+    sprite: _Lua/Clothing/OuterClothing/SCHardsuits/medium_standart.rsi
   - type: PressureProtection
     highPressureMultiplier: 0.05
     lowPressureMultiplier: 1000

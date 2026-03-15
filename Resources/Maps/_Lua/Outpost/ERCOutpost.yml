@@ -4,7 +4,7 @@ meta:
   engineVersion: 272.0.0
   forkId: ""
   forkVersion: ""
-  time: 03/15/2026 07:01:46
+  time: 03/15/2026 13:08:35
   entityCount: 4760
 maps:
 - 6
@@ -12279,6 +12279,11 @@ entities:
       rot: 3.141592653589793 rad
       pos: 29.5,3.5
       parent: 1
+  - uid: 1883
+    components:
+    - type: Transform
+      pos: 4.5,23.5
+      parent: 1
 - proto: ComputerCriminalRecords
   entities:
   - uid: 33
@@ -19988,6 +19993,13 @@ entities:
     - type: Transform
       pos: -15.5,9.5
       parent: 1
+- proto: LuaComputerUplinkERC
+  entities:
+  - uid: 1884
+    components:
+    - type: Transform
+      pos: 5.5,23.5
+      parent: 1
 - proto: LuxuryPen
   entities:
   - uid: 1222
@@ -27498,13 +27510,6 @@ entities:
     - type: Transform
       pos: -3.5,17.5
       parent: 1
-- proto: VendingMachineAmmo
-  entities:
-  - uid: 1883
-    components:
-    - type: Transform
-      pos: 4.5,23.5
-      parent: 1
 - proto: VendingMachineAstroVend
   entities:
   - uid: 1836
@@ -27736,13 +27741,6 @@ entities:
     components:
     - type: Transform
       pos: -12.5,17.5
-      parent: 1
-- proto: VendingMachinePickNPackPOI
-  entities:
-  - uid: 1884
-    components:
-    - type: Transform
-      pos: 5.5,23.5
       parent: 1
 - proto: VendingMachineRobotics
   entities:
