@@ -4,7 +4,7 @@ meta:
   engineVersion: 272.0.0
   forkId: ""
   forkVersion: ""
-  time: 03/04/2026 12:24:41
+  time: 03/15/2026 07:01:46
   entityCount: 4760
 maps:
 - 6
@@ -133,7 +133,7 @@ entities:
       dampingModifier: 0.45
     - type: GridPathfinding
     - type: BecomesStation
-      id: ERCOutpost
+      id: Frontier
     - type: Gravity
       gravityShakeSound: !type:SoundPathSpecifier
         path: /Audio/Effects/alert.ogg
@@ -1968,6 +1968,7 @@ entities:
       hostileMobKillSound: !type:SoundPathSpecifier
         path: /Audio/Effects/holy.ogg
       baseIndices: {}
+    - type: SafeMining
   - uid: 6
     components:
     - type: MetaData
@@ -14090,125 +14091,6 @@ entities:
     components:
     - type: Transform
       pos: -15.5,11.5
-      parent: 1
-- proto: DSSpawnPointContractor
-  entities:
-  - uid: 3906
-    components:
-    - type: Transform
-      pos: -16.5,16.5
-      parent: 1
-  - uid: 3909
-    components:
-    - type: Transform
-      pos: -16.5,15.5
-      parent: 1
-  - uid: 3912
-    components:
-    - type: Transform
-      pos: -16.5,14.5
-      parent: 1
-- proto: DSSpawnPointMailCarrier
-  entities:
-  - uid: 3915
-    components:
-    - type: Transform
-      pos: -16.5,16.5
-      parent: 1
-  - uid: 3918
-    components:
-    - type: Transform
-      pos: -16.5,15.5
-      parent: 1
-  - uid: 3921
-    components:
-    - type: Transform
-      pos: -16.5,14.5
-      parent: 1
-- proto: DSSpawnPointMercenary
-  entities:
-  - uid: 3924
-    components:
-    - type: Transform
-      pos: -16.5,16.5
-      parent: 1
-  - uid: 3927
-    components:
-    - type: Transform
-      pos: -16.5,15.5
-      parent: 1
-  - uid: 3930
-    components:
-    - type: Transform
-      pos: -16.5,14.5
-      parent: 1
-- proto: DSSpawnPointPilot
-  entities:
-  - uid: 3908
-    components:
-    - type: Transform
-      pos: -16.5,14.5
-      parent: 1
-  - uid: 3933
-    components:
-    - type: Transform
-      pos: -16.5,16.5
-      parent: 1
-  - uid: 3936
-    components:
-    - type: Transform
-      pos: -16.5,15.5
-      parent: 1
-- proto: DSSpawnPointSecurityGuard
-  entities:
-  - uid: 3911
-    components:
-    - type: Transform
-      pos: -16.5,16.5
-      parent: 1
-  - uid: 3914
-    components:
-    - type: Transform
-      pos: -16.5,15.5
-      parent: 1
-  - uid: 3917
-    components:
-    - type: Transform
-      pos: -16.5,14.5
-      parent: 1
-- proto: DSSpawnPointStationRepresentative
-  entities:
-  - uid: 3920
-    components:
-    - type: Transform
-      pos: -16.5,16.5
-      parent: 1
-  - uid: 3923
-    components:
-    - type: Transform
-      pos: -16.5,15.5
-      parent: 1
-  - uid: 3926
-    components:
-    - type: Transform
-      pos: -16.5,14.5
-      parent: 1
-- proto: DSSpawnPointValet
-  entities:
-  - uid: 3929
-    components:
-    - type: Transform
-      pos: -16.5,16.5
-      parent: 1
-  - uid: 3932
-    components:
-    - type: Transform
-      pos: -16.5,15.5
-      parent: 1
-  - uid: 3935
-    components:
-    - type: Transform
-      pos: -16.5,14.5
       parent: 1
 - proto: EncryptionKeyFreelance
   entities:
@@ -26734,6 +26616,23 @@ entities:
     - type: Transform
       pos: -16.5,14.5
       parent: 1
+- proto: SpawnPointContractor
+  entities:
+  - uid: 3906
+    components:
+    - type: Transform
+      pos: -16.5,16.5
+      parent: 1
+  - uid: 3909
+    components:
+    - type: Transform
+      pos: -16.5,15.5
+      parent: 1
+  - uid: 3912
+    components:
+    - type: Transform
+      pos: -16.5,14.5
+      parent: 1
 - proto: SpawnPointFrontierEngineer
   entities:
   - uid: 3907
@@ -26768,12 +26667,114 @@ entities:
     - type: Transform
       pos: -16.5,14.5
       parent: 1
+- proto: SpawnPointMailCarrier
+  entities:
+  - uid: 3915
+    components:
+    - type: Transform
+      pos: -16.5,16.5
+      parent: 1
+  - uid: 3918
+    components:
+    - type: Transform
+      pos: -16.5,15.5
+      parent: 1
+  - uid: 3921
+    components:
+    - type: Transform
+      pos: -16.5,14.5
+      parent: 1
+- proto: SpawnPointMercenary
+  entities:
+  - uid: 3924
+    components:
+    - type: Transform
+      pos: -16.5,16.5
+      parent: 1
+  - uid: 3927
+    components:
+    - type: Transform
+      pos: -16.5,15.5
+      parent: 1
+  - uid: 3930
+    components:
+    - type: Transform
+      pos: -16.5,14.5
+      parent: 1
 - proto: SpawnPointObserver
   entities:
   - uid: 3931
     components:
     - type: Transform
       pos: 0.5,8.5
+      parent: 1
+- proto: SpawnPointPilot
+  entities:
+  - uid: 3908
+    components:
+    - type: Transform
+      pos: -16.5,14.5
+      parent: 1
+  - uid: 3933
+    components:
+    - type: Transform
+      pos: -16.5,16.5
+      parent: 1
+  - uid: 3936
+    components:
+    - type: Transform
+      pos: -16.5,15.5
+      parent: 1
+- proto: SpawnPointSecurityGuard
+  entities:
+  - uid: 3911
+    components:
+    - type: Transform
+      pos: -16.5,16.5
+      parent: 1
+  - uid: 3914
+    components:
+    - type: Transform
+      pos: -16.5,15.5
+      parent: 1
+  - uid: 3917
+    components:
+    - type: Transform
+      pos: -16.5,14.5
+      parent: 1
+- proto: SpawnPointStationRepresentative
+  entities:
+  - uid: 3920
+    components:
+    - type: Transform
+      pos: -16.5,16.5
+      parent: 1
+  - uid: 3923
+    components:
+    - type: Transform
+      pos: -16.5,15.5
+      parent: 1
+  - uid: 3926
+    components:
+    - type: Transform
+      pos: -16.5,14.5
+      parent: 1
+- proto: SpawnPointValet
+  entities:
+  - uid: 3929
+    components:
+    - type: Transform
+      pos: -16.5,16.5
+      parent: 1
+  - uid: 3932
+    components:
+    - type: Transform
+      pos: -16.5,15.5
+      parent: 1
+  - uid: 3935
+    components:
+    - type: Transform
+      pos: -16.5,14.5
       parent: 1
 - proto: SpawnShuttleVendomatsClothes
   entities:

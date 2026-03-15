@@ -4,8 +4,8 @@ meta:
   engineVersion: 272.0.0
   forkId: ""
   forkVersion: ""
-  time: 03/04/2026 12:27:27
-  entityCount: 12851
+  time: 03/15/2026 06:59:12
+  entityCount: 12838
 maps: []
 grids:
 - 1
@@ -5274,6 +5274,7 @@ entities:
     - type: IFF
       color: '#AE7D57FF'
     - type: ImplicitRoof
+    - type: SafeMining
 - proto: AccordionInstrument
   entities:
   - uid: 84
@@ -7097,7 +7098,7 @@ entities:
       pos: -18.5,-11.5
       parent: 1
     - type: Door
-      secondsUntilStateChange: -428511.97
+      secondsUntilStateChange: -428532.22
       state: Opening
     - type: DeviceLinkSource
       lastSignals:
@@ -7160,7 +7161,7 @@ entities:
       pos: -13.5,-32.5
       parent: 1
     - type: Door
-      secondsUntilStateChange: -75038.83
+      secondsUntilStateChange: -75059.06
       state: Opening
     - type: DeviceLinkSource
       lastSignals:
@@ -7172,7 +7173,7 @@ entities:
       pos: -27.5,-12.5
       parent: 1
     - type: Door
-      secondsUntilStateChange: -170264.27
+      secondsUntilStateChange: -170284.5
       state: Opening
     - type: DeviceLinkSource
       lastSignals:
@@ -7262,7 +7263,7 @@ entities:
       pos: -42.5,-12.5
       parent: 1
     - type: Door
-      secondsUntilStateChange: -170266.86
+      secondsUntilStateChange: -170287.1
       state: Opening
     - type: DeviceLinkSource
       lastSignals:
@@ -7280,7 +7281,7 @@ entities:
       pos: 7.5,2.5
       parent: 1
     - type: Door
-      secondsUntilStateChange: -232476.95
+      secondsUntilStateChange: -232497.19
       state: Opening
     - type: DeviceLinkSource
       lastSignals:
@@ -7488,7 +7489,7 @@ entities:
       pos: -16.5,13.5
       parent: 1
     - type: Door
-      secondsUntilStateChange: -198402.1
+      secondsUntilStateChange: -198422.33
       state: Opening
     - type: DeviceLinkSource
       lastSignals:
@@ -8465,6 +8466,13 @@ entities:
     components:
     - type: Transform
       pos: 11.582577,-3.5
+      parent: 1
+- proto: AmmoTechFab
+  entities:
+  - uid: 10039
+    components:
+    - type: Transform
+      pos: 0.5,13.5
       parent: 1
 - proto: APCBasic
   entities:
@@ -36700,31 +36708,11 @@ entities:
     - type: Transform
       pos: 15.516937,-8.383376
       parent: 1
-    - type: ContainerContainer
-      containers:
-        storagebase: !type:Container
-          showEnts: False
-          occludes: True
-          ents: []
-        item: !type:ContainerSlot
-          showEnts: False
-          occludes: True
-          ent: null
   - uid: 6085
     components:
     - type: Transform
       pos: -15.547817,10.597814
       parent: 1
-    - type: ContainerContainer
-      containers:
-        storagebase: !type:Container
-          showEnts: False
-          occludes: True
-          ents: []
-        item: !type:ContainerSlot
-          showEnts: False
-          occludes: True
-          ent: null
 - proto: ClothingEyesBlindfold
   entities:
   - uid: 6086
@@ -37546,6 +37534,14 @@ entities:
       rot: 1.5707963267948966 rad
       pos: -21.5,10.5
       parent: 1
+- proto: ComputerUplinkNF
+  entities:
+  - uid: 6222
+    components:
+    - type: Transform
+      rot: 3.141592653589793 rad
+      pos: 1.5,1.5
+      parent: 1
 - proto: ComputerWallmountBankATM
   entities:
   - uid: 6225
@@ -37858,11 +37854,11 @@ entities:
           occludes: True
           ents:
           - 6256
-          - 6265
-          - 6264
-          - 6263
-          - 6262
-          - 6261
+          - invalid
+          - invalid
+          - invalid
+          - invalid
+          - invalid
           - 6275
           - 6274
           - 6273
@@ -42310,63 +42306,6 @@ entities:
       parent: 6114
     - type: Physics
       canCollide: False
-- proto: AmmoTechFab
-  entities:
-  - uid: 10039
-    components:
-    - type: Transform
-      pos: 0.5,13.5
-      parent: 1
-- proto: ComputerUplinkNF
-  entities:
-  - uid: 6222
-    components:
-    - type: Transform
-      rot: 3.141592653589793 rad
-      pos: 1.5,1.5
-      parent: 1
-- proto: NfsdTechFab
-  entities:
-  - uid: 10038
-    components:
-    - type: Transform
-      pos: -4.5,13.5
-      parent: 1
-- proto: DSNFSpawnPointSeniorOfficer
-  entities:
-  - uid: 10043
-    components:
-    - type: Transform
-      pos: -12.5,-30.5
-      parent: 1
-- proto: DSSpawnPointBailiff
-  entities:
-  - uid: 10041
-    components:
-    - type: Transform
-      pos: -12.5,-30.5
-      parent: 1
-- proto: DSSpawnPointCadet
-  entities:
-  - uid: 10044
-    components:
-    - type: Transform
-      pos: -12.5,-30.5
-      parent: 1
-- proto: DSSpawnPointDeputy
-  entities:
-  - uid: 10042
-    components:
-    - type: Transform
-      pos: -12.5,-30.5
-      parent: 1
-- proto: DSSpawnPointSheriff
-  entities:
-  - uid: 10040
-    components:
-    - type: Transform
-      pos: -12.5,-30.5
-      parent: 1
 - proto: EnergySwordNfsd
   entities:
   - uid: 1763
@@ -63532,43 +63471,6 @@ entities:
     - type: Transform
       pos: 40.5,-5.5
       parent: 1
-- proto: Magazine762x39mmLowCapacityPractice
-  entities:
-  - uid: 6261
-    components:
-    - type: Transform
-      parent: 6250
-    - type: Physics
-      canCollide: False
-    - type: InsideEntityStorage
-  - uid: 6262
-    components:
-    - type: Transform
-      parent: 6250
-    - type: Physics
-      canCollide: False
-    - type: InsideEntityStorage
-  - uid: 6263
-    components:
-    - type: Transform
-      parent: 6250
-    - type: Physics
-      canCollide: False
-    - type: InsideEntityStorage
-  - uid: 6264
-    components:
-    - type: Transform
-      parent: 6250
-    - type: Physics
-      canCollide: False
-    - type: InsideEntityStorage
-  - uid: 6265
-    components:
-    - type: Transform
-      parent: 6250
-    - type: Physics
-      canCollide: False
-    - type: InsideEntityStorage
 - proto: Magazine9x19mmSubMachineGunTopMountedEmpty
   entities:
   - uid: 6271
@@ -64184,6 +64086,13 @@ entities:
     components:
     - type: Transform
       pos: -15.5,17.5
+      parent: 1
+- proto: NfsdTechFab
+  entities:
+  - uid: 10038
+    components:
+    - type: Transform
+      pos: -4.5,13.5
       parent: 1
 - proto: NFSpawnPointSDEngineer
   entities:

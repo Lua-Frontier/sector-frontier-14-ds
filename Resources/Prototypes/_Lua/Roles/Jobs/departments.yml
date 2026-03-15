@@ -9,15 +9,15 @@
   color: "#D381C9"
   weight: -9
   roles:
-  - OutpostSyndicateAtmosTech
-  - OutpostSyndicateBotanist
+#  - OutpostSyndicateAtmosTech
+#  - OutpostSyndicateBotanist
   - OutpostSyndicateCargotech
-  - OutpostSyndicateChef
-  - OutpostSyndicateMedic
-  - OutpostSyndicateRD
+#  - OutpostSyndicateChef
+#  - OutpostSyndicateMedic
+#  - OutpostSyndicateRD
   - OutpostSyndicateScience
   - OutpostSyndicateTelecommunicationsOfficer
-  - OutpostSyndicateResearcher
+#  - OutpostSyndicateResearcher
   - OutpostSyndicateShareholder
 
 - type: department
