@@ -16,11 +16,13 @@
   weight: 80 # accounted for in jobs
   roles:
   - StationRepresentative
-  - Valet # nyano
   - SecurityGuard
   - FrontierEngineer #Lua
-  - Pilot
   - MailCarrier
+  - Valet # nyano
+  - Vip # Акционер (донат-роль)
+  - Pilot
+  - Borg
 
 # - type: department
 #   id: NFSD
