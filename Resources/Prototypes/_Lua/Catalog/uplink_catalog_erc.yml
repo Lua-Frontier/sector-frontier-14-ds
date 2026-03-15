@@ -681,8 +681,8 @@
     - UplinkERCHardsuits
     - UplinkERCWeapons
     - UplinkERCAmmo
-    - UplinkERCUtility
-    - UplinkERCExplosives
+    # - UplinkERCUtility
+    # - UplinkERCExplosives
     - UplinkERCMedicine
     currencyWhitelist:
     - Speso
