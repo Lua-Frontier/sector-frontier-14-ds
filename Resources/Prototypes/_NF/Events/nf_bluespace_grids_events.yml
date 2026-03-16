@@ -89,6 +89,50 @@
       Edison: 0.25
 
 - type: entity
+  id: BluespaceVaultErrorBig
+  parent: BaseStationEventShortDelay
+  components:
+  - type: StationEvent
+    startAnnouncement: station-event-bluespace-vault-start-announcement
+    startAudio:
+      path: /Audio/_Lua/Announcements/attention.ogg # Lua
+    endAnnouncement: station-event-bluespace-vault-end-announcement
+    endAudio:
+      path: /Audio/_NF/Announcements/PocketSizedAndy/andy2_bluespace_vault_leave.ogg
+    warningAnnouncement: station-event-bluespace-vault-warning-announcement
+    earliestStart: 100
+    weight: 5
+    duration: 1020
+    maxDuration: 1350
+    reoccurrenceDelay: 360 # 6 hours
+  - type: BluespaceErrorRule
+    asteroid: true
+    groups:
+      grid: !type:GridSpawnGroup
+        nameLoc:
+        - station-event-bluespace-name-SecureNTVault
+        minimumDistance: 1500
+        maximumDistance: 2500
+        addComponents:
+        - type: Gravity
+          enabled: true
+          inherent: true
+        - type: IFF
+          color: "#E10F9B"
+        - type: LinkedLifecycleGridParent
+        - type: ProtectedGrid
+          preventArtifactTriggers: true
+        - type: PreventPilot
+        - type: ForceAnchor
+        paths:
+        - /Maps/_Lua/Bluespace/NTcachebig.yml #Lua
+    rewardAccounts:
+      Nfsd: 0.25
+      Frontier: 0.25
+      Medical: 0.25
+      Edison: 0.25
+
+- type: entity
   id: BluespaceVaultSmallError
   parent: BaseStationEventShortDelay
   components:

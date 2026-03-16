@@ -58,6 +58,11 @@
     - WeaponCaseShortAsakim
     chance: 1.0
     offset: 0.0
+    rarePrototypes:
+    - MercenaryTechFabCircuitboardNF
+    - MedicalTechFabCircuitboard
+    - ComputerIFFCircuitboard
+    rareChance: 0.1
 
 - type: entity
   id: GameruleWeaponSpawnerT3
@@ -118,6 +123,12 @@
     - WeaponCaseLongEGFrostBundle
     chance: 1.0
     offset: 0.0
+    rarePrototypes:
+    - AmmoTechFabCircuitboard
+    - MercenaryTechFabCircuitboardNF
+    - MedicalTechFabCircuitboard
+    - ComputerIFFCircuitboard
+    rareChance: 0.1
 
 - type: entity
   id: GameruleWeaponSpawnerT4
@@ -153,3 +164,7 @@
     - WeaponCaseLongBigJohnnyBundle
     chance: 1.0
     offset: 0.0
+    rarePrototypes:
+    - AmmoTechFabCircuitboard
+    - SecurityTechFabCircuitboard
+    rareChance: 0.1
