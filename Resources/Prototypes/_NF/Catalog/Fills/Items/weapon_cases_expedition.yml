@@ -340,7 +340,7 @@
       amount: 1
 
 - type: entity
-  parent: [WeaponCaseShort] #Lua
+  parent: [WeaponCaseLong] #Lua
   id: WeaponCaseShortAsakim
   suffix: Dungeon, Asakim
   categories: [ HideSpawnMenu ]
