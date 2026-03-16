@@ -7,9 +7,6 @@
   targetNode: done
   category: construction-category-materials
   objectType: Item
-  icon:
-    sprite: Objects/Tools/screwdriver.rsi
-    state: screwdriver-map
 
 - type: construction
   id: WrenchOre
@@ -20,9 +17,6 @@
   targetNode: done
   category: construction-category-materials
   objectType: Item
-  icon:
-    sprite: _NF/Objects/Tools/wrench.rsi
-    state: icon
 
 - type: construction
   id: PrimitiveCableApc
@@ -33,9 +27,6 @@
   targetNode: done
   category: construction-category-materials
   objectType: Item
-  icon:
-    sprite: Structures/Power/Cables/lv.rsi
-    state: coil
 
 - type: construction
   id: AncientGeneratorBoardConstruct
@@ -46,9 +37,6 @@
   targetNode: done
   category: construction-category-machines
   objectType: Item
-  icon:
-    sprite: Objects/Misc/module.rsi
-    state: std_mod
 
 - type: construction
   id: AncientSmelterBoardConstruct
@@ -59,9 +47,6 @@
   targetNode: done
   category: construction-category-machines
   objectType: Item
-  icon:
-    sprite: Objects/Misc/module.rsi
-    state: std_mod
 
 - type: construction
   id: AncientAutolatheBoardConstruct
@@ -72,9 +57,6 @@
   targetNode: done
   category: construction-category-machines
   objectType: Item
-  icon:
-    sprite: Objects/Misc/module.rsi
-    state: std_mod
 
 - type: construction
   id: AncientMachineFrameConstruct
@@ -87,6 +69,3 @@
   objectType: Structure
   placementMode: SnapgridCenter
   canBuildInImpassable: false
-  icon:
-    sprite: Structures/Machines/parts.rsi
-    state: box_0
