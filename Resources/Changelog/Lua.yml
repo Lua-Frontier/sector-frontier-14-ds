@@ -3647,3 +3647,22 @@ Entries:
   id: 255
   time: '2026-03-16T16:38:03.0000000+00:00'
   url: https://github.com/Lua-Frontier/sector-frontier-14/pull/510
+- author: k1bitka
+  changes:
+    - type: Add
+      message: Протокинетический дробовик
+    - type: Add
+      message: Врат-О-Мат, ценники у некоторых предметов для Врат-О-Мата
+    - type: Add
+      message: Прочность огнестрельных оружий, возможность отремонтировать их сваркой
+    - type: Tweak
+      message: Лодауты, пул рас для спавна КСО, автоинъекторы в аплинках
+    - type: Fix
+      message: неподходящие магазины в аплинке КСО
+    - type: Remove
+      message: >-
+        ящики патронов, резиновый тип магазинов и спидлоадеров, импланты
+        раствора, микро и макро бомбы в аплинках КСО 
+  id: 256
+  time: '2026-03-17T09:43:57.0000000+00:00'
+  url: https://github.com/Lua-Frontier/sector-frontier-14/pull/508
