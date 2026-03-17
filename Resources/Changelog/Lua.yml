@@ -3684,3 +3684,12 @@ Entries:
   id: 258
   time: '2026-03-17T11:57:30.0000000+00:00'
   url: https://github.com/Lua-Frontier/sector-frontier-14/pull/511
+- author: HacksLua
+  changes:
+    - type: Fix
+      message: >-
+        Исправлена ошибка из-за которой шаттл удалялся даже если владелец был
+        онлайн
+  id: 259
+  time: '2026-03-17T12:17:56.0000000+00:00'
+  url: https://github.com/Lua-Frontier/sector-frontier-14/pull/512
