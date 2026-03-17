@@ -3677,3 +3677,10 @@ Entries:
   id: 257
   time: '2026-03-17T09:47:08.0000000+00:00'
   url: https://github.com/Lua-Frontier/sector-frontier-14/pull/499
+- author: HacksLua
+  changes:
+    - type: Add
+      message: Добавлена полноценная система прочности вооружения
+  id: 258
+  time: '2026-03-17T11:57:30.0000000+00:00'
+  url: https://github.com/Lua-Frontier/sector-frontier-14/pull/511
