@@ -1104,12 +1104,9 @@
 
 - type: listing
   id: UplinkSecurityHypo
-  name:  uplink-security-hypo-name
-  description: uplink-security-hypo-desc
-  productEntity: HypoBrigmedic
-  icon: { sprite: _NF/Objects/Specific/Medical/hypobrigmedic.rsi, state: hypo }
+  productEntity: AdvancedJetInjectorNfsd
   cost:
-    FrontierUplinkCoin: 1
+    FrontierUplinkCoin: 2
   categories:
     - UplinkSecurityMedicine
   conditions:
@@ -1186,21 +1183,21 @@
         tags:
           - SecurityUplink
 
-- type: listing
-  id: UplinkSecurityCombatPen
-  name:  uplink-security-combat-pen-name
-  description: uplink-security-combat-pen-desc
-  productEntity: CombatMedipen
-  icon: { sprite: Objects/Specific/Medical/medipen.rsi, state: morphen }
-  cost:
-    FrontierUplinkCoin: 1
-  categories:
-    - UplinkSecurityMedicine
-  conditions:
-    - !type:StoreWhitelistCondition
-      whitelist:
-        tags:
-          - SecurityUplink
+# - type: listing
+#   id: UplinkSecurityCombatPen
+#   name:  uplink-security-combat-pen-name
+#   description: uplink-security-combat-pen-desc
+#   productEntity: CombatMedipen
+#   icon: { sprite: Objects/Specific/Medical/medipen.rsi, state: morphen }
+#   cost:
+#     FrontierUplinkCoin: 1
+#   categories:
+#     - UplinkSecurityMedicine
+#   conditions:
+#     - !type:StoreWhitelistCondition
+#       whitelist:
+#         tags:
+#           - SecurityUplink
 
 - type: listing
   id: UplinkSecurityAmbuzol
@@ -1401,37 +1398,37 @@
     #     - SeniorOfficer
     #     - Sheriff
 
-- type: listing
-  id: UplinkSecurityCash2500
-  name:  uplink-security-cash2500-name
-  description: uplink-security-cash2500-desc
-  productEntity: SpaceCash2500
-  icon: { sprite: Objects/Economy/cash.rsi, state: cash_1000 }
-  cost:
-    FrontierUplinkCoin: 1
-  categories:
-    - UplinkSecurityUtility
-  conditions:
-    - !type:StoreWhitelistCondition
-      whitelist:
-        tags:
-          - SecurityUplink
+# - type: listing
+#   id: UplinkSecurityCash2500
+#   name:  uplink-security-cash2500-name
+#   description: uplink-security-cash2500-desc
+#   productEntity: SpaceCash2500
+#   icon: { sprite: Objects/Economy/cash.rsi, state: cash_1000 }
+#   cost:
+#     FrontierUplinkCoin: 1
+#   categories:
+#     - UplinkSecurityUtility
+#   conditions:
+#     - !type:StoreWhitelistCondition
+#       whitelist:
+#         tags:
+#           - SecurityUplink
 
-- type: listing
-  id: UplinkSecurityCash25000
-  name: uplink-security-cash25000-name
-  description: uplink-security-cash25000-desc
-  productEntity: SpaceCash25000
-  icon: { sprite: Objects/Economy/cash.rsi, state: cash_25000 }
-  cost:
-    FrontierUplinkCoin: 10
-  categories:
-    - UplinkSecurityUtility
-  conditions:
-    - !type:StoreWhitelistCondition
-      whitelist:
-        tags:
-          - SecurityUplink
+# - type: listing
+#   id: UplinkSecurityCash25000
+#   name: uplink-security-cash25000-name
+#   description: uplink-security-cash25000-desc
+#   productEntity: SpaceCash25000
+#   icon: { sprite: Objects/Economy/cash.rsi, state: cash_25000 }
+#   cost:
+#     FrontierUplinkCoin: 10
+#   categories:
+#     - UplinkSecurityUtility
+#   conditions:
+#     - !type:StoreWhitelistCondition
+#       whitelist:
+#         tags:
+#           - SecurityUplink
 
 - type: listing
   id: UplinkSecurityPortableRecharger
