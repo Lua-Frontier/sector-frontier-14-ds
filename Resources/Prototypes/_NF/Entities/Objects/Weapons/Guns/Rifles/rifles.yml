@@ -83,17 +83,6 @@
   description: A civilian grade lever action firearm, favored by space cowboys across the Frontier for its reliability.
   suffix: Need balance test
   components:
-  #Lua: changed firerate, sound. Added scope
-  - type: ItemToggle
-    onUse: false
-    onActivate: true
-  - type: ComponentToggler
-    components:
-    - type: CursorOffsetRequiresWield
-    - type: EyeCursorOffset
-      maxOffset: 10
-      pvsIncrease: 0.7
-  #end Lua
   - type: Sprite
     sprite: _NF/Objects/Weapons/Guns/Rifles/repeater.rsi
   - type: Clothing
