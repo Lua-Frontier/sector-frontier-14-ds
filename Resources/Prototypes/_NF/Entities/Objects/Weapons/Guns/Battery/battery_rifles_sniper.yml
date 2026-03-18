@@ -48,6 +48,19 @@
       maxOffset: 10
       pvsIncrease: 1
 
+#Lua: Changed firerate, added scope
+  - type: Gun
+    fireRate: 1.5
+  - type: ItemToggle
+    onUse: false
+    onActivate: true
+  - type: ComponentToggler
+    components:
+    - type: CursorOffsetRequiresWield
+    - type: EyeCursorOffset
+      maxOffset: 10
+      pvsIncrease: 0.7
+#end Lua
 - type: entity
   id: NFWeaponEnergyRifleSniperXrayCannon
   parent: [ BaseC3Contraband, NFBaseWeaponEnergyRifleSniperHitScanXray, NFBaseWeaponFrameEnergyRifleSniperNanotrasen ]

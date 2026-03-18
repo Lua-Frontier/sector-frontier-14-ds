@@ -382,7 +382,7 @@
     contents:
     - id: NFWeaponRifleRepeater
       amount: 1
-    - id: AmmoBox556x45mmFMJ #Lua 20 -> 556x45
+    - id: AmmoBox45_magnumFMJ #Lua 20 -> 45
       amount: 2
 
 - type: entity
