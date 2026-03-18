@@ -84,11 +84,6 @@
   suffix: Need balance test
   components:
   #Lua: changed firerate, sound. Added scope
-  - type: Gun
-    fireRate: 0.9
-    examineCaliber: gun-examine-caliber-45
-    soundGunshot:
-      path: /Audio/Weapons/Guns/Gunshots/sniper.ogg
   - type: ItemToggle
     onUse: false
     onActivate: true
