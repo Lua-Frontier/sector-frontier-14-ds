@@ -223,18 +223,18 @@
   - WeaponAdvancedLaser
   - PortableRecharger
 
-- type: technology
-  id: ThermalWeaponry
-  name: research-technology-thermal-weaponry
-  icon:
-    sprite: Objects/Weapons/Guns/Battery/temp_gun.rsi
-    state: icon
-  discipline: Arsenal
-  tier: 3
-  cost: 15000
-  recipeUnlocks:
-#  - WeaponTemperatureGun # comment from _Lua
-  - WeaponMechCombatImmolationGun # Goobstation
+# - type: technology
+#   id: ThermalWeaponry
+#   name: research-technology-thermal-weaponry
+#   icon:
+#     sprite: Objects/Weapons/Guns/Battery/temp_gun.rsi
+#     state: icon
+#   discipline: Arsenal
+#   tier: 3
+#   cost: 15000
+#   recipeUnlocks:
+# #  - WeaponTemperatureGun # comment from _Lua
+#   - WeaponMechCombatImmolationGun # Goobstation
 
 - type: technology
   id: AdvancedShuttleWeapon
