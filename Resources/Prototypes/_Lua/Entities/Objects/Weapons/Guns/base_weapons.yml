@@ -479,7 +479,7 @@
 - type: entity
   name: BaseWeaponSniperNoContainer
   parent: BaseItem
-  id: BaseWeaponSniper
+  id: BaseWeaponSniperNoContainer
   description: A rooty tooty point and shooty.
   abstract: true
   components:
