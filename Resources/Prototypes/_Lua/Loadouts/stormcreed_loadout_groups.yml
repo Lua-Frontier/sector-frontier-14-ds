@@ -96,9 +96,9 @@
   name: loadout-group-contractor-belt
   loadouts:
   - SCClothingBeltStormCreedWebbing
-  - SCMercenaryClothingBeltMilitaryWebbing
-  - SCContractorClothingBeltUtilityFilled
-  - SCContractorClothingBeltSalvageWebbingFilledNF
+  - MercenaryClothingBeltMilitaryWebbing
+  - ContractorClothingBeltUtilityFilled
+  - ContractorClothingBeltSalvageWebbingFilledNF
   fallbacks:
   - SCClothingBeltStormCreedWebbing
 
@@ -262,7 +262,7 @@
   loadouts:
   - SCN14ClothingBackpackSatchelExplorer
   fallbacks:
-  - N14ClothingBackpackSatchelExplorer
+  - SCEarsN14ClothingBackpackSatchelExplorer
 
 - type: loadout
   id: SCN14ClothingBackpackSatchelExplorer
@@ -340,8 +340,8 @@
   name: loadout-group-contractor-head
   minLimit: 0
   loadouts:
-  - SCNFPirateClothingHeadBandBlack
-  - SCNFPirateClothingHeadBandBrown
+  - NFPirateClothingHeadBandBlack
+  - NFPirateClothingHeadBandBrown
   - SCN14ClothingHeadHatArmyBeretRanger
   - SCN14ClothingHeadHatArmyBeretSpecial
   - SCN14ClothingHeadHatBrotherhoodCap
