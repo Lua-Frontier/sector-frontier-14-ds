@@ -2,60 +2,60 @@
   id: SCJumpsuit
   name: loadout-group-contractor-jumpsuit
   loadouts:
-  - N14ClothingUniformJumpsuitEnclave
-  - N14ClothingUniformJumpsuitwinter
-  - N14ClothingUniformJumpsuitLeatherSuit
-  - N14ClothingUniformNCRDesert
-  - N14ClothingOfficerUniformNCRDesert
-  - N14ClothingUniformNCRSnow
-  - N14ClothingUniformJumpsuitChinese
-  - N14ClothingUniformJumpsuitTownGuard
-  - N14ClothingUniformJumpsuitTownGuardLight
+  - SCN14ClothingUniformJumpsuitEnclave
+  - SCN14ClothingUniformJumpsuitwinter
+  - SCN14ClothingUniformJumpsuitLeatherSuit
+  - SCN14ClothingUniformNCRDesert
+  - SCN14ClothingOfficerUniformNCRDesert
+  - SCN14ClothingUniformNCRSnow
+  - SCN14ClothingUniformJumpsuitChinese
+  - SCN14ClothingUniformJumpsuitTownGuard
+  - SCN14ClothingUniformJumpsuitTownGuardLight
   fallbacks:
-  - N14ClothingUniformJumpsuitEnclave
+  - SCN14ClothingUniformJumpsuitEnclave
 
 - type: loadout
-  id: N14ClothingUniformJumpsuitEnclave
+  id: SCN14ClothingUniformJumpsuitEnclave
   equipment:
     jumpsuit: N14ClothingUniformJumpsuitEnclave
 
 - type: loadout
-  id: N14ClothingUniformJumpsuitwinter
+  id: SCN14ClothingUniformJumpsuitwinter
   equipment:
     jumpsuit: N14ClothingUniformJumpsuitwinter
 
 - type: loadout
-  id: N14ClothingUniformJumpsuitLeatherSuit
+  id: SCN14ClothingUniformJumpsuitLeatherSuit
   equipment:
     jumpsuit: N14ClothingUniformJumpsuitLeatherSuit
 
 - type: loadout
-  id: N14ClothingUniformNCRDesert
+  id: SCN14ClothingUniformNCRDesert
   equipment:
     jumpsuit: N14ClothingUniformNCRDesert
 
 - type: loadout
-  id: N14ClothingOfficerUniformNCRDesert
+  id: SCN14ClothingOfficerUniformNCRDesert
   equipment:
     jumpsuit: N14ClothingOfficerUniformNCRDesert
 
 - type: loadout
-  id: N14ClothingUniformNCRSnow
+  id: SCN14ClothingUniformNCRSnow
   equipment:
     jumpsuit: N14ClothingUniformNCRSnow
 
 - type: loadout
-  id: N14ClothingUniformJumpsuitChinese
+  id: SCN14ClothingUniformJumpsuitChinese
   equipment:
     jumpsuit: N14ClothingUniformJumpsuitChinese
 
 - type: loadout
-  id: N14ClothingUniformJumpsuitTownGuard
+  id: SCN14ClothingUniformJumpsuitTownGuard
   equipment:
     jumpsuit: N14ClothingUniformJumpsuitTownGuard
 
 - type: loadout
-  id: N14ClothingUniformJumpsuitTownGuardLight
+  id: SCN14ClothingUniformJumpsuitTownGuardLight
   equipment:
     jumpsuit: N14ClothingUniformJumpsuitTownGuardLight
 
@@ -65,27 +65,27 @@
   id: StormCreedPDA
   name: loadout-group-contractor-pda
   loadouts:
-  - StormCreedPDA
+  - SCStormCreedPDA
   fallbacks:
-  - StormCreedPDA
+  - SCStormCreedPDA
 
 - type: loadout
-  id: StormCreedPDA
+  id: SCStormCreedPDA
   equipment:
     id: StormCreedPDA
 
 
 
 - type: loadoutGroup
-  id: SCCaptainPDA
+  id: _SCCaptainPDA
   name: loadout-group-contractor-pda
   loadouts:
-  - SCCaptainPDA
+  - _SCCaptainPDA
   fallbacks:
-  - SCCaptainPDA
+  - _SCCaptainPDA
 
 - type: loadout
-  id: SCCaptainPDA
+  id: _SCCaptainPDA
   equipment:
     id: SCCaptainPDA
 
@@ -95,15 +95,15 @@
   id: SCBelt
   name: loadout-group-contractor-belt
   loadouts:
-  - ClothingBeltStormCreedWebbing
-  - MercenaryClothingBeltMilitaryWebbing
-  - ContractorClothingBeltUtilityFilled
-  - ContractorClothingBeltSalvageWebbingFilledNF
+  - SCClothingBeltStormCreedWebbing
+  - SCMercenaryClothingBeltMilitaryWebbing
+  - SCContractorClothingBeltUtilityFilled
+  - SCContractorClothingBeltSalvageWebbingFilledNF
   fallbacks:
-  - ClothingBeltStormCreedWebbing
+  - SCClothingBeltStormCreedWebbing
 
 - type: loadout
-  id: ClothingBeltStormCreedWebbing
+  id: SCClothingBeltStormCreedWebbing
   equipment:
     jumpsuit: ClothingBeltStormCreedWebbing
 
@@ -113,22 +113,24 @@
   id: SCOuterClothing
   name: loadout-group-contractor-outerclothing
   loadouts:
-  - N14ClothingOuterMaskmanCoat
-  - N14ClothingOuterBrotherhoodFieldScribeCoat
-  - N14ClothingOuterSlickCoat6
+  - SCN14ClothingOuterMaskmanCoat
+  - SCN14ClothingOuterBrotherhoodFieldScribeCoat
+  - SCN14ClothingOuterSlickCoat6
+  fallbacks:
+  - SCN14ClothingOuterBrotherhoodFieldScribeCoat
 
 - type: loadout
-  id: N14ClothingOuterMaskmanCoat
+  id: SCN14ClothingOuterMaskmanCoat
   equipment:
     outerClothing: N14ClothingOuterMaskmanCoat
 
 - type: loadout
-  id: N14ClothingOuterBrotherhoodFieldScribeCoat
+  id: SCN14ClothingOuterBrotherhoodFieldScribeCoat
   equipment:
     outerClothing: N14ClothingOuterBrotherhoodFieldScribeCoat
 
 - type: loadout
-  id: N14ClothingOuterSlickCoat6
+  id: SCN14ClothingOuterSlickCoat6
   equipment:
     outerClothing: N14ClothingOuterSlickCoat6
 
@@ -138,42 +140,42 @@
   id: SCNeck
   name: loadout-group-contractor-neck
   loadouts:
-  - N14ClothingNeckCloakLeather
-  - N14ClothingNeckCloakYaoguai
-  - N14ClothingNeckShawl
-  - N14ClothingNeckTownGuardCloak
-  - N14ClothingNeckMantleLeather
-  - N14ClothingNeckBeige
+  - SCN14ClothingNeckCloakLeather
+  - SCN14ClothingNeckCloakYaoguai
+  - SCN14ClothingNeckShawl
+  - SCN14ClothingNeckTownGuardCloak
+  - SCN14ClothingNeckMantleLeather
+  - SCN14ClothingNeckBeige
   fallbacks:
-  - N14ClothingNeckBeige
+  - SCN14ClothingNeckBeige
 
 - type: loadout
-  id: N14ClothingNeckCloakLeather
+  id: SCN14ClothingNeckCloakLeather
   equipment:
     neck: N14ClothingNeckCloakLeather
 
 - type: loadout
-  id: N14ClothingNeckCloakYaoguai
+  id: SCN14ClothingNeckCloakYaoguai
   equipment:
     neck: N14ClothingNeckCloakYaoguai
 
 - type: loadout
-  id: N14ClothingNeckShawl
+  id: SCN14ClothingNeckShawl
   equipment:
     neck: N14ClothingNeckShawl
 
 - type: loadout
-  id: N14ClothingNeckTownGuardCloak
+  id: SCN14ClothingNeckTownGuardCloak
   equipment:
     neck: N14ClothingNeckTownGuardCloak
 
 - type: loadout
-  id: N14ClothingNeckMantleLeather
+  id: SCN14ClothingNeckMantleLeather
   equipment:
     neck: N14ClothingNeckMantleLeather
 
 - type: loadout
-  id: N14ClothingNeckBeige
+  id: SCN14ClothingNeckBeige
   equipment:
     neck: N14ClothingNeckBeige
 
@@ -183,36 +185,36 @@
   id: SCHands
   name: loadout-group-contractor-gloves
   loadouts:
-  - N14ClothingHandsGlovesBlackBiker
-  - N14ClothingHandsGlovesBrownBiker
-  - N14ClothingHandsGlovesBlackLeather
-  - N14ClothingHandsGlovesLeather
-  - N14ClothingHandsGlovesDriver
+  - SCN14ClothingHandsGlovesBlackBiker
+  - SCN14ClothingHandsGlovesBrownBiker
+  - SCN14ClothingHandsGlovesBlackLeather
+  - SCN14ClothingHandsGlovesLeather
+  - SCN14ClothingHandsGlovesDriver
   fallbacks:
-  - N14ClothingHandsGlovesDriver
+  - SCN14ClothingHandsGlovesDriver
 
 - type: loadout
-  id: N14ClothingHandsGlovesBlackBiker
+  id: SCN14ClothingHandsGlovesBlackBiker
   equipment:
     gloves: N14ClothingHandsGlovesBlackBiker
 
 - type: loadout
-  id: N14ClothingHandsGlovesBrownBiker
+  id: SCN14ClothingHandsGlovesBrownBiker
   equipment:
     gloves: N14ClothingHandsGlovesBrownBiker
 
 - type: loadout
-  id: N14ClothingHandsGlovesBlackLeather
+  id: SCN14ClothingHandsGlovesBlackLeather
   equipment:
     gloves: N14ClothingHandsGlovesBlackLeather
 
 - type: loadout
-  id: N14ClothingHandsGlovesLeather
+  id: SCN14ClothingHandsGlovesLeather
   equipment:
     gloves: N14ClothingHandsGlovesLeather
 
 - type: loadout
-  id: N14ClothingHandsGlovesDriver
+  id: SCN14ClothingHandsGlovesDriver
   equipment:
     gloves: N14ClothingHandsGlovesDriver
 
@@ -222,18 +224,18 @@
   id: SCEyes
   name: loadout-group-contractor-glasses
   loadouts:
-  - N14ClothingEyesGlassesPilot
-  - N14ClothingSnowGoggles
+  - SCN14ClothingEyesGlassesPilot
+  - SCN14ClothingSnowGoggles
   fallbacks:
-  - N14ClothingSnowGoggles
+  - SCN14ClothingSnowGoggles
 
 - type: loadout
-  id: N14ClothingEyesGlassesPilot
+  id: SCN14ClothingEyesGlassesPilot
   equipment:
     eyes: N14ClothingEyesGlassesPilot
 
 - type: loadout
-  id: N14ClothingSnowGoggles
+  id: SCN14ClothingSnowGoggles
   equipment:
     eyes: N14ClothingSnowGoggles
 
@@ -243,12 +245,12 @@
   id: SCEars
   name: loadout-group-contractor-ears
   loadouts:
-  - N14ClothingHeadsetLightScribe
+  - SCN14ClothingHeadsetLightScribe
   fallbacks:
-  - N14ClothingHeadsetLightScribe
+  - SCN14ClothingHeadsetLightScribe
 
 - type: loadout
-  id: N14ClothingHeadsetLightScribe
+  id: SCN14ClothingHeadsetLightScribe
   equipment:
     ears: N14ClothingHeadsetLightScribe
 
@@ -258,12 +260,12 @@
   id: SCBack
   name: loadout-group-contractor-backpack
   loadouts:
-  - N14ClothingBackpackSatchelExplorer
+  - SCN14ClothingBackpackSatchelExplorer
   fallbacks:
   - N14ClothingBackpackSatchelExplorer
 
 - type: loadout
-  id: N14ClothingBackpackSatchelExplorer
+  id: SCN14ClothingBackpackSatchelExplorer
   equipment:
     back: N14ClothingBackpackSatchelExplorer
 
@@ -277,30 +279,30 @@
   - ContractorClothingMaskBreath
   - ContractorClothingMaskBreathMedical
   - ContractorClothingMaskGas
-  - N14ClothingMaskNcr
-  - N14ClothingMaskdrylandergoggles
-  - N14ClothingMaskDrylanderHeadwrap
-  - N14ClothingSackMask
+  - SCN14ClothingMaskNcr
+  - SCN14ClothingMaskdrylandergoggles
+  - SCN14ClothingMaskDrylanderHeadwrap
+  - SCN14ClothingSackMask
   fallbacks:
-  - N14ClothingMaskDrylanderHeadwrap
+  - SCN14ClothingMaskDrylanderHeadwrap
 
 - type: loadout
-  id: N14ClothingMaskNcr
+  id: SCN14ClothingMaskNcr
   equipment:
     mask: N14ClothingMaskNcr
 
 - type: loadout
-  id: N14ClothingMaskdrylandergoggles
+  id: SCN14ClothingMaskdrylandergoggles
   equipment:
     mask: N14ClothingMaskdrylandergoggles
 
 - type: loadout
-  id: N14ClothingMaskDrylanderHeadwrap
+  id: SCN14ClothingMaskDrylanderHeadwrap
   equipment:
     mask: N14ClothingMaskDrylanderHeadwrap
 
 - type: loadout
-  id: N14ClothingSackMask
+  id: SCN14ClothingSackMask
   equipment:
     mask: N14ClothingSackMask
 
@@ -310,24 +312,24 @@
   id: SCShoes
   name: loadout-group-contractor-shoes
   loadouts:
-  - N14ClothingBootsFire
-  - ClothingShoesBootsJack
-  - ClothingShoesBootsCombat
+  - SCN14ClothingBootsFire
+  - SCClothingShoesBootsJack
+  - SCClothingShoesBootsCombat
   fallbacks:
-  - NFPirateClothingShoesBootsLaceup
+  - SCN14ClothingBootsFire
 
 - type: loadout
-  id: N14ClothingBootsFire
+  id: SCN14ClothingBootsFire
   equipment:
     shoes: N14ClothingBootsFire
 
 - type: loadout
-  id: ClothingShoesBootsJack
+  id: SCClothingShoesBootsJack
   equipment:
     shoes: ClothingShoesBootsJack
 
 - type: loadout
-  id: ClothingShoesBootsCombat
+  id: SCClothingShoesBootsCombat
   equipment:
     shoes: ClothingShoesBootsCombat
 
@@ -338,32 +340,32 @@
   name: loadout-group-contractor-head
   minLimit: 0
   loadouts:
-  - NFPirateClothingHeadBandBlack
-  - NFPirateClothingHeadBandBrown
-  - N14ClothingHeadHatArmyBeretRanger
-  - N14ClothingHeadHatArmyBeretSpecial
-  - N14ClothingHeadHatBrotherhoodCap
-  - N14ClothingHeadHatBrotherhoodFieldCap
+  - SCNFPirateClothingHeadBandBlack
+  - SCNFPirateClothingHeadBandBrown
+  - SCN14ClothingHeadHatArmyBeretRanger
+  - SCN14ClothingHeadHatArmyBeretSpecial
+  - SCN14ClothingHeadHatBrotherhoodCap
+  - SCN14ClothingHeadHatBrotherhoodFieldCap
   fallbacks:
-  - N14ClothingHeadHatBrotherhoodCap
+  - SCN14ClothingHeadHatBrotherhoodCap
 
 - type: loadout
-  id: N14ClothingHeadHatArmyBeretRanger
+  id: SCN14ClothingHeadHatArmyBeretRanger
   equipment:
     head: N14ClothingHeadHatArmyBeretRanger
 
 - type: loadout
-  id: N14ClothingHeadHatArmyBeretSpecial
+  id: SCN14ClothingHeadHatArmyBeretSpecial
   equipment:
     head: N14ClothingHeadHatArmyBeretSpecial
 
 - type: loadout
-  id: N14ClothingHeadHatBrotherhoodCap
+  id: SCN14ClothingHeadHatBrotherhoodCap
   equipment:
     head: N14ClothingHeadHatBrotherhoodCap
 
 - type: loadout
-  id: N14ClothingHeadHatBrotherhoodFieldCap
+  id: SCN14ClothingHeadHatBrotherhoodFieldCap
   equipment:
     head: N14ClothingHeadHatBrotherhoodFieldCap
 

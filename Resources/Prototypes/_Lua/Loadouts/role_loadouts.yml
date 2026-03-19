@@ -369,21 +369,45 @@
 - type: roleLoadout
   id: JobSCCaptain
   groups:
+  - VipJumpsuit
+  - VipBackpack
+  - VipShoes
+  - VipEars
+  - VipPDA
+  - VipNeck
+  - ContractorHead
+  - ContractorGloves
+  - ContractorOuterClothing
+  - ContractorForcedOuterClothing
+  - ContractorFace
+  - ContractorGlasses
+  - ContractorBelt
+  - ContractorEncryptionKey
+  - ContractorBoxSurvival
+  - ContractorWallet
+  - ContractorCartridge
+  - ContractorImplanter
+  - ContractorBackpackItems
+  - ContractorHandItems
   - NFSpeciesSpecific
-  - PirateCaptainWallet
   - TopUnderwear
   - PantsUnderwear
   - SocksUnderwear
-  - SCCaptainPDA
-  - SCJumpsuit
-  - SCOuterClothing
-  - SCNeck
-  - SCHands
-  - SCEyes
-  - SCEars
-  - SCBack
-  - SCFace
-  - SCShoes
-  - SCHead
-  - SCBackpackItems
-  - SCBelt
+  # - NFSpeciesSpecific
+  # - PirateCaptainWallet
+  # - TopUnderwear
+  # - PantsUnderwear
+  # - SocksUnderwear
+  # - _SCCaptainPDA
+  # - SCJumpsuit
+  # - SCOuterClothing
+  # - SCNeck
+  # - SCHands
+  # - SCEyes
+  # - SCEars
+  # - SCBack
+  # - SCFace
+  # - SCShoes
+  # - SCHead
+  # - SCBackpackItems
+  # - SCBelt
