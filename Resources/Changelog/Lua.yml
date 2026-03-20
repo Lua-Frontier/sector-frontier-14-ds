@@ -3715,3 +3715,10 @@ Entries:
   id: 261
   time: '2026-03-20T17:54:20.0000000+00:00'
   url: https://github.com/Lua-Frontier/sector-frontier-14/pull/517
+- author: 25Hydra08
+  changes:
+    - type: Tweak
+      message: Ремап МЦ by 25Hydra08 and HolyPain
+  id: 262
+  time: '2026-03-20T20:26:07.0000000+00:00'
+  url: https://github.com/Lua-Frontier/sector-frontier-14/pull/520
