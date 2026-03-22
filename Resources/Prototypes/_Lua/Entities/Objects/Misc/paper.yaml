@@ -4,9 +4,8 @@
 
 - type: entity
   id: ERCPlanChertalet
-  categories: [ HideSpawnMenu ]
   name: Цель Центрального Командования
-  parent: Paper
+  parent: PaperPrintedCentcomm
   components:
   - type: Paper
     stampState: paper_stamp-centcom
@@ -15,8 +14,8 @@
       stampedName: Центральное Командование
     content: |2
 
-      [head=3]Экспедиционно-Исследовательский Корпус nanotrasen[/head]
-      [head=3]ЦК-КОМ[/head]
+          [head=3]Экспедиционно-Исследовательский Корпус nanotrasen[/head]
+      ЦК-КОМ
       ═════════════════════════════════════
       [bold]Цель смены[/bold]
       ═════════════════════════════════════
@@ -52,9 +51,8 @@
 
 - type: entity
   id: ERCPlanChilipizdriki
-  categories: [ HideSpawnMenu ]
   name: Цель Центрального Командования
-  parent: Paper
+  parent: PaperPrintedCentcomm
   components:
   - type: Paper
     stampState: paper_stamp-centcom
@@ -63,8 +61,8 @@
       stampedName: Центральное Командование
     content: |2
 
-      [head=3]Экспедиционно-Исследовательский Корпус Nanotrasen[/head]
-      [head=3]ЦК-КОМ[/head]
+          [head=3]Экспедиционно-Исследовательский Корпус Nanotrasen[/head]
+      ЦК-КОМ
       ═════════════════════════════════════
       [bold]Цель смены[/bold]
       ═════════════════════════════════════
@@ -97,9 +95,8 @@
 
 - type: entity
   id: ERCPlanChilipizdrikiReport
-  categories: [ HideSpawnMenu ]
   name: Отчёт о проведении Биологических Исследований
-  parent: Paper
+  parent: PaperPrintedCommand
   components:
   - type: Paper
     content: |2
