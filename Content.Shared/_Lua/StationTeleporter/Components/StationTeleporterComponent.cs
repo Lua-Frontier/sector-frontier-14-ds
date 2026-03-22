@@ -18,7 +18,7 @@ public enum TeleporterType : byte
 [RegisterComponent, NetworkedComponent, AutoGenerateComponentState]
 public sealed partial class StationTeleporterComponent : Component
 {
-    [DataField, AutoNetworkedField]
+    [DataField("teleporterType"), AutoNetworkedField]
     public TeleporterType Type = TeleporterType.Local;
 
     [DataField, AutoNetworkedField]
