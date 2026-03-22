@@ -3,6 +3,30 @@
 # See AGPLv3.txt for details.
 
 - type: entity
+  parent: MarkerBase
+  id: ERCPlanFolderSpawner
+  components:
+  - type: Sprite
+    layers:
+    - state: pink
+    - sprite: Objects/Misc/folders.rsi
+      state: folder-erc
+      state: folder-base
+  - type: EntityTableSpawner
+    offset: 0.4
+    table: !type:NestedSelector
+      tableId: ERCPlanFolderTable
+
+- type: entityTable
+  id: ERCPlanFolderTable
+  table: !type:GroupSelector
+    children:
+    - BoxFolderERCPlanChertalet
+    - BoxFolderERCPlanChilipizdriki
+
+
+
+- type: entity
   id: BoxFolderERCPlanChertalet
   parent: BaseItem
   name: Папка Директора Исследований

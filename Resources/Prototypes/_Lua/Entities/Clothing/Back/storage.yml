@@ -55,8 +55,9 @@
   - type: Item
     size: Ginormous
   - type: Clothing
-    slots: BELT
-    slots: BACK
+    slots: 
+      - BELT
+      - BACK
   - type: ClothingSpeedModifier #Lua
     walkModifier: 0.8
     sprintModifier: 0.8
