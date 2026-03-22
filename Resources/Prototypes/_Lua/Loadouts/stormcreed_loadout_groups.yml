@@ -109,6 +109,7 @@
 - type: loadoutGroup
   id: SCBelt
   name: loadout-group-contractor-belt
+  minLimit: 0
   loadouts:
   - SCClothingBeltStormCreedWebbing
   - MercenaryClothingBeltMilitaryWebbing
@@ -127,6 +128,7 @@
 - type: loadoutGroup
   id: SCOuterClothing
   name: loadout-group-contractor-outerclothing
+  minLimit: 0
   loadouts:
   - SCN14ClothingOuterMaskmanCoat
   - SCN14ClothingOuterBrotherhoodFieldScribeCoat
@@ -199,6 +201,7 @@
 - type: loadoutGroup
   id: SCHands
   name: loadout-group-contractor-gloves
+  minLimit: 0
   loadouts:
   - SCN14ClothingHandsGlovesBlackBiker
   - SCN14ClothingHandsGlovesBrownBiker
@@ -238,6 +241,7 @@
 - type: loadoutGroup
   id: SCEyes
   name: loadout-group-contractor-glasses
+  minLimit: 0
   loadouts:
   - SCN14ClothingEyesGlassesPilot
   - SCN14ClothingSnowGoggles
@@ -259,6 +263,8 @@
 - type: loadoutGroup
   id: SCEars
   name: loadout-group-contractor-ears
+  minLimit: 1
+  maxLimit: 1
   loadouts:
   - SCN14ClothingHeadsetLightScribe
   fallbacks:
