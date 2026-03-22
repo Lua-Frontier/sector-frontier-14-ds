@@ -6,10 +6,10 @@
   id: StormCreedCaptain
   name: job-name-sc-captain
   description: job-description-sc-captain
-  playTimeTracker: JobSCCaptain
+  playTimeTracker: JobStormCreedCaptain
   requirements:
   - !type:RoleTimeRequirement
-    role: JobSCFirstmate
+    role: JobStormCreedFirstmate
     time: 72000 # 20h
   startingGear: StormCreedCaptainGear
   alwaysUseSpawner: true
@@ -31,7 +31,7 @@
     - type: SpecialSectorStationRecord
       recordGeneration: FalseRecord
     - type: Company
-      companyName: None
+      companyName: StormCreed
     - type: DisableSuitSensors
   - !type:AddImplantSpecial
     implants: [ FreelanceTrackingImplant ]

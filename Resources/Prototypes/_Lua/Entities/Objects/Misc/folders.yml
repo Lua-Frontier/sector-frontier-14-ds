@@ -1,0 +1,39 @@
+# LuaWorld - This file is licensed under AGPLv3
+# Copyright (c) 2025 LuaWorld Contributors
+# See AGPLv3.txt for details.
+
+- type: entity
+  id: BoxFolderERCPlanChertalet
+  parent: BaseItem
+  name: Папка Директора Исследований
+  components:
+  - type: Sprite
+    sprite: Objects/Misc/folders.rsi
+    layers:
+    - state: folder-erc
+    - state: folder-base
+  - type: SpawnItemsOnUse
+    items:
+    - id: ERCPlanChertalet
+    sound:
+      path: /Audio/Effects/packetrip.ogg
+  - type: Appearance
+
+- type: entity
+  id: BoxFolderERCPlanChilipizdriki
+  parent: BaseItem
+  name: Папка Директора Исследований
+  components:
+  - type: Sprite
+    sprite: Objects/Misc/folders.rsi
+    layers:
+    - state: folder-erc
+    - state: folder-base
+  - type: SpawnItemsOnUse
+    items:
+    - id: ERCPlanChilipizdriki
+    - id: ERCPlanChilipizdrikiReport
+      count: 2
+    sound:
+      path: /Audio/Effects/packetrip.ogg
+  - type: Appearance

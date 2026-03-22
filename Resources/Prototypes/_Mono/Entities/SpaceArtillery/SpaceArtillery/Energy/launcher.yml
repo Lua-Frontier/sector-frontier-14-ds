@@ -63,6 +63,7 @@
     shipType: Energy
   - type: ShipGunClass
     shipClass: Medium
+    processingPowerCost: 4
 
 # Type 54 autopulser
 
@@ -131,6 +132,7 @@
     shipType: Energy
   - type: ShipGunClass
     shipClass: Light
+    processingPowerCost: 2
 
 # T241 plasma lance
 
@@ -210,7 +212,7 @@
     shipType: Energy
   - type: ShipGunClass
     shipClass: Medium
-    processingPowerCost: 45
+    processingPowerCost: 16
 
  # M25
 
@@ -278,6 +280,7 @@
     shipType: Energy
   - type: ShipGunClass
     shipClass: Superlight
+    processingPowerCost: 2
 
 # RUBICON
 
@@ -339,6 +342,7 @@
     shipType: Energy
   - type: ShipGunClass
     shipClass: Medium
+    processingPowerCost: 4
 
 # DYMERE
 
@@ -411,6 +415,7 @@
     shipType: Energy
   - type: ShipGunClass
     shipClass: Superheavy
+    processingPowerCost: 16
 
 # Laser Hitscan
 
@@ -533,3 +538,4 @@
         density: 1500
   - type: ShipGunType
     shipType: Energy
+    processingPowerCost: 16

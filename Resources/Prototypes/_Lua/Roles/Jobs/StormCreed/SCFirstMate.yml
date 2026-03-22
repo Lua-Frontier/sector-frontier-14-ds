@@ -6,10 +6,10 @@
   id: StormCreedFirstmate
   name: job-name-sc-firstmate
   description: job-description-sc-firstmate
-  playTimeTracker: JobSCFirstmate
+  playTimeTracker: JobStormCreedFirstmate
   requirements:
   - !type:RoleTimeRequirement
-    role: JobSCSoldier
+    role: JobStormCreedSoldier
     time: 72000 # 20h
   startingGear: SCFirstMateGear
   alwaysUseSpawner: true
@@ -31,7 +31,7 @@
     - type: SpecialSectorStationRecord # must be given on spawn
       recordGeneration: FalseRecord
     - type: Company
-      companyName: None
+      companyName: StormCreed
     - type: DisableSuitSensors
   - !type:AddImplantSpecial
     implants: [ FreelanceTrackingImplant ]

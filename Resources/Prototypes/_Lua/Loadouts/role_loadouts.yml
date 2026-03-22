@@ -323,7 +323,7 @@
 
 # Storm Creed
 - type: roleLoadout
-  id: JobSCSoldier
+  id: JobStormCreedSoldier
   groups:
   - NFSpeciesSpecific
   - PirateCaptainWallet
@@ -343,9 +343,17 @@
   - SCHead
   - SCBackpackItems
   - SCBelt
+  - ContractorBoxSurvival
+  - ContractorWallet
+  - ContractorCartridge
+  - ContractorImplanter
+  - ContractorEncryptionKey
+  - ContractorBackpackItems
+  - ContractorHandItems
+  - NFSpeciesSpecific
 
 - type: roleLoadout
-  id: JobSCFirstmate
+  id: JobStormCreedFirstmate
   groups:
   - NFSpeciesSpecific
   - PirateCaptainWallet
@@ -365,9 +373,17 @@
   - SCHead
   - SCBackpackItems
   - SCBelt
+  - ContractorBoxSurvival
+  - ContractorWallet
+  - ContractorCartridge
+  - ContractorImplanter
+  - ContractorEncryptionKey
+  - ContractorBackpackItems
+  - ContractorHandItems
+  - NFSpeciesSpecific
 
 - type: roleLoadout
-  id: JobSCCaptain
+  id: JobStormCreedCaptain
   groups:
   - NFSpeciesSpecific
   - PirateCaptainWallet
@@ -387,6 +403,14 @@
   - SCHead
   - SCBackpackItems
   - SCBelt
+  - ContractorBoxSurvival
+  - ContractorWallet
+  - ContractorCartridge
+  - ContractorImplanter
+  - ContractorEncryptionKey
+  - ContractorBackpackItems
+  - ContractorHandItems
+  - NFSpeciesSpecific
 
 - type: roleLoadout
   id: JobFrontierEngineer

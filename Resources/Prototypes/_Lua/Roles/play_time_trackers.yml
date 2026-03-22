@@ -147,13 +147,13 @@
   id: JobBorgSecurity
 
 - type: playTimeTracker
-  id: JobSCSoldier
+  id: JobStormCreedSoldier
 
 - type: playTimeTracker
-  id: JobSCFirstmate
+  id: JobStormCreedFirstmate
 
 - type: playTimeTracker
-  id: JobSCCaptain
+  id: JobStormCreedCaptain
 
 - type: playTimeTracker
   id: JobFrontierEngineer

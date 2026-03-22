@@ -47,6 +47,7 @@
     shipType: Energy
   - type: ShipGunClass
     shipClass: Heavy
+    processingPowerCost: 8
 
 # limited ammo for ships
 

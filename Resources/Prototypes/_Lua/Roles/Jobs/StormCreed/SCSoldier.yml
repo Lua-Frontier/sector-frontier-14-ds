@@ -6,7 +6,7 @@
   id: StormCreedSoldier
   name: job-name-sc-soldier
   description: job-description-sc-soldier
-  playTimeTracker: JobSCSoldier
+  playTimeTracker: JobStormCreedSoldier
   requirements:
   - !type:RoleTimeRequirement
     role: JobSeniorOfficer
@@ -31,7 +31,7 @@
     - type: SpecialSectorStationRecord # must be given on spawn
       recordGeneration: FalseRecord
     - type: Company
-      companyName: None
+      companyName: StormCreed
     - type: DisableSuitSensors
   - !type:AddImplantSpecial
     implants: [ FreelanceTrackingImplant ]
