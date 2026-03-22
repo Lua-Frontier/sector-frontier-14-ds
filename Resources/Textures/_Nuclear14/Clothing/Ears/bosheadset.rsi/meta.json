@@ -8,13 +8,13 @@
   },
   "states": [
     {
-      "name": "icon"
+      "name": "icon_alt"
     },
 	{
       "name": "light-icon"
     },
     {
-      "name": "off-equipped-EARS",
+      "name": "alt-equipped-EARS",
       "directions": 4
     },
     {
