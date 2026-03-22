@@ -352,7 +352,7 @@
   - TopUnderwear
   - PantsUnderwear
   - SocksUnderwear
-  - StormCreedPDA
+  - _SCFirstmatePDA
   - SCJumpsuit
   - SCOuterClothing
   - SCNeck
@@ -369,45 +369,45 @@
 - type: roleLoadout
   id: JobSCCaptain
   groups:
-  - VipJumpsuit
-  - VipBackpack
-  - VipShoes
-  - VipEars
-  - VipPDA
-  - VipNeck
-  - ContractorHead
-  - ContractorGloves
-  - ContractorOuterClothing
-  - ContractorForcedOuterClothing
-  - ContractorFace
-  - ContractorGlasses
-  - ContractorBelt
-  - ContractorEncryptionKey
-  - ContractorBoxSurvival
-  - ContractorWallet
-  - ContractorCartridge
-  - ContractorImplanter
-  - ContractorBackpackItems
-  - ContractorHandItems
   - NFSpeciesSpecific
+  - PirateCaptainWallet
   - TopUnderwear
   - PantsUnderwear
   - SocksUnderwear
-  # - NFSpeciesSpecific
-  # - PirateCaptainWallet
-  # - TopUnderwear
-  # - PantsUnderwear
-  # - SocksUnderwear
-  # - _SCCaptainPDA
-  # - SCJumpsuit
-  # - SCOuterClothing
-  # - SCNeck
-  # - SCHands
-  # - SCEyes
-  # - SCEars
-  # - SCBack
-  # - SCFace
-  # - SCShoes
-  # - SCHead
-  # - SCBackpackItems
-  # - SCBelt
+  - _SCCaptainPDA
+  - SCJumpsuit
+  - SCOuterClothing
+  - SCNeck
+  - SCHands
+  - SCEyes
+  - SCEars
+  - SCBack
+  - SCFace
+  - SCShoes
+  - SCHead
+  - SCBackpackItems
+  - SCBelt
+
+- type: roleLoadout
+  id: JobFrontierEngineer
+  groups:
+  - EngineeringHead
+  - EngineeringJumpsuit
+  - EngineeringGloves
+  - EngineeringBackpack
+  - EngineeringOuterClothing
+  - EngineeringForcedOuterClothing
+  - EngineeringShoes
+  - EngineeringFace
+  - EngineeringGlasses
+  - EngineeringBelt
+  - EngineeringEars
+  - ContractorBoxSurvival
+  - LGFrontierEngineerPDA #
+  - ContractorWallet
+  - ContractorCartridge
+  - ContractorImplanter
+  - ContractorEncryptionKey
+  - ContractorBackpackItems
+  - ContractorHandItems
+  - NFSpeciesSpecific

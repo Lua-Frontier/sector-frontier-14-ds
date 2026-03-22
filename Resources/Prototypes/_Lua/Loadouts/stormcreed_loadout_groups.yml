@@ -77,6 +77,21 @@
 
 
 - type: loadoutGroup
+  id: SCFirstmatePDA
+  name: loadout-group-contractor-pda
+  loadouts:
+  - _SCFirstmatePDA
+  fallbacks:
+  - _SCFirstmatePDA
+
+- type: loadout
+  id: _SCFirstmatePDA
+  equipment:
+    id: SCFirstmatePDA
+
+
+
+- type: loadoutGroup
   id: _SCCaptainPDA
   name: loadout-group-contractor-pda
   loadouts:
@@ -105,7 +120,7 @@
 - type: loadout
   id: SCClothingBeltStormCreedWebbing
   equipment:
-    jumpsuit: ClothingBeltStormCreedWebbing
+    belt: ClothingBeltStormCreedWebbing
 
 
 
@@ -262,7 +277,7 @@
   loadouts:
   - SCN14ClothingBackpackSatchelExplorer
   fallbacks:
-  - SCEarsN14ClothingBackpackSatchelExplorer
+  - SCN14ClothingBackpackSatchelExplorer
 
 - type: loadout
   id: SCN14ClothingBackpackSatchelExplorer
