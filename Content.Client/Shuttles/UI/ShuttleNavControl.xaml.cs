@@ -746,7 +746,23 @@ public partial class ShuttleNavControl : BaseShuttleControl // Mono
                 var handledByLuaStyle = false;
                 DrawLuaRadarBlip(handle, blip.NetUid, blip.SonarEcho, blipPosInView, blip.Scale * 3f, blip.Color.WithAlpha(0.8f), blip.Shape, ref handledByLuaStyle);
                 if (!handledByLuaStyle)
-                    DrawBlipShape(handle, blipPosInView, blip.Scale * 3f, blip.Color.WithAlpha(0.8f), blip.Shape);
+                {
+                    var blipEnt = EntManager.GetEntity(blip.NetUid);
+                    if (blipEnt != EntityUid.Invalid && EntManager.TryGetComponent<RadarBlipIconComponent>(blipEnt, out var blipIcon) && blipIcon.Icon != default)
+                    {
+                        var cache = IoCManager.Resolve<IResourceCache>();
+                        if (cache.TryGetResource<TextureResource>(blipIcon.Icon, out var texRes))
+                        {
+                            var s = blip.Scale * 3.5f * blipIcon.Scale;
+                            var half = new Vector2(s / 2f, s / 2f);
+                            var box = new UIBox2(blipPosInView - half, blipPosInView + half);
+                            handle.DrawTextureRect(texRes.Texture, box);
+                            handledByLuaStyle = true;
+                        }
+                    }
+                    if (!handledByLuaStyle)
+                        DrawBlipShape(handle, blipPosInView, blip.Scale * 3f, blip.Color.WithAlpha(0.8f), blip.Shape);
+                }
             }
         }
 
