@@ -6629,7 +6629,7 @@ entities:
     - type: Transform
       pos: -3.5,25.5
       parent: 1
-- proto: GunneryServerMedium
+- proto: GunneryServerUltra
   entities:
   - uid: 902
     components:
