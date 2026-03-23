@@ -9,7 +9,7 @@
   name: BM-Sprinter
   description: "Довольно массивный исследовательский шаттл, в старое время славившийся своей маневренностью."
   price: 150000 #test
-  category: Large
+  category: Medium
   group: ASBlackMarket
   whitelist:
   - Frontier

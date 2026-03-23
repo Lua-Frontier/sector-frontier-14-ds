@@ -8,7 +8,7 @@
   description: Straight from the shipyards of Sol, this ship is equipped with a mass driver as its main armament for long-range fire support.
   limit: 2
   price: 150000
-  category: Large
+  category: Medium
   group: Security
   access: Security
   shuttlePath: /Maps/_Mono/Shuttles/Nfsd/dagger.yml
