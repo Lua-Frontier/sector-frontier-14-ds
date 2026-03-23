@@ -53,12 +53,12 @@
   id: GunneryServerLow
   parent: GunneryServerBase
   name: low-power gunnery control server
-  suffix: 8 # 1 heavy; for micro or civilian-small
+  suffix: 24
   components:
   - type: Machine
     board: MachineGCSLowCircuitboard
   - type: FireControlServer
-    processingPower: 8
+    processingPower: 24
   - type: PassiveThermalSignature # no cheesing it by unanchoring
     signature: 100000 # ~630m
   - type: ThermalSignature
@@ -76,12 +76,12 @@
   id: GunneryServerMedium
   parent: GunneryServerBase
   name: medium-power gunnery control server
-  suffix: 24 # 3 heavy; for small or civilian-medium and R&D
+  suffix: 42
   components:
   - type: Machine
     board: MachineGCSMediumCircuitboard
   - type: FireControlServer
-    processingPower: 24
+    processingPower: 42
   - type: PassiveThermalSignature
     signature: 250000 # ~1km
   - type: ThermalSignature
@@ -99,12 +99,12 @@
   id: GunneryServerHigh
   parent: [BaseStructureDisableToolUse, GunneryServerBase]
   name: high-power gunnery control server
-  suffix: 56 #7 heavy; for medium or civilian-heavy; поставил бы шесть, но придется снова все ремапить...
+  suffix: 60
   components:
   - type: Machine
     board: MachineGCSHighCircuitboard
   - type: FireControlServer
-    processingPower: 56
+    processingPower: 60
   - type: PassiveThermalSignature
     signature: 1000000 # ~2km
   - type: ThermalSignature
@@ -124,12 +124,12 @@
   id: GunneryServerUltra
   parent: [BaseStructureDisableToolUse, GunneryServerBase]
   name: ultra-high-power gunnery control server
-  suffix: 96 # 12 heavy; for heavy faction shuttles
+  suffix: 90
   components:
   - type: Machine
     board: MachineGCSUltraCircuitboard
   - type: FireControlServer
-    processingPower: 96
+    processingPower: 90
   - type: PassiveThermalSignature
     signature: 4000000 # ~4km
   - type: ThermalSignature
@@ -149,12 +149,12 @@
   id: GunneryServerOmega
   parent: [BaseStructureDisableToolUse, GunneryServerBase]
   name: omega-high-power gunnery control server
-  suffix: 192 # 24 heavy; for events or superheavy limited faction ships
+  suffix: 500
   components:
   - type: Machine
     board: MachineGCSUltraCircuitboard
   - type: FireControlServer
-    processingPower: 192
+    processingPower: 500
   - type: PassiveThermalSignature
     signature: 8000000 # ~5.6km
   - type: ThermalSignature
