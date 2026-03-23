@@ -9,7 +9,7 @@
   name: BM-Adder
   description: "Маленький, дешевый шахтерский шаттл. Когда-то был любимцем всех первопроходцев."
   price: 30000 #test
-  category: Micro
+  category: Small
   group: ASBlackMarket
   whitelist:
   - Frontier

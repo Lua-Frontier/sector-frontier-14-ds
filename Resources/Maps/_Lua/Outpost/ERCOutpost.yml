@@ -4,8 +4,8 @@ meta:
   engineVersion: 272.0.0
   forkId: ""
   forkVersion: ""
-  time: 03/15/2026 13:08:35
-  entityCount: 4760
+  time: 03/23/2026 12:42:02
+  entityCount: 4761
 maps:
 - 6
 grids:
@@ -1969,6 +1969,7 @@ entities:
         path: /Audio/Effects/holy.ogg
       baseIndices: {}
     - type: SafeMining
+    - type: ShipCpuLimit
   - uid: 6
     components:
     - type: MetaData
@@ -14066,15 +14067,15 @@ entities:
       parent: 1
 - proto: DonkpocketBoxSpawner
   entities:
-  - uid: 1204
-    components:
-    - type: Transform
-      pos: -17.5,10.5
-      parent: 1
   - uid: 1329
     components:
     - type: Transform
       pos: 3.5,6.5
+      parent: 1
+  - uid: 4761
+    components:
+    - type: Transform
+      pos: -17.5,9.5
       parent: 1
 - proto: Dresser
   entities:
@@ -14113,6 +14114,13 @@ entities:
       parent: 1925
     - type: Physics
       canCollide: False
+- proto: ERCPlanFolderSpawner
+  entities:
+  - uid: 1204
+    components:
+    - type: Transform
+      pos: -17.5,10.5
+      parent: 1
 - proto: FaxMachineBase
   entities:
   - uid: 1224
