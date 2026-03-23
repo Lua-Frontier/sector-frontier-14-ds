@@ -128,7 +128,6 @@
     shipType: Ballistic
   - type: ShipGunClass
     shipClass: Light
-    processingPowerCost: 2
 
 # DRAVON 57mm
 
@@ -190,7 +189,6 @@
     shipType: Ballistic
   - type: ShipGunClass
     shipClass: Light
-    processingPowerCost: 2
 
 # AK570 90mm
 
@@ -257,7 +255,6 @@
     shipType: Ballistic
   - type: ShipGunClass
     shipClass: Light
-    processingPowerCost: 2
 
 # CYREXA 220mm
 
@@ -336,7 +333,6 @@
     shipType: Ballistic
   - type: ShipGunClass
     shipClass: Light
-    processingPowerCost: 8
 
 # HADES 305mm
 
@@ -415,7 +411,6 @@
     shipType: Ballistic
   - type: ShipGunClass
     shipClass: Superheavy
-    processingPowerCost: 16
 
 # MiniCHARON
 
@@ -488,7 +483,6 @@
     shipType: Ballistic
   - type: ShipGunClass
     shipClass: Superheavy
-    processingPowerCost: 8
 
 # Bofors 255mm
 
@@ -563,7 +557,6 @@
     shipType: Ballistic
   - type: ShipGunClass
     shipClass: Superheavy
-    processingPowerCost: 8
 
 # Kargil 203mm
 
@@ -638,4 +631,3 @@
     shipType: Ballistic
   - type: ShipGunClass
     shipClass: Heavy
-    processingPowerCost: 4

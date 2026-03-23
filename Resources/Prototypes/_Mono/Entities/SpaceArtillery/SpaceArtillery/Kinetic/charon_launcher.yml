@@ -69,7 +69,6 @@
     shipType: Ballistic
   - type: ShipGunClass
     shipClass: Superheavy
-    processingPowerCost: 16
 
 # Ship one w/ limited ammo
 
