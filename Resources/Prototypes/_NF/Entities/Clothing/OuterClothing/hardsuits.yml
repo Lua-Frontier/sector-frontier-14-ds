@@ -110,8 +110,7 @@
     sprite: _NF/Clothing/OuterClothing/Hardsuits/ERTSuits/ertmailcarrier.rsi
   - type: ToggleableClothing
     clothingPrototype: ClothingHeadHelmetHardsuitERTMailCarrier
-  - type: ThermalCloak
-    enabled: false
+
 
 # MAXIM Nerfed: used best stats from spationaut, mining and luxury hardsuits, additionally increased caustic resistance
 - type: entity
@@ -198,8 +197,7 @@
   - type: ClothingSpeedModifier
     walkModifier: 0.95
     sprintModifier: 0.9
-  - type: ThermalCloak
-    enabled: false
+
 
 - type: entity
   parent: ClothingOuterHardsuitNfsdBronze
@@ -213,8 +211,7 @@
     sprite: _NF/Clothing/OuterClothing/Hardsuits/nfsd_silver.rsi
   - type: ToggleableClothing
     clothingPrototype: ClothingHeadHelmetHardsuitNfsdSilver
-  - type: ThermalCloak
-    enabled: false
+
 
 - type: entity
   parent: ClothingOuterHardsuitNfsdBronze
@@ -228,8 +225,7 @@
     sprite: _NF/Clothing/OuterClothing/Hardsuits/nfsd_gold.rsi
   - type: ToggleableClothing
     clothingPrototype: ClothingHeadHelmetHardsuitNfsdGold
-  - type: ThermalCloak
-    enabled: false
+
 
 - type: entity
   parent: ClothingOuterHardsuitNfsdBronze
@@ -243,8 +239,7 @@
     sprite: _NF/Clothing/OuterClothing/Hardsuits/nfsd_sheriff.rsi
   - type: ToggleableClothing
     clothingPrototype: ClothingHeadHelmetHardsuitNfsdSheriff
-  - type: ThermalCloak
-    enabled: false
+
 
 - type: entity
   parent: ClothingOuterHardsuitNfsdBronze
@@ -258,8 +253,7 @@
     sprite: _NF/Clothing/OuterClothing/Hardsuits/nfsd_brigmed.rsi
   - type: ToggleableClothing
     clothingPrototype: ClothingHeadHelmetHardsuitNfsdBrigmedic
-  - type: ThermalCloak
-    enabled: false
+
 
 - type: entity
   parent: [BaseC2ContrabandUnredeemable, ClothingOuterHardsuitJuggernaut] # Jugger Suit
@@ -292,8 +286,7 @@
     sprintModifier: 0.65
   - type: FactionClothing
     faction: NanoTrasen
-  - type: ThermalCloak
-    enabled: false
+
 
 #Security Combat Hardsuit
 - type: entity
@@ -322,8 +315,7 @@
   - type: ClothingSpeedModifier
     walkModifier: 0.85
     sprintModifier: 0.75
-  - type: ThermalCloak
-    enabled: false
+
 
 #Security Command Hardsuit
 - type: entity
@@ -352,8 +344,7 @@
   - type: ClothingSpeedModifier
     walkModifier: 0.85
     sprintModifier: 0.75
-  - type: ThermalCloak
-    enabled: false
+
 
 # SCAF hardsuit
 - type: entity
@@ -387,8 +378,7 @@
     clothingPrototype: ClothingHeadHelmetHardsuitScaf
   - type: PirateBountyItem
     id: ClothingOuterHardsuitScaf
-  - type: ThermalCloak
-    enabled: false
+
 
 # Tactical Maid Hardsuit
 
@@ -450,8 +440,7 @@
   - type: ClothingSpeedModifier
     walkModifier: 0.85
     sprintModifier: 0.75
-  - type: ThermalCloak
-    enabled: false
+
 
 #Wizard Hardsuit
 - type: entity
@@ -484,8 +473,7 @@
   - type: HeldSpeedModifier
   - type: ToggleableClothing
     clothingPrototype: ClothingHeadHelmetHardsuitWizardBrick
-  - type: ThermalCloak
-    enabled: false
+
 
 #Hostile Environment Hardsuit
 - type: entity
@@ -494,8 +482,7 @@
   name: hostile environment hardsuit
   description: No matter where you are sent to operate, the hostile enviroment hardsuit ensures you will more or less make it out in one piece!
   components:
-  - type: ThermalCloak
-    enabled: false
+
   - type: Sprite
     sprite: _NF/Clothing/OuterClothing/Hardsuits/hostile_environment.rsi
   - type: Clothing
@@ -533,8 +520,7 @@
   name: surplus combat suit
   description: What was once a mainstay combat suit, its now nothing more then outdated gear from wars long past. Still can stop a bullet though!
   components:
-  - type: ThermalCloak
-    enabled: false
+
   - type: Sprite
     sprite: _NF/Clothing/OuterClothing/Hardsuits/surplus.rsi
   - type: Clothing
@@ -564,8 +550,7 @@
   name: noble combat suit
   description: What is your quarrel today oh brave hero? Do you seek a dragon? Maybe you pursue an ascended cultist? Or do you plan to put an end to the syndicates machinations? Whatever the job, the Noble has you.
   components:
-  - type: ThermalCloak
-    enabled: false
+
   - type: Sprite
     sprite: _Lua/Clothing/OuterClothing/Hardsuits/noble-outer.rsi #Lua
   - type: Clothing

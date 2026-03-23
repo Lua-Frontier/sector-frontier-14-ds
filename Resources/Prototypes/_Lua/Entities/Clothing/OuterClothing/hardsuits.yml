@@ -92,8 +92,7 @@
     clothingPrototype: ClothingHeadHelmetHardsuitBlueShield
   - type: Item
     size: Huge
-  - type: ThermalCloak
-    enabled: false
+
 
 - type: entity
   parent: ClothingOuterHardsuitBase
@@ -127,8 +126,7 @@
     sprintModifier: 0.9
   - type: ExplosionResistance
     damageCoefficient: 0.5
-  - type: ThermalCloak
-    enabled: false
+
 
 #region FSF
 
@@ -308,8 +306,7 @@
   suffix: ФСФ, Браво
   description: A protective hardsuit worn by the leader of an emergency response team.
   components:
-  - type: ThermalCloak
-    enabled: false
+
   - type: Sprite
     sprite: _Lua/Clothing/OuterClothing/Hardsuits/FSFSuits/fsf_bravo_commander_hardsuit.rsi
   - type: Clothing
@@ -347,8 +344,7 @@
   suffix: ФСФ, Браво
   description: A protective hardsuit worn by the security officers of an emergency response team.
   components:
-  - type: ThermalCloak
-    enabled: false
+
   - type: Sprite
     sprite: _Lua/Clothing/OuterClothing/Hardsuits/FSFSuits/fsf_bravo_specialist_hardsuit.rsi
   - type: Clothing
@@ -388,8 +384,7 @@
   suffix: ФСФ, Чарли
   description: A protective hardsuit worn by the leader of an emergency response team.
   components:
-  - type: ThermalCloak
-    enabled: false
+
   - type: Sprite
     sprite: _Lua/Clothing/OuterClothing/Hardsuits/FSFSuits/fsf_charlie_commander_hardsuit.rsi
   - type: Clothing
@@ -427,8 +422,7 @@
   suffix: ФСФ, Чарли
   description: A protective hardsuit worn by the security officers of an emergency response team.
   components:
-  - type: ThermalCloak
-    enabled: false
+
   - type: Sprite
     sprite: _Lua/Clothing/OuterClothing/Hardsuits/FSFSuits/fsf_charlie_specialist_hardsuit.rsi
   - type: Clothing
@@ -467,8 +461,7 @@
   suffix: Events, Medium, Standart
   description: A protective hardsuit worn by the leader of an emergency response team.
   components:
-  - type: ThermalCloak
-    enabled: false
+
   - type: Sprite
     sprite: _Lua/Clothing/OuterClothing/Hardsuits/FSFSuits_Alt/fsf_commander_hardsuit.rsi
   - type: Clothing
@@ -504,8 +497,7 @@
   suffix: Events, Medium, Special
   description: A protective hardsuit worn by the security officers of an emergency response team.
   components:
-  - type: ThermalCloak
-    enabled: false
+
   - type: Sprite
     sprite: _Lua/Clothing/OuterClothing/Hardsuits/FSFSuits_Alt/fsf_medium_hardsuit.rsi
   - type: Clothing
@@ -545,8 +537,7 @@
   suffix: СТАРЫЙ, ФСФ, ФРОНТИР
   description: A protective hardsuit worn by the security officers of an emergency response team.
   components:
-  - type: ThermalCloak
-    enabled: false
+
   - type: Sprite
     sprite: _Lua/Clothing/OuterClothing/Hardsuits/FSFSuits_Alt/fsf_light_hardsuit.rsi
   - type: Clothing
@@ -608,8 +599,7 @@
   - type: Speech
   - type: TTS
     voice: Adjutant
-  - type: ThermalCloak
-    enabled: false
+
 
 
 - type: entity
@@ -654,5 +644,4 @@
   - type: Speech
   - type: TTS
     voice: Adjutant
-  - type: ThermalCloak
-    enabled: false
+

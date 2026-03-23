@@ -45,8 +45,7 @@
   - type: Speech
   - type: TTS
     voice: Adjutant
-  - type: ThermalCloak
-    enabled: false
+
 
 - type: entity
   parent: [ClothingOuterHardsuitBase, BaseC3SyndicateContraband]
@@ -95,5 +94,4 @@
   - type: Speech
   - type: TTS
     voice: Adjutant
-  - type: ThermalCloak
-    enabled: false
+

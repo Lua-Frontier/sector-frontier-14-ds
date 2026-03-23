@@ -24,7 +24,6 @@
       - BountyContractsCartridge
       - AstroNavCartridge
       - WantedListCartridge
-      - LedgerCartridge
       - LogProbeCartridge
       - MailMetricsCartridge
       - AppraisalCartridge
@@ -161,7 +160,6 @@
     - BountyContractsCartridge
     - AstroNavCartridge
     - WantedListCartridge
-    - LedgerCartridge
 
 - type: entity
   parent: BaseSecurityPDA
@@ -409,7 +407,6 @@
     - NewsReaderCartridge
     - BountyContractsCartridge
     - AstroNavCartridge
-    - LedgerCartridge
     - MailMetricsCartridge
 
 - type: entity
@@ -567,7 +564,6 @@
     - NewsReaderCartridge
     - BountyContractsCartridge
     - AstroNavCartridge
-    - LedgerCartridge
     - MedTekCartridge
 
 - type: entity
@@ -616,4 +612,3 @@
     - NewsReaderCartridge
     - BountyContractsCartridge
     - AstroNavCartridge
-    - LedgerCartridge
