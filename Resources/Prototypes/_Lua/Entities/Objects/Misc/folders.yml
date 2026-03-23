@@ -31,8 +31,6 @@
   - type: StorageFill
     contents:
     - id: ERCPlanChertalet
-    sound:
-      path: /Audio/Effects/packetrip.ogg
 
 - type: entity
   id: BoxFolderERCPlanChilipizdriki
@@ -49,5 +47,3 @@
     - id: ERCPlanChilipizdriki
     - id: ERCPlanChilipizdrikiReport
       amount: 2
-    sound:
-      path: /Audio/Effects/packetrip.ogg
