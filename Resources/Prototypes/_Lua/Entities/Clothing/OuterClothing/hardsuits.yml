@@ -137,8 +137,6 @@
   suffix: КСО, Браво
   description: A protective hardsuit worn by the leader of an emergency response team.
   components:
-  - type: ThermalCloak
-    enabled: false
   - type: Sprite
     sprite: _Lua/Clothing/OuterClothing/SDHardsuits/bravobaseouter.rsi
   - type: Clothing
@@ -179,8 +177,6 @@
   suffix: КСО, Браво
   description: A protective hardsuit worn by the leader of an emergency response team.
   components:
-  - type: ThermalCloak
-    enabled: false
   - type: Sprite
     sprite: _Lua/Clothing/OuterClothing/SDHardsuits/bravocommouter.rsi
   - type: Clothing
@@ -223,8 +219,6 @@
   suffix: КСО, Чарли
   description: A protective hardsuit worn by the leader of an emergency response team.
   components:
-  - type: ThermalCloak
-    enabled: false
   - type: Sprite
     sprite: _Lua/Clothing/OuterClothing/SDHardsuits/charliebaseouter.rsi
   - type: Clothing
@@ -265,8 +259,6 @@
   suffix: КСО, Чарли
   description: A protective hardsuit worn by the leader of an emergency response team.
   components:
-  - type: ThermalCloak
-    enabled: false
   - type: Sprite
     sprite: _Lua/Clothing/OuterClothing/SDHardsuits/charliecommouter.rsi
   - type: Clothing

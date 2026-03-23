@@ -40,8 +40,6 @@
   - type: StaticPrice
     price: 750
     vendPrice: 2500
-  - type: ThermalCloak
-    enabled: false
 
 - type: entity
   parent: [ClothingOuterHardsuitBase, BaseC3SyndicateContraband, HardsuitIdentify]
@@ -85,8 +83,6 @@
   - type: StaticPrice
     price: 750
     vendPrice: 2500
-  - type: ThermalCloak
-    enabled: false
 
 - type: entity
   parent: [ClothingOuterHardsuitBase, BaseC3SyndicateContraband, HardsuitIdentify]
@@ -130,8 +126,6 @@
   - type: StaticPrice
     price: 750
     vendPrice: 2500
-  - type: ThermalCloak
-    enabled: false
 
 - type: entity
   parent: [ClothingOuterHardsuitBase, BaseC3SyndicateContraband, HardsuitIdentify]
@@ -175,8 +169,6 @@
   - type: StaticPrice
     price: 750
     vendPrice: 2500
-  - type: ThermalCloak
-    enabled: false
 
 - type: entity
   parent: [ClothingHeadHardsuitBase, ClothingHeadSuitWithLightBase, BaseC3SyndicateContraband]
