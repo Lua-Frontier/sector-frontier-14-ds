@@ -20,7 +20,7 @@
 
 - type: entity
   id: BoxFolderERCPlanChertalet
-  parent: BoxFolderBase
+  parent: BoxBase
   name: Папка Директора Исследований
   components:
   - type: Sprite
@@ -31,10 +31,31 @@
   - type: StorageFill
     contents:
     - id: ERCPlanChertalet
+  - type: Item
+    sprite: Objects/Misc/folders.rsi
+    size: Small
+    shape: null
+  - type: Storage
+    maxItemSize: Small
+    grid:
+    - 0,0,4,3
+    whitelist:
+      tags:
+      - Document
+  - type: ItemMapper
+    mapLayers:
+      folder-overlay-paper:
+        whitelist:
+          tags:
+          - Document
+  - type: Appearance
+  - type: Tag
+    tags:
+    - Folder
 
 - type: entity
   id: BoxFolderERCPlanChilipizdriki
-  parent: BoxFolderBase
+  parent: BoxBase
   name: Папка Директора Исследований
   components:
   - type: Sprite
@@ -47,3 +68,24 @@
     - id: ERCPlanChilipizdriki
     - id: ERCPlanChilipizdrikiReport
       amount: 2
+  - type: Item
+    sprite: Objects/Misc/folders.rsi
+    size: Small
+    shape: null
+  - type: Storage
+    maxItemSize: Small
+    grid:
+    - 0,0,4,3
+    whitelist:
+      tags:
+      - Document
+  - type: ItemMapper
+    mapLayers:
+      folder-overlay-paper:
+        whitelist:
+          tags:
+          - Document
+  - type: Appearance
+  - type: Tag
+    tags:
+    - Folder
