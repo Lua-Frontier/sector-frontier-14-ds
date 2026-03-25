@@ -311,7 +311,7 @@
     accentVColor: "#b0a813"
   - type: Icon
     sprite: _Lua/Objects/Devices/StormCreedPDA.rsi
-    state: pda_stormcreed
+    state: icon
 
 - type: entity
   parent: BasePDA
