@@ -3778,3 +3778,10 @@ Entries:
   id: 266
   time: '2026-03-22T17:57:44.0000000+00:00'
   url: https://github.com/Lua-Frontier/sector-frontier-14/pull/530
+- author: TheZuTi
+  changes:
+    - type: Fix
+      message: Платы КПУ Шаттлов можно крафтить в принтере схем
+  id: 267
+  time: '2026-03-25T14:51:54.0000000+00:00'
+  url: https://github.com/Lua-Frontier/sector-frontier-14/pull/534
