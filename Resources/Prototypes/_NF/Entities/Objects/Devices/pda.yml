@@ -35,18 +35,48 @@
   name: mercenary PDA
   description: This PDA smells of war.
   components:
-  - type: Pda
-    id: MercenaryIDCard
+  - type: Clothing
+    sprite: _Lua/Objects/Devices/MercenaryPDA.rsi
+  - type: Sprite
+    layers:
+    - sprite: _Lua/Objects/Devices/MercenaryPDA.rsi
+      map: [ "enum.PdaVisualLayers.Base" ]
+      state: "icon"
+    - sprite: _NF/Objects/Devices/pda.rsi
+      state: "light_overlay"
+      map: [ "enum.PdaVisualLayers.Flashlight" ]
+      shader: "unshaded"
+      visible: false
+    - sprite: _NF/Objects/Devices/pda.rsi
+      state: "id_overlay"
+      map: [ "enum.PdaVisualLayers.IdLight" ]
+      shader: "unshaded"
+      visible: false
   - type: Appearance
     appearanceDataInit:
-      enum.PdaVisuals.PdaType:
-        !type:String
-        pda-mercenary
+     enum.PdaVisuals.PdaType:
+       !type:String
+       icon
+  - type: Pda
+    id: MercenaryIDCard
   - type: PdaBorderColor
     borderColor: "#717059"
     accentVColor: "#A32D26"
   - type: Icon
-    state: pda-mercenary
+    sprite: _Lua/Objects/Devices/StormCreedPDA.rsi
+    state: icon
+  # - type: Pda
+  #   id: MercenaryIDCard
+  # - type: Appearance
+  #   appearanceDataInit:
+  #     enum.PdaVisuals.PdaType:
+  #       !type:String
+  #       pda-mercenary
+  # - type: PdaBorderColor
+  #   borderColor: "#717059"
+  #   accentVColor: "#A32D26"
+  # - type: Icon
+  #   state: pda-mercenary
 
 - type: entity
   parent: BasePDA
