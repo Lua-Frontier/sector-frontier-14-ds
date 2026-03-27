@@ -15,7 +15,7 @@
     highPressureMultiplier: 0.05
     lowPressureMultiplier: 1000
   - type: ExplosionResistance
-    damageCoefficient: 0.5
+    damageCoefficient: 0.3
   - type: Armor
     modifiers:
       coefficients:
@@ -58,7 +58,7 @@
     highPressureMultiplier: 0.05
     lowPressureMultiplier: 1000
   - type: ExplosionResistance
-    damageCoefficient: 0.5
+    damageCoefficient: 0.7
   - type: Armor
     modifiers:
       coefficients:
@@ -101,7 +101,7 @@
     highPressureMultiplier: 0.05
     lowPressureMultiplier: 1000
   - type: ExplosionResistance
-    damageCoefficient: 0.5
+    damageCoefficient: 0.7
   - type: Armor
     modifiers:
       coefficients:

@@ -111,6 +111,8 @@
         #Special
         Shock: 0.8 #Lua
         Caustic: 0.8
+  - type: ExplosionResistance
+    damageCoefficient: 0.7
   - type: StaminaResistance #Lua
     damageCoefficient: 0.7
   - type: ClothingSpeedModifier
@@ -347,8 +349,6 @@
   - type: PressureProtection
     highPressureMultiplier: 0.02
     lowPressureMultiplier: 1000
-  - type: ExplosionResistance
-    damageCoefficient: 0.5
   - type: Armor
     modifiers:
       coefficients: # 20/20/30//30/30//20/20//70/20
@@ -359,6 +359,8 @@
         Radiation: 0.7 #Lua 0.5<0.7
         Shock: 0.8 #Lua 
         Caustic: 0.8 #Lua 0.6<0.8
+  - type: ExplosionResistance
+    damageCoefficient: 0.3
   - type: StaminaResistance #Lua
     damageCoefficient: 0.3
   - type: ClothingSpeedModifier
@@ -477,7 +479,7 @@
   - type: StaminaResistance #Lua
     damageCoefficient: 0.5
   - type: ExplosionResistance
-    damageCoefficient: 0.1
+    damageCoefficient: 0.5
   - type: ClothingSpeedModifier
     walkModifier: 0.8 #Lua 0.75<0.8
     sprintModifier: 0.8 #Lua 0.75<0.8
@@ -573,6 +575,7 @@
   id: ClothingOuterHardsuitSyndie
   name: blood-red hardsuit
   description: A heavily armored hardsuit designed for work in special operations. Property of Gorlex Marauders.
+  suffix: Event, Light, Standart
   components:
   - type: Sprite
     sprite: Clothing/OuterClothing/Hardsuits/syndicate.rsi
@@ -584,21 +587,22 @@
     highPressureMultiplier: 0.05
     lowPressureMultiplier: 1000
   - type: ExplosionResistance
-    damageCoefficient: 0.5
+    damageCoefficient: 0.7
   - type: StaminaResistance # do not add these to other equipment or mobs, we don't want to microbalance these everywhere
-    damageCoefficient: 0.75
+    damageCoefficient: 0.7
   - type: Armor
     modifiers:
-      coefficients:
-        Blunt: 0.5
-        Slash: 0.5
+      coefficients: #Lua; # 75/75/50//75/75//50/50//30/0
+        Blunt: 0.25
+        Slash: 0.25
         Piercing: 0.5
-        Heat: 0.5
-        Radiation: 0.5
+        Heat: 0.25
+        Radiation: 0.25
+        Shock: 0.5
         Caustic: 0.5
   - type: ClothingSpeedModifier
-    walkModifier: 0.9
-    sprintModifier: 0.9
+    walkModifier: 1
+    sprintModifier: 1
   - type: HeldSpeedModifier
   - type: ToggleableClothing
     clothingPrototype: ClothingHeadHelmetHardsuitSyndie
@@ -618,6 +622,7 @@
   id: ClothingOuterHardsuitSyndieMedic
   name: blood-red medic hardsuit
   description: A heavily armored and agile advanced hardsuit specifically designed for field medic operations.
+  suffix: Event, Light, Special
   components:
   - type: Sprite
     sprite: Clothing/OuterClothing/Hardsuits/syndiemedic.rsi
@@ -629,6 +634,23 @@
     tags:
     - Hardsuit
     - WhitelistChameleon
+  - type: ExplosionResistance
+    damageCoefficient: 0.7
+  - type: StaminaResistance # do not add these to other equipment or mobs, we don't want to microbalance these everywhere
+    damageCoefficient: 0.7
+  - type: Armor
+    modifiers:
+      coefficients: #Lua; # 75/75/50//75/75//50/50//30/0
+        Blunt: 0.25
+        Slash: 0.25
+        Piercing: 0.5
+        Heat: 0.5
+        Radiation: 0.5
+        Shock: 0.25
+        Caustic: 0.25
+  - type: ClothingSpeedModifier
+    walkModifier: 1
+    sprintModifier: 1
 
 #Syndicate Elite Hardsuit
 - type: entity
@@ -636,6 +658,7 @@
   id: ClothingOuterHardsuitSyndieElite
   name: syndicate elite hardsuit
   description: An elite version of the blood-red hardsuit, with improved radiation resistance and fireproofing. Property of Gorlex Marauders.
+  suffix: Event, Heavy, Standart
   components:
   - type: Sprite
     sprite: Clothing/OuterClothing/Hardsuits/syndieelite.rsi
@@ -648,25 +671,26 @@
     heatingCoefficient: 0.001
     coolingCoefficient: 0.001
   - type: ExplosionResistance
-    damageCoefficient: 0.2
+    damageCoefficient: 0.3
   - type: FireProtection
     reduction: 0.8
   - type: StaminaResistance # do not add these to other equipment or mobs, we don't want to microbalance these everywhere
-    damageCoefficient: 0.6
+    damageCoefficient: 0.3
   - type: Armor
     modifiers:
       coefficients:
-        Blunt: 0.45 #Lua 0.6<0.45
-        Slash: 0.45 #Lua 0.6<0.45
-        Piercing: 0.45 #Lua 0.6<0.45
-        Heat: 0.2
-        Radiation: 0.01
+        Blunt: 0.5 #Lua 0.6<0.45
+        Slash: 0.5 #Lua 0.6<0.45
+        Piercing: 0.25 #Lua 0.6<0.45
+        Heat: 0.25
+        Radiation: 0.25
+        Shock: 0.5
         Caustic: 0.5
   - type: Item
     size: Huge
   - type: ClothingSpeedModifier
-    walkModifier: 1 #Lua 0.9<1
-    sprintModifier: 1 #Lua 0.9<1
+    walkModifier: 0.8 #Lua 0.9<0.8
+    sprintModifier: 0.8 #Lua 0.9<0.8
   - type: HeldSpeedModifier
   - type: ToggleableClothing
     clothingPrototype: ClothingHeadHelmetHardsuitSyndieElite
@@ -762,6 +786,7 @@
   id: ClothingOuterHardsuitWizard
   name: wizard hardsuit
   description: A bizarre gem-encrusted suit that radiates magical energies.
+  suffix: Event, Heavy, Special
   components:
   - type: Sprite
     sprite: Clothing/OuterClothing/Hardsuits/wizard.rsi
@@ -771,16 +796,19 @@
     highPressureMultiplier: 0.05
     lowPressureMultiplier: 1000
   - type: ExplosionResistance
-    damageCoefficient: 0.5
+    damageCoefficient: 0.3
   - type: Armor
     modifiers:
       coefficients:
-        Blunt: 0.6
-        Slash: 0.6
-        Piercing: 0.4
-        Heat: 0.25
-        Radiation: 0.25
-        Caustic: 0.75
+        Blunt: 0.5
+        Slash: 0.5
+        Piercing: 0.25
+        Heat: 0.5
+        Radiation: 0.5
+        Shock: 0.25
+        Caustic: 0.25
+  - type: StaminaResistance
+    damageCoefficient: 0.3
   - type: ClothingSpeedModifier
     walkModifier: 0.8
     sprintModifier: 0.8

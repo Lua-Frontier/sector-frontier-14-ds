@@ -17,6 +17,9 @@
         description: "Хотя бы здесь вы можете почувствовать себя в безопасности."
       # Lua add end
       components:
+        - type: SolarPoweredGrid
+          trackOnInit: true
+          doNotCull: true
         - type: FrontierParking # Lua
         - type: RadarBlipIcon
           icon: /Textures/_Lua/Interface/Radar/space-station.png

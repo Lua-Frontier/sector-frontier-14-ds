@@ -55,6 +55,8 @@
         Radiation: 0.8
         Shock: 0.7
         Caustic: 0.7
+  - type: ExplosionResistance
+    damageCoefficient: 0.3
   - type: StaminaResistance #Lua
     damageCoefficient: 0.3
   - type: ClothingSpeedModifier #Lua
@@ -88,6 +90,8 @@
         Radiation: 0.8 #Lua 0.3<0.8
         Shock: 0.7 #Lua
         Caustic: 0.7 #Lua 0.8<0.7
+  - type: ExplosionResistance
+    damageCoefficient: 0.7
   - type: StaminaResistance #Lua
     damageCoefficient: 0.7
   - type: ClothingSpeedModifier

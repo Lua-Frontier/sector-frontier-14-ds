@@ -453,13 +453,14 @@
   suffix: Events, Medium, Standart
   description: A protective hardsuit worn by the leader of an emergency response team.
   components:
-
   - type: Sprite
     sprite: _Lua/Clothing/OuterClothing/Hardsuits/FSFSuits_Alt/fsf_commander_hardsuit.rsi
   - type: Clothing
     sprite: _Lua/Clothing/OuterClothing/Hardsuits/FSFSuits_Alt/fsf_commander_hardsuit.rsi
   - type: ToggleableClothing
     clothingPrototype: ClothingHeadHelmetHardsuitFSFCommanderAlt
+  - type: ExplosionResistance
+    damageCoefficient: 0.5
   - type: Armor
     modifiers:
       coefficients: # 75/75/75//50/50//50/50//50/10
@@ -489,7 +490,6 @@
   suffix: Events, Medium, Special
   description: A protective hardsuit worn by the security officers of an emergency response team.
   components:
-
   - type: Sprite
     sprite: _Lua/Clothing/OuterClothing/Hardsuits/FSFSuits_Alt/fsf_medium_hardsuit.rsi
   - type: Clothing
@@ -500,6 +500,8 @@
     tags:
     - Hardsuit
     - WhitelistChameleon
+  - type: ExplosionResistance
+    damageCoefficient: 0.5
   - type: Armor
     modifiers:
       coefficients: # 50/50/50//75/75//50/50//50/10

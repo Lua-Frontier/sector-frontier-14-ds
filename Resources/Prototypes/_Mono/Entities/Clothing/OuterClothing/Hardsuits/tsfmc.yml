@@ -13,7 +13,7 @@
   - type: ToggleableClothing
     clothingPrototype: ClothingHeadHelmetHardsuitTSFMCM73
   - type: ExplosionResistance
-    damageCoefficient: 0.5
+    damageCoefficient: 0.7
   - type: Armor
     modifiers:
       coefficients:
@@ -103,7 +103,7 @@
   - type: ToggleableClothing
     clothingPrototype: ClothingHeadHelmetHardsuitTSFMCM92
   - type: ExplosionResistance
-    damageCoefficient: 0.5
+    damageCoefficient: 0.3
   - type: Armor
     modifiers:
       coefficients:
@@ -136,6 +136,8 @@
     sprite: _Lua/Clothing/OuterClothing/SDHardsuits/M73c-outer.rsi #Lua
   - type: ToggleableClothing
     clothingPrototype: ClothingHeadHelmetHardsuitTSFMCM73-C
+  - type: ExplosionResistance
+    damageCoefficient: 0.7
   - type: Armor
     modifiers:
       coefficients:
@@ -187,7 +189,7 @@
         Shock: 0.25 #Lua
         Caustic: 0.25
   - type: StaminaResistance #Lua
-    damageCoefficient: 0.25
+    damageCoefficient: 0.3
   - type: ClothingSpeedModifier
     walkModifier: 0.75 #Lua 0.85<0.75
     sprintModifier: 0.75
@@ -210,7 +212,7 @@
   - type: ToggleableClothing
     clothingPrototype: ClothingHeadHelmetHardsuitTSFMCM93
   - type: ExplosionResistance
-    damageCoefficient: 0.4
+    damageCoefficient: 0.5
   - type: Armor
     modifiers:
       coefficients:
@@ -245,7 +247,7 @@
   - type: ToggleableClothing
     clothingPrototype: ClothingHeadHelmetHardsuitTSFMCM93-C
   - type: ExplosionResistance
-    damageCoefficient: 0.35
+    damageCoefficient: 0.5
   - type: Armor
     modifiers:
       coefficients:
