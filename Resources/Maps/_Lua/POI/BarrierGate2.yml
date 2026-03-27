@@ -4,8 +4,8 @@ meta:
   engineVersion: 272.0.0
   forkId: ""
   forkVersion: ""
-  time: 03/26/2026 14:13:24
-  entityCount: 3145
+  time: 03/27/2026 14:06:57
+  entityCount: 3149
 maps: []
 grids:
 - 1
@@ -1181,6 +1181,15 @@ entities:
     - type: Action
       originalIconColor: '#FFFFFFFF'
       container: 1107
+  - uid: 3146
+    mapInit: true
+    paused: true
+    components:
+    - type: Transform
+      parent: 1069
+    - type: Action
+      originalIconColor: '#FFFFFFFF'
+      container: 1069
 - proto: AirlockExternal
   entities:
   - uid: 708
@@ -1427,6 +1436,13 @@ entities:
     components:
     - type: Transform
       pos: 48.5,4.5
+      parent: 1
+- proto: Ashtray
+  entities:
+  - uid: 3149
+    components:
+    - type: Transform
+      pos: 21.422384,0.7397294
       parent: 1
 - proto: AtmosDeviceFanDirectional
   entities:
@@ -8994,6 +9010,13 @@ entities:
     - type: Transform
       pos: 20.5,-6.5
       parent: 1
+- proto: DrinkMugMoebius
+  entities:
+  - uid: 3148
+    components:
+    - type: Transform
+      pos: 21.40676,1.6616044
+      parent: 1
 - proto: FaxMachineBase
   entities:
   - uid: 1083
@@ -9048,8 +9071,22 @@ entities:
   - uid: 1069
     components:
     - type: Transform
-      pos: 24.449127,10.413796
+      pos: 24.512274,10.500266
       parent: 1
+    - type: HandheldLight
+      toggleActionEntity: 3146
+    - type: ContainerContainer
+      containers:
+        cell_slot: !type:ContainerSlot
+          showEnts: False
+          occludes: True
+          ent: null
+        actions: !type:Container
+          showEnts: False
+          occludes: True
+          ents:
+          - 3146
+    - type: ActionsContainer
   - uid: 1105
     components:
     - type: Transform
@@ -11354,6 +11391,13 @@ entities:
     - type: Transform
       pos: 23.5,11.5
       parent: 1
+- proto: GravityGeneratorMini
+  entities:
+  - uid: 3147
+    components:
+    - type: Transform
+      pos: 22.5,9.5
+      parent: 1
 - proto: Grille
   entities:
   - uid: 9
@@ -12074,8 +12118,11 @@ entities:
   - uid: 1156
     components:
     - type: Transform
+      anchored: True
       pos: 21.5,-1.5
       parent: 1
+    - type: Physics
+      bodyType: Static
   - uid: 1157
     components:
     - type: Transform
@@ -16292,7 +16339,7 @@ entities:
   - uid: 1151
     components:
     - type: Transform
-      pos: 21.58225,1.3317071
+      pos: 21.641134,1.2866044
       parent: 1
     - type: Paper
       stampState: paper_stamp-centcom
@@ -16306,6 +16353,9 @@ entities:
       - Document
       - Paper
       - NFPaperStampProtected
+    missingComponents:
+    - Item
+    - Pullable
 - proto: StargateConsole
   entities:
   - uid: 1040
