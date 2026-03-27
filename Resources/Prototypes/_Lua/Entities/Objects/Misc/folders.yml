@@ -42,12 +42,6 @@
     whitelist:
       tags:
       - Document
-  - type: ItemMapper
-    mapLayers:
-      folder-overlay-paper:
-        whitelist:
-          tags:
-          - Document
   - type: Appearance
   - type: Tag
     tags:
@@ -79,12 +73,6 @@
     whitelist:
       tags:
       - Document
-  - type: ItemMapper
-    mapLayers:
-      folder-overlay-paper:
-        whitelist:
-          tags:
-          - Document
   - type: Appearance
   - type: Tag
     tags:

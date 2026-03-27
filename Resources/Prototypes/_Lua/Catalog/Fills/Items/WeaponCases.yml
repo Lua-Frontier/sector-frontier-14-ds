@@ -79,9 +79,8 @@
   - type: StorageFill
     contents:
       - id: WeaponRifleMR8C
-      - id: Magazine8x65mmSKRBox
+      - id: Magazine762x54mmRFMJ
         amount: 3
-      - id: AmmoBox8x65mmSKR
 
 - type: entity
   id: WeaponCaseLongGrizzlyBundle
@@ -234,7 +233,7 @@
   - type: StorageFill
     contents:
       - id: NFWeaponPistolN1984
-      - id: Magazine45_ACPPistolHighCapacityFMJ
+      - id: Magazine45_ACPPistolFMJ
         amount: 2
 
 - type: entity
@@ -314,7 +313,7 @@
   - type: StorageFill
     contents:
       - id: WeaponLMGHammer
-      - id: Magazine762x39mmFMJ
+      - id: Magazine68x52mmCaselessBig
         amount: 2
 
 - type: entity
@@ -464,5 +463,5 @@
   - type: StorageFill
     contents:
       - id: WeaponLMGRatel
-      - id: AmmoBox762x51mmFMJ
+      - id: Magazine8x65mmSKRBox
         amount: 2

@@ -77,20 +77,20 @@
 
 #region clothing
 
-- type: listing
-  id: UplinkBMStelsJetpack
-  name:  uplink-pirate-stealth-jetpack-name
-  description: uplink-pirate-stealth-jetpack-desc
-  productEntity: JetpackStealthFilled
-  cost:
-    Speso: 12500
-  categories:
-    - UplinkBMUtility
-  conditions:
-    - !type:StoreWhitelistCondition
-      whitelist:
-        tags:
-          - BMUplink
+# - type: listing
+#   id: UplinkBMStelsJetpack
+#   name:  uplink-pirate-stealth-jetpack-name
+#   description: uplink-pirate-stealth-jetpack-desc
+#   productEntity: JetpackStealthFilled
+#   cost:
+#     Speso: 12500
+#   categories:
+#     - UplinkBMUtility
+#   conditions:
+#     - !type:StoreWhitelistCondition
+#       whitelist:
+#         tags:
+#           - BMUplink
 
 - type: listing
   id: UplinkBMChameleon
@@ -108,20 +108,20 @@
         tags:
           - BMUplink
 
-- type: listing
-  id: UplinkBMAgentID
-  name:  uplink-bm-agentid-name
-  description: uplink-bm-agentid-desc
-  productEntity: AgentIDCard
-  cost:
-    Speso: 12500
-  categories:
-    - UplinkBMUtility
-  conditions:
-    - !type:StoreWhitelistCondition
-      whitelist:
-        tags:
-          - BMUplink
+# - type: listing
+#   id: UplinkBMAgentID
+#   name:  uplink-bm-agentid-name
+#   description: uplink-bm-agentid-desc
+#   productEntity: AgentIDCard
+#   cost:
+#     Speso: 12500
+#   categories:
+#     - UplinkBMUtility
+#   conditions:
+#     - !type:StoreWhitelistCondition
+#       whitelist:
+#         tags:
+#           - BMUplink
 
 - type: listing
   id: UplinkBMBackpackSyndicate
@@ -471,6 +471,25 @@
           - BMUplink
 
 # Region ammo
+
+# 12.7x99mm
+
+# FMJ
+
+- type: listing
+  id: UplinkBMMagazine127x99mmFMJ # Mag
+  name: uplink-security-Magazine127x99mmFMJ-name
+  description: uplink-security-Magazine127x99FMJ-desc
+  productEntity: Magazine127x99mm
+  cost:
+    Speso: 5000
+  categories:
+  - UplinkBMAmmo
+  conditions:
+  - !type:StoreWhitelistCondition
+    whitelist:
+      tags:
+      - BMUplink
 
 # 7.62x39mm
 

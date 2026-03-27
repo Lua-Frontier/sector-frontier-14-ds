@@ -209,20 +209,20 @@
       tags:
       - PirateUplink
 
-- type: listing
-  id: UplinkPirateStealthJetpack
-  name: uplink-pirate-stealth-jetpack-name
-  description: uplink-pirate-stealth-jetpack-desc
-  productEntity: JetpackStealthFilled
-  cost:
-    Doubloon: 2
-  categories:
-  - UplinkPirateUtility
-  conditions:
-  - !type:StoreWhitelistCondition
-    whitelist:
-      tags:
-      - PirateUplink
+# - type: listing
+#   id: UplinkPirateStealthJetpack
+#   name: uplink-pirate-stealth-jetpack-name
+#   description: uplink-pirate-stealth-jetpack-desc
+#   productEntity: JetpackStealthFilled
+#   cost:
+#     Doubloon: 2
+#   categories:
+#   - UplinkPirateUtility
+#   conditions:
+#   - !type:StoreWhitelistCondition
+#     whitelist:
+#       tags:
+#       - PirateUplink
 
 #region weapons
 
@@ -643,6 +643,25 @@
       - PirateUplink
 
 #region ammo
+
+# 12.7x99mm
+
+# FMJ
+
+- type: listing
+  id: UplinkSCMagazine127x99mmFMJ # Mag
+  name: uplink-security-Magazine127x99mmFMJ-name
+  description: uplink-security-Magazine127x99FMJ-desc
+  productEntity: Magazine127x99mm
+  cost:
+    Speso: 5000
+  categories:
+  - UplinkPirateAmmo
+  conditions:
+  - !type:StoreWhitelistCondition
+    whitelist:
+      tags:
+      - PirateUplink
 
 #7.62x54mmR
 

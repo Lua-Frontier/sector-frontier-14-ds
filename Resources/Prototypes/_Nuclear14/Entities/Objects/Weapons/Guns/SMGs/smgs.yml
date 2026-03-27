@@ -404,19 +404,19 @@
     slots:
       gun_magazine:
         name: Magazine
-        startingItem: N14MagazineSMG9mm
+        startingItem: Magazine635x40mmCaseless
         insertSound: /Audio/_Nuclear14/Weapons/Effects/Reload/SMGs/smg_magin.ogg
         ejectSound: /Audio/_Nuclear14/Weapons/Effects/Reload/SMGs/smg_magout.ogg
         whitelist:
           tags:
-            - N14MagazineSMG9mm
+            - Magazine635x40mmCaseless
       gun_chamber:
         name: Chamber
-        startingItem: N14CartridgePistol9
+        startingItem: Cartridge635x40mmCaseless
         priority: 1
         whitelist:
           tags:
-            - N14CartridgePistol9
+            - Cartridge635x40mmCaseless
   - type: MagazineVisuals
     magState: mag
     steps: 1

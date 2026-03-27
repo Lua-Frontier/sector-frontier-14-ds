@@ -5,4 +5,5 @@
   description: "Как вывести Serpent на сверхзвук и не ахуеть"
   components:
   - type: Sprite
+    sprite: Structures/Wallmounts/posters.rsi
     state: serpent

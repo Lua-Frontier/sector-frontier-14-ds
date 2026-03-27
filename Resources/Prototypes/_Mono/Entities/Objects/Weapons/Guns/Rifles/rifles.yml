@@ -27,10 +27,10 @@
 #    maxAngle: 48
 #    angleIncrease: 27
 #    angleDecay: 2
-    minAngle: 1.4 #Lua
-    maxAngle: 7 #Lua
-    angleIncrease: 5.6 #Lua
-    angleDecay: 3.7 #Lua
+    minAngle: 0 #Lua # Я ебал эту логику, ставлю нули и мне похуй
+    maxAngle: 0 #Lua
+    angleIncrease: 0 #Lua
+    angleDecay:0 #Lua
     fireRate: 3.6 #Lua 4<3.6
     selectedMode: SemiAuto
     availableModes:

@@ -1,7 +1,7 @@
 #region WizDen
 - type: entity # TODO: switch to .25 rifle (caseless)
   id: NFWeaponRifleAssaultSm
-  parent: [ NFBaseWeaponRifleAssaultChamber762x39, NFBaseWeaponFrameRifleAssaultCybersun ] #Lua 30 -> 762x39
+  parent: [ NFBaseWeaponRifleAssaultChamber762x39, NFBaseWeaponFrameRifleAssaultCybersunUnwieldable ] #Lua 30 -> 762x39
   name: Soland-Moss # Renamed: real brand name
   suffix: Need balance test
   description: |-
@@ -228,8 +228,9 @@
     angleIncrease: 0.2 #Lua
     angleDecay: 1 #Lua
     fireRate: 3.6 #Lua
-    selectedMode: SemiAuto
+    selectedMode: FullAuto
     availableModes:
       - SemiAuto
+      - FullAuto
     soundGunshot:
       path: /Audio/Weapons/Guns/Gunshots/ltrifle.ogg

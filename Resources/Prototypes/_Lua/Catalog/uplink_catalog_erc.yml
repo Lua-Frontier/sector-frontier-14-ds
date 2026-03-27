@@ -263,6 +263,25 @@
 
 # Region ammo
 
+# 12.7x99mm
+
+# FMJ
+
+- type: listing
+  id: UplinkERCMagazine127x99mmFMJ # Mag
+  name: uplink-security-Magazine127x99mmFMJ-name
+  description: uplink-security-Magazine127x99FMJ-desc
+  productEntity: Magazine127x99mm
+  cost:
+    Speso: 5000
+  categories:
+  - UplinkERCAmmo
+  conditions:
+  - !type:StoreWhitelistCondition
+    whitelist:
+      tags:
+      - ERCUplink
+
 # 7.62x39mm
 
 # FMJ
@@ -274,7 +293,7 @@
   productEntity: LuaBoxMagazineRifle762x39mmFMJ
   icon: { sprite: _NF/Objects/Storage/boxes.rsi, state: icon-magazine }
   cost:
-    Speso: 10000
+    Speso: 5000
   categories:
   - UplinkERCAmmo
   conditions:
@@ -292,7 +311,7 @@
   productEntity: LuaBoxMagazineRifle762x39mmRubber
   icon: { sprite: _NF/Objects/Storage/boxes.rsi, state: icon-magazine }
   cost:
-    Speso: 5000
+    Speso: 2500
   categories:
   - UplinkERCAmmo
   conditions:
@@ -312,7 +331,7 @@
   productEntity: LuaBoxMagazineRifle556x45mmFMJ
   icon: { sprite: _NF/Objects/Storage/boxes.rsi, state: icon-magazine }
   cost:
-    Speso: 10000
+    Speso: 5000
   categories:
   - UplinkERCAmmo
   conditions:
@@ -330,7 +349,7 @@
   productEntity: LuaBoxMagazineRifle556x45mmRubber
   icon: { sprite: _NF/Objects/Storage/boxes.rsi, state: icon-magazine }
   cost:
-    Speso: 5000
+    Speso: 2500
   categories:
   - UplinkERCAmmo
   conditions:
@@ -352,7 +371,7 @@
   productEntity: LuaBoxMagazine9x19mmSubMachineGunFMJ
   icon: { sprite: _NF/Objects/Storage/boxes.rsi, state: icon-magazine }
   cost:
-    Speso: 10000
+    Speso: 5000
   categories:
   - UplinkERCAmmo
   conditions:
@@ -370,7 +389,7 @@
   productEntity: LuaBoxMagazine9x19mmSubMachineGunRubber
   icon: { sprite: _NF/Objects/Storage/boxes.rsi, state: icon-magazine }
   cost:
-    Speso: 5000
+    Speso: 2500
   categories:
   - UplinkERCAmmo
   conditions:
@@ -390,7 +409,7 @@
   productEntity: LuaBoxMagazine9x19mmPistolHighCapacityFMJ
   icon: { sprite: _NF/Objects/Storage/boxes.rsi, state: icon-magazine }
   cost:
-    Speso: 10000
+    Speso: 5000
   categories:
   - UplinkERCAmmo
   conditions:
@@ -408,7 +427,7 @@
   productEntity: LuaBoxMagazine9x19mmPistolHighCapacityRubber
   icon: { sprite: _NF/Objects/Storage/boxes.rsi, state: icon-magazine }
   cost:
-    Speso: 5000
+    Speso: 2500
   categories:
   - UplinkERCAmmo
   conditions:
@@ -430,7 +449,7 @@
   productEntity: LuaBoxMagazine45_ACPSubMachineGunFMJ
   icon: { sprite: _NF/Objects/Storage/boxes.rsi, state: icon-magazine }
   cost:
-    Speso: 10000
+    Speso: 5000
   categories:
   - UplinkERCAmmo
   conditions:
@@ -448,7 +467,7 @@
   productEntity: LuaBoxMagazine45_ACPSubMachineGunRubber
   icon: { sprite: _NF/Objects/Storage/boxes.rsi, state: icon-magazine }
   cost:
-    Speso: 5000
+    Speso: 2500
   categories:
   - UplinkERCAmmo
   conditions:
@@ -468,7 +487,7 @@
   productEntity: LuaBoxMagazine45_ACPPistolHighCapacityFMJ
   icon: { sprite: _NF/Objects/Storage/boxes.rsi, state: icon-magazine }
   cost:
-    Speso: 10000
+    Speso: 5000
   categories:
   - UplinkERCAmmo
   conditions:
@@ -486,7 +505,7 @@
   productEntity: LuaBoxMagazine45_ACPPistolHighCapacityRubber
   icon: { sprite: _NF/Objects/Storage/boxes.rsi, state: icon-magazine }
   cost:
-    Speso: 5000
+    Speso: 2500
   categories:
   - UplinkERCAmmo
   conditions:
@@ -506,7 +525,7 @@
   productEntity: LuaBoxSpeedLoader45_magnumFMJ
   icon: { sprite: _NF/Objects/Storage/boxes.rsi, state: icon-magazine }
   cost:
-    Speso: 10000
+    Speso: 5000
   categories:
   - UplinkERCAmmo
   conditions:
@@ -524,7 +543,7 @@
   productEntity: LuaBoxSpeedLoader45_magnumRubber
   icon: { sprite: _NF/Objects/Storage/boxes.rsi, state: icon-magazine }
   cost:
-    Speso: 5000
+    Speso: 2500
   categories:
   - UplinkERCAmmo
   conditions:
@@ -544,7 +563,7 @@
   productEntity: LuaBoxMagazine762x51mmFMJ
   icon: { sprite: _NF/Objects/Storage/boxes.rsi, state: icon-magazine }
   cost:
-    Speso: 10000
+    Speso: 5000
   categories:
   - UplinkERCAmmo
   conditions:
@@ -559,7 +578,7 @@
   description: uplink-security-AmmoBox762x51mmFMJ-desc
   productEntity: AmmoBox762x51mmFMJ
   cost:
-    Speso: 10000
+    Speso: 5000
   categories:
   - UplinkERCAmmo
   conditions:
@@ -577,7 +596,7 @@
   productEntity: LuaBoxMagazine762x51mmRubber
   icon: { sprite: _NF/Objects/Storage/boxes.rsi, state: icon-magazine }
   cost:
-    Speso: 5000
+    Speso: 2500
   categories:
   - UplinkERCAmmo
   conditions:
@@ -597,7 +616,7 @@
   productEntity: LuaBoxMagazine8x65mmSKR
   icon: { sprite: _NF/Objects/Storage/boxes.rsi, state: icon-magazine }
   cost:
-    Speso: 10000
+    Speso: 5000
   categories:
   - UplinkERCAmmo
   conditions:
@@ -615,7 +634,7 @@
   description: uplink-bm-mechmedipen-desc
   productEntity: BruteAutoInjector
   cost:
-    Speso: 5000
+    Speso: 1000
   categories:
     - UplinkERCMedicine
   conditions:
@@ -630,7 +649,7 @@
   description: uplink-bm-burnmedipen-desc
   productEntity: BurnAutoInjector
   cost:
-    Speso: 5000
+    Speso: 1000
   categories:
     - UplinkERCMedicine
   conditions:

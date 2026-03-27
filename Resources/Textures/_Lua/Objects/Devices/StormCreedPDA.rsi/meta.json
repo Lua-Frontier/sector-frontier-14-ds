@@ -11,10 +11,12 @@
       "name": "icon"
     },
     {
-      "name": "equipped-IDCARD"
+      "name": "equipped-IDCARD",
+      "directions": 4
     },
     {
       "name": "flipped-equipped-IDCARD"
+      "directions": 4
     }
   ]
 }

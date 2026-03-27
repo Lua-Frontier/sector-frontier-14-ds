@@ -133,7 +133,7 @@
 - type: entity
   parent: ClothingOuterHardsuitSyndieCommander
   id: ClothingOuterHardsuitFSFBaseBravo
-  name: скафандр командира рейнджеров
+  name: скафандр солдата Браво
   suffix: КСО, Браво
   description: A protective hardsuit worn by the leader of an emergency response team.
   components:
@@ -173,7 +173,7 @@
 - type: entity
   parent: ClothingOuterHardsuitSyndieCommander
   id: ClothingOuterHardsuitFSFCommandBravo
-  name: скафандр командира рейнджеров
+  name: скафандр командира Браво
   suffix: КСО, Браво
   description: A protective hardsuit worn by the leader of an emergency response team.
   components:
@@ -215,7 +215,7 @@
 - type: entity
   parent: ClothingOuterHardsuitSyndieCommander
   id: ClothingOuterHardsuitFSFBaseCharlie
-  name: скафандр командира рейнджеров
+  name: скафандр солдата Чарли
   suffix: КСО, Чарли
   description: A protective hardsuit worn by the leader of an emergency response team.
   components:
@@ -255,7 +255,7 @@
 - type: entity
   parent: ClothingOuterHardsuitSyndieCommander
   id: ClothingOuterHardsuitFSFCommandCharlie
-  name: скафандр командира рейнджеров
+  name: скафандр командира Чарли
   suffix: КСО, Чарли
   description: A protective hardsuit worn by the leader of an emergency response team.
   components:

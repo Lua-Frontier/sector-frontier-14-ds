@@ -88,10 +88,10 @@
 #    maxAngle: 105
 #    angleIncrease: 4
 #    angleDecay: 16
-    minAngle: 1.4 #Lua
-    maxAngle: 7 #Lua
-    angleIncrease: 5.6 #Lua
-    angleDecay: 3.7 #Lua
+    minAngle: 0 #Lua # Я ебал эту логику, ставлю нули и мне похуй
+    maxAngle: 0 #Lua
+    angleIncrease: 0 #Lua
+    angleDecay: 0 #Lua
     fireRate: 1.5 #Lua 1.2<1.5
     soundGunshot:
       collection: N14AntiMaterielGunshot
@@ -199,10 +199,10 @@
 #    maxAngle: 105
 #    angleIncrease: 4
 #    angleDecay: 16
-    minAngle: 1.4 #Lua
-    maxAngle: 7 #Lua
-    angleIncrease: 5.6 #Lua
-    angleDecay: 3.7 #Lua
+    minAngle: 0 #Lua # Я ебал эту логику, ставлю нули и мне похуй
+    maxAngle: 0 #Lua
+    angleIncrease: 0 #Lua
+    angleDecay: 0 #Lua
     fireRate: 1.8 #Lua 1.2<1.8
     soundGunshot:
       collection: N14AntiMaterielGunshot
@@ -278,10 +278,10 @@
     sprite: _Nuclear14/Objects/Weapons/Guns/Snipers/leverrifle.rsi
   - type: Gun
     examineCaliber: gun-examine-caliber-76254 #Lua
-    minAngle: 1.4 #Lua
-    maxAngle: 7 #Lua
-    angleIncrease: 5.6 #Lua
-    angleDecay: 3.7 #Lua
+    minAngle: 0 #Lua # Я ебал эту логику, ставлю нули и мне похуй
+    maxAngle: 0 #Lua
+    angleIncrease: 0 #Lua
+    angleDecay: 0 #Lua
     fireRate: 2.4 #Lua 1.2<2.4
     soundGunshot:
       collection: N14LeverRifleGunshot
@@ -332,10 +332,10 @@
     sprite: _Nuclear14/Objects/Weapons/Guns/Snipers/brushgun.rsi
   - type: Gun
     examineCaliber: gun-examine-caliber-127 #Lua
-    minAngle: 1.4 #Lua
-    maxAngle: 7 #Lua
-    angleIncrease: 5.6 #Lua
-    angleDecay: 3.7 #Lua
+    minAngle: 0 #Lua # Я ебал эту логику, ставлю нули и мне похуй
+    maxAngle: 0 #Lua
+    angleIncrease: 0 #Lua
+    angleDecay: 0 #Lua
     fireRate: 1.2 #Lua 2<1.2
     soundGunshot:
       collection: N14BrushGunGunshot

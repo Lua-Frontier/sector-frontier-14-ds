@@ -33,10 +33,10 @@
 #    maxAngle: 45
 #    angleIncrease: 4
 #    angleDecay: 16
-    minAngle: 1 #Lua
-    maxAngle: 3.5 #Lua
-    angleIncrease: 0.2 #Lua
-    angleDecay: 1 #Lua
+    minAngle: 0 #Lua # Я ебал эту логику, ставлю нули и мне похуй
+    maxAngle: 0 #Lua
+    angleIncrease: 0 #Lua
+    angleDecay: 0 #Lua
     fireRate: 4.8 #Lua
     soundGunshot:
       collection: N14RifleR91Gunshot
@@ -103,10 +103,10 @@
 #    maxAngle: 50
 #    angleIncrease: 4
 #    angleDecay: 16
-    minAngle: 1 #Lua
-    maxAngle: 3.5 #Lua
-    angleIncrease: 0.2 #Lua
-    angleDecay: 1 #Lua
+    minAngle: 0 #Lua # Я ебал эту логику, ставлю нули и мне похуй
+    maxAngle: 0 #Lua
+    angleIncrease: 0 #Lua
+    angleDecay: 0 #Lua
     fireRate: 4
     soundGunshot:
       collection: N14ChineseRifleGunshot
@@ -169,10 +169,10 @@
 #    maxAngle: 45
 #    angleIncrease: 4
 #    angleDecay: 16
-    minAngle: 1 #Lua
-    maxAngle: 3.5 #Lua
-    angleIncrease: 0.2 #Lua
-    angleDecay: 1 #Lua
+    minAngle: 0 #Lua # Я ебал эту логику, ставлю нули и мне похуй
+    maxAngle: 0 #Lua
+    angleIncrease: 0 #Lua
+    angleDecay: 0 #Lua
     fireRate: 6 #Lua
     soundGunshot:
       collection: N14CarbineGunshot
@@ -261,10 +261,10 @@
 #    maxAngle: 45
 #    angleIncrease: 4
 #    angleDecay: 16
-    minAngle: 1 #Lua
-    maxAngle: 3.5 #Lua
-    angleIncrease: 0.2 #Lua
-    angleDecay: 1 #Lua
+    minAngle: 0 #Lua # Я ебал эту логику, ставлю нули и мне похуй
+    maxAngle: 0 #Lua
+    angleIncrease: 0 #Lua
+    angleDecay: 0 #Lua
     fireRate: 5
     soundGunshot:
       collection: N14MarksmanGunshot
@@ -330,10 +330,10 @@
 #    maxAngle: 40
 #    angleIncrease: 4
 #    angleDecay: 16
-    minAngle: 1 #Lua
-    maxAngle: 3.5 #Lua
-    angleIncrease: 0.2 #Lua
-    angleDecay: 1 #Lua
+    minAngle: 0 #Lua # Я ебал эту логику, ставлю нули и мне похуй
+    maxAngle: 0 #Lua
+    angleIncrease: 0 #Lua
+    angleDecay: 0 #Lua
     fireRate: 4.8 #Lua 5<4.8
     soundGunshot:
       collection: N14ServiceGunshot
@@ -420,10 +420,10 @@
 #    maxAngle: 46
 #    angleIncrease: 4
 #    angleDecay: 12
-    minAngle: 1.4 #Lua
-    maxAngle: 7 #Lua
-    angleIncrease: 5.6 #Lua
-    angleDecay: 3.7 #Lua
+    minAngle: 0 #Lua # Я ебал эту логику, ставлю нули и мне похуй
+    maxAngle: 0 #Lua
+    angleIncrease: 0 #Lua
+    angleDecay: 0 #Lua
     fireRate: 3 #Lua 6<3
     soundGunshot:
       collection: N14ServiceGunshot
@@ -482,10 +482,10 @@
     minAngle: -23
     maxAngle: -56
   - type: Gun
-    minAngle: 24
-    maxAngle: 60
-    angleIncrease: 4
-    angleDecay: 16
+    minAngle: 23 # Я ебал эту логику, ставлю нули и мне похуй
+    maxAngle: 56
+    angleIncrease: 0
+    angleDecay: 0
     fireRate: 2
     soundGunshot:
       collection: N14BattleRifleGunshot
@@ -573,10 +573,10 @@
 #    maxAngle: 48
 #    angleIncrease: 4
 #    angleDecay: 16
-    minAngle: 1 #Lua
-    maxAngle: 3.5 #Lua
-    angleIncrease: 0.2 #Lua
-    angleDecay: 1 #Lua
+    minAngle: 0 #Lua # Я ебал эту логику, ставлю нули и мне похуй
+    maxAngle: 0 #Lua
+    angleIncrease: 0 #Lua
+    angleDecay: 0 #Lua
     fireRate: 6 #Lua 4<6
     soundGunshot:
       collection: N14OldCarbineGunshot

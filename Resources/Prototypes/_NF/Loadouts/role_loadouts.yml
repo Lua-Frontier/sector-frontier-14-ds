@@ -58,7 +58,6 @@
 - type: roleLoadout
   id: JobMercenary
   groups:
-  - MercenaryNeck #Lua
   - MercenaryHead
   - ContractorNeck
   - MercenaryJumpsuit

@@ -159,9 +159,3 @@
   - MercenaryClothingBeltSecurity
   subgroups:
   - ContractorBelt
-
-- type: loadoutGroup #Lua
-  id: MercenaryNeck
-  name: loadout-group-contractor-neck
-  loadouts:
-  - SCN14ClothingNeckCloakGhillie

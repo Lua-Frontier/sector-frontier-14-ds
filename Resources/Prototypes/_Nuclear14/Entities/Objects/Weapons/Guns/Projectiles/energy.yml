@@ -56,6 +56,11 @@
         Radiation: 10
     soundHit:
       path: "/Audio/Weapons/Guns/Hits/energy_meat1.ogg"
+  - type: Sprite
+    sprite: _Lua/Objects/Specific/Xenobio/xenobio_disc.rsi
+    layers:
+    - state: biodisc
+      shader: unshaded
 
 - type: entity
   name: recharger laser
