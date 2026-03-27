@@ -8,11 +8,16 @@
   - SCN14ClothingUniformNCRDesert
   - SCN14ClothingOfficerUniformNCRDesert
   - SCN14ClothingUniformNCRSnow
-  - SCN14ClothingUniformJumpsuitChinese
+#  - SCN14ClothingUniformJumpsuitChinese
   - SCN14ClothingUniformJumpsuitTownGuard
   - SCN14ClothingUniformJumpsuitTownGuardLight
   fallbacks:
-  - SCN14ClothingUniformJumpsuitEnclave
+  - SCN14ClothingUniformJumpsuitTownGuard
+
+- type: loadout
+  id: SCN14ClothingNeckCloakGhillie
+  equipment:
+    jumpsuit: N14ClothingNeckCloakGhillie
 
 - type: loadout
   id: SCN14ClothingUniformJumpsuitEnclave
@@ -133,8 +138,8 @@
   - SCN14ClothingOuterMaskmanCoat
   - SCN14ClothingOuterBrotherhoodFieldScribeCoat
   - SCN14ClothingOuterSlickCoat6
-  fallbacks:
-  - SCN14ClothingOuterBrotherhoodFieldScribeCoat
+  # fallbacks:
+  # - SCN14ClothingOuterBrotherhoodFieldScribeCoat
 
 - type: loadout
   id: SCN14ClothingOuterMaskmanCoat
@@ -164,7 +169,7 @@
   - SCN14ClothingNeckMantleLeather
   - SCN14ClothingNeckBeige
   fallbacks:
-  - SCN14ClothingNeckBeige
+  - SCN14ClothingNeckCloakLeather
 
 - type: loadout
   id: SCN14ClothingNeckCloakLeather
@@ -209,7 +214,7 @@
   - SCN14ClothingHandsGlovesLeather
   - SCN14ClothingHandsGlovesDriver
   fallbacks:
-  - SCN14ClothingHandsGlovesDriver
+  - SCN14ClothingHandsGlovesBlackLeather
 
 - type: loadout
   id: SCN14ClothingHandsGlovesBlackBiker
@@ -245,8 +250,9 @@
   loadouts:
   - SCN14ClothingEyesGlassesPilot
   - SCN14ClothingSnowGoggles
+  - MercenaryClothingEyesGlassesSunglasses
   fallbacks:
-  - SCN14ClothingSnowGoggles
+  - MercenaryClothingEyesGlassesSunglasses
 
 - type: loadout
   id: SCN14ClothingEyesGlassesPilot
@@ -368,7 +374,7 @@
   - SCN14ClothingHeadHatBrotherhoodCap
   - SCN14ClothingHeadHatBrotherhoodFieldCap
   fallbacks:
-  - SCN14ClothingHeadHatBrotherhoodCap
+  - SCN14ClothingHeadHatArmyBeretRanger
 
 - type: loadout
   id: SCN14ClothingHeadHatArmyBeretRanger
