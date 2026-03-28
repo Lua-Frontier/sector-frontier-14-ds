@@ -392,7 +392,6 @@
   - type: ChamberMagazineAmmoProvider
     soundRack:
       path: /Audio/_Nuclear14/Weapons/Effects/Reload/SMGs/smg_cock.ogg
-  - type: Wieldable
   - type: GunWieldBonus
     minAngle: -7
     maxAngle: -15

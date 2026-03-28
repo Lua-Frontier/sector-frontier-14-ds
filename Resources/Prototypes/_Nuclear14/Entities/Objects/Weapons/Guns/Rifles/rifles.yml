@@ -33,8 +33,8 @@
 #    maxAngle: 45
 #    angleIncrease: 4
 #    angleDecay: 16
-    minAngle: 0 #Lua # Я ебал эту логику, ставлю нули и мне похуй
-    maxAngle: 0 #Lua
+    minAngle: 20 #Lua # Я ебал эту логику, ставлю нули и мне похуй
+    maxAngle: 30 #Lua
     angleIncrease: 0 #Lua
     angleDecay: 0 #Lua
     fireRate: 4.8 #Lua
@@ -103,8 +103,8 @@
 #    maxAngle: 50
 #    angleIncrease: 4
 #    angleDecay: 16
-    minAngle: 0 #Lua # Я ебал эту логику, ставлю нули и мне похуй
-    maxAngle: 0 #Lua
+    minAngle: 20 #Lua # Я ебал эту логику, ставлю нули и мне похуй
+    maxAngle: 30 #Lua
     angleIncrease: 0 #Lua
     angleDecay: 0 #Lua
     fireRate: 4
@@ -169,8 +169,8 @@
 #    maxAngle: 45
 #    angleIncrease: 4
 #    angleDecay: 16
-    minAngle: 0 #Lua # Я ебал эту логику, ставлю нули и мне похуй
-    maxAngle: 0 #Lua
+    minAngle: 20 #Lua # Я ебал эту логику, ставлю нули и мне похуй
+    maxAngle: 30 #Lua
     angleIncrease: 0 #Lua
     angleDecay: 0 #Lua
     fireRate: 6 #Lua
@@ -261,8 +261,8 @@
 #    maxAngle: 45
 #    angleIncrease: 4
 #    angleDecay: 16
-    minAngle: 0 #Lua # Я ебал эту логику, ставлю нули и мне похуй
-    maxAngle: 0 #Lua
+    minAngle: 20 #Lua # Я ебал эту логику, ставлю нули и мне похуй
+    maxAngle: 30 #Lua
     angleIncrease: 0 #Lua
     angleDecay: 0 #Lua
     fireRate: 5
@@ -330,8 +330,8 @@
 #    maxAngle: 40
 #    angleIncrease: 4
 #    angleDecay: 16
-    minAngle: 0 #Lua # Я ебал эту логику, ставлю нули и мне похуй
-    maxAngle: 0 #Lua
+    minAngle: 20 #Lua # Я ебал эту логику, ставлю нули и мне похуй
+    maxAngle: 30 #Lua
     angleIncrease: 0 #Lua
     angleDecay: 0 #Lua
     fireRate: 4.8 #Lua 5<4.8
@@ -420,8 +420,8 @@
 #    maxAngle: 46
 #    angleIncrease: 4
 #    angleDecay: 12
-    minAngle: 0 #Lua # Я ебал эту логику, ставлю нули и мне похуй
-    maxAngle: 0 #Lua
+    minAngle: 20 #Lua # Я ебал эту логику, ставлю нули и мне похуй
+    maxAngle: 30 #Lua
     angleIncrease: 0 #Lua
     angleDecay: 0 #Lua
     fireRate: 3 #Lua 6<3
@@ -482,7 +482,7 @@
     minAngle: -23
     maxAngle: -56
   - type: Gun
-    minAngle: 23 # Я ебал эту логику, ставлю нули и мне похуй
+    minAngle: 23
     maxAngle: 56
     angleIncrease: 0
     angleDecay: 0
@@ -573,8 +573,8 @@
 #    maxAngle: 48
 #    angleIncrease: 4
 #    angleDecay: 16
-    minAngle: 0 #Lua # Я ебал эту логику, ставлю нули и мне похуй
-    maxAngle: 0 #Lua
+    minAngle: 20 #Lua # Я ебал эту логику, ставлю нули и мне похуй
+    maxAngle: 30 #Lua
     angleIncrease: 0 #Lua
     angleDecay: 0 #Lua
     fireRate: 6 #Lua 4<6

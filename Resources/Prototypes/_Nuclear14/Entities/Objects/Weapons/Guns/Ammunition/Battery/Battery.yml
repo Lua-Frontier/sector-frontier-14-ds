@@ -275,6 +275,11 @@
         Caustic: 7.5
     soundHit:
       path: "/Audio/Weapons/Guns/Hits/energy_meat1.ogg"
+  - type: Sprite
+    sprite: Objects/Weapons/Guns/Projectiles/projectiles_tg.rsi
+    layers:
+    - state: plasmabullet
+      shader: unshaded
 
 #MARK: Plasma shell
 

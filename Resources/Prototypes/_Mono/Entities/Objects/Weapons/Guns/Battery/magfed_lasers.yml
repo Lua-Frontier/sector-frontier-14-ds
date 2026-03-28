@@ -81,8 +81,8 @@
   - type: Gun
 #    minAngle: 23 # comment from _Lua
 #    maxAngle: 64
-    minAngle: 0 #Lua # Я ебал эту логику, ставлю нули и мне похуй
-    maxAngle: 0 #Lua
+    minAngle: 20 #Lua # Я ебал эту логику, ставлю нули и мне похуй
+    maxAngle: 30 #Lua
     angleIncrease: 0 #Lua
     angleDecay: 0 #Lua
     fireRate: 1.8 #Lua 0.7<1.8

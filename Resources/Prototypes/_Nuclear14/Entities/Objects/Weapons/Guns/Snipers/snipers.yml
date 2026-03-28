@@ -88,8 +88,8 @@
 #    maxAngle: 105
 #    angleIncrease: 4
 #    angleDecay: 16
-    minAngle: 0 #Lua # Я ебал эту логику, ставлю нули и мне похуй
-    maxAngle: 0 #Lua
+    minAngle: 20 #Lua # Я ебал эту логику, ставлю нули и мне похуй
+    maxAngle: 30 #Lua
     angleIncrease: 0 #Lua
     angleDecay: 0 #Lua
     fireRate: 1.5 #Lua 1.2<1.5
@@ -165,6 +165,9 @@
     containers:
       gun_magazine: !type:ContainerSlot
       gun_chamber: !type:ContainerSlot
+  - type: ChamberMagazineAmmoProvider #Lua
+    soundRack:
+      path: /Audio/Weapons/Guns/Cock/batrifle_cock.ogg
   - type: ItemSlots #Lua
     slots:
       gun_magazine:
@@ -199,8 +202,8 @@
 #    maxAngle: 105
 #    angleIncrease: 4
 #    angleDecay: 16
-    minAngle: 0 #Lua # Я ебал эту логику, ставлю нули и мне похуй
-    maxAngle: 0 #Lua
+    minAngle: 20 #Lua # Я ебал эту логику, ставлю нули и мне похуй
+    maxAngle: 30 #Lua
     angleIncrease: 0 #Lua
     angleDecay: 0 #Lua
     fireRate: 1.8 #Lua 1.2<1.8

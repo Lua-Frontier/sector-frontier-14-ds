@@ -16,12 +16,12 @@
     sound:
       collection: RiflesDrop
   # Goobstation edit end
-  - type: Wieldable
-    unwieldOnUse: false
-  - type: GunRequiresWield
-  - type: GunWieldBonus
-    minAngle: -0 # Set to 0 because GunRequiresWield
-    maxAngle: -0
+  # - type: Wieldable
+  #   unwieldOnUse: false
+  # - type: GunRequiresWield
+  # - type: GunWieldBonus
+  #   minAngle: -0 # Set to 0 because GunRequiresWield
+  #   maxAngle: -0
   - type: Gun
     projectileSpeed: 55 #Lua
     minAngle: 2
@@ -57,12 +57,6 @@
     sound:
       collection: RiflesDrop
   # Goobstation edit end
-  - type: Wieldable
-    unwieldOnUse: false
-  - type: GunRequiresWield
-  - type: GunWieldBonus
-    minAngle: -0 # Set to 0 because GunRequiresWield
-    maxAngle: -0
   - type: Gun
     projectileSpeed: 55 #Lua
     minAngle: 2
@@ -95,6 +89,12 @@
     fireRate: 5 #Lua 3.4<5
   - type: NFWeaponDetails
     class: weapon-details-manufacturer-nanotrasen-munitions
+  - type: Wieldable
+    unwieldOnUse: false
+  - type: GunRequiresWield
+  - type: GunWieldBonus
+    minAngle: -0 # Set to 0 because GunRequiresWield
+    maxAngle: -0
 
 - type: entity
   abstract: true
@@ -107,6 +107,12 @@
     fireRate: 5 #Lua 3.2<5
   - type: NFWeaponDetails
     class: weapon-details-manufacturer-cybersun-industries
+  - type: Wieldable
+    unwieldOnUse: false
+  - type: GunRequiresWield
+  - type: GunWieldBonus
+    minAngle: -0 # Set to 0 because GunRequiresWield
+    maxAngle: -0
 
 - type: entity
   abstract: true
@@ -133,6 +139,12 @@
     fireRate: 4.5 #Lua 3.2<4.5
   - type: NFWeaponDetails
     class: weapon-details-manufacturer-frontier-gunsmith-consortium
+  - type: Wieldable
+    unwieldOnUse: false
+  - type: GunRequiresWield
+  - type: GunWieldBonus
+    minAngle: -0 # Set to 0 because GunRequiresWield
+    maxAngle: -0
 
 #region chamber
 - type: entity
