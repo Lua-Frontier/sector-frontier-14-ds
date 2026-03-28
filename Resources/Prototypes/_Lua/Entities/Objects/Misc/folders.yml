@@ -15,6 +15,7 @@
     prototypes:
     - BoxFolderERCPlanChertalet
     - BoxFolderERCPlanChilipizdriki
+    - BoxFolderERCPlanEinsteinIsland
     chance: 1.0
     offset: 0.0
 
@@ -61,6 +62,37 @@
     contents:
     - id: ERCPlanChilipizdriki
     - id: ERCPlanChilipizdrikiReport
+      amount: 2
+  - type: Item
+    sprite: Objects/Misc/folders.rsi
+    size: Small
+    shape: null
+  - type: Storage
+    maxItemSize: Small
+    grid:
+    - 0,0,4,3
+    whitelist:
+      tags:
+      - Document
+  - type: Appearance
+  - type: Tag
+    tags:
+    - Folder
+
+- type: entity
+  id: BoxFolderERCPlanEinsteinIsland
+  parent: BoxBase
+  name: Папка Директора Исследований
+  components:
+  - type: Sprite
+    sprite: Objects/Misc/folders.rsi
+    layers:
+    - state: folder-erc
+    - state: folder-base
+  - type: StorageFill
+    contents:
+    - id: ERCPlanEinsteinIsland
+    - id: ERCPlanEinsteinIslandReport
       amount: 2
   - type: Item
     sprite: Objects/Misc/folders.rsi
