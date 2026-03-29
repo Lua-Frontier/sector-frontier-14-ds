@@ -1290,6 +1290,21 @@
 #region utility
 
 - type: listing
+  id: UplinkSecurityEShieldGen
+  name:  uplink-security-eshieldgen-name
+  description: uplink-security-eshieldgen-desc
+  productEntity: ClothingBackpackEnergyShield
+  cost:
+    FrontierUplinkCoin: 5
+  categories:
+    - UplinkSecurityUtility
+  conditions:
+    - !type:StoreWhitelistCondition
+      whitelist:
+        tags:
+          - SecurityUplink
+
+- type: listing
   id: UplinkSecurityArmySatchel
   name:  uplink-security-armysatchel-name
   description: uplink-security-armysatchel-desc

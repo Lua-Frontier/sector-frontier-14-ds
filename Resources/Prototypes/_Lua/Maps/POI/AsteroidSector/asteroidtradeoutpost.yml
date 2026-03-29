@@ -8,7 +8,7 @@
   name: 'Чёрный Рынок'
   minimumDistance: 2500
   maximumDistance: 3500
-  spawnGroup: BlackmarketDefault
+  spawnGroup: AsteroidMarketStation
   gridPath: /Maps/_Lua/POI/BlackMarket.yml
   addComponents:
   - type: RadarBlipIcon
@@ -36,7 +36,7 @@
   minPlayers: 0
   stations:
     AsteroidTradeOutpost:
-      stationProto: Required #MarketFrontierOutpost
+      stationProto: MarketFrontierOutpost
       components:
         - type: StationNameSetup
           mapNameTemplate: 'Trade Outpost'

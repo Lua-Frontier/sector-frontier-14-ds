@@ -209,6 +209,21 @@
       tags:
       - PirateUplink
 
+- type: listing
+  id: UplinkPirateEShieldGen
+  name:  uplink-security-eshieldgen-name
+  description: uplink-security-eshieldgen-desc
+  productEntity: ClothingBackpackEnergyShield
+  cost:
+    Doubloon: 5
+  categories:
+    - UplinkPirateUtility
+  conditions:
+    - !type:StoreWhitelistCondition
+      whitelist:
+        tags:
+          - PirateUplink
+
 # - type: listing
 #   id: UplinkPirateStealthJetpack
 #   name: uplink-pirate-stealth-jetpack-name
