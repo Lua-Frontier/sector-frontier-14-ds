@@ -4,8 +4,8 @@ meta:
   engineVersion: 272.0.0
   forkId: ""
   forkVersion: ""
-  time: 03/27/2026 14:01:34
-  entityCount: 4762
+  time: 03/29/2026 11:35:17
+  entityCount: 4763
 maps:
 - 6
 grids:
@@ -12384,6 +12384,39 @@ entities:
       rot: 3.141592653589793 rad
       pos: -0.5,19.5
       parent: 1
+- proto: ComputerShipyardParking
+  entities:
+  - uid: 1893
+    components:
+    - type: Transform
+      pos: 23.5,3.5
+      parent: 1
+  - uid: 1899
+    components:
+    - type: Transform
+      pos: 13.5,23.5
+      parent: 1
+  - uid: 1917
+    components:
+    - type: Transform
+      pos: -12.5,23.5
+      parent: 1
+  - uid: 1939
+    components:
+    - type: Transform
+      pos: -20.5,3.5
+      parent: 1
+  - uid: 1941
+    components:
+    - type: Transform
+      rot: 3.141592653589793 rad
+      pos: 0.5,-0.5
+      parent: 1
+  - uid: 4763
+    components:
+    - type: Transform
+      pos: 0.5,23.5
+      parent: 1
 - proto: ComputerShipyardScrap
   entities:
   - uid: 1790
@@ -20297,20 +20330,10 @@ entities:
     - type: Transform
       pos: -17.5,13.5
       parent: 1
-  - uid: 1939
-    components:
-    - type: Transform
-      pos: 13.5,23.5
-      parent: 1
   - uid: 1940
     components:
     - type: Transform
       pos: 17.5,19.5
-      parent: 1
-  - uid: 1941
-    components:
-    - type: Transform
-      pos: -12.5,23.5
       parent: 1
   - uid: 1942
     components:
@@ -27365,22 +27388,11 @@ entities:
     - type: Transform
       pos: -3.5,-0.5
       parent: 1
-  - uid: 1893
-    components:
-    - type: Transform
-      rot: 3.141592653589793 rad
-      pos: 13.5,23.5
-      parent: 1
   - uid: 1894
     components:
     - type: Transform
       rot: 3.141592653589793 rad
       pos: 17.5,19.5
-      parent: 1
-  - uid: 1899
-    components:
-    - type: Transform
-      pos: -12.5,23.5
       parent: 1
   - uid: 1909
     components:
@@ -27391,11 +27403,6 @@ entities:
     components:
     - type: Transform
       pos: -5.5,23.5
-      parent: 1
-  - uid: 1917
-    components:
-    - type: Transform
-      pos: -20.5,3.5
       parent: 1
   - uid: 1918
     components:
