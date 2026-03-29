@@ -1,11 +1,11 @@
 meta:
   format: 7
   category: Grid
-  engineVersion: 268.0.0
+  engineVersion: 272.0.0
   forkId: ""
   forkVersion: ""
-  time: 01/19/2026 10:36:06
-  entityCount: 1455
+  time: 03/29/2026 14:14:33
+  entityCount: 1446
 maps: []
 grids:
 - 1
@@ -631,7 +631,8 @@ entities:
             0: 61152
             2: 1
           0,3:
-            1: 52428
+            1: 52364
+            3: 64
           0,-1:
             1: 35071
           1,1:
@@ -649,11 +650,13 @@ entities:
           2,1:
             1: 61234
           2,2:
-            1: 26382
+            1: 25358
+            3: 1024
           2,0:
             1: 8738
           2,3:
-            1: 26214
+            1: 9830
+            3: 16384
           2,-1:
             1: 8958
           2,4:
@@ -689,7 +692,9 @@ entities:
           1,-2:
             0: 187
           1,-1:
-            1: 3838
+            1: 254
+            3: 2560
+            4: 1024
           1,-4:
             2: 40960
           2,-3:
@@ -813,9 +818,25 @@ entities:
           - 0
           - 0
           - 0
+        - volume: 2500
+          temperature: 293.15
+          moles:
+          - 21.813705
+          - 82.06108
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
         chunkSize: 4
     - type: GasTileOverlay
     - type: RadiationGridResistance
+    - type: ShipCpuLimit
 - proto: AirCanister
   entities:
   - uid: 2
@@ -4597,48 +4618,6 @@ entities:
     - type: Physics
       canCollide: False
     - type: InsideEntityStorage
-- proto: ClothingOuterHardsuitPirateScaf
-  entities:
-  - uid: 30
-    components:
-    - type: Transform
-      parent: 24
-    - type: GroupExamine
-      group:
-      - hoverMessage: ""
-        contextText: verb-examine-group-other
-        icon: /Textures/Interface/examine-star.png
-        components:
-        - Armor
-        - ClothingSpeedModifier
-        entries:
-        - message: Понижает вашу скорость на [color=yellow]5%[/color].
-          priority: 0
-          component: ClothingSpeedModifier
-        - message: >-
-            Обеспечивает следующую защиту:
-
-            - [color=yellow]Ударный[/color] урон снижается на [color=lightblue]55%[/color].
-
-            - [color=yellow]Режущий[/color] урон снижается на [color=lightblue]55%[/color].
-
-            - [color=yellow]Колющий[/color] урон снижается на [color=lightblue]45%[/color].
-
-            - [color=yellow]Высокотемпературный[/color] урон снижается на [color=lightblue]50%[/color].
-
-            - [color=yellow]Радиационный[/color] урон снижается на [color=lightblue]60%[/color].
-
-            - [color=yellow]Кислотный[/color] урон снижается на [color=lightblue]55%[/color].
-
-            - [color=aqua]Стамина[/color] урон снижается на [color=lightblue]65%[/color].
-
-            - [color=orange]Взрывной[/color] урон снижается на [color=lightblue]50%[/color].
-          priority: 0
-          component: Armor
-        title: null
-    - type: Physics
-      canCollide: False
-    - type: InsideEntityStorage
 - proto: ClothingShoesBootsMagPirateFilled
   entities:
   - uid: 31
@@ -6350,6 +6329,24 @@ entities:
     - type: Transform
       pos: 2.5,13.5
       parent: 1
+    - type: EntityStorage
+      air:
+        volume: 200
+        immutable: False
+        temperature: 293.14923
+        moles:
+        - 1.7459903
+        - 6.568249
+        - 0
+        - 0
+        - 0
+        - 0
+        - 0
+        - 0
+        - 0
+        - 0
+        - 0
+        - 0
 - proto: LockerSteel
   entities:
   - uid: 905
@@ -6357,11 +6354,47 @@ entities:
     - type: Transform
       pos: 10.5,10.5
       parent: 1
+    - type: EntityStorage
+      air:
+        volume: 200
+        immutable: False
+        temperature: 293.14923
+        moles:
+        - 1.7459903
+        - 6.568249
+        - 0
+        - 0
+        - 0
+        - 0
+        - 0
+        - 0
+        - 0
+        - 0
+        - 0
+        - 0
   - uid: 906
     components:
     - type: Transform
       pos: 10.5,15.5
       parent: 1
+    - type: EntityStorage
+      air:
+        volume: 200
+        immutable: False
+        temperature: 293.14923
+        moles:
+        - 1.7459903
+        - 6.568249
+        - 0
+        - 0
+        - 0
+        - 0
+        - 0
+        - 0
+        - 0
+        - 0
+        - 0
+        - 0
 - proto: LockerWallMaterialsFuelBluespaceFilled
   entities:
   - uid: 907
@@ -6413,11 +6446,6 @@ entities:
       parent: 1
 - proto: MedkitCombatFilled
   entities:
-  - uid: 914
-    components:
-    - type: Transform
-      pos: 2.3632689,15.489302
-      parent: 1
   - uid: 915
     components:
     - type: Transform
@@ -6451,42 +6479,6 @@ entities:
     - type: Physics
       canCollide: False
     - type: InsideEntityStorage
-- proto: NFWeaponRevolverRitland45
-  entities:
-  - uid: 920
-    components:
-    - type: Transform
-      parent: 919
-    - type: Physics
-      canCollide: False
-  - uid: 921
-    components:
-    - type: Transform
-      parent: 919
-    - type: Physics
-      canCollide: False
-- proto: NFWeaponRifleAssaultSm
-  entities:
-  - uid: 922
-    components:
-    - type: Transform
-      parent: 919
-    - type: Physics
-      canCollide: False
-- proto: NFWeaponShotgunSawn
-  entities:
-  - uid: 923
-    components:
-    - type: Transform
-      parent: 919
-    - type: Physics
-      canCollide: False
-  - uid: 924
-    components:
-    - type: Transform
-      parent: 919
-    - type: Physics
-      canCollide: False
 - proto: OreProcessor
   entities:
   - uid: 925
@@ -6928,16 +6920,6 @@ entities:
       parent: 1
 - proto: SheetSteel
   entities:
-  - uid: 996
-    components:
-    - type: Transform
-      pos: 5.374074,-3.4736195
-      parent: 1
-  - uid: 997
-    components:
-    - type: Transform
-      pos: 5.703292,-3.4736195
-      parent: 1
   - uid: 998
     components:
     - type: Transform
@@ -7106,33 +7088,11 @@ entities:
       parent: 1
 - proto: StructureGunRack
   entities:
-  - uid: 919
+  - uid: 30
     components:
     - type: Transform
       pos: 6.5,-3.5
       parent: 1
-    - type: ContainerContainer
-      containers:
-        weapon1: !type:ContainerSlot
-          showEnts: False
-          occludes: True
-          ent: 923
-        weapon2: !type:ContainerSlot
-          showEnts: False
-          occludes: True
-          ent: 924
-        weapon3: !type:ContainerSlot
-          showEnts: False
-          occludes: True
-          ent: 920
-        weapon4: !type:ContainerSlot
-          showEnts: False
-          occludes: True
-          ent: 921
-        weapon5: !type:ContainerSlot
-          showEnts: False
-          occludes: True
-          ent: 922
 - proto: SubstationBasic
   entities:
   - uid: 1018
@@ -7162,8 +7122,8 @@ entities:
         immutable: False
         temperature: 293.14923
         moles:
-        - 1.8856695
-        - 7.0937095
+        - 1.8968438
+        - 7.1357465
         - 0
         - 0
         - 0
@@ -7182,16 +7142,15 @@ entities:
           showEnts: False
           occludes: True
           ents:
-          - 33
           - 32
-          - 26
-          - 25
-          - 30
-          - 29
-          - 31
-          - 27
-          - 28
           - 34
+          - 28
+          - 27
+          - 31
+          - 29
+          - 25
+          - 26
+          - 33
 - proto: SuitStoragePirateCap
   entities:
   - uid: 1020
@@ -7199,11 +7158,47 @@ entities:
     - type: Transform
       pos: 7.5,-1.5
       parent: 1
+    - type: EntityStorage
+      air:
+        volume: 200
+        immutable: False
+        temperature: 293.14923
+        moles:
+        - 1.7459903
+        - 6.568249
+        - 0
+        - 0
+        - 0
+        - 0
+        - 0
+        - 0
+        - 0
+        - 0
+        - 0
+        - 0
   - uid: 1021
     components:
     - type: Transform
       pos: 5.5,-1.5
       parent: 1
+    - type: EntityStorage
+      air:
+        volume: 200
+        immutable: False
+        temperature: 293.14923
+        moles:
+        - 1.7459903
+        - 6.568249
+        - 0
+        - 0
+        - 0
+        - 0
+        - 0
+        - 0
+        - 0
+        - 0
+        - 0
+        - 0
 - proto: TableReinforced
   entities:
   - uid: 1022

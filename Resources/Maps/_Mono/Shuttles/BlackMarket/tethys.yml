@@ -1,10 +1,10 @@
 meta:
   format: 7
   category: Grid
-  engineVersion: 268.0.0
+  engineVersion: 272.0.0
   forkId: ""
   forkVersion: ""
-  time: 12/13/2025 10:50:08
+  time: 03/29/2026 14:19:22
   entityCount: 460
 maps: []
 grids:
@@ -32,7 +32,6 @@ tilemap:
   14: PlatingCornerNW
   15: PlatingCornerSE
   16: PlatingCornerSW
-  12: ShieldLattice
 entities:
 - proto: ""
   entities:
@@ -41,7 +40,6 @@ entities:
     - type: MetaData
       name: Tethys
     - type: Transform
-      pos: 200,0
       parent: invalid
     - type: MapGrid
       chunks:
@@ -485,7 +483,8 @@ entities:
             2: 136
             1: 32
           -1,-1:
-            2: 48010
+            2: 48008
+            3: 2
           -1,-2:
             0: 16
             2: 59528
@@ -605,6 +604,7 @@ entities:
     - type: GasTileOverlay
     - type: RadiationGridResistance
     - type: ImplicitRoof
+    - type: ShipCpuLimit
 - proto: AirAlarm
   entities:
   - uid: 2
@@ -673,6 +673,18 @@ entities:
     components:
     - type: Transform
       pos: 1.5,3.5
+      parent: 1
+- proto: AmmoBox23x75mmBuckshot
+  entities:
+  - uid: 284
+    components:
+    - type: Transform
+      pos: 1.6629333,-3.6561985
+      parent: 1
+  - uid: 285
+    components:
+    - type: Transform
+      pos: 1.2723083,-3.6093235
       parent: 1
 - proto: APCBasic
   entities:
@@ -2411,18 +2423,6 @@ entities:
     - type: Transform
       pos: -2.58078,6.5390086
       parent: 1
-- proto: AmmoBox23x75mmBuckshot
-  entities:
-  - uid: 284
-    components:
-    - type: Transform
-      pos: 1.6629333,-3.6561985
-      parent: 1
-  - uid: 285
-    components:
-    - type: Transform
-      pos: 1.2723083,-3.6093235
-      parent: 1
 - proto: NFHolopadShipAntag
   entities:
   - uid: 286
@@ -2619,6 +2619,24 @@ entities:
     - type: Transform
       pos: -2.5,-3.5
       parent: 1
+    - type: EntityStorage
+      air:
+        volume: 200
+        immutable: False
+        temperature: 293.14923
+        moles:
+        - 1.7459903
+        - 6.568249
+        - 0
+        - 0
+        - 0
+        - 0
+        - 0
+        - 0
+        - 0
+        - 0
+        - 0
+        - 0
 - proto: TableReinforced
   entities:
   - uid: 311

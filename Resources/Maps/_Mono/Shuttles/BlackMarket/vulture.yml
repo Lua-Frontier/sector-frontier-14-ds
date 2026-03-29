@@ -4,8 +4,8 @@ meta:
   engineVersion: 272.0.0
   forkId: ""
   forkVersion: ""
-  time: 02/25/2026 11:49:21
-  entityCount: 3285
+  time: 03/29/2026 14:21:50
+  entityCount: 3277
 maps: []
 grids:
 - 1
@@ -2175,13 +2175,15 @@ entities:
             1: 4198
             0: 273
           2,-4:
-            2: 62207
+            2: 29439
+            3: 32768
           2,-3:
             2: 65535
           2,-2:
             2: 48047
           2,-5:
-            2: 65258
+            3: 4096
+            2: 61162
           3,-4:
             2: 61457
           3,-3:
@@ -2189,7 +2191,7 @@ entities:
           3,-2:
             2: 63715
           3,-5:
-            2: 4096
+            3: 4096
             0: 12
             1: 192
           4,-4:
@@ -2198,7 +2200,8 @@ entities:
           4,-3:
             2: 30583
           4,-2:
-            2: 30578
+            2: 29554
+            4: 1024
           4,-1:
             2: 28791
           5,2:
@@ -2441,6 +2444,36 @@ entities:
           - 0
           - 0
           - 0
+        - volume: 2500
+          temperature: 293.14996
+          moles:
+          - 20.078888
+          - 75.53487
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+        - volume: 2500
+          temperature: 293.15
+          moles:
+          - 21.6852
+          - 81.57766
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
         chunkSize: 4
     - type: GasTileOverlay
     - type: RadiationGridResistance
@@ -2448,6 +2481,7 @@ entities:
       id: vulture
     - type: ImplicitRoof
     - type: NavMap
+    - type: ShipCpuLimit
   - uid: 2
     components:
     - type: MetaData
@@ -12435,16 +12469,6 @@ entities:
     components:
     - type: Transform
       parent: 42
-    - type: ContainerContainer
-      containers:
-        storagebase: !type:Container
-          showEnts: False
-          occludes: True
-          ents: []
-        item: !type:ContainerSlot
-          showEnts: False
-          occludes: True
-          ent: null
     - type: Physics
       canCollide: False
     - type: GroupExamine
@@ -12507,48 +12531,6 @@ entities:
     components:
     - type: Transform
       parent: 42
-    - type: Physics
-      canCollide: False
-    - type: InsideEntityStorage
-- proto: ClothingOuterHardsuitPirateScaf
-  entities:
-  - uid: 48
-    components:
-    - type: Transform
-      parent: 42
-    - type: GroupExamine
-      group:
-      - hoverMessage: ""
-        contextText: verb-examine-group-other
-        icon: /Textures/Interface/examine-star.png
-        components:
-        - Armor
-        - ClothingSpeedModifier
-        entries:
-        - message: Понижает вашу скорость на [color=yellow]5%[/color].
-          priority: 0
-          component: ClothingSpeedModifier
-        - message: >-
-            Обеспечивает следующую защиту:
-
-            - [color=yellow]Ударный[/color] урон снижается на [color=lightblue]55%[/color].
-
-            - [color=yellow]Режущий[/color] урон снижается на [color=lightblue]55%[/color].
-
-            - [color=yellow]Колющий[/color] урон снижается на [color=lightblue]45%[/color].
-
-            - [color=yellow]Высокотемпературный[/color] урон снижается на [color=lightblue]50%[/color].
-
-            - [color=yellow]Радиационный[/color] урон снижается на [color=lightblue]60%[/color].
-
-            - [color=yellow]Кислотный[/color] урон снижается на [color=lightblue]55%[/color].
-
-            - [color=aqua]Стамина[/color] урон снижается на [color=lightblue]65%[/color].
-
-            - [color=orange]Взрывной[/color] урон снижается на [color=lightblue]50%[/color].
-          priority: 0
-          component: Armor
-        title: null
     - type: Physics
       canCollide: False
     - type: InsideEntityStorage
@@ -15400,7 +15382,7 @@ entities:
       pos: 10.5,-0.5
       parent: 1
     - type: Battery
-      startingCharge: 998.3333
+      startingCharge: 996.6666
     - type: ApcPowerReceiver
       powerLoad: 50
     - type: ApcPowerReceiverBattery
@@ -15693,42 +15675,6 @@ entities:
     - type: Physics
       canCollide: False
     - type: InsideEntityStorage
-- proto: NFWeaponRevolverRitland45
-  entities:
-  - uid: 2242
-    components:
-    - type: Transform
-      parent: 2241
-    - type: Physics
-      canCollide: False
-  - uid: 2243
-    components:
-    - type: Transform
-      parent: 2241
-    - type: Physics
-      canCollide: False
-- proto: NFWeaponRifleAssaultSm
-  entities:
-  - uid: 2244
-    components:
-    - type: Transform
-      parent: 2241
-    - type: Physics
-      canCollide: False
-- proto: NFWeaponShotgunSawn
-  entities:
-  - uid: 2245
-    components:
-    - type: Transform
-      parent: 2241
-    - type: Physics
-      canCollide: False
-  - uid: 2246
-    components:
-    - type: Transform
-      parent: 2241
-    - type: Physics
-      canCollide: False
 - proto: NitrogenCanister
   entities:
   - uid: 2247
@@ -16250,16 +16196,6 @@ entities:
       parent: 1
 - proto: SheetSteel
   entities:
-  - uid: 2332
-    components:
-    - type: Transform
-      pos: 18.317707,-3.3391752
-      parent: 1
-  - uid: 2333
-    components:
-    - type: Transform
-      pos: 18.354286,-3.5220742
-      parent: 1
   - uid: 2334
     components:
     - type: Transform
@@ -16417,33 +16353,11 @@ entities:
       parent: 1
 - proto: StructureGunRack
   entities:
-  - uid: 2241
+  - uid: 48
     components:
     - type: Transform
       pos: 18.5,-4.5
       parent: 1
-    - type: ContainerContainer
-      containers:
-        weapon1: !type:ContainerSlot
-          showEnts: False
-          occludes: True
-          ent: 2245
-        weapon2: !type:ContainerSlot
-          showEnts: False
-          occludes: True
-          ent: 2246
-        weapon3: !type:ContainerSlot
-          showEnts: False
-          occludes: True
-          ent: 2242
-        weapon4: !type:ContainerSlot
-          showEnts: False
-          occludes: True
-          ent: 2243
-        weapon5: !type:ContainerSlot
-          showEnts: False
-          occludes: True
-          ent: 2244
 - proto: SubstationBasic
   entities:
   - uid: 2351
@@ -16473,8 +16387,8 @@ entities:
         immutable: False
         temperature: 293.14923
         moles:
-        - 1.7459903
-        - 6.568249
+        - 1.8856695
+        - 7.0937095
         - 0
         - 0
         - 0
@@ -16493,16 +16407,15 @@ entities:
           showEnts: False
           occludes: True
           ents:
-          - 51
           - 50
-          - 46
-          - 45
-          - 49
-          - 47
-          - 48
-          - 43
-          - 44
           - 52
+          - 44
+          - 43
+          - 47
+          - 49
+          - 45
+          - 46
+          - 51
 - proto: SuitStoragePirateCap
   entities:
   - uid: 2354
@@ -16510,16 +16423,70 @@ entities:
     - type: Transform
       pos: 8.5,-16.5
       parent: 1
+    - type: EntityStorage
+      air:
+        volume: 200
+        immutable: False
+        temperature: 293.14923
+        moles:
+        - 1.7459903
+        - 6.568249
+        - 0
+        - 0
+        - 0
+        - 0
+        - 0
+        - 0
+        - 0
+        - 0
+        - 0
+        - 0
   - uid: 2355
     components:
     - type: Transform
       pos: 11.5,-12.5
       parent: 1
+    - type: EntityStorage
+      air:
+        volume: 200
+        immutable: False
+        temperature: 293.14923
+        moles:
+        - 1.7459903
+        - 6.568249
+        - 0
+        - 0
+        - 0
+        - 0
+        - 0
+        - 0
+        - 0
+        - 0
+        - 0
+        - 0
   - uid: 2356
     components:
     - type: Transform
       pos: 12.5,-16.5
       parent: 1
+    - type: EntityStorage
+      air:
+        volume: 200
+        immutable: False
+        temperature: 293.14923
+        moles:
+        - 1.7459903
+        - 6.568249
+        - 0
+        - 0
+        - 0
+        - 0
+        - 0
+        - 0
+        - 0
+        - 0
+        - 0
+        - 0
 - proto: SyndicateMicrowave
   entities:
   - uid: 2357
