@@ -4,8 +4,8 @@ meta:
   engineVersion: 272.0.0
   forkId: ""
   forkVersion: ""
-  time: 03/27/2026 14:13:11
-  entityCount: 6410
+  time: 03/31/2026 11:33:29
+  entityCount: 6412
 maps:
 - 733
 grids:
@@ -20016,6 +20016,20 @@ entities:
     - type: Transform
       pos: 41.5,1.5
       parent: 1
+- proto: ComputerShipyardParking
+  entities:
+  - uid: 6411
+    components:
+    - type: Transform
+      rot: -1.5707963267948966 rad
+      pos: 31.5,-0.5
+      parent: 1
+  - uid: 6412
+    components:
+    - type: Transform
+      rot: 1.5707963267948966 rad
+      pos: 39.5,-0.5
+      parent: 1
 - proto: ComputerShuttle
   entities:
   - uid: 1812
@@ -28268,13 +28282,19 @@ entities:
   - uid: 1866
     components:
     - type: Transform
+      anchored: True
       pos: 32.5,-6.5
       parent: 1
+    - type: Physics
+      bodyType: Static
   - uid: 1867
     components:
     - type: Transform
+      anchored: True
       pos: 33.5,-6.5
       parent: 1
+    - type: Physics
+      bodyType: Static
   - uid: 2946
     components:
     - type: Transform
@@ -28307,15 +28327,19 @@ entities:
   - uid: 1864
     components:
     - type: Transform
+      anchored: True
       pos: 32.5,-3.5
       parent: 1
-    - type: Lock
-      locked: False
+    - type: Physics
+      bodyType: Static
   - uid: 1865
     components:
     - type: Transform
+      anchored: True
       pos: 33.5,-3.5
       parent: 1
+    - type: Physics
+      bodyType: Static
   - uid: 2950
     components:
     - type: Transform

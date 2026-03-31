@@ -4,8 +4,8 @@ meta:
   engineVersion: 272.0.0
   forkId: ""
   forkVersion: ""
-  time: 03/04/2026 12:28:52
-  entityCount: 3729
+  time: 03/31/2026 11:21:38
+  entityCount: 3733
 maps: []
 grids:
 - 1
@@ -2153,6 +2153,7 @@ entities:
         chunkSize: 4
     - type: GasTileOverlay
     - type: RadiationGridResistance
+    - type: ShipCpuLimit
 - proto: AirAlarm
   entities:
   - uid: 3559
@@ -2255,6 +2256,12 @@ entities:
       rot: 3.141592653589793 rad
       pos: 0.5,-1.5
       parent: 1
+    - type: Door
+      secondsUntilStateChange: -115.50792
+      state: Opening
+    - type: DeviceLinkSource
+      lastSignals:
+        DoorStatus: True
   - uid: 302
     components:
     - type: Transform
@@ -13215,6 +13222,20 @@ entities:
     - type: Transform
       pos: 31.5,-26.5
       parent: 1
+- proto: ComputerShipyardParking
+  entities:
+  - uid: 1600
+    components:
+    - type: Transform
+      rot: 1.5707963267948966 rad
+      pos: 28.5,-14.5
+      parent: 1
+  - uid: 1601
+    components:
+    - type: Transform
+      rot: -1.5707963267948966 rad
+      pos: 34.5,-14.5
+      parent: 1
 - proto: ComputerShipyardScrap
   entities:
   - uid: 1854
@@ -14669,30 +14690,6 @@ entities:
     components:
     - type: Transform
       pos: 32.592216,0.8508787
-      parent: 1
-- proto: DSSpawnPointContractor
-  entities:
-  - uid: 1596
-    components:
-    - type: Transform
-      pos: 23.5,-10.5
-      parent: 1
-  - uid: 1597
-    components:
-    - type: Transform
-      pos: 24.5,-10.5
-      parent: 1
-- proto: DSSpawnPointMercenary
-  entities:
-  - uid: 1499
-    components:
-    - type: Transform
-      pos: 23.5,-10.5
-      parent: 1
-  - uid: 1598
-    components:
-    - type: Transform
-      pos: 24.5,-10.5
       parent: 1
 - proto: FloorDrain
   entities:
@@ -19165,6 +19162,17 @@ entities:
       rot: -1.5707963267948966 rad
       pos: 35.5,-3.5
       parent: 1
+  - uid: 1611
+    components:
+    - type: Transform
+      rot: -1.5707963267948966 rad
+      pos: 28.5,-14.5
+      parent: 1
+  - uid: 1614
+    components:
+    - type: Transform
+      pos: 34.5,-14.5
+      parent: 1
   - uid: 1619
     components:
     - type: Transform
@@ -20182,6 +20190,18 @@ entities:
     - type: Transform
       pos: 31.5,-47.5
       parent: 1
+- proto: SpawnPointContractor
+  entities:
+  - uid: 1596
+    components:
+    - type: Transform
+      pos: 23.5,-10.5
+      parent: 1
+  - uid: 1597
+    components:
+    - type: Transform
+      pos: 24.5,-10.5
+      parent: 1
 - proto: SpawnPointLatejoin
   entities:
   - uid: 1589
@@ -20190,6 +20210,18 @@ entities:
       pos: 23.5,-10.5
       parent: 1
   - uid: 1599
+    components:
+    - type: Transform
+      pos: 24.5,-10.5
+      parent: 1
+- proto: SpawnPointMercenary
+  entities:
+  - uid: 1499
+    components:
+    - type: Transform
+      pos: 23.5,-10.5
+      parent: 1
+  - uid: 1598
     components:
     - type: Transform
       pos: 24.5,-10.5
