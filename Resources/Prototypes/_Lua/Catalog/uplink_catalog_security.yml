@@ -1,3 +1,19 @@
+
+- type: listing
+  id: UplinkConvertTK
+  name: uplink-convert-sdtk-name
+  description: uplink-convert-sdtk-desc
+  productEntity: FrontierUplinkCoin1
+  cost:
+    Speso: 10000
+  categories:
+  - UplinkSecurityUtility
+  conditions:
+  - !type:StoreWhitelistCondition
+    whitelist:
+      tags:
+      - SecurityUplink
+
 #region hardsuits
 
 - type: listing

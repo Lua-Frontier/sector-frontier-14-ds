@@ -168,6 +168,9 @@ uplink-pirate-EGFBundle-desc = Самозаряжающийся энергети
 uplink-convert-doubloon-name = Дублон
 uplink-convert-doubloon-desc = Вкладывайся в самую стабильную валюту - Дублоны! Самое время фиксировать прибыль!
 
+uplink-convert-sdtk-name = Таможенные кредиты
+uplink-convert-sdtk-desc = Спонсируйте самую могущественную мегакорпорацию ОПЗ!
+
 
 
 uplink-security-grizzly-name = TCA MMG-68 "Grizzly" (6.8x52mm Caseless)
