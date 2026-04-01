@@ -346,7 +346,6 @@
   - ContractorBoxSurvival
   - ContractorWallet
   - ContractorCartridge
-  - ContractorImplanter
   - ContractorEncryptionKey
   - ContractorBackpackItems
   - ContractorHandItems
@@ -376,7 +375,6 @@
   - ContractorBoxSurvival
   - ContractorWallet
   - ContractorCartridge
-  - ContractorImplanter
   - ContractorEncryptionKey
   - ContractorBackpackItems
   - ContractorHandItems
@@ -406,7 +404,6 @@
   - ContractorBoxSurvival
   - ContractorWallet
   - ContractorCartridge
-  - ContractorImplanter
   - ContractorEncryptionKey
   - ContractorBackpackItems
   - ContractorHandItems

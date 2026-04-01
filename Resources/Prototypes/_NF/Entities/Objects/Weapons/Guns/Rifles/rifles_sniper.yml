@@ -15,8 +15,8 @@
       path: /Audio/Weapons/Guns/Cock/batrifle_cock.ogg
   - type: Gun #Lua
     examineCaliber: gun-examine-caliber-127
-    minAngle: 20 #Lua # Я ебал эту логику, ставлю нули и мне похуй
-    maxAngle: 30 #Lua
+    minAngle: 0 #Lua # Я ебал эту логику, ставлю нули и мне похуй
+    maxAngle: 0 #Lua
     angleIncrease: 0 #Lua
     angleDecay: 0 #Lua
     fireRate: 1.8 #Lua 1.2<1.8

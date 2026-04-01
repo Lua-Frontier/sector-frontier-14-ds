@@ -15,11 +15,6 @@
   - SCN14ClothingUniformJumpsuitTownGuard
 
 - type: loadout
-  id: SCN14ClothingNeckCloakGhillie
-  equipment:
-    jumpsuit: N14ClothingNeckCloakGhillie
-
-- type: loadout
   id: SCN14ClothingUniformJumpsuitEnclave
   equipment:
     jumpsuit: N14ClothingUniformJumpsuitEnclave
@@ -170,6 +165,11 @@
   - SCN14ClothingNeckBeige
   fallbacks:
   - SCN14ClothingNeckCloakLeather
+
+- type: loadout
+  id: SCN14ClothingNeckCloakGhillie
+  equipment:
+    neck: N14ClothingNeckCloakGhillie
 
 - type: loadout
   id: SCN14ClothingNeckCloakLeather
