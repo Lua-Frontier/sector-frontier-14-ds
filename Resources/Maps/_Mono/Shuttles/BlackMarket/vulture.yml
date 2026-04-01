@@ -2481,7 +2481,6 @@ entities:
       id: vulture
     - type: ImplicitRoof
     - type: NavMap
-    - type: ShipCpuLimit
   - uid: 2
     components:
     - type: MetaData

@@ -1969,7 +1969,6 @@ entities:
         path: /Audio/Effects/holy.ogg
       baseIndices: {}
     - type: SafeMining
-    - type: ShipCpuLimit
   - uid: 6
     components:
     - type: MetaData

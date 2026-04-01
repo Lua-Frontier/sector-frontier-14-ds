@@ -594,7 +594,6 @@ entities:
     - type: GasTileOverlay
     - type: RadiationGridResistance
     - type: NavMap
-    - type: ShipCpuLimit
 - proto: AirAlarm
   entities:
   - uid: 2

@@ -997,9 +997,6 @@ entities:
     - type: GasTileOverlay
     - type: RadiationGridResistance
     - type: NavMap
-    - type: ShipCpuLimit
-      maxSide: 41
-      maxTiles: 1681
 - proto: AirCanister
   entities:
   - uid: 2

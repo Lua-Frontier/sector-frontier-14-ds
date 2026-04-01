@@ -759,7 +759,6 @@ entities:
         chunkSize: 4
     - type: GasTileOverlay
     - type: RadiationGridResistance
-    - type: ShipCpuLimit
 - proto: ActionToggleInternals
   entities:
   - uid: 541

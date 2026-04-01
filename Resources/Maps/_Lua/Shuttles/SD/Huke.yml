@@ -512,7 +512,6 @@ entities:
     - type: RadiationGridResistance
     - type: PreventDelete
     - type: NavMap
-    - type: ShipCpuLimit
 - proto: AirCanister
   entities:
   - uid: 2

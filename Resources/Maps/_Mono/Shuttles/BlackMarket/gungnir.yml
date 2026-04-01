@@ -617,7 +617,6 @@ entities:
     - type: GasTileOverlay
     - type: RadiationGridResistance
     - type: NavMap
-    - type: ShipCpuLimit
 - proto: AirlockExternalGlassPirateLocked
   entities:
   - uid: 2

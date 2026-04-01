@@ -1297,7 +1297,6 @@ entities:
       id: Serpent
     - type: ImplicitRoof
     - type: NavMap
-    - type: ShipCpuLimit
 - proto: AirAlarm
   entities:
   - uid: 2

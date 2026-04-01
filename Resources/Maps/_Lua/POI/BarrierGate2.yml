@@ -118,7 +118,6 @@ entities:
     - type: Shuttle
       dampingModifier: 0.45
     - type: ImplicitRoof
-    - type: ShipCpuLimit
     - type: GridPathfinding
     - type: Gravity
       gravityShakeSound: !type:SoundPathSpecifier
