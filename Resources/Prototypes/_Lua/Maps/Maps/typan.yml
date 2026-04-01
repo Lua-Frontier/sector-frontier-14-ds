@@ -29,11 +29,11 @@
 #          OutpostSyndicateResearcher: [ 0, 4 ]
 #          OutpostSyndicateAtmosTech: [ 0, 1 ]
 #          OutpostSyndicateBotanist: [ 0, 1 ]
-          OutpostSyndicateCargotech: [ 0, 1 ]
-#          OutpostSyndicateChef: [ 0, 1 ]
-#          OutpostSyndicateMedic: [ 0, 2 ]
-#          OutpostSyndicateRD: [ 0, 1 ]
-          OutpostSyndicateScience: [ 0, 1 ]
+          OutpostSyndicateCargotech: [ 0, 2 ]
+          OutpostSyndicateChef: [ 0, 1 ] # TODO: Required time refactor
+          OutpostSyndicateMedic: [ 0, 2 ] # TODO: Required time refactor
+          OutpostSyndicateRD: [ 0, 1 ] # TODO: Required time refactor
+          OutpostSyndicateScience: [ 0, 2 ]
           OutpostSyndicateTelecommunicationsOfficer: [ 0, 1 ]
 
 - type: gameMap
