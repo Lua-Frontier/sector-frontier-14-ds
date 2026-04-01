@@ -7922,13 +7922,6 @@ entities:
     - type: Transform
       pos: 0.5,-15.5
       parent: 1
-- proto: ShipCpuLarge
-  entities:
-  - uid: 1252
-    components:
-    - type: Transform
-      pos: 0.5,-9.5
-      parent: 1
 - proto: SignalButton
   entities:
   - uid: 1122
