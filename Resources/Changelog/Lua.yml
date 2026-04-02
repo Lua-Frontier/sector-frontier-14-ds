@@ -3785,3 +3785,14 @@ Entries:
   id: 267
   time: '2026-03-25T14:51:54.0000000+00:00'
   url: https://github.com/Lua-Frontier/sector-frontier-14/pull/534
+- author: Almaz3200
+  changes:
+    - type: Add
+      message: >-
+        Добавлен шаттл "Гладиатор" для ДСБФ. Имеет тяжелую броню и 2 кирехи с
+        прискорбными углами наведения
+    - type: Remove
+      message: Удален шаттл "Fracture"
+  id: 268
+  time: '2026-04-02T10:32:33.0000000+00:00'
+  url: https://github.com/Lua-Frontier/sector-frontier-14/pull/532
