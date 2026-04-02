@@ -650,6 +650,26 @@
 
 #region ammo
 
+# 6.8x52mm
+
+# FMJ
+
+- type: listing
+  id: SecurityUplinkMagazine68x52mmCaselessBig # Mag
+  name: box magazine (6.8x52mm STANAG Caseless)
+  description:
+  productEntity: Magazine68x52mmCaselessBig
+  icon: { sprite: _Mono/Objects/Weapons/Guns/Ammunition/Magazine/6.35x40mm_caseless/6.35x40mm_caseless_lmg_mag.rsi, state: base }
+  cost:
+    Speso: 5000
+  categories:
+  - UplinkSecurityAmmo
+  conditions:
+  - !type:StoreWhitelistCondition
+    whitelist:
+      tags:
+      - SecurityUplink
+
 # 12.7x99mm
 
 # FMJ

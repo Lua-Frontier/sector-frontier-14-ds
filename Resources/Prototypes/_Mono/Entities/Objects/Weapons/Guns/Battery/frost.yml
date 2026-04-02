@@ -44,15 +44,15 @@
     soundEmpty:
       path: /Audio/_DV/Weapons/Guns/Empty/dry_fire.ogg
   - type: Battery
-    maxCharge: 5250
-    startingCharge: 5250
+    maxCharge: 500
+    startingCharge: 500
   - type: ProjectileBatteryAmmoProvider
     proto: BulletEnergyGunFrostNonLethal
-    fireCost: 175 #Lua 75<175
+    fireCost: 20 #Lua 75<20
   - type: EnergyGun
     fireModes:
     - proto: BulletEnergyGunFrostNonLethal
-      fireCost: 175 #Lua 75<175
+      fireCost: 20 #Lua 75<20
       name: disable
   - type: MagazineVisuals
     magState: mag
@@ -66,6 +66,6 @@
     price: 750
   - type: BatterySelfRecharger
     autoRecharge: true
-    autoRechargeRate: 125
+    autoRechargeRate: 20 #Lua 125<20
   - type: PirateBountyItem # Mono
     id: ExperimentalFactionWeapon

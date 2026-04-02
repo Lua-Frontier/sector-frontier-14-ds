@@ -13,8 +13,8 @@
   - type: Clothing
     sprite: Objects/Weapons/Guns/Battery/pulse_carbine.rsi
   - type: Battery # 30 shots
-    maxCharge: 2400 #Lua edit: From 3200 to 2400
-    startingCharge: 2400 #Lua edit: From 3200 to 2400
+    maxCharge: 750 #Lua edit: From 3200 to 750
+    startingCharge: 750 #Lua edit: From 3200 to 750
   - type: Gun # Lua
     minAngle: 1 #Lua
     maxAngle: 3.5 #Lua
@@ -23,7 +23,10 @@
     fireRate: 7
   - type: HitscanBatteryAmmoProvider
     proto: LuaPulseRifleLow
-    fireCost: 80
+    fireCost: 25
+  - type: BatterySelfRecharger #Lua
+    autoRecharge: true
+    autoRechargeRate: 30
 
 - type: entity #Lua
   parent: BasicHitscan
@@ -65,7 +68,7 @@
     angleDecay: 4.7 #Lua
     fireRate: 3.6
   - type: ClothingSpeedModifier
-    walkModifier: 0.95
+    walkModifier: 0.7
     sprintModifier: 0.7
   - type: HeldSpeedModifier
   - type: Item
@@ -113,7 +116,7 @@
   - type: BatteryWeaponFireModes
     fireModes:
     - proto: LuaBulletLaserHigh
-      fireCost: 80
+      fireCost: 40 #Lua 80<40
 
 - type: entity #Lua
   id: LuaBulletLaserHigh

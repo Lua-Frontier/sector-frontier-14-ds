@@ -63,6 +63,7 @@
     quickEquip: false
     slots:
     - Belt
+
 # MARK: Pistols
 - type: entity
   name: AEP-7 laser pistol
@@ -200,9 +201,12 @@
     sprite: _Nuclear14/Objects/Weapons/Guns/Battery/recharger_rifle.rsi
   - type: Wieldable #Lua
   - type: GunRequiresWield #Lua
+  - type: Battery
+    maxCharge: 750
+    startingCharge: 750
   - type: BatterySelfRecharger
     autoRecharge: true
-    autoRechargeRate: 25
+    autoRechargeRate: 30
   - type: Gun
     minAngle: 1.4 #Lua
     maxAngle: 7 #Lua
@@ -216,7 +220,7 @@
     - SemiAuto
   - type: HitscanBatteryAmmoProvider
     proto: RedShuttleLaser
-    fireCost: 50
+    fireCost: 42
   - type: ItemToggle #Lua
     onUse: false
     onActivate: false
@@ -266,12 +270,15 @@
     fireRate: 4.8
     soundGunshot:
       collection: N14RechargerPistolGunshot
+  - type: Battery
+    maxCharge: 250
+    startingCharge: 250
   - type: HitscanBatteryAmmoProvider
     proto: NFRedMediumLaser
-    fireCost: 50
+    fireCost: 25
   - type: BatterySelfRecharger
     autoRecharge: true
-    autoRechargeRate: 20
+    autoRechargeRate: 10
   - type: MagazineVisuals
     magState: mag
     steps: 5

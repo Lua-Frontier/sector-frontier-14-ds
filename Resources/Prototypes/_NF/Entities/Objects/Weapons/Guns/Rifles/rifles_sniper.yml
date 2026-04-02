@@ -19,7 +19,7 @@
     maxAngle: 0 #Lua
     angleIncrease: 0 #Lua
     angleDecay: 0 #Lua
-    fireRate: 1.8 #Lua 1.2<1.8
+    fireRate: 1.2
     soundGunshot:
       path: /Audio/Weapons/Guns/Gunshots/sniper.ogg
   - type: Item #Lua
@@ -41,6 +41,7 @@
     mustEquip: false
   - type: ComponentToggler #Lua
     components:
+    - type: HeldSpeedModifier #Lua
     - type: ClothingSpeedModifier #Lua
       walkModifier: 0.8
       sprintModifier: 0.8

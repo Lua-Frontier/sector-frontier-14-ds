@@ -7,6 +7,7 @@
   description: |-
     An iconic weapon of war. An illegal firearm often used by Syndicate agents.
   components:
+  - type: GunRequiresWield #Lua
   - type: Clothing
     sprite: _Mono/Objects/Weapons/Guns/Rifles/akm_inhands_32x.rsi # Mono
   - type: Sprite

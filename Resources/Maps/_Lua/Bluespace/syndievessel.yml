@@ -4,8 +4,8 @@ meta:
   engineVersion: 272.0.0
   forkId: ""
   forkVersion: ""
-  time: 02/17/2026 09:45:16
-  entityCount: 3471
+  time: 04/02/2026 12:34:52
+  entityCount: 3479
 maps: []
 grids:
 - 1
@@ -618,6 +618,7 @@ entities:
         chunkSize: 4
     - type: GasTileOverlay
     - type: RadiationGridResistance
+    - type: ShipCpuLimit
 - proto: AirlockExternalShuttleSyndicateLocked
   entities:
   - uid: 338
@@ -661,7 +662,7 @@ entities:
       lastSignals:
         DoorStatus: True
     - type: Door
-      secondsUntilStateChange: -11624.748
+      secondsUntilStateChange: -11735.001
       state: Opening
   - uid: 346
     components:
@@ -898,7 +899,7 @@ entities:
       pos: 0.5,0.5
       parent: 1
     - type: Door
-      secondsUntilStateChange: -8414.552
+      secondsUntilStateChange: -8524.805
       state: Opening
     - type: DeviceLinkSource
       lastSignals:
@@ -11557,13 +11558,36 @@ entities:
       rot: 3.141592653589793 rad
       pos: 5.5,31.5
       parent: 1
-- proto: ClothingEyesHudSyndicateAgentOutpostSyndicate
+- proto: ClothingEyesHudSyndicateAgentOutpostTypan
   entities:
   - uid: 2123
     components:
     - type: Transform
       pos: -4.5,-3.5
       parent: 1
+- proto: ClothingOuterHardsuitSyndieElite
+  entities:
+  - uid: 2087
+    components:
+    - type: Transform
+      parent: 1909
+    - type: Physics
+      canCollide: False
+    - type: InsideEntityStorage
+  - uid: 3473
+    components:
+    - type: Transform
+      parent: 2089
+    - type: Physics
+      canCollide: False
+    - type: InsideEntityStorage
+  - uid: 3477
+    components:
+    - type: Transform
+      parent: 3474
+    - type: Physics
+      canCollide: False
+    - type: InsideEntityStorage
 - proto: ComputerGunneryConsole
   entities:
   - uid: 67
@@ -11707,6 +11731,29 @@ entities:
     - type: Transform
       pos: -2.847126,-4.6072607
       parent: 1
+- proto: DoubleEmergencyAirTankFilled
+  entities:
+  - uid: 2086
+    components:
+    - type: Transform
+      parent: 1909
+    - type: Physics
+      canCollide: False
+    - type: InsideEntityStorage
+  - uid: 2547
+    components:
+    - type: Transform
+      parent: 2089
+    - type: Physics
+      canCollide: False
+    - type: InsideEntityStorage
+  - uid: 3476
+    components:
+    - type: Transform
+      parent: 3474
+    - type: Physics
+      canCollide: False
+    - type: InsideEntityStorage
 - proto: DrinkMugMetal
   entities:
   - uid: 2581
@@ -11767,6 +11814,38 @@ entities:
     components:
     - type: Transform
       pos: 1.5,-5.5
+      parent: 1
+- proto: GameruleWeaponSpawnerT4
+  entities:
+  - uid: 331
+    components:
+    - type: Transform
+      pos: -3.5,8.5
+      parent: 1
+  - uid: 1117
+    components:
+    - type: Transform
+      pos: -1.5,8.5
+      parent: 1
+  - uid: 1874
+    components:
+    - type: Transform
+      pos: 0.5,10.5
+      parent: 1
+  - uid: 1878
+    components:
+    - type: Transform
+      pos: 0.5,12.5
+      parent: 1
+  - uid: 3478
+    components:
+    - type: Transform
+      pos: -1.5,12.5
+      parent: 1
+  - uid: 3479
+    components:
+    - type: Transform
+      pos: -3.5,12.5
       parent: 1
 - proto: GasMixerOn
   entities:
@@ -15007,6 +15086,29 @@ entities:
       rot: -1.5707963267948966 rad
       pos: 0.5,6.5
       parent: 1
+- proto: JetpackVoidFilled
+  entities:
+  - uid: 1925
+    components:
+    - type: Transform
+      parent: 1909
+    - type: Physics
+      canCollide: False
+    - type: InsideEntityStorage
+  - uid: 2546
+    components:
+    - type: Transform
+      parent: 2089
+    - type: Physics
+      canCollide: False
+    - type: InsideEntityStorage
+  - uid: 3475
+    components:
+    - type: Transform
+      parent: 3474
+    - type: Physics
+      canCollide: False
+    - type: InsideEntityStorage
 - proto: LandMineExplosive
   entities:
   - uid: 1842
@@ -16683,33 +16785,6 @@ entities:
     - type: Transform
       pos: -1.6711366,-4.4220753
       parent: 1
-- proto: SpawnDungeonLootArmoryRare
-  entities:
-  - uid: 1117
-    components:
-    - type: Transform
-      pos: -1.5,8.5
-      parent: 1
-  - uid: 1874
-    components:
-    - type: Transform
-      pos: -3.5,8.5
-      parent: 1
-  - uid: 1878
-    components:
-    - type: Transform
-      pos: -3.5,12.5
-      parent: 1
-  - uid: 1879
-    components:
-    - type: Transform
-      pos: -1.5,12.5
-      parent: 1
-  - uid: 1909
-    components:
-    - type: Transform
-      pos: 0.5,12.5
-      parent: 1
 - proto: SpawnDungeonLootMaterialsValuableFull
   entities:
   - uid: 1866
@@ -17420,14 +17495,58 @@ entities:
     - type: Transform
       pos: 11.5,-17.5
       parent: 1
-- proto: SuitStorageEVASyndicate
+- proto: SuitStorageBase
   entities:
-  - uid: 331
+  - uid: 1909
     components:
     - type: Transform
-      pos: -1.5,2.5
+      pos: 7.5,28.5
       parent: 1
-  - uid: 2087
+    - type: ContainerContainer
+      containers:
+        entity_storage: !type:Container
+          showEnts: False
+          occludes: True
+          ents:
+          - 1925
+          - 2086
+          - 2087
+  - uid: 2089
+    components:
+    - type: Transform
+      pos: 7.5,29.5
+      parent: 1
+    - type: ContainerContainer
+      containers:
+        entity_storage: !type:Container
+          showEnts: False
+          occludes: True
+          ents:
+          - 2546
+          - 2547
+          - 3473
+  - uid: 3474
+    components:
+    - type: Transform
+      pos: 7.5,30.5
+      parent: 1
+    - type: ContainerContainer
+      containers:
+        entity_storage: !type:Container
+          showEnts: False
+          occludes: True
+          ents:
+          - 3475
+          - 3476
+          - 3477
+- proto: SuitStorageSyndie
+  entities:
+  - uid: 1879
+    components:
+    - type: Transform
+      pos: 0.5,2.5
+      parent: 1
+  - uid: 1886
     components:
     - type: Transform
       pos: -0.5,2.5
@@ -17435,24 +17554,7 @@ entities:
   - uid: 2088
     components:
     - type: Transform
-      pos: 7.5,28.5
-      parent: 1
-- proto: SuitStorageSyndie
-  entities:
-  - uid: 2086
-    components:
-    - type: Transform
-      pos: 0.5,2.5
-      parent: 1
-  - uid: 2546
-    components:
-    - type: Transform
-      pos: 7.5,29.5
-      parent: 1
-  - uid: 2547
-    components:
-    - type: Transform
-      pos: 7.5,30.5
+      pos: -1.5,2.5
       parent: 1
 - proto: SyndicateMicrowave
   entities:
@@ -17537,13 +17639,6 @@ entities:
     components:
     - type: Transform
       pos: -5.5,-2.5
-      parent: 1
-- proto: SyndiHypo
-  entities:
-  - uid: 1925
-    components:
-    - type: Transform
-      pos: 0.29229635,10.507927
       parent: 1
 - proto: Table
   entities:
@@ -19900,13 +19995,6 @@ entities:
     components:
     - type: Transform
       pos: 6.5,26.5
-      parent: 1
-- proto: WeaponTurretCyrexaFlatPack
-  entities:
-  - uid: 1886
-    components:
-    - type: Transform
-      pos: 0.5,10.5
       parent: 1
 - proto: WeaponTurretDravon
   entities:

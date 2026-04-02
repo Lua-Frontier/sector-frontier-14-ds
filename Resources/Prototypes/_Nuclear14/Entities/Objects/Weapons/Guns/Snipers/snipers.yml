@@ -92,7 +92,7 @@
     maxAngle: 30 #Lua
     angleIncrease: 0 #Lua
     angleDecay: 0 #Lua
-    fireRate: 1.5 #Lua 1.2<1.5
+    fireRate: 1 #Lua 1.2<1
     soundGunshot:
       collection: N14AntiMaterielGunshot
     selectedMode: SemiAuto
@@ -139,6 +139,7 @@
     mustEquip: false
   - type: ComponentToggler #Lua
     components:
+    - type: HeldSpeedModifier #Lua
     - type: ClothingSpeedModifier #Lua
       walkModifier: 0.8
       sprintModifier: 0.8
@@ -206,7 +207,7 @@
     maxAngle: 30 #Lua
     angleIncrease: 0 #Lua
     angleDecay: 0 #Lua
-    fireRate: 1.8 #Lua 1.2<1.8
+    fireRate: 1.2
     soundGunshot:
       collection: N14AntiMaterielGunshot
   - type: ItemToggle #Lua
@@ -339,7 +340,7 @@
     maxAngle: 30 #Lua
     angleIncrease: 0 #Lua
     angleDecay: 0 #Lua
-    fireRate: 1.2 #Lua 2<1.2
+    fireRate: 0.8 #Lua 1.2<0.8
     soundGunshot:
       collection: N14BrushGunGunshot
   - type: BallisticAmmoProvider

@@ -159,14 +159,17 @@
   - type: Clothing
     sprite: Objects/Weapons/Guns/Battery/pulse_pistol.rsi
   - type: Battery # 20 shots
-    maxCharge: 1200
-    startingCharge: 1200
+    maxCharge: 250
+    startingCharge: 250
   - type: Gun #Lua
     minAngle: 3.1 #Lua
     maxAngle: 15.5 #Lua
     angleIncrease: 0.7 #Lua
     angleDecay: 5 #Lua
     fireRate: 5.6
+  - type: BatterySelfRecharger
+    autoRecharge: true
+    autoRechargeRate: 10
 
 #region Disablers
 - type: entity

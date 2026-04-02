@@ -3,7 +3,7 @@
 # See AGPLv3.txt for details.
 
 - type: job
-  id: OutpostSyndicateRD
+  id: OutpostTypanRD
   name: job-name-typan-rd
   playTimeTracker: JobOutpostSyndicateRD
   salary: 45000
@@ -18,7 +18,7 @@
     role: JobHeadOfPersonnel
     time: 72000 # 20h
   - !type:DepartmentTimeRequirement
-    department: OutpostSyndicate
+    department: OutpostTypan
     time: 72000 # 20h
     # - !type:DepartmentTimeRequirement
     #   department: Security
@@ -57,18 +57,18 @@
   id: SyndicateRD
   equipment:
     eyes: ClothingEyesGlassesHiddenSecurity
-    ears: ClothingHeadsetAltOutpostSyndicate
+    ears: ClothingHeadsetAltOutpostTypan
     shoes: ClothingShoesBootsCombat
-    outerClothing: ClothingOuterCoatRDOutpostSyndicate
-    gloves: ClothingHandsRDOutpostSyndicate
+    outerClothing: ClothingOuterCoatRDOutpostTypan
+    gloves: ClothingHandsRDOutpostTypan
     id: SyndiPDARD
     back: ClothingBackpackSyndicateFilled
     jumpsuit: ClothingUniformJumpsuitSyndieFormal
-    belt: ClothingBeltAssaultOutpostSyndicate
+    belt: ClothingBeltAssaultOutpostTypan
 
 - type: chameleonOutfit
-  id: OutpostSyndicateRDChameleonOutfit
-  job: OutpostSyndicateRD
+  id: OutpostTypanRDChameleonOutfit
+  job: OutpostTypanRD
   equipment:
     jumpsuit: ClothingUniformJumpsuitSyndieFormal
 

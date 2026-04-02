@@ -3,19 +3,19 @@
 # See AGPLv3.txt for details.
 
 - type: job
-  id: OutpostSyndicateBotanist
+  id: OutpostTypanBotanist
   name: job-name-typan-botanist
   playTimeTracker: JobOutpostSyndicateBotanist
   salary: 25000
   description: Ботаник из далёкого космоса.
   startingGear: SyndicateBotanist
-  icon: "JobIconOutpostSyndicateBotanist"
+  icon: "JobIconOutpostTypanBotanist"
   supervisors: job-supervisors-typan-telecommunications-officer
   canBeAntag: false
   hideConsoleVisibility: true
   requirements:
     # - !type:RoleTimeRequirement
-    #   role: JobOutpostSyndicateAtmosTech
+    #   role: JobOutpostTypanAtmosTech
     #   time: 20600
     - !type:DepartmentTimeRequirement
       department: Civilian
@@ -49,14 +49,14 @@
 - type: startingGear
   id: SyndicateBotanist
   equipment:
-    ears: ClothingHeadsetAltOutpostSyndicate
-    jumpsuit: ClothingUniformJumpsuitOutpostSyndicateBotanist
+    ears: ClothingHeadsetAltOutpostTypan
+    jumpsuit: ClothingUniformJumpsuitOutpostTypanBotanist
     back: ClothingBackpackSyndicateFilled
     shoes: ClothingShoesColorBlack
     id: SyndiPDABotan
 
 - type: chameleonOutfit
-  id: OutpostSyndicateBotanistChameleonOutfit
-  job: OutpostSyndicateBotanist
+  id: OutpostTypanBotanistChameleonOutfit
+  job: OutpostTypanBotanist
   equipment:
-    jumpsuit: ClothingUniformJumpsuitOutpostSyndicateBotanist
+    jumpsuit: ClothingUniformJumpsuitOutpostTypanBotanist

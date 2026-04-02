@@ -31,7 +31,7 @@
 
 - type: entity
   parent: ClothingBackpack
-  id: ClothingBackpackSatchelOutpostSyndicate
+  id: ClothingBackpackSatchelOutpostTypan
   name: сумка синдиката
   description: Модная сумка в красно-чёрных тонах.
   components:
@@ -61,3 +61,4 @@
   - type: ClothingSpeedModifier #Lua
     walkModifier: 0.8
     sprintModifier: 0.8
+  - type: HeldSpeedModifier

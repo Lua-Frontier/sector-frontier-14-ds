@@ -32,10 +32,10 @@
     layers:
     - state: emp_projectile
       shader: unshaded
-  - type: EmpOnTrigger
-    range: 0.3
-    energyConsumption: 2700000
-    disableDuration: 10
+  # - type: EmpOnTrigger # comment from _Lua
+  #   range: 0.3
+  #   energyConsumption: 2700000
+  #   disableDuration: 10
 
 - type: entity
   id: NFBulletRocketEmp

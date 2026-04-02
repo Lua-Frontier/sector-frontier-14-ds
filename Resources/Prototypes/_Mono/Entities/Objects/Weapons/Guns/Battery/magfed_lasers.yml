@@ -37,7 +37,7 @@
           - MilitaryPowerCellMG
   - type: HitscanBatteryAmmoProvider
     proto: MediumOverchargedLaser
-    fireCost: 15
+    fireCost: 25
   - type: Sprite
     sprite: _Mono/Objects/Weapons/Guns/Battery/cell_mg.rsi
     layers:
@@ -85,7 +85,7 @@
     maxAngle: 30 #Lua
     angleIncrease: 0 #Lua
     angleDecay: 0 #Lua
-    fireRate: 1.8 #Lua 0.7<1.8
+    fireRate: 1.2 #Lua 0.7<1.2
     selectedMode: SemiAuto
     availableModes:
     - SemiAuto

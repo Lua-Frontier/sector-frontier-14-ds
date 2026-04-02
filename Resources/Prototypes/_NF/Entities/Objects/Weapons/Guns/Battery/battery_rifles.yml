@@ -58,8 +58,8 @@
   - type: Clothing
     sprite: Objects/Weapons/Guns/Battery/pulse_rifle.rsi
   - type: Battery # 300 shots. # Frontier, why the fuck did you make a deathsquad gun designed to kill stations without needing to recharge only 30 shots?
-    maxCharge: 30000 #Lua edit: from 3000 to 30000
-    startingCharge: 30000 #Lua edit: from 3000 to 30000
+    maxCharge: 750 #Lua edit: from 3000 to 750
+    startingCharge: 750 #Lua edit: from 3000 to 750
   - type: Wieldable #Lua
   - type: GunRequiresWield #Lua
   - type: Gun #Lua
@@ -91,6 +91,9 @@
     - type: EyeCursorOffset
       maxOffset: 10
       pvsIncrease: 1
+  - type: BatterySelfRecharger #Lua
+    autoRecharge: true
+    autoRechargeRate: 30
 
 #region Other
 - type: entity
@@ -195,17 +198,20 @@
   - type: Clothing
     sprite: Objects/Weapons/Guns/Battery/temp_gun.rsi
   - type: Battery # 30 shots
-    maxCharge: 3000
-    startingCharge: 3000
+    maxCharge: 500
+    startingCharge: 500
   - type: ProjectileBatteryAmmoProvider
     proto: NFBoltTempgunCold # Frontier
-    fireCost: 100
+    fireCost: 20
   - type: MagazineVisuals
     magState: mag
     steps: 5
     zeroVisible: false
   - type: NFWeaponDetails
     manufacturer: weapon-details-manufacturer-custom-made
+  - type: BatterySelfRecharger #Lua
+    autoRecharge: true
+    autoRechargeRate: 20
 
 - type: entity
   name: freezing bolt

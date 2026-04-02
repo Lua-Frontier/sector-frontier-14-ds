@@ -176,7 +176,7 @@
   - SocksUnderwear
 
 - type: roleLoadout
-  id: JobOutpostSyndicateResearcher
+  id: JobOutpostTypanResearcher
   groups:
   - NFSpeciesSpecific
   - ContractorWallet
@@ -185,7 +185,7 @@
   - SocksUnderwear
 
 - type: roleLoadout
-  id: JobOutpostSyndicateAtmosTech
+  id: JobOutpostTypanAtmosTech
   groups:
   - NFSpeciesSpecific
   - ContractorWallet
@@ -194,7 +194,7 @@
   - SocksUnderwear
 
 - type: roleLoadout
-  id: JobOutpostSyndicateBotanist
+  id: JobOutpostTypanBotanist
   groups:
   - NFSpeciesSpecific
   - ContractorWallet
@@ -203,7 +203,7 @@
   - SocksUnderwear
 
 - type: roleLoadout
-  id: JobOutpostSyndicateCargotech
+  id: JobOutpostTypanCargotech
   groups:
   - NFSpeciesSpecific
   - ContractorWallet
@@ -212,7 +212,7 @@
   - SocksUnderwear
 
 - type: roleLoadout
-  id: JobOutpostSyndicateChef
+  id: JobOutpostTypanChef
   groups:
   - NFSpeciesSpecific
   - ContractorWallet
@@ -221,7 +221,7 @@
   - SocksUnderwear
 
 - type: roleLoadout
-  id: JobOutpostSyndicateMedic
+  id: JobOutpostTypanMedic
   groups:
   - NFSpeciesSpecific
   - ContractorWallet
@@ -230,7 +230,7 @@
   - SocksUnderwear
 
 - type: roleLoadout
-  id: JobOutpostSyndicateRD
+  id: JobOutpostTypanRD
   groups:
   - NFSpeciesSpecific
   - ContractorWallet
@@ -239,7 +239,7 @@
   - SocksUnderwear
 
 - type: roleLoadout
-  id: JobOutpostSyndicateScience
+  id: JobOutpostTypanScience
   groups:
   - NFSpeciesSpecific
   - ContractorWallet
@@ -248,7 +248,7 @@
   - SocksUnderwear
 
 - type: roleLoadout
-  id: JobOutpostSyndicateTelecommunicationsOfficer
+  id: JobOutpostTypanTelecommunicationsOfficer
   groups:
   - NFSpeciesSpecific
   - ContractorWallet
@@ -343,7 +343,7 @@
   - SCHead
   - SCBackpackItems
   - SCBelt
-  - ContractorBoxSurvival
+  - NfsdBoxSurvival
   - ContractorWallet
   - ContractorCartridge
   - ContractorEncryptionKey
@@ -372,7 +372,7 @@
   - SCHead
   - SCBackpackItems
   - SCBelt
-  - ContractorBoxSurvival
+  - NfsdBoxSurvival
   - ContractorWallet
   - ContractorCartridge
   - ContractorEncryptionKey
@@ -401,7 +401,7 @@
   - SCHead
   - SCBackpackItems
   - SCBelt
-  - ContractorBoxSurvival
+  - NfsdBoxSurvival
   - ContractorWallet
   - ContractorCartridge
   - ContractorEncryptionKey

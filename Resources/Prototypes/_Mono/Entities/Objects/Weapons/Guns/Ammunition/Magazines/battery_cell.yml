@@ -15,11 +15,11 @@
       shader: unshaded
   - type: Item
   - type: Battery
-    maxCharge: 3000
-    startingCharge: 3000
+    maxCharge: 2500
+    startingCharge: 2500
   - type: HitscanBatteryAmmoProvider
     proto: MediumOverchargedLaser
-    fireCost: 30 #Lua 15<30
+    fireCost: 25 #Lua 15<25
   - type: Tag
     tags:
     - MilitaryPowerCell

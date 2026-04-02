@@ -3,13 +3,13 @@
 # See AGPLv3.txt for details.
 
 - type: job
-  id: OutpostSyndicateCargotech
+  id: OutpostTypanCargotech
   name: job-name-typan-cargotech
   playTimeTracker: JobOutpostSyndicateCargotech
   salary: 35000
   description: Карготехник из далёкого космоса.
   startingGear: SyndicateCargotech
-  icon: "JobIconOutpostSyndicateCargotech"
+  icon: "JobIconOutpostTypanCargotech"
   supervisors: job-supervisors-typan-telecommunications-officer
   canBeAntag: false
   hideConsoleVisibility: true
@@ -50,14 +50,14 @@
 - type: startingGear
   id: SyndicateCargotech
   equipment:
-    ears: ClothingHeadsetAltOutpostSyndicate
-    jumpsuit: ClothingUniformJumpsuitOutpostSyndicateCargotech
+    ears: ClothingHeadsetAltOutpostTypan
+    jumpsuit: ClothingUniformJumpsuitOutpostTypanCargotech
     back: ClothingBackpackSyndicateFilled
-    shoes: ClothingShoesBootsCombatOutpostSyndicate
+    shoes: ClothingShoesBootsCombatOutpostTypan
     id: SyndiPDACargo
 
 - type: chameleonOutfit
-  id: OutpostSyndicateCargotechChameleonOutfit
-  job: OutpostSyndicateCargotech
+  id: OutpostTypanCargotechChameleonOutfit
+  job: OutpostTypanCargotech
   equipment:
-    jumpsuit: ClothingUniformJumpsuitOutpostSyndicateCargotech
+    jumpsuit: ClothingUniformJumpsuitOutpostTypanCargotech

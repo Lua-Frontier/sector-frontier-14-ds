@@ -3216,7 +3216,7 @@ entities:
       parent: 368
     - type: Physics
       canCollide: False
-- proto: ClothingShoesBootsCombatOutpostSyndicate
+- proto: ClothingShoesBootsCombatOutpostTypan
   entities:
   - uid: 372
     components:

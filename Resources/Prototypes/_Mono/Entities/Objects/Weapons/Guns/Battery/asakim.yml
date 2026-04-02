@@ -44,10 +44,13 @@
     zeroVisible: false
   - type: ProjectileBatteryAmmoProvider
     proto: HandheldAutopulserProjectile
-    fireCost: 25
+    fireCost: 20
   - type: Appearance
   - type: StaticPrice
     price: 1750
   - type: BatterySelfRecharger
     autoRecharge: true
-    autoRechargeRate: 15
+    autoRechargeRate: 20
+  - type: Battery
+    maxCharge: 500
+    startingCharge: 500

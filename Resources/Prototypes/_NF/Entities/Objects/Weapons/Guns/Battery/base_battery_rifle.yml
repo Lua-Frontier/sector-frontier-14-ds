@@ -119,7 +119,7 @@
       path: /Audio/Weapons/Guns/Gunshots/laser_cannon.ogg
   - type: HitscanBatteryAmmoProvider
     proto: LuaPulseRifle
-    fireCost: 100
+    fireCost: 42
 
 - type: entity #Lua
   parent: BasicHitscan

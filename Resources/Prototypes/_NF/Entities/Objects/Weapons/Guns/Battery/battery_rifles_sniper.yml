@@ -20,7 +20,7 @@
     maxAngle: 7 #Lua
     angleIncrease: 5.6 #Lua
     angleDecay: 3.7 #Lua
-    fireRate: 0.9
+    fireRate: 0.6
   - type: HitscanBatteryAmmoProvider #Lua
     proto: PulsedPlasma
     fireCost: 120

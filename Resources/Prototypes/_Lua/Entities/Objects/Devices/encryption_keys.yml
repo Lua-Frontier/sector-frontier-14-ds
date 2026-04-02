@@ -72,7 +72,7 @@
 
 - type: entity
   parent: EncryptionKey
-  id: EncryptionKeyOutpostSyndicate
+  id: EncryptionKeyOutpostTypan
   name: красный ключ шифрования
   description: Ключ шифрования, используемый... хм... кем же?
   suffix: Тайпан
