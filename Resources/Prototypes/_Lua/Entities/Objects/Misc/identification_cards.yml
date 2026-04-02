@@ -522,7 +522,7 @@
   name: shareholder ID card
   components:
   - type: PresetIdCard
-    job: OutpostTypanShareholder
+    job: OutpostSyndicateShareholder
   - type: Sprite
     sprite: _Lua/Objects/Misc/id_cards.rsi
     layers:
