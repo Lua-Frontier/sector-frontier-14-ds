@@ -1,5 +1,5 @@
 - type: entity
-  parent: [ClothingOuterHardsuitBase, BaseC3SyndicateContraband, HardsuitIdentify]
+  parent: [ClothingOuterHardsuitBase, BaseC3SyndicateContraband]
   id: LuaClothingOuterHardsuitPirateEVA
   name: Модифицированный скафандр ВКД
   description: Скафандр ВКД, покрашенный и закатанный в пулестойкую броню в кустарных условиях.
@@ -42,7 +42,7 @@
     vendPrice: 2500
 
 - type: entity
-  parent: [ClothingOuterHardsuitBase, BaseC3SyndicateContraband, HardsuitIdentify]
+  parent: [ClothingOuterHardsuitBase, BaseC3SyndicateContraband]
   id: ClothingOuterHardsuitBloodRedPirate
   name: Модифицированный кроваво-красный скафандр
   description: Скафандр Мародеров Горлекса, сделанный по старым, архивным чертежам. Это настоящая редкость.
@@ -85,7 +85,7 @@
     vendPrice: 2500
 
 - type: entity
-  parent: [ClothingOuterHardsuitBase, BaseC3SyndicateContraband, HardsuitIdentify]
+  parent: [ClothingOuterHardsuitBase, BaseC3SyndicateContraband]
   id: ClothingOuterHardsuitBloodRedElitePirate
   name: Модифицированный элитный кроваво-красный скафандр
   description: Элитный скафандр Мародеров Горлекса, сделанный по старым, архивным чертежам. Это настоящая редкость.

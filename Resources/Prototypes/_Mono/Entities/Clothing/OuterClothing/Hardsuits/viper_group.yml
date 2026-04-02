@@ -40,11 +40,11 @@
   - type: StaticPrice
     price: 1500
     vendPrice: 4000
-  - type: HardsuitIdentification
-  - type: HardsuitDNARadial
-  - type: Speech
-  - type: TTS
-    voice: Adjutant
+  # - type: HardsuitIdentification
+  # - type: HardsuitDNARadial
+  # - type: Speech
+  # - type: TTS
+  #   voice: Adjutant
 
 
 - type: entity
@@ -89,9 +89,8 @@
   - type: StaticPrice
     price: 1500
     vendPrice: 4000
-  - type: HardsuitIdentification
-  - type: HardsuitDNARadial
-  - type: Speech
-  - type: TTS
-    voice: Adjutant
-
+  # - type: HardsuitIdentification
+  # - type: HardsuitDNARadial
+  # - type: Speech
+  # - type: TTS
+  #   voice: Adjutant
