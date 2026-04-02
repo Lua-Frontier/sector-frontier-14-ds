@@ -184,7 +184,7 @@
       orGroup: Clothes
     # - id: ClothingBackpackERTClown # comment from _Lua
     #   prob: 0.001
-      orGroup: Clothes
+    #   orGroup: Clothes
     - id: ClothingNeckCloakAdmin
       prob: 0.01
       orGroup: Clothes
