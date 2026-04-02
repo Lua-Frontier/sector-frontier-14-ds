@@ -18,7 +18,7 @@
     role: JobHeadOfPersonnel
     time: 72000 # 20h
   - !type:DepartmentTimeRequirement
-    department: OutpostTypan
+    department: OutpostSyndicate
     time: 72000 # 20h
     # - !type:DepartmentTimeRequirement
     #   department: Security
