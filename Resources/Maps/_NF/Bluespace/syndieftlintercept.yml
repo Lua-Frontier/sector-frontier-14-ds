@@ -395,7 +395,6 @@ entities:
     - type: GasTileOverlay
     - type: RadiationGridResistance
     - type: ImplicitRoof
-    - type: ShipCpuLimit
 - proto: AirAlarm
   entities:
   - uid: 396

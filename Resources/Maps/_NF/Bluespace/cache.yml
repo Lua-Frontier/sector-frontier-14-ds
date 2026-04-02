@@ -708,7 +708,6 @@ entities:
     - type: GasTileOverlay
     - type: RadiationGridResistance
     - type: ImplicitRoof
-    - type: ShipCpuLimit
 - proto: AirlockExternalLocked
   entities:
   - uid: 342

@@ -488,7 +488,6 @@ entities:
     - type: GridGodMode
       protectedEntities: []
     - type: ArrivalsProtectGrid
-    - type: ShipCpuLimit
   - uid: 3
     mapInit: true
     paused: true
@@ -901,18 +900,6 @@ entities:
       rot: 3.141592653589793 rad
       pos: 1.5,-28.5
       parent: 1
-- proto: BoxDarts
-  entities:
-  - uid: 1487
-    components:
-    - type: Transform
-      pos: 0.49423504,-3.3692818
-      parent: 1
-    - type: UserInterface
-      actors:
-        enum.StorageUiKey.Key:
-        - invalid
-    - type: ActiveUserInterface
 - proto: CableApcExtension
   entities:
   - uid: 48
