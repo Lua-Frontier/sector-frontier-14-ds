@@ -41,7 +41,12 @@
 
 - type: startingGear
   id: SCSoldierGear
-  equipment: {}
+  equipment:
+    belt: ClothingBeltUtility
+    pocket1: BaseStormCreedUplink10
+  storage:
+    back:
+    - AppraisalTool
 
 - type: chameleonOutfit
   id: SCSoldierChameleonOutfit
