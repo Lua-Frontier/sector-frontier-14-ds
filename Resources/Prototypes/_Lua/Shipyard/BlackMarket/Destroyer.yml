@@ -13,6 +13,7 @@
   group: ASBlackMarket
   whitelist:
   - Frontier
+  - Luna
   class:
   - Mercenary
   engine:

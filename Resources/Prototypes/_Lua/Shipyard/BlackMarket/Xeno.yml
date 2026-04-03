@@ -16,6 +16,7 @@
   access: Mercenary
   whitelist:
   - Frontier
+  - Luna
   class:
   - Mercenary
   engine:

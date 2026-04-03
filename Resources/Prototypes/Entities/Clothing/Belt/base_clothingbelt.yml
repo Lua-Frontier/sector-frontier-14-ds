@@ -66,6 +66,9 @@
           - Gun
           - MeleeWeapon
           - WeaponCaseInsertable
+  - type: Tag
+    tags:
+    - Webbing
 
 - type: entity
   abstract: true

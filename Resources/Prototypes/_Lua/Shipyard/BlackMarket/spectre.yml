@@ -9,11 +9,12 @@
   name: BM-Spectre
   description: "Большой научный корабль, переоборудованный под настоящую крепость. Последний сохранившийся представитель своей модели."
   price: 200000 #test
-  limit: 2  
+  limit: 4
   category: Large
   group: ASBlackMarket
   whitelist:
   - Frontier
+  - Luna
   class:
   - Science
   engine:

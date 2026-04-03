@@ -14,7 +14,6 @@
   name: 'Аванпост СРБС'
   minimumDistance: 2000 #750 Lua
   maximumDistance: 3000 #1000 Lua
-  spawnGamePreset: [ NFPirate ]
   spawnGroup: Required
   gridPath: /Maps/_Lua/POI/DSNfsd.yml
   addComponents:

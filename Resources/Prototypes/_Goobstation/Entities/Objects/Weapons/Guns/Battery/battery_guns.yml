@@ -41,11 +41,11 @@
   - type: EnergyGun
     fireModes:
     - proto: NFBulletDisabler
-      fireCost: 100
+      fireCost: 25
       name: disable
       state: disabler
     - proto: BulletEnergyGunMagnum
-      fireCost: 150 # Mono - 150 < 225
+      fireCost: 25 # Mono - 150 < 225
       name: lethal
       state: lethal
   - type: MagazineVisuals

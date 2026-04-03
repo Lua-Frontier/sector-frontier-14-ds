@@ -13,6 +13,15 @@
     whitelist:
       tags:
       - SecurityUplink
+  - !type:BuyerJobCondition
+    whitelist:
+    - Sheriff
+    - Bailiff
+    - SeniorOfficer
+    - Brigmedic
+    - SDEngineer
+    - Deputy
+    - Cadet
 
 #region hardsuits
 
@@ -31,6 +40,15 @@
       whitelist:
         tags:
           - SecurityUplink
+    - !type:BuyerJobCondition
+      whitelist:
+      - Sheriff
+      - Bailiff
+      - SeniorOfficer
+      - Brigmedic
+      - SDEngineer
+      - Deputy
+      - Cadet
 
 - type: listing
   id: UplinkSecurityHardsuitM73C
@@ -47,6 +65,15 @@
       whitelist:
         tags:
           - SecurityUplink
+    - !type:BuyerJobCondition
+      whitelist:
+      - Sheriff
+      - Bailiff
+      - SeniorOfficer
+      - Brigmedic
+      - SDEngineer
+      - Deputy
+      - Cadet
 
 - type: listing
   id: UplinkSecurityHardsuitM93
@@ -63,6 +90,15 @@
       whitelist:
         tags:
           - SecurityUplink
+    - !type:BuyerJobCondition
+      whitelist:
+      - Sheriff
+      - Bailiff
+      - SeniorOfficer
+      - Brigmedic
+      - SDEngineer
+      - Deputy
+      - Cadet
 
 - type: listing
   id: UplinkSecurityCommandM93-C
@@ -79,6 +115,15 @@
       whitelist:
         tags:
           - SecurityUplink
+    - !type:BuyerJobCondition
+      whitelist:
+      - Sheriff
+      - Bailiff
+      - SeniorOfficer
+      - Brigmedic
+      - SDEngineer
+      - Deputy
+      - Cadet
 
 - type: listing
   id: UplinkSecurityHardsuitJuggernaut
@@ -95,6 +140,15 @@
       whitelist:
         tags:
           - SecurityUplink
+    - !type:BuyerJobCondition
+      whitelist:
+      - Sheriff
+      - Bailiff
+      - SeniorOfficer
+      - Brigmedic
+      - SDEngineer
+      - Deputy
+      - Cadet
 
 - type: listing
   id: UplinkSecurityHardsuitM92
@@ -111,6 +165,15 @@
       whitelist:
         tags:
           - SecurityUplink
+    - !type:BuyerJobCondition
+      whitelist:
+      - Sheriff
+      - Bailiff
+      - SeniorOfficer
+      - Brigmedic
+      - SDEngineer
+      - Deputy
+      - Cadet
 
 #region clothing
 
@@ -144,6 +207,15 @@
       whitelist:
         tags:
           - SecurityUplink
+    - !type:BuyerJobCondition
+      whitelist:
+      - Sheriff
+      - Bailiff
+      - SeniorOfficer
+      - Brigmedic
+      - SDEngineer
+      - Deputy
+      - Cadet
 
 - type: listing
   id: UplinkSecurityMagboots
@@ -160,6 +232,15 @@
       whitelist:
         tags:
           - SecurityUplink
+    - !type:BuyerJobCondition
+      whitelist:
+      - Sheriff
+      - Bailiff
+      - SeniorOfficer
+      - Brigmedic
+      - SDEngineer
+      - Deputy
+      - Cadet
 
 - type: listing
   id: UplinkSecuritySwat
@@ -176,6 +257,15 @@
       whitelist:
         tags:
           - SecurityUplink
+    - !type:BuyerJobCondition
+      whitelist:
+      - Sheriff
+      - Bailiff
+      - SeniorOfficer
+      - Brigmedic
+      - SDEngineer
+      - Deputy
+      - Cadet
 
 #region weapons
 
@@ -226,6 +316,15 @@
     whitelist:
       tags:
       - SecurityUplink
+  - !type:BuyerJobCondition
+    whitelist:
+    - Sheriff
+    - Bailiff
+    - SeniorOfficer
+    - Brigmedic
+    - SDEngineer
+    - Deputy
+    - Cadet
 
 - type: listing
   id: UplinkSecurityGrizzlyBundle # Grizzly
@@ -242,6 +341,15 @@
     whitelist:
       tags:
       - SecurityUplink
+  - !type:BuyerJobCondition
+    whitelist:
+    - Sheriff
+    - Bailiff
+    - SeniorOfficer
+    - Brigmedic
+    - SDEngineer
+    - Deputy
+    - Cadet
 
 - type: listing
   id: UplinkSecurityHristovBundle # hristov
@@ -258,6 +366,15 @@
     whitelist:
       tags:
       - SecurityUplink
+  - !type:BuyerJobCondition
+    whitelist:
+    - Sheriff
+    - Bailiff
+    - SeniorOfficer
+    - Brigmedic
+    - SDEngineer
+    - Deputy
+    - Cadet
 
 - type: listing
   id: UplinkSecurityXLR556Bundle # xlr556
@@ -274,6 +391,15 @@
     whitelist:
       tags:
       - SecurityUplink
+  - !type:BuyerJobCondition
+    whitelist:
+    - Sheriff
+    - Bailiff
+    - SeniorOfficer
+    - Brigmedic
+    - SDEngineer
+    - Deputy
+    - Cadet
 
 - type: listing
   id: UplinkSecurityFirestarterBundle # firestarter
@@ -290,6 +416,15 @@
     whitelist:
       tags:
       - SecurityUplink
+  - !type:BuyerJobCondition
+    whitelist:
+    - Sheriff
+    - Bailiff
+    - SeniorOfficer
+    - Brigmedic
+    - SDEngineer
+    - Deputy
+    - Cadet
 
 - type: listing
   id: UplinkSecurityM54CE2Bundle # m54ce2
@@ -306,6 +441,15 @@
     whitelist:
       tags:
       - SecurityUplink
+  - !type:BuyerJobCondition
+    whitelist:
+    - Sheriff
+    - Bailiff
+    - SeniorOfficer
+    - Brigmedic
+    - SDEngineer
+    - Deputy
+    - Cadet
 
 - type: listing
   id: UplinkSecurityUniversalBundle # Universal
@@ -322,6 +466,15 @@
     whitelist:
       tags:
       - SecurityUplink
+  - !type:BuyerJobCondition
+    whitelist:
+    - Sheriff
+    - Bailiff
+    - SeniorOfficer
+    - Brigmedic
+    - SDEngineer
+    - Deputy
+    - Cadet
 
 - type: listing
   id: UplinkSecurityMP5Bundle # MP5
@@ -338,6 +491,15 @@
     whitelist:
       tags:
       - SecurityUplink
+  - !type:BuyerJobCondition
+    whitelist:
+    - Sheriff
+    - Bailiff
+    - SeniorOfficer
+    - Brigmedic
+    - SDEngineer
+    - Deputy
+    - Cadet
 
 - type: listing
   id: UplinkSecurityD18Bundle # D18
@@ -354,6 +516,15 @@
     whitelist:
       tags:
       - SecurityUplink
+  - !type:BuyerJobCondition
+    whitelist:
+    - Sheriff
+    - Bailiff
+    - SeniorOfficer
+    - Brigmedic
+    - SDEngineer
+    - Deputy
+    - Cadet
 
 - type: listing
   id: UplinkSecurityBigBuddyBundle # bigbuddy
@@ -370,6 +541,15 @@
     whitelist:
       tags:
       - SecurityUplink
+  - !type:BuyerJobCondition
+    whitelist:
+    - Sheriff
+    - Bailiff
+    - SeniorOfficer
+    - Brigmedic
+    - SDEngineer
+    - Deputy
+    - Cadet
 
 - type: listing
   id: UplinkSecurityMR8BBundle # VFD MR-8B LWMMG (8x65 SKR)
@@ -386,6 +566,15 @@
     whitelist:
       tags:
       - SecurityUplink
+  - !type:BuyerJobCondition
+    whitelist:
+    - Sheriff
+    - Bailiff
+    - SeniorOfficer
+    - Brigmedic
+    - SDEngineer
+    - Deputy
+    - Cadet
 
 - type: listing
   id: UplinkSecurityNavyOfficerSword # Navy Officer Sabre
@@ -402,6 +591,15 @@
       whitelist:
         tags:
           - SecurityUplink
+    - !type:BuyerJobCondition
+      whitelist:
+      - Sheriff
+      - Bailiff
+      - SeniorOfficer
+      - Brigmedic
+      - SDEngineer
+      - Deputy
+      - Cadet
 
 - type: listing
   id: UplinkSecurityNtsfLtrBundle # NTSF-LTR-556 (5.56x45mm)
@@ -418,6 +616,15 @@
       whitelist:
         tags:
           - SecurityUplink
+    - !type:BuyerJobCondition
+      whitelist:
+      - Sheriff
+      - Bailiff
+      - SeniorOfficer
+      - Brigmedic
+      - SDEngineer
+      - Deputy
+      - Cadet
 
 #- type: listing
 #  id: UplinkSecurityEnforcerBundle # Enforcer (4 gauge)
@@ -450,6 +657,15 @@
       whitelist:
         tags:
           - SecurityUplink
+    - !type:BuyerJobCondition
+      whitelist:
+      - Sheriff
+      - Bailiff
+      - SeniorOfficer
+      - Brigmedic
+      - SDEngineer
+      - Deputy
+      - Cadet
 
 #- type: listing
 #  id: UplinkSecurityWT550 # WT-550 (9x19mm)
@@ -482,6 +698,15 @@
       whitelist:
         tags:
           - SecurityUplink
+    - !type:BuyerJobCondition
+      whitelist:
+      - Sheriff
+      - Bailiff
+      - SeniorOfficer
+      - Brigmedic
+      - SDEngineer
+      - Deputy
+      - Cadet
 
 - type: listing
   id: UplinkSecurityInspectorBundle # Inspector (.45 Magnum)
@@ -498,6 +723,15 @@
       whitelist:
         tags:
           - SecurityUplink
+    - !type:BuyerJobCondition
+      whitelist:
+      - Sheriff
+      - Bailiff
+      - SeniorOfficer
+      - Brigmedic
+      - SDEngineer
+      - Deputy
+      - Cadet
 
 - type: listing
   id: UplinkSecurityNonLethalArmory
@@ -514,11 +748,16 @@
       whitelist:
         tags:
           - SecurityUplink
-#    - !type:BuyerJobCondition
-#      whitelist:
-#        - Bailiff
-#        - SeniorOfficer
-#        - Sheriff
+    - !type:BuyerJobCondition
+      whitelist:
+      - Sheriff
+      - Bailiff
+      - SeniorOfficer
+      - Brigmedic
+      - SDEngineer
+      - Deputy
+      - Cadet
+
 
 #region energy weapons
 - type: listing
@@ -536,6 +775,15 @@
       whitelist:
         tags:
           - SecurityUplink
+    - !type:BuyerJobCondition
+      whitelist:
+      - Sheriff
+      - Bailiff
+      - SeniorOfficer
+      - Brigmedic
+      - SDEngineer
+      - Deputy
+      - Cadet
 
 - type: listing
   id: UplinkSecurityAshstorm # EM72 Ashstorm
@@ -552,6 +800,15 @@
       whitelist:
         tags:
           - SecurityUplink
+    - !type:BuyerJobCondition
+      whitelist:
+      - Sheriff
+      - Bailiff
+      - SeniorOfficer
+      - Brigmedic
+      - SDEngineer
+      - Deputy
+      - Cadet
 
 - type: listing
   id: UplinkSecurityEg4 # Energy revolver EG-4
@@ -567,6 +824,15 @@
     whitelist:
       tags:
       - SecurityUplink
+  - !type:BuyerJobCondition
+    whitelist:
+    - Sheriff
+    - Bailiff
+    - SeniorOfficer
+    - Brigmedic
+    - SDEngineer
+    - Deputy
+    - Cadet
 
 - type: listing
   id: UplinkSecurityLaserRifle # LaserRifle
@@ -583,6 +849,15 @@
       whitelist:
         tags:
           - SecurityUplink
+    - !type:BuyerJobCondition
+      whitelist:
+      - Sheriff
+      - Bailiff
+      - SeniorOfficer
+      - Brigmedic
+      - SDEngineer
+      - Deputy
+      - Cadet
 
 - type: listing
   id: UplinkSecurityUrbanPlasma # UrbanPlasma
@@ -599,6 +874,15 @@
       whitelist:
         tags:
           - SecurityUplink
+    - !type:BuyerJobCondition
+      whitelist:
+      - Sheriff
+      - Bailiff
+      - SeniorOfficer
+      - Brigmedic
+      - SDEngineer
+      - Deputy
+      - Cadet
 
 - type: listing
   id: UplinkSecurityRechargerRifle # RechargerRifle
@@ -615,6 +899,15 @@
       whitelist:
         tags:
           - SecurityUplink
+    - !type:BuyerJobCondition
+      whitelist:
+      - Sheriff
+      - Bailiff
+      - SeniorOfficer
+      - Brigmedic
+      - SDEngineer
+      - Deputy
+      - Cadet
 
 - type: listing
   id: UplinkSecurityRechargerPistol # RechargerPistol
@@ -631,6 +924,15 @@
       whitelist:
         tags:
           - SecurityUplink
+    - !type:BuyerJobCondition
+      whitelist:
+      - Sheriff
+      - Bailiff
+      - SeniorOfficer
+      - Brigmedic
+      - SDEngineer
+      - Deputy
+      - Cadet
 
 - type: listing
   id: UplinkSecurityRifleTemperature # RifleTemperature
@@ -647,6 +949,15 @@
       whitelist:
         tags:
           - SecurityUplink
+    - !type:BuyerJobCondition
+      whitelist:
+      - Sheriff
+      - Bailiff
+      - SeniorOfficer
+      - Brigmedic
+      - SDEngineer
+      - Deputy
+      - Cadet
 
 #region ammo
 
@@ -669,6 +980,15 @@
     whitelist:
       tags:
       - SecurityUplink
+  - !type:BuyerJobCondition
+    whitelist:
+    - Sheriff
+    - Bailiff
+    - SeniorOfficer
+    - Brigmedic
+    - SDEngineer
+    - Deputy
+    - Cadet
 
 # 12.7x99mm
 
@@ -688,6 +1008,15 @@
     whitelist:
       tags:
       - SecurityUplink
+  - !type:BuyerJobCondition
+    whitelist:
+    - Sheriff
+    - Bailiff
+    - SeniorOfficer
+    - Brigmedic
+    - SDEngineer
+    - Deputy
+    - Cadet
 
 #7.62x39mm
 
@@ -708,6 +1037,15 @@
     whitelist:
       tags:
       - SecurityUplink
+  - !type:BuyerJobCondition
+    whitelist:
+    - Sheriff
+    - Bailiff
+    - SeniorOfficer
+    - Brigmedic
+    - SDEngineer
+    - Deputy
+    - Cadet
 
 # Rubber
 
@@ -726,6 +1064,15 @@
     whitelist:
       tags:
       - SecurityUplink
+  - !type:BuyerJobCondition
+    whitelist:
+    - Sheriff
+    - Bailiff
+    - SeniorOfficer
+    - Brigmedic
+    - SDEngineer
+    - Deputy
+    - Cadet
 
 #5.56x45mm
 
@@ -746,6 +1093,15 @@
     whitelist:
       tags:
       - SecurityUplink
+  - !type:BuyerJobCondition
+    whitelist:
+    - Sheriff
+    - Bailiff
+    - SeniorOfficer
+    - Brigmedic
+    - SDEngineer
+    - Deputy
+    - Cadet
 
 # Rubber
 
@@ -764,6 +1120,15 @@
     whitelist:
       tags:
       - SecurityUplink
+  - !type:BuyerJobCondition
+    whitelist:
+    - Sheriff
+    - Bailiff
+    - SeniorOfficer
+    - Brigmedic
+    - SDEngineer
+    - Deputy
+    - Cadet
 
 #9x19mm
 
@@ -786,6 +1151,15 @@
     whitelist:
       tags:
       - SecurityUplink
+  - !type:BuyerJobCondition
+    whitelist:
+    - Sheriff
+    - Bailiff
+    - SeniorOfficer
+    - Brigmedic
+    - SDEngineer
+    - Deputy
+    - Cadet
 
 - type: listing
   id: UplinkSecurityMagazine9x19mmSubMachineGunTopMountedFMJ # Mag topmount
@@ -802,6 +1176,15 @@
     whitelist:
       tags:
       - SecurityUplink
+  - !type:BuyerJobCondition
+    whitelist:
+    - Sheriff
+    - Bailiff
+    - SeniorOfficer
+    - Brigmedic
+    - SDEngineer
+    - Deputy
+    - Cadet
 
 # Rubber
 
@@ -820,6 +1203,15 @@
     whitelist:
       tags:
       - SecurityUplink
+  - !type:BuyerJobCondition
+    whitelist:
+    - Sheriff
+    - Bailiff
+    - SeniorOfficer
+    - Brigmedic
+    - SDEngineer
+    - Deputy
+    - Cadet
 
 # Pistol
 
@@ -840,6 +1232,15 @@
     whitelist:
       tags:
       - SecurityUplink
+  - !type:BuyerJobCondition
+    whitelist:
+    - Sheriff
+    - Bailiff
+    - SeniorOfficer
+    - Brigmedic
+    - SDEngineer
+    - Deputy
+    - Cadet
 
 # Rubber
 
@@ -858,6 +1259,15 @@
     whitelist:
       tags:
       - SecurityUplink
+  - !type:BuyerJobCondition
+    whitelist:
+    - Sheriff
+    - Bailiff
+    - SeniorOfficer
+    - Brigmedic
+    - SDEngineer
+    - Deputy
+    - Cadet
 
 #.45_ACP
 
@@ -880,6 +1290,15 @@
     whitelist:
       tags:
       - SecurityUplink
+  - !type:BuyerJobCondition
+    whitelist:
+    - Sheriff
+    - Bailiff
+    - SeniorOfficer
+    - Brigmedic
+    - SDEngineer
+    - Deputy
+    - Cadet
 
 # Rubber
 
@@ -898,6 +1317,15 @@
     whitelist:
       tags:
       - SecurityUplink
+  - !type:BuyerJobCondition
+    whitelist:
+    - Sheriff
+    - Bailiff
+    - SeniorOfficer
+    - Brigmedic
+    - SDEngineer
+    - Deputy
+    - Cadet
 
 # Pistol
 
@@ -918,6 +1346,15 @@
     whitelist:
       tags:
       - SecurityUplink
+  - !type:BuyerJobCondition
+    whitelist:
+    - Sheriff
+    - Bailiff
+    - SeniorOfficer
+    - Brigmedic
+    - SDEngineer
+    - Deputy
+    - Cadet
 
 # Rubber
 
@@ -936,6 +1373,15 @@
     whitelist:
       tags:
       - SecurityUplink
+  - !type:BuyerJobCondition
+    whitelist:
+    - Sheriff
+    - Bailiff
+    - SeniorOfficer
+    - Brigmedic
+    - SDEngineer
+    - Deputy
+    - Cadet
 
 #.45 Magnum
 
@@ -956,6 +1402,15 @@
     whitelist:
       tags:
       - SecurityUplink
+  - !type:BuyerJobCondition
+    whitelist:
+    - Sheriff
+    - Bailiff
+    - SeniorOfficer
+    - Brigmedic
+    - SDEngineer
+    - Deputy
+    - Cadet
 
 # Rubber
 
@@ -974,6 +1429,15 @@
     whitelist:
       tags:
       - SecurityUplink
+  - !type:BuyerJobCondition
+    whitelist:
+    - Sheriff
+    - Bailiff
+    - SeniorOfficer
+    - Brigmedic
+    - SDEngineer
+    - Deputy
+    - Cadet
 
 #7.62x51mm
 
@@ -994,6 +1458,15 @@
     whitelist:
       tags:
       - SecurityUplink
+  - !type:BuyerJobCondition
+    whitelist:
+    - Sheriff
+    - Bailiff
+    - SeniorOfficer
+    - Brigmedic
+    - SDEngineer
+    - Deputy
+    - Cadet
 
 - type: listing
   id: UplinkSecurityAmmoBox762x51mmFMJ # Mag (For VFD MR-8B LWMMG (7.62x51mm))
@@ -1009,6 +1482,15 @@
     whitelist:
       tags:
       - SecurityUplink
+  - !type:BuyerJobCondition
+    whitelist:
+    - Sheriff
+    - Bailiff
+    - SeniorOfficer
+    - Brigmedic
+    - SDEngineer
+    - Deputy
+    - Cadet
 
 # Rubber
 
@@ -1027,6 +1509,15 @@
     whitelist:
       tags:
       - SecurityUplink
+  - !type:BuyerJobCondition
+    whitelist:
+    - Sheriff
+    - Bailiff
+    - SeniorOfficer
+    - Brigmedic
+    - SDEngineer
+    - Deputy
+    - Cadet
 
 #8x65 STANAG
 
@@ -1047,6 +1538,15 @@
     whitelist:
       tags:
       - SecurityUplink
+  - !type:BuyerJobCondition
+    whitelist:
+    - Sheriff
+    - Bailiff
+    - SeniorOfficer
+    - Brigmedic
+    - SDEngineer
+    - Deputy
+    - Cadet
 
 #region explosive
 
@@ -1067,9 +1567,14 @@
           - SecurityUplink
     - !type:BuyerJobCondition
       whitelist:
-        - Bailiff
-        - SeniorOfficer
-        - Sheriff
+      - Sheriff
+      - Bailiff
+      - SeniorOfficer
+      - Brigmedic
+      - SDEngineer
+      - Deputy
+      - Cadet
+
 
 - type: listing
   id: UplinkSecuritySmokeGrenadeBox
@@ -1086,6 +1591,15 @@
       whitelist:
         tags:
           - SecurityUplink
+    - !type:BuyerJobCondition
+      whitelist:
+      - Sheriff
+      - Bailiff
+      - SeniorOfficer
+      - Brigmedic
+      - SDEngineer
+      - Deputy
+      - Cadet
 
 - type: listing
   id: UplinkSecurityTeargasGrenadeBox
@@ -1102,6 +1616,15 @@
       whitelist:
         tags:
           - SecurityUplink
+    - !type:BuyerJobCondition
+      whitelist:
+      - Sheriff
+      - Bailiff
+      - SeniorOfficer
+      - Brigmedic
+      - SDEngineer
+      - Deputy
+      - Cadet
 
 - type: listing
   id: UplinkSecurityFlashbangGrenadeBox
@@ -1118,6 +1641,15 @@
       whitelist:
         tags:
           - SecurityUplink
+    - !type:BuyerJobCondition
+      whitelist:
+      - Sheriff
+      - Bailiff
+      - SeniorOfficer
+      - Brigmedic
+      - SDEngineer
+      - Deputy
+      - Cadet
 
 - type: listing
   id: UplinkSecurityBreachingChargesBox
@@ -1139,6 +1671,15 @@
         - Bailiff
         - SeniorOfficer
         - Sheriff
+    - !type:BuyerJobCondition
+      whitelist:
+      - Sheriff
+      - Bailiff
+      - SeniorOfficer
+      - Brigmedic
+      - SDEngineer
+      - Deputy
+      - Cadet
 
 #region medicine
 
@@ -1156,6 +1697,15 @@
       whitelist:
         tags:
           - SecurityUplink
+    - !type:BuyerJobCondition
+      whitelist:
+      - Sheriff
+      - Bailiff
+      - SeniorOfficer
+      - Brigmedic
+      - SDEngineer
+      - Deputy
+      - Cadet
 
 - type: listing
   id: UplinkSecurityHypo
@@ -1169,10 +1719,16 @@
       whitelist:
         tags:
           - SecurityUplink
-    # - !type:BuyerJobCondition
-    #   whitelist:
-    #     - Brigmedic
-    #     - Sheriff
+    - !type:BuyerJobCondition
+      whitelist:
+      - Sheriff
+      - Bailiff
+      - SeniorOfficer
+      - Brigmedic
+      - SDEngineer
+      - Deputy
+      - Cadet
+
 
 - type: listing
   id: UplinkSecurityRadPen
@@ -1189,6 +1745,15 @@
       whitelist:
         tags:
           - SecurityUplink
+    - !type:BuyerJobCondition
+      whitelist:
+      - Sheriff
+      - Bailiff
+      - SeniorOfficer
+      - Brigmedic
+      - SDEngineer
+      - Deputy
+      - Cadet
 
 - type: listing
   id: UplinkSecurityPyrazinePen
@@ -1205,6 +1770,15 @@
       whitelist:
         tags:
           - SecurityUplink
+    - !type:BuyerJobCondition
+      whitelist:
+      - Sheriff
+      - Bailiff
+      - SeniorOfficer
+      - Brigmedic
+      - SDEngineer
+      - Deputy
+      - Cadet
 
 - type: listing
   id: UplinkSecurityPuncturasePen
@@ -1221,6 +1795,15 @@
       whitelist:
         tags:
           - SecurityUplink
+    - !type:BuyerJobCondition
+      whitelist:
+      - Sheriff
+      - Bailiff
+      - SeniorOfficer
+      - Brigmedic
+      - SDEngineer
+      - Deputy
+      - Cadet
 
 - type: listing
   id: UplinkSecurityAntiPoisonPen
@@ -1237,6 +1820,15 @@
       whitelist:
         tags:
           - SecurityUplink
+    - !type:BuyerJobCondition
+      whitelist:
+      - Sheriff
+      - Bailiff
+      - SeniorOfficer
+      - Brigmedic
+      - SDEngineer
+      - Deputy
+      - Cadet
 
 # - type: listing
 #   id: UplinkSecurityCombatPen
@@ -1269,10 +1861,16 @@
       whitelist:
         tags:
           - SecurityUplink
-    # - !type:BuyerJobCondition
-    #   whitelist:
-    #     - Brigmedic
-    #     - Sheriff
+    - !type:BuyerJobCondition
+      whitelist:
+      - Sheriff
+      - Bailiff
+      - SeniorOfficer
+      - Brigmedic
+      - SDEngineer
+      - Deputy
+      - Cadet
+
 
 - type: listing
   id: UplinkSecurityMedkit
@@ -1289,6 +1887,15 @@
       whitelist:
         tags:
           - SecurityUplink
+    - !type:BuyerJobCondition
+      whitelist:
+      - Sheriff
+      - Bailiff
+      - SeniorOfficer
+      - Brigmedic
+      - SDEngineer
+      - Deputy
+      - Cadet
 
 #region starmap
 
@@ -1306,6 +1913,15 @@
       whitelist:
         tags:
           - SecurityUplink
+    - !type:BuyerJobCondition
+      whitelist:
+      - Sheriff
+      - Bailiff
+      - SeniorOfficer
+      - Brigmedic
+      - SDEngineer
+      - Deputy
+      - Cadet
 
 - type: listing
   id: UplinkSecurityCoordinatesDiskFrontier
@@ -1322,6 +1938,15 @@
       whitelist:
         tags:
           - SecurityUplink
+    - !type:BuyerJobCondition
+      whitelist:
+      - Sheriff
+      - Bailiff
+      - SeniorOfficer
+      - Brigmedic
+      - SDEngineer
+      - Deputy
+      - Cadet
 
 #region utility
 
@@ -1339,6 +1964,15 @@
       whitelist:
         tags:
           - SecurityUplink
+    - !type:BuyerJobCondition
+      whitelist:
+      - Sheriff
+      - Bailiff
+      - SeniorOfficer
+      - Brigmedic
+      - SDEngineer
+      - Deputy
+      - Cadet
 
 - type: listing
   id: UplinkSecurityArmySatchel
@@ -1355,6 +1989,15 @@
       whitelist:
         tags:
           - SecurityUplink
+    - !type:BuyerJobCondition
+      whitelist:
+      - Sheriff
+      - Bailiff
+      - SeniorOfficer
+      - Brigmedic
+      - SDEngineer
+      - Deputy
+      - Cadet
 
 - type: listing
   id: UplinkSecurityHolo
@@ -1371,6 +2014,15 @@
       whitelist:
         tags:
           - SecurityUplink
+    - !type:BuyerJobCondition
+      whitelist:
+      - Sheriff
+      - Bailiff
+      - SeniorOfficer
+      - Brigmedic
+      - SDEngineer
+      - Deputy
+      - Cadet
 
 - type: listing
   id: UplinkNfsdTechfab
@@ -1425,11 +2077,15 @@
       whitelist:
         tags:
           - SecurityUplink
-    # - !type:BuyerJobCondition
-    #   whitelist:
-    #     - Bailiff
-    #     - SeniorOfficer
-    #     - Sheriff
+    - !type:BuyerJobCondition
+      whitelist:
+      - Sheriff
+      - Bailiff
+      - SeniorOfficer
+      - Brigmedic
+      - SDEngineer
+      - Deputy
+      - Cadet
 
 - type: listing
   id: UplinkSecurityTeleShield
@@ -1446,6 +2102,15 @@
       whitelist:
         tags:
           - SecurityUplink
+    - !type:BuyerJobCondition
+      whitelist:
+      - Sheriff
+      - Bailiff
+      - SeniorOfficer
+      - Brigmedic
+      - SDEngineer
+      - Deputy
+      - Cadet
 
 - type: listing
   id: UplinkSecurityEnergyShield
@@ -1462,11 +2127,16 @@
       whitelist:
         tags:
           - SecurityUplink
-    # - !type:BuyerJobCondition
-    #   whitelist:
-    #     - Bailiff
-    #     - SeniorOfficer
-    #     - Sheriff
+    - !type:BuyerJobCondition
+      whitelist:
+      - Sheriff
+      - Bailiff
+      - SeniorOfficer
+      - Brigmedic
+      - SDEngineer
+      - Deputy
+      - Cadet
+
 
 # - type: listing
 #   id: UplinkSecurityCash2500
@@ -1514,6 +2184,15 @@
     whitelist:
       tags:
       - SecurityUplink
+  - !type:BuyerJobCondition
+    whitelist:
+    - Sheriff
+    - Bailiff
+    - SeniorOfficer
+    - Brigmedic
+    - SDEngineer
+    - Deputy
+    - Cadet
 
 - type: listing
   id: UplinkSecurityContrabandForensicsModule
@@ -1552,6 +2231,15 @@
       whitelist:
         tags:
           - SecurityUplink
+    - !type:BuyerJobCondition
+      whitelist:
+      - Sheriff
+      - Bailiff
+      - SeniorOfficer
+      - Brigmedic
+      - SDEngineer
+      - Deputy
+      - Cadet
 
 - type: listing
   id: UplinkSecurityHoverbikeNfsdFlatpack
@@ -1568,11 +2256,15 @@
       whitelist:
         tags:
           - SecurityUplink
-    # - !type:BuyerJobCondition
-    #   whitelist:
-    #     - Bailiff
-    #     - SeniorOfficer
-    #     - Sheriff
+    - !type:BuyerJobCondition
+      whitelist:
+      - Sheriff
+      - Bailiff
+      - SeniorOfficer
+      - Brigmedic
+      - SDEngineer
+      - Deputy
+      - Cadet
 
 - type: listing
   id: UplinkSecurityCyborgModule
@@ -1589,3 +2281,12 @@
       whitelist:
         tags:
           - SecurityUplink
+    - !type:BuyerJobCondition
+      whitelist:
+      - Sheriff
+      - Bailiff
+      - SeniorOfficer
+      - Brigmedic
+      - SDEngineer
+      - Deputy
+      - Cadet
