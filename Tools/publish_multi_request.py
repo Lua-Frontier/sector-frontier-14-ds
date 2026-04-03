@@ -16,7 +16,7 @@ RELEASE_DIR = "release"
 # Forks should change these to publish to their own infrastructure.
 #
 ROBUST_CDN_URL = "https://cdn.luaworld.ru/"
-FORK_ID = "dsfrontier"
+FORK_ID = "mkfrontier"
 
 def main():
     parser = argparse.ArgumentParser()
@@ -75,10 +75,25 @@ def get_files_to_publish() -> Iterable[str]:
 
 
 def get_engine_version() -> str:
-    proc = subprocess.run(["git", "describe","--tags", "--abbrev=0"], stdout=subprocess.PIPE, cwd="RobustToolbox", check=True, encoding="UTF-8")
-    tag = proc.stdout.strip()
-    assert tag.startswith("v")
-    return tag[1:] # Cut off v prefix.
+    cwd = "RobustToolbox"
+    for ref in ("origin/master", "master"):
+        proc = subprocess.run(
+            ["git", "rev-parse", "--short", ref],
+            stdout=subprocess.PIPE,
+            stderr=subprocess.DEVNULL,
+            cwd=cwd,
+            encoding="UTF-8",
+        )
+        if proc.returncode == 0 and proc.stdout.strip():
+            return f"master-{proc.stdout.strip()}"
+    commit = subprocess.run(
+        ["git", "rev-parse", "--short", "HEAD"],
+        stdout=subprocess.PIPE,
+        cwd=cwd,
+        check=True,
+        encoding="UTF-8",
+    ).stdout.strip()
+    return f"master-{commit}"
 
 
 if __name__ == '__main__':
