@@ -37,10 +37,11 @@ jobs:
         echo "HOST *" > ~/.ssh/config
         echo "StrictHostKeyChecking no" >> ~/.ssh/config
         git clone git@github.com:HacksLua/lua-secrets.git LuaSecrets
-        cp -R LuaSecrets/Resources/Audio/_Lua/* Resources/Audio/_LuaSecrets
-        cp -R LuaSecrets/Resources/Prototypes/_Lua/* Resources/Prototypes/_LuaSecrets
-        cp -R LuaSecrets/Resources/Locale/_Lua/* Resources/Locale/ru-RU/_LuaSecrets
-        cp -R LuaSecrets/Resources/Textures/_Lua/* Resources/Textures/_LuaSecrets
+        mkdir -p Resources/Audio/_LuaSecrets Resources/Prototypes/_LuaSecrets Resources/Locale/ru-RU/_LuaSecrets Resources/Textures/_LuaSecrets
+        cp -R LuaSecrets/Resources/Audio/_Lua/. Resources/Audio/_LuaSecrets/
+        cp -R LuaSecrets/Resources/Prototypes/_Lua/. Resources/Prototypes/_LuaSecrets/
+        cp -R LuaSecrets/Resources/Locale/_Lua/. Resources/Locale/ru-RU/_LuaSecrets/
+        cp -R LuaSecrets/Resources/Textures/_Lua/. Resources/Textures/_LuaSecrets/
     # Lua-secrets-end
 
     - name: Setup .NET Core
