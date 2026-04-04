@@ -1,7 +1,7 @@
 # Belts that need/have visualizers
 
 - type: entity
-  parent: NFClothingBeltStorageBase # Frontier: ClothingBeltStorageBase<NFClothingBeltStorageBase
+  parent: ClothingBeltStorageBaseNoWeaponSlot # Frontier: ClothingBeltStorageBase<NFClothingBeltStorageBase
   id: ClothingBeltUtility
   name: utility belt
   description: Can hold various things.
