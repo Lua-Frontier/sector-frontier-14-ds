@@ -28,6 +28,7 @@
   special:
   - !type:AddComponentSpecial
     components:
+    - type: AutoPirateCaptain
     - type: SpecialSectorStationRecord
       recordGeneration: FalseRecord
     - type: Company

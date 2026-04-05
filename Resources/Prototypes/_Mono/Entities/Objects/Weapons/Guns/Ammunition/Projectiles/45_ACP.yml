@@ -98,7 +98,7 @@
     damage:
       types:
         Blunt: 14
-        Shock: 6
+        Caustic: 6
 
 # Out of balance
 - type: entity

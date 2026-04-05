@@ -6,7 +6,7 @@
     - id: ClothingBeltUtilityEngineering
     - id: OreBag
     - id: NFWeaponPka
-    # - id: Pickaxe # comment from _Lua
+    - id: Pickaxe
     - id: NFWeaponHoloflareGun
     - id: SurvivalKnife
     - id: RadioHandheldNF

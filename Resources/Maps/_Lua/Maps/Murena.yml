@@ -27228,7 +27228,7 @@ entities:
       rot: 1.5707963267948966 rad
       pos: 27.5,-27.5
       parent: 1
-- proto: GunneryServerHigh
+- proto: GunneryServerOmega
   entities:
   - uid: 388
     components:

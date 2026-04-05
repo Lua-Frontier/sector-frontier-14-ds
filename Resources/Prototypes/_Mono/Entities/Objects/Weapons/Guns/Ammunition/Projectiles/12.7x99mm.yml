@@ -12,7 +12,7 @@
   - type: Projectile
     damage:
       types:
-        Piercing: 125
+        Piercing: 100
         Structural: 400 # if you were a wall would you like having a .50 cal anti materiel round go through you (this breaks a normal wall in 3 shots, one mag goes through four normal walls, 10 rounds to take down a reinforced wall)
   - type: Tracer
     color: "#FFFFFFFF"
@@ -61,8 +61,8 @@
   - type: Projectile
     damage:
       types:
-        Blunt: 37.5
-        Piercing: 87.5
+        Blunt: 30
+        Piercing: 70
         Structural: 400
   - type: Tracer
     color: "#FFFFFFFF"
@@ -78,8 +78,8 @@
   - type: Projectile
     damage:
       types:
-        Piercing: 87.5
-        Heat: 37.5
+        Piercing: 70
+        Heat: 30
         Structural: 400
   - type: Tracer
     color: "#FFFFFFFF"
@@ -94,8 +94,8 @@
   - type: Projectile
     damage:
       types:
-        Piercing: 87.5
-        Radiation: 37.5
+        Piercing: 70
+        Radiation: 30
         Structural: 400
   - type: Tracer
     color: "#FFFFFFFF"
@@ -111,8 +111,8 @@
   - type: Projectile
     damage:
       types:
-        Piercing: 87.5
-        Shock: 37.5
+        Piercing: 70
+        Shock: 30
         Structural: 400
   - type: Tracer
     color: "#FFFFFFFF"
@@ -127,8 +127,8 @@
   - type: Projectile
     damage:
       types:
-        Piercing: 70
-        Caustic: 30
+        Piercing: 50
+        Caustic: 25
         Structural: 400
   - type: Tracer
     color: "#FFFFFFFF"
