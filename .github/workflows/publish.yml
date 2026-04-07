@@ -29,13 +29,18 @@ jobs:
     - name: Checkout repository
       uses: actions/checkout@v4.2.2
       with:
-        submodules: 'recursive'
+        submodules: false
 
     - name: Checkout PR (if specified)
       if: ${{ github.event.inputs.pr != '' }}
       run: |
         git fetch origin pull/${{ github.event.inputs.pr }}/head:pr-branch
         git checkout pr-branch
+
+    - name: Init RobustToolbox submodule (master)
+      run: |
+        git submodule sync -- RobustToolbox
+        git submodule update --init --depth 1 --remote RobustToolbox
 
     # Lua-secrets-start
     - name: Setup secrets (lua-secrets)
