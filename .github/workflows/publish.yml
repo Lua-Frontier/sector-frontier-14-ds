@@ -41,6 +41,8 @@ jobs:
       run: |
         git submodule sync -- RobustToolbox
         git submodule update --init --depth 1 --remote RobustToolbox
+        git -C RobustToolbox submodule sync --recursive
+        git -C RobustToolbox submodule update --init --recursive --depth 1
 
     # Lua-secrets-start
     - name: Setup secrets (lua-secrets)
