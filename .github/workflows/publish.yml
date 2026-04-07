@@ -6,6 +6,11 @@ concurrency:
 
 on:
   workflow_dispatch:
+    inputs:
+      pr:
+        description: 'Pull Request number (optional)'
+        required: false
+        default: ''
   # schedule:
    # - cron: '0 10 * * *'
 
@@ -21,9 +26,16 @@ jobs:
     - name: Install dependencies
       run: sudo apt-get install -y python3-paramiko python3-lxml
 
-    - uses: actions/checkout@v4.2.2
+    - name: Checkout repository
+      uses: actions/checkout@v4.2.2
       with:
         submodules: 'recursive'
+
+    - name: Checkout PR (if specified)
+      if: ${{ github.event.inputs.pr != '' }}
+      run: |
+        git fetch origin pull/${{ github.event.inputs.pr }}/head:pr-branch
+        git checkout pr-branch
 
     # Lua-secrets-start
     - name: Setup secrets (lua-secrets)
