@@ -7,10 +7,10 @@
   requirements:
   - !type:RoleTimeRequirement #Lua
     role: JobBrigmedic
-    time: 36000 # 10h
+    time: 18000 # 10h
   - !type:RoleTimeRequirement #Lua
     role: JobNfsdEngineer
-    time: 36000 # 10h
+    time: 18000 # 10h
 #    - !type:OverallPlaytimeRequirement # comment from _Lua
 #      time: 108000 # 30 hours
 #    - !type:DepartmentTimeRequirement

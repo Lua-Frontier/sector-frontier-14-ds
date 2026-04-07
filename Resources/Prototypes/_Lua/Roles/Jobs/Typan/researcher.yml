@@ -16,16 +16,16 @@
   requirements:
   - !type:RoleTimeRequirement
     role: JobPilot
-    time: 72000 # 20h
+    time: 36000 # 20h
   - !type:RoleTimeRequirement
     role: JobPassenger
-    time: 72000 # 20h
+    time: 36000 # 20h
   - !type:RoleTimeRequirement
     role: JobFrontierEngineer
-    time: 72000 # 20h
+    time: 36000 # 20h
   - !type:DepartmentTimeRequirement
     department: Medical
-    time: 72000 # 20h
+    time: 36000 # 20h
   access:
   - SyndicateAgent
   - NuclearOperative

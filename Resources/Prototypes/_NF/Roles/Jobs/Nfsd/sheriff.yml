@@ -7,7 +7,7 @@
   requirements:
   - !type:RoleTimeRequirement #Lua
     role: JobWarden
-    time: 72000 # 10h
+    time: 36000 # 10h
 #    - !type:OverallPlaytimeRequirement # comment from _Lua
 #      time: 129600 # 36 hours
 #    - !type:DepartmentTimeRequirement

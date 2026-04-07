@@ -7,7 +7,7 @@
   requirements:
   - !type:RoleTimeRequirement #Lua
     role: JobSecurityCadet
-    time: 72000 # 20h
+    time: 36000 # 10h
 #    - !type:OverallPlaytimeRequirement # comment from _Lua
 #      time: 43200 # 12 hours
 #    - !type:DepartmentTimeRequirement

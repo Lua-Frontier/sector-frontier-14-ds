@@ -7,7 +7,7 @@
   requirements:
   - !type:RoleTimeRequirement #Lua
     role: JobPilot
-    time: 72000 # 20h
+    time: 36000 # 10h
 #    - !type:OverallPlaytimeRequirement # comment from _Lua
 #      time: 21600 # 6 hours
 #    - !type:DepartmentTimeRequirement

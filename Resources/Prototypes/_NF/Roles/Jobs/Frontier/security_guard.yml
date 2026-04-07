@@ -5,10 +5,10 @@
   playTimeTracker: JobSecurityGuard
   requirements:
     - !type:OverallPlaytimeRequirement
-      time: 36000 # Frontier - 10 hrs
+      time: 18000 # Frontier - 5 hrs
     - !type:DepartmentTimeRequirement #Lua
       department: Frontier
-      time: 36000
+      time: 18000
   startingGear: SecurityGuardGear
   alwaysUseSpawner: true
   icon: "JobIconSecurityGuard"

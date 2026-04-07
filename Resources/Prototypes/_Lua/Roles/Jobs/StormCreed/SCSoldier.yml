@@ -10,7 +10,7 @@
   requirements:
   - !type:RoleTimeRequirement
     role: JobSeniorOfficer
-    time: 72000 # 20h
+    time: 36000 # 20h
   startingGear: SCSoldierGear
   alwaysUseSpawner: true
   hideConsoleVisibility: true

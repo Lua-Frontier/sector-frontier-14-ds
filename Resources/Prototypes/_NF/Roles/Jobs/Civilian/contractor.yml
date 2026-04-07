@@ -6,7 +6,7 @@
   salary: 6000
   requirements: #Lua
     - !type:OverallPlaytimeRequirement
-      time: 72000
+      time: 36000
   icon: "JobIconContractor"
   supervisors: job-supervisors-hire
   displayWeight: 20

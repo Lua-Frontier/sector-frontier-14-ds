@@ -7,7 +7,7 @@
   requirements:
   - !type:RoleTimeRequirement #Lua
     role: JobSeniorOfficer
-    time: 72000 # 10h
+    time: 36000 # 10h
   startingGear: BailiffGear
   icon: JobIconBailiff
   supervisors: job-supervisors-sheriff

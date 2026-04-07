@@ -6,16 +6,16 @@
   requirements:
     - !type:RoleTimeRequirement
       role: JobPassenger
-      time: 72000 #Lua 20h 
+      time: 36000 #Lua 10h 
     - !type:DepartmentTimeRequirement
       department: Medical
-      time: 72000 #Lua 20h
+      time: 36000 #Lua 10h
     - !type:RoleTimeRequirement
       role: JobFrontierEngineer
-      time: 72000 #Lua 20h 
+      time: 36000 #Lua 10h 
     - !type:RoleTimeRequirement
       role: JobSecurityCadet
-      time: 72000 #Lua 20h 
+      time: 36000 #Lua 10h 
 #    - !type:OverallPlaytimeRequirement
 #      time: 108000
   startingGear: MercenaryGear

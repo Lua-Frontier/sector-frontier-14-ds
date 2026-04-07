@@ -7,7 +7,7 @@
   requirements:
   - !type:RoleTimeRequirement #Lua
     role: JobSecurityOfficer
-    time: 72000 # 20h
+    time: 36000 # 20h
   startingGear: SDBaseLuaGear
   icon: JobIconSDEngineerNF
   supervisors: job-supervisors-bailiff

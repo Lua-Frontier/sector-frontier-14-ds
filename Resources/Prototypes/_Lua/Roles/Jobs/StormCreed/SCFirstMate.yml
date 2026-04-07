@@ -10,7 +10,7 @@
   requirements:
   - !type:RoleTimeRequirement
     role: JobStormCreedSoldier
-    time: 72000 # 20h
+    time: 36000 # 20h
   startingGear: SCFirstMateGear
   alwaysUseSpawner: true
   hideConsoleVisibility: true
