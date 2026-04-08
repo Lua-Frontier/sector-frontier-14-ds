@@ -6,7 +6,7 @@
   description: uplink-syndicate-Asakim-desc
   productEntity: WeaponRifleAsakimAutopulser
   cost:
-    Telecrystal: 20
+    Telecrystal: 5
   categories:
   - UplinkWeaponry
 

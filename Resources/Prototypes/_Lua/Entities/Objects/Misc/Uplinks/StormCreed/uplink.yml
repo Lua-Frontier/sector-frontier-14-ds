@@ -37,7 +37,7 @@
     - PirateUplink
     - CharonSlug
   - type: CartridgeAmmo
-    proto: ShipRailgunProjectileSubnuclear
+    proto: ShipRailgunProjectile
     deleteOnSpawn: true
   - type: Appearance
   - type: SpentAmmoVisuals
