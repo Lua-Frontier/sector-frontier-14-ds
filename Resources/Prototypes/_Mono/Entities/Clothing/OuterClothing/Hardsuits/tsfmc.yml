@@ -1,6 +1,6 @@
 # Security
 - type: entity
-  parent: ClothingOuterHardsuitBaseNFNfsd
+  parent: [ClothingOuterHardsuitBaseNFNfsd, BaseC2ContrabandUnredeemable] # Lua-changes: added BaseC2ContrabandUnredeemable
   id: ClothingOuterHardsuitTSFMCM73
   name: TSFMC M73 tacsuit
   description: The standard-issue TSFMC tacsuit for patrol duty. This bronze variant has private rank markings.
@@ -124,7 +124,7 @@
     sprintModifier: 0.75 #Lua 0.9<0.75
 
 - type: entity
-  parent: ClothingOuterHardsuitNfsdBronze
+  parent: [ClothingOuterHardsuitBaseNFNfsd, BaseC2ContrabandUnredeemable] # Lua-changes: added BaseC2ContrabandUnredeemable, ClothingOuterHardsuitNfsdBronze > ClothingOuterHardsuitBaseNFNfsd
   id: ClothingOuterHardsuitTSFMCM73-C
   name: TSFMC M73-C tacsuit
   description: A variant of the M73 tacsuit for combat medical and NBC use. Provides greater caustic and radiation protection.

@@ -70,18 +70,18 @@
         - group: TypanCargoDepot
           count: 1
 
-    - id: LuaTechSector
-      name: "Сектор LuaTech"
-      position: "-47.868465, 23.180416"
-      starType: sector
-      color: "#2595db"
-      station: LuaTech
-      autoStart: true
-      defaultGamePreset: NFPirate
-      requiredGamePresets: [ NFPirate, LuaAdventure ]
-      parallaxPool: [ LuaDarkSpace ]
-      bluespaceEventsEnabled: false
-      crewMonitoringIsolated: true
+    # - id: LuaTechSector
+    #   name: "Сектор LuaTech"
+    #   position: "-47.868465, 23.180416"
+    #   starType: sector
+    #   color: "#2595db"
+    #   station: LuaTech
+    #   autoStart: true
+    #   defaultGamePreset: NFPirate
+    #   requiredGamePresets: [ NFPirate, LuaAdventure ]
+    #   parallaxPool: [ LuaDarkSpace ]
+    #   bluespaceEventsEnabled: false
+    #   crewMonitoringIsolated: true
 
     - id: PirateSector
       name: "Сектор Пиратов"
@@ -130,7 +130,7 @@
     - [ FrontierSector, AsteroidSectorDefault ]
     - [ AsteroidSectorDefault, TypanSector ]
     - [ AsteroidSectorDefault, TypanSectorLua ]
-    - [ AsteroidSectorDefault, LuaTechSector ]
+    # - [ AsteroidSectorDefault, LuaTechSector ]
     - [ AsteroidSectorDefault, PirateSector ]
     - [ AsteroidSectorDefault, PirateSectorLua ]
     # - [ AsteroidSectorDefault, MercenarySector ] # Наёмники теперь спавнятся на ЧР в Поле Астероидов

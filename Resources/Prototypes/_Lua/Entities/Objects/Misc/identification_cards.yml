@@ -517,7 +517,7 @@
     sprite: _NF/Objects/Misc/id_cards.rsi
 
 - type: entity
-  parent: IDCardStandard
+  parent: [IDCardStandard, BaseC3SyndicateContraband]
   id: SynShareholderIDCard
   name: shareholder ID card
   components:
