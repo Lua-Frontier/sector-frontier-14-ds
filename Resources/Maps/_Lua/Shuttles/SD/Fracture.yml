@@ -4,8 +4,8 @@ meta:
   engineVersion: 272.0.0
   forkId: ""
   forkVersion: ""
-  time: 04/16/2026 16:53:46
-  entityCount: 608
+  time: 04/20/2026 16:56:35
+  entityCount: 610
 maps: []
 grids:
 - 1
@@ -545,46 +545,42 @@ entities:
       parent: 1
 - proto: AirlockExternalGlassNfsdLocked
   entities:
-  - uid: 332
-    components:
-    - type: Transform
-      pos: 7.5,-4.5
-      parent: 1
-  - uid: 335
+  - uid: 6
     components:
     - type: Transform
       pos: -8.5,-4.5
       parent: 1
+  - uid: 321
+    components:
+    - type: Transform
+      pos: 7.5,-4.5
+      parent: 1
 - proto: AirlockNfsdLocked
   entities:
-  - uid: 6
+  - uid: 323
     components:
     - type: Transform
       pos: 0.5,-8.5
       parent: 1
-  - uid: 321
-    components:
-    - type: Transform
-      rot: 1.5707963267948966 rad
-      pos: -6.5,-5.5
-      parent: 1
-  - uid: 323
-    components:
-    - type: Transform
-      rot: 1.5707963267948966 rad
-      pos: -0.5,-4.5
-      parent: 1
   - uid: 324
     components:
     - type: Transform
-      rot: 1.5707963267948966 rad
-      pos: 5.5,-5.5
+      pos: -2.5,-5.5
       parent: 1
   - uid: 329
     components:
     - type: Transform
-      rot: 1.5707963267948966 rad
-      pos: -2.5,-5.5
+      pos: 1.5,-5.5
+      parent: 1
+  - uid: 332
+    components:
+    - type: Transform
+      pos: -6.5,-5.5
+      parent: 1
+  - uid: 335
+    components:
+    - type: Transform
+      pos: -0.5,-4.5
       parent: 1
   - uid: 357
     components:
@@ -594,8 +590,7 @@ entities:
   - uid: 478
     components:
     - type: Transform
-      rot: 1.5707963267948966 rad
-      pos: 1.5,-5.5
+      pos: 5.5,-5.5
       parent: 1
 - proto: AirlockShuttleNfsdLocked
   entities:
@@ -1087,6 +1082,16 @@ entities:
     components:
     - type: Transform
       pos: 1.5,2.5
+      parent: 1
+  - uid: 609
+    components:
+    - type: Transform
+      pos: -0.5,-8.5
+      parent: 1
+  - uid: 610
+    components:
+    - type: Transform
+      pos: -0.5,-9.5
       parent: 1
 - proto: CableHV
   entities:
@@ -2281,7 +2286,7 @@ entities:
       pos: -1.5,-3.5
       parent: 1
     - type: Battery
-      startingCharge: 246.00003
+      startingCharge: 243.33337
     - type: ApcPowerReceiver
       powerLoad: 10
     - type: ApcPowerReceiverBattery
