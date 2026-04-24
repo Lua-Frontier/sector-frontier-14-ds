@@ -22,7 +22,7 @@
     color: "#00fa9a"
 
 - type: entity
-  parent: ClothingHeadsetAlt
+  parent: [ClothingHeadsetAlt, BaseC1SyndicateContraband]
   id: ClothingHeadsetAltOutpostTypan
   name: полноразмерная кроваво - красная гарнитура
   description: Модифицированный модульный интерком синдиката.

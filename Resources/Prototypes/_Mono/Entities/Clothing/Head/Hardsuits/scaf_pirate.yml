@@ -1,5 +1,5 @@
 - type: entity
-  parent: [ClothingHeadHardsuitBase, ClothingHeadSuitWithLightBase, BaseC3SyndicateContraband]
+  parent: [ClothingHeadHardsuitBase, ClothingHeadSuitWithLightBase, BaseC3PirateContraband]
   id: ClothingHeadHelmetHardsuitPirateScaf
   name: pirate SCAF hardsuit helmet
   description: A (probably stolen) SCAF suit painted red with white stripes. The lighting systems have been replaced with a thermal pulse.

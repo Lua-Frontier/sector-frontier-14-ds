@@ -90,7 +90,7 @@
     sprintModifier: 0.85
 
 - type: entity
-  parent: [BaseC2ContrabandUnredeemable, ClothingOuterHardsuitJuggernaut] # Jugger Suit #Lua
+  parent: [BaseC2ContrabandUnredeemable, ClothingOuterHardsuitJuggernaut, BaseC3CentCommContraband] # Jugger Suit #Lua
   id: ClothingOuterHardsuitTSFMCM92
   name: TSFMC M92 tacsuit
   description: A heavy tacsuit, capable of taking a lot of physical damage.
@@ -199,7 +199,7 @@
 
 #Security Combat Hardsuit
 - type: entity
-  parent: ClothingOuterHardsuitBaseNFNfsd
+  parent: [ClothingOuterHardsuitBaseNFNfsd, BaseC3CentCommContraband]
   id: ClothingOuterHardsuitTSFMCM93
   name: TSFMC M93 tacsuit
   description: A heavily armored TSFMC suit. Space proof, with thick armor plating at the expense of mobility.
@@ -234,7 +234,7 @@
 
 #Security Command Hardsuit
 - type: entity
-  parent: ClothingOuterHardsuitBaseNFNfsd
+  parent: [ClothingOuterHardsuitBaseNFNfsd, BaseC3CentCommContraband]
   id: ClothingOuterHardsuitTSFMCM93-C
   name: TSFMC M93-C tacsuit
   description: A variant of the M93 tacsuit with slightly better plating. It isn't much extra.

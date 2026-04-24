@@ -1,6 +1,6 @@
 - type: entity
   name: VFD MR-8C DMR (7.62x54)
-  parent: [BaseWeaponRifle, BaseC2ContrabandUnredeemable] #Lua BaseGunWieldable
+  parent: [BaseWeaponRifle, BaseC3CentCommContraband] #Lua BaseGunWieldable
   id: WeaponRifleMR8C
   description: The DMR variant of the MR-8 series, firing with incredible accuracy. Chambered in 8x65mm SKR. A label on the side reads "FOR MILITARY USE ONLY".
   suffix: Need balance test #Lua

@@ -71,7 +71,7 @@
     - state: nano_label
 
 - type: entity
-  parent: EncryptionKey
+  parent: [EncryptionKey, BaseC3SyndicateContraband]
   id: EncryptionKeyOutpostTypan
   name: красный ключ шифрования
   description: Ключ шифрования, используемый... хм... кем же?

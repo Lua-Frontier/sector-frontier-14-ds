@@ -3848,3 +3848,45 @@ Entries:
   id: 272
   time: '2026-04-16T13:37:22.0000000+00:00'
   url: https://github.com/Lua-Frontier/sector-frontier-14/pull/545
+- author: Almaz3200
+  changes:
+    - type: Add
+      message: Fracture получила ремап и была возвращена на верфь СРБС!
+  id: 273
+  time: '2026-04-24T11:03:13.0000000+00:00'
+  url: https://github.com/Lua-Frontier/sector-frontier-14/pull/549
+- author: HacksLua
+  changes:
+    - type: Add
+      message: Добавлен рывок
+    - type: Add
+      message: Добавлен спринт и шкала выносливости
+    - type: Add
+      message: Добавлено прицеливание через пробел
+    - type: Tweak
+      message: Хотбар экшенов (быстрых действий) теперь зафиксирован
+    - type: Tweak
+      message: >-
+        Корабельное вооружение теперь откручивается быстрее но получило привязку
+        грида владельца
+    - type: Fix
+      message: Чат фильтр теперь будет меньше выгонять с сервера
+    - type: Add
+      message: Добавлена логика фракционных серверов но не применена в игре
+    - type: Add
+      message: >-
+        Теперь доступна возможность посадить шаттл на планету через маяк (маяк
+        можно изучить в РНД)
+    - type: Fix
+      message: Смягчение логики автоудаления шаттлов
+    - type: Tweak
+      message: Межзвездный двигатель и БСС двигатель теперь одно целое
+    - type: Tweak
+      message: Ивентовые события и астероиды перенесены в ПА
+    - type: Tweak
+      message: Удалены цены на химические вещества
+    - type: Tweak
+      message: Цены на руду увеличены в 2 раза
+  id: 274
+  time: '2026-04-24T11:40:00.0000000+00:00'
+  url: https://github.com/Lua-Frontier/sector-frontier-14/pull/550
