@@ -3503,7 +3503,6 @@ entities:
     - type: Transform
       pos: -2.5,3.5
       parent: 1
-    - type: BluespaceDrive
 - proto: MedicalBed
   entities:
   - uid: 371
