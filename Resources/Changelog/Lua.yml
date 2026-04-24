@@ -3848,3 +3848,10 @@ Entries:
   id: 272
   time: '2026-04-16T13:37:22.0000000+00:00'
   url: https://github.com/Lua-Frontier/sector-frontier-14/pull/545
+- author: Almaz3200
+  changes:
+    - type: Add
+      message: Fracture получила ремап и была возвращена на верфь СРБС!
+  id: 273
+  time: '2026-04-24T11:03:13.0000000+00:00'
+  url: https://github.com/Lua-Frontier/sector-frontier-14/pull/549
