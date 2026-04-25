@@ -133,6 +133,7 @@
   description: Он так похож на желе. Интересно, каков он на вкус?
   components:
     - type: Sprite
+      sprite: Mobs/Aliens/slimes.rsi
       layers:
       - map: [ "enum.DamageStateVisualLayers.Base" ]
         state: galactic_adult_slime
@@ -209,6 +210,7 @@
   suffix: Космический
   components:
     - type: Sprite
+      sprite: Mobs/Aliens/slimes.rsi
       layers:
       - map: [ "enum.DamageStateVisualLayers.Base" ]
         state: galactic_adult_slime
