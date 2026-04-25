@@ -488,14 +488,6 @@
   - type: ClothingSpeedModifier
     walkModifier: 0.9
     sprintModifier: 0.9
-  - type: HardsuitIdentification
-    emaggable: false
-  - type: HardsuitDNARadial
-  - type: Speech
-  - type: TTS
-    voice: Adjutant
-  - type: StaminaResistance
-    damageCoefficient: 0.6
 
 - type: entity
   parent: [BaseC3CentCommContraband, ClothingOuterHardsuitBase]
@@ -537,11 +529,6 @@
   - type: Speech
   - type: TTS
     voice: Adjutant
-  - type: StaminaResistance
-    damageCoefficient: 0.75
-  - type: ClothingSpeedModifier
-    walkModifier: 0.9
-    sprintModifier: 0.9
   - type: Item
     size: Huge
   - type: StaticPrice
