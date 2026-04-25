@@ -1,39 +1,38 @@
 - type: vessel
-  id: Spear
+  id: Sentinel
   parent: BaseVesselAntag
-  name: Spear
-  description: A small ship meant as an escort and stealth killer. Horrible interior space, and not much in the way of comfort.
-  price: 48000
-  category: Small
+  name: Sentinel
+  description: Крупный, защищенный фрегат, предназначенный для фронтального боя
+  limit: 1
+  price: 253060
+  category: Large
   group: Security
-  access: Security
-  shuttlePath: /Maps/_Mono/Shuttles/Nfsd/spear.yml
+  access: Armory
+  shuttlePath: /Maps/_Mono/Shuttles/Nfsd/Sentinel.yml
   guidebookPage: Null
   whitelist:
   - Luna
   - Frontier
   class:
-  - Patrol
+  - Capital
   - Nfsd
   engine:
-  - Uranium
-  cloakHunter: true
+  - AME
 
 - type: gameMap
-  id: Spear
-  mapName: 'Spear'
-  mapPath: /Maps/_Mono/Shuttles/Nfsd/spear.yml
+  id: Sentinel
+  mapName: 'Sentinel'
+  mapPath: /Maps/_Mono/Shuttles/Nfsd/Sentinel.yml
   minPlayers: 0
   stations:
-    Spear:
+    Sentinel:
       stationProto: StandardFrontierSecurityVessel
       components:
       - type: StationNameSetup
-        mapNameTemplate: 'Spear {1}'
+        mapNameTemplate: 'Sentinel {1}'
         nameGenerator:
           !type:NanotrasenNameGenerator
           prefixCreator: '14'
       - type: StationJobs
         availableJobs:
           Deputy: [ 0, 0 ]
-

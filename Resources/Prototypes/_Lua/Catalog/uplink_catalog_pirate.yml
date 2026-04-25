@@ -259,6 +259,38 @@
 #region weapons
 
 - type: listing
+  id: UplinkPirateEShieldGen
+  name:  uplink-security-eshieldgen-name
+  description: uplink-security-eshieldgen-desc
+  productEntity: ClothingBackpackEnergyShield
+  cost:
+    Doubloon: 5
+  categories:
+    - UplinkPirateUtility
+  conditions:
+    - !type:StoreWhitelistCondition
+      whitelist:
+        tags:
+          - PirateUplink
+
+# - type: listing
+#   id: UplinkPirateStealthJetpack
+#   name: uplink-pirate-stealth-jetpack-name
+#   description: uplink-pirate-stealth-jetpack-desc
+#   productEntity: JetpackStealthFilled
+#   cost:
+#     Doubloon: 2
+#   categories:
+#   - UplinkPirateUtility
+#   conditions:
+#   - !type:StoreWhitelistCondition
+#     whitelist:
+#       tags:
+#       - PirateUplink
+
+#region weapons
+
+- type: listing
   id: UplinkPirateEnergySword # энергетический меч
   name: uplink-pirate-energy-sword-name
   description: uplink-pirate-energy-sword-desc
