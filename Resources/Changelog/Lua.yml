@@ -3909,3 +3909,10 @@ Entries:
   id: 275
   time: '2026-04-25T12:05:42.0000000+00:00'
   url: https://github.com/Lua-Frontier/sector-frontier-14/pull/552
+- author: HacksLua
+  changes:
+    - type: Add
+      message: Порт обновления Липтона
+  id: 276
+  time: '2026-04-25T13:35:16.0000000+00:00'
+  url: https://github.com/Lua-Frontier/sector-frontier-14/pull/553
