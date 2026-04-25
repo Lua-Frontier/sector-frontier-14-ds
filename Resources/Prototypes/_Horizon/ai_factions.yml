@@ -3,5 +3,5 @@
   hostile:
   - Passive
   - Zombie
-  - Flesh
+  # - Flesh
   - Xeno
