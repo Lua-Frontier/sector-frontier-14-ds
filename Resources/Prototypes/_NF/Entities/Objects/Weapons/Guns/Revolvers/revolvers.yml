@@ -64,6 +64,8 @@
     magState: mag
     steps: 4
     zeroVisible: true
+  - type: Gun #Lua
+    fireRate: 2.25
 
 - type: entity
   id: NFWeaponRevolverRitland45
