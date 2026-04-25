@@ -185,6 +185,7 @@
   suffix: Космический
   components:
     - type: Sprite
+      sprite: Mobs/Aliens/slimes.rsi
       layers:
       - map: [ "enum.DamageStateVisualLayers.Base" ]
         state: green_adult_slime
@@ -236,6 +237,7 @@
   suffix: Космический
   components:
     - type: Sprite
+      sprite: Mobs/Aliens/slimes.rsi
       layers:
       - map: [ "enum.DamageStateVisualLayers.Base" ]
         state: yellow_adult_slime
@@ -261,6 +263,7 @@
   suffix: Космический
   components:
   - type: Sprite
+    sprite: Mobs/Aliens/slimes.rsi
     scale: 1.5, 1.5
     layers:
     - map: [ "enum.DamageStateVisualLayers.Base" ]
