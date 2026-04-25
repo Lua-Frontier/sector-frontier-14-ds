@@ -151,30 +151,30 @@
           Poison: 6
 
 #SPACE SLIME
-- type: entity
-  name: синий космический слайм
-  id: MobAdultSlimesBlueSpace
-  parent: MobAdultSlimesSpace
-  description: Он так похож на желе. Интересно, каков он на вкус?
-  suffix: Космический
-  components:
-    - type: Sprite
-      layers:
-      - map: [ "enum.DamageStateVisualLayers.Base" ]
-        state: blue_adult_slime
-    - type: DamageStateVisuals
-      states:
-        Alive:
-          Base: blue_adult_slime
-        Dead:
-          Base: blue_adult_slime_dead
-    - type: MeleeWeapon
-      damage:
-        types:
-          Blunt: 6
-          Structural: 4
-          Caustic: 1
-          Poison: 4
+# - type: entity
+#   name: синий космический слайм
+#   id: MobAdultSlimesBlueSpace
+#   parent: MobAdultSlimesSpace
+#   description: Он так похож на желе. Интересно, каков он на вкус?
+#   suffix: Космический
+#   components:
+#     - type: Sprite
+#       layers:
+#       - map: [ "enum.DamageStateVisualLayers.Base" ]
+#         state: blue_adult_slime
+#     - type: DamageStateVisuals
+#       states:
+#         Alive:
+#           Base: blue_adult_slime
+#         Dead:
+#           Base: blue_adult_slime_dead
+#     - type: MeleeWeapon
+#       damage:
+#         types:
+#           Blunt: 6
+#           Structural: 4
+#           Caustic: 1
+#           Poison: 4
 
 - type: entity
   name: зелёный космический слайм

@@ -286,6 +286,18 @@
           Quantity: 10
         canReact: false
 
+- type: entity #Lua
+  parent: SheetPGlass
+  id: SheetPGlass10
+  name: plasma glass
+  suffix: 10
+  components:
+  - type: Sprite
+    state: pglass
+  - type: Stack
+    stackType: PlasmaGlass
+    count: 10
+
 - type: entity
   parent: SheetPGlass
   id: SheetRPGlass

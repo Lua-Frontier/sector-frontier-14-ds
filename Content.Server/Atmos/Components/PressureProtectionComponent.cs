@@ -1,9 +1,10 @@
 ﻿using Content.Server.Atmos.EntitySystems;
+using Content.Server._Horizon.Xenobiology; // Lua
 
 namespace Content.Server.Atmos.Components;
 
 [RegisterComponent]
-[Access(typeof(BarotraumaSystem))]
+[Access(typeof(BarotraumaSystem), typeof(XenoPotionSystem))] // Lua XenoPotionSystem added
 public sealed partial class PressureProtectionComponent : Component
 {
     [DataField]
