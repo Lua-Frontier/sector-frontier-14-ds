@@ -483,17 +483,11 @@
         Radiation: 0.5
         Shock: 0.5
         Caustic: 0.5
+  - type: StaminaResistance
+    damageCoefficient: 0.5
   - type: ClothingSpeedModifier
     walkModifier: 0.9
     sprintModifier: 0.9
-  - type: HardsuitIdentification
-    emaggable: false
-  - type: HardsuitDNARadial
-  - type: Speech
-  - type: TTS
-    voice: Adjutant
-  - type: StaminaResistance
-    damageCoefficient: 0.6
 
 - type: entity
   parent: [BaseC3CentCommContraband, ClothingOuterHardsuitBase]
@@ -516,25 +510,25 @@
     damageCoefficient: 0.5
   - type: Armor
     modifiers:
-      coefficients: # 50/50/50//75/75//50/50//50/10
+      coefficients: # 50/50/50//75/75//75/75//50/10
         Blunt: 0.5
         Slash: 0.5
         Piercing: 0.5
         Heat: 0.25
         Radiation: 0.25
-        Shock: 0.5
-        Caustic: 0.5
+        Shock: 0.25
+        Caustic: 0.25
+  - type: StaminaResistance
+    damageCoefficient: 0.5
+  - type: ClothingSpeedModifier
+    walkModifier: 0.9
+    sprintModifier: 0.9
   - type: HardsuitIdentification
     emaggable: false
   - type: HardsuitDNARadial
   - type: Speech
   - type: TTS
     voice: Adjutant
-  - type: StaminaResistance
-    damageCoefficient: 0.75
-  - type: ClothingSpeedModifier
-    walkModifier: 0.9
-    sprintModifier: 0.9
   - type: Item
     size: Huge
   - type: StaticPrice
