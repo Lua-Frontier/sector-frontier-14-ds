@@ -11,7 +11,7 @@
   price: 47150
   category: small
   group: Medical
-  shuttlePath: /Maps/_NF/Shuttles/Garden.yml
+  shuttlePath: /Maps/_Lua/Shuttles/Civilian/Garden.yml
   guidebookPage: null
   whitelist:
   - Luna
@@ -24,7 +24,7 @@
 - type: gameMap
   id: Garden
   mapName: 'Garden'
-  mapPath: /Maps/_NF/Shuttles/Garden.yml
+  mapPath: /Maps/_Lua/Shuttles/Civilian/Garden.yml
   minPlayers: 0
   stations:
     Garden:
