@@ -4,8 +4,8 @@ meta:
   engineVersion: 275.1.0
   forkId: ""
   forkVersion: ""
-  time: 04/26/2026 14:58:01
-  entityCount: 448
+  time: 04/26/2026 17:44:10
+  entityCount: 450
 maps: []
 grids:
 - 1
@@ -456,14 +456,6 @@ entities:
     - type: Transform
       pos: -0.5,-6.5
       parent: 1
-- proto: AirlockServiceLocked
-  entities:
-  - uid: 238
-    components:
-    - type: Transform
-      rot: 3.141592653589793 rad
-      pos: -0.5,-0.5
-      parent: 1
 - proto: AirlockShuttle
   entities:
   - uid: 19
@@ -477,6 +469,13 @@ entities:
     - type: Transform
       rot: 1.5707963267948966 rad
       pos: 5.5,0.5
+      parent: 1
+- proto: AirlockStandardGlass
+  entities:
+  - uid: 238
+    components:
+    - type: Transform
+      pos: -0.5,-0.5
       parent: 1
 - proto: AlwaysPoweredlightOrange
   entities:
@@ -980,6 +979,11 @@ entities:
     - type: Transform
       pos: 2.5,-8.5
       parent: 1
+  - uid: 449
+    components:
+    - type: Transform
+      pos: -0.5,-8.5
+      parent: 1
 - proto: CableTerminal
   entities:
   - uid: 312
@@ -1250,6 +1254,13 @@ entities:
       rot: -1.5707963267948966 rad
       pos: 4.5,-6.5
       parent: 1
+    - type: AnalysisConsole
+      analyzerEntity: 221
+    - type: DeviceLinkSource
+      linkedPorts:
+        221:
+        - - ArtifactAnalyzerSender
+          - ArtifactAnalyzerReceiver
 - proto: ComputerTabletopResearchAndDevelopment
   entities:
   - uid: 90
@@ -1332,7 +1343,6 @@ entities:
     - type: GasMixer
       inletTwoConcentration: 0.22000003
       inletOneConcentration: 0.78
-      enabled: True
     - type: AtmosPipeColor
       color: '#3F51B5FF'
 - proto: GasPassiveVent
@@ -3280,6 +3290,14 @@ entities:
     - type: Transform
       rot: -1.5707963267948966 rad
       pos: 5.5,-4.5
+      parent: 1
+- proto: WarpPoint
+  entities:
+  - uid: 450
+    components:
+    - type: Transform
+      rot: 1.5707963267948966 rad
+      pos: 0.5,0.5
       parent: 1
 - proto: WindowReinforcedDirectional
   entities:

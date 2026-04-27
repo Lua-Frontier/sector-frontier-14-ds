@@ -4,7 +4,7 @@ meta:
   engineVersion: 272.0.0
   forkId: ""
   forkVersion: ""
-  time: 04/26/2026 11:04:01
+  time: 04/27/2026 07:40:26
   entityCount: 236
 maps: []
 grids:
@@ -82,33 +82,33 @@ entities:
         tiles:
           0,0:
             0: 14195
-            2: 34952
+            1: 34952
           0,-1:
             0: 4096
-            2: 32768
-            1: 3072
+            1: 32768
+            2: 3072
           -1,0:
             0: 36040
-            2: 9011
-            1: 4096
+            1: 9011
+            2: 4096
           0,1:
-            1: 40
-            2: 34880
+            2: 40
+            1: 34880
           0,2:
-            2: 12
+            1: 12
           1,0:
-            2: 273
-            1: 4096
+            1: 273
+            2: 4096
           1,-1:
-            1: 256
+            2: 256
           -1,-1:
-            1: 1792
-            2: 8192
+            2: 1792
+            1: 8192
           -1,1:
-            1: 130
-            2: 8768
+            2: 130
+            1: 8768
           -1,2:
-            2: 6
+            1: 6
         uniqueMixes:
         - volume: 2500
           temperature: 293.15
@@ -126,7 +126,7 @@ entities:
           - 0
           - 0
         - volume: 2500
-          immutable: True
+          temperature: 293.15
           moles:
           - 0
           - 0
@@ -141,7 +141,7 @@ entities:
           - 0
           - 0
         - volume: 2500
-          temperature: 293.15
+          immutable: True
           moles:
           - 0
           - 0
@@ -443,22 +443,22 @@ entities:
   - uid: 56
     components:
     - type: Transform
-      pos: -1.5,2.5
+      pos: 2.5,1.5
       parent: 1
   - uid: 57
     components:
     - type: Transform
-      pos: -1.5,1.5
+      pos: 2.5,2.5
       parent: 1
   - uid: 59
     components:
     - type: Transform
-      pos: 2.5,2.5
+      pos: -1.5,1.5
       parent: 1
   - uid: 60
     components:
     - type: Transform
-      pos: 2.5,1.5
+      pos: -1.5,2.5
       parent: 1
 - proto: ButtonFrameCaution
   entities:
@@ -819,6 +819,7 @@ entities:
       pos: 4.5,2.5
       parent: 1
     - type: Physics
+      canCollide: False
       bodyType: Static
 - proto: GasPassiveVent
   entities:
@@ -960,7 +961,7 @@ entities:
       pos: -0.5,3.5
       parent: 1
     - type: Battery
-      startingCharge: 123.66667
+      startingCharge: 122.33334
     - type: ApcPowerReceiver
       powerLoad: 5
     - type: ApcPowerReceiverBattery
@@ -1329,16 +1330,16 @@ entities:
       parent: 1
     - type: DeviceLinkSource
       linkedPorts:
-        56:
+        57:
         - - Pressed
           - Toggle
-        59:
+        56:
         - - Pressed
           - Toggle
         60:
         - - Pressed
           - Toggle
-        57:
+        59:
         - - Pressed
           - Toggle
 - proto: SubstationWallBasic

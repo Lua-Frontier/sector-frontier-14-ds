@@ -4,7 +4,7 @@ meta:
   engineVersion: 275.1.0
   forkId: ""
   forkVersion: ""
-  time: 04/26/2026 14:43:46
+  time: 04/26/2026 17:22:45
   entityCount: 396
 maps: []
 grids:
@@ -332,19 +332,19 @@ entities:
     - type: Transform
       pos: 0.5,-2.5
       parent: 1
-- proto: AirlockCaptainLocked
-  entities:
-  - uid: 214
-    components:
-    - type: Transform
-      pos: -0.5,0.5
-      parent: 1
 - proto: AirlockCargo
   entities:
   - uid: 152
     components:
     - type: Transform
       pos: -3.5,-3.5
+      parent: 1
+- proto: AirlockCommand
+  entities:
+  - uid: 187
+    components:
+    - type: Transform
+      pos: -0.5,0.5
       parent: 1
 - proto: AirlockEngineering
   entities:
@@ -367,13 +367,6 @@ entities:
       rot: 3.141592653589793 rad
       pos: 0.5,-8.5
       parent: 1
-- proto: AirlockServiceLocked
-  entities:
-  - uid: 187
-    components:
-    - type: Transform
-      pos: -0.5,-2.5
-      parent: 1
 - proto: AirlockShuttle
   entities:
   - uid: 87
@@ -385,6 +378,13 @@ entities:
     components:
     - type: Transform
       pos: 0.5,-10.5
+      parent: 1
+- proto: AirlockStandardGlass
+  entities:
+  - uid: 214
+    components:
+    - type: Transform
+      pos: -0.5,-2.5
       parent: 1
 - proto: APCBasic
   entities:
@@ -469,7 +469,7 @@ entities:
   - uid: 118
     components:
     - type: Transform
-      pos: -1.5934587,2.6150503
+      pos: -1.6224637,2.6320038
       parent: 1
 - proto: ButtonFrameCautionSecurity
   entities:
