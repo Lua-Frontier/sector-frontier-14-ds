@@ -259,6 +259,15 @@
   - type: Stack
     count: 1
 
+- type: entity #Lua
+  parent: SheetUranium
+  id: SheetUranium10
+  name: uranium
+  suffix: 10
+  components:
+  - type: Stack
+    count: 10
+
 - type: entity
   parent: SheetOtherBase
   id: MaterialSheetMeat
