@@ -372,7 +372,7 @@
 - type: entity
   name: EMP grenade
   description: A grenade designed to wreak havoc on electronic systems.
-  parent: [GrenadeBase, BaseC2ExpeditionContraband] # Frontier: BaseSyndicateContraband<BaseC3SyndicateContraband # Lua-changes: BaseC3SyndicateContraband > BaseC2ExpeditionContraband
+  parent: GrenadeBase # Frontier: BaseSyndicateContraband<BaseC3SyndicateContraband # Lua-changes: BaseC3SyndicateContraband > BaseC2ExpeditionContraband
   id: EmpGrenade
   components:
   - type: Sprite
@@ -385,8 +385,6 @@
   - type: TimerTriggerVisuals
     primingSound:
       path: /Audio/Effects/countdown.ogg
-  - type: StaticPrice
-    price: 666 # 2000 for 3, I love fractions
 
 - type: entity
   name: holy hand grenade

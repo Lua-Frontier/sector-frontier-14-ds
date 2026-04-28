@@ -28,8 +28,8 @@
     burstFireRate: 12
     burstCooldown: 0.8
     shotsPerBurst: 4
-    minAngle: 1 #Lua
-    maxAngle: 3.5 #Lua
+    minAngle: 21 #Lua
+    maxAngle: 33.5 #Lua
     angleIncrease: 0.2 #Lua
     angleDecay: 1 #Lua
     fireRate: 7 #Lua 6.5<7
@@ -232,8 +232,8 @@
     - 0,0,3,2
   - type: Gun
     examineCaliber: gun-examine-caliber-76254 #Lua
-    minAngle: 1.4 #Lua
-    maxAngle: 7 #Lua
+    minAngle: 21.4 #Lua
+    maxAngle: 37 #Lua
     angleIncrease: 5.6 #Lua
     angleDecay: 3.7 #Lua
     fireRate: 3.6 #Lua 1.7<3.6

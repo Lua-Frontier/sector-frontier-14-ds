@@ -1,4 +1,4 @@
-#region hardsuits
+# Region hardsuits
 
 - type: listing
   id: UplinkERCHardsuitSpatio
@@ -89,10 +89,6 @@
       whitelist:
         tags:
           - ERCUplink
-
-#region clothing
-
-
 
 # Region weapons
 ## 6.8x54 STANAG LMGs
@@ -677,6 +673,85 @@
       whitelist:
         tags:
           - ERCUplink
+
+- type: listing
+  id: UplinkERCHypo
+  productEntity: HypoMini
+  cost:
+    Speso: 10000
+  categories:
+    - UplinkERCMedicine
+  conditions:
+    - !type:StoreWhitelistCondition
+      whitelist:
+        tags:
+          - ERCUplink
+
+# Medipen cases
+- type: listing
+  id: UplinkERCMedipenCaseMech
+  productEntity: MedipenCaseMechFilled
+  cost:
+    Speso: 24000
+  categories:
+  - UplinkERCMedicine
+  conditions:
+  - !type:StoreWhitelistCondition
+    whitelist:
+      tags:
+      - ERCUplink
+
+- type: listing
+  id: UplinkERCMedipenCasePhys
+  productEntity: MedipenCasePhysFilled
+  cost:
+    Speso: 24000
+  categories:
+  - UplinkERCMedicine
+  conditions:
+  - !type:StoreWhitelistCondition
+    whitelist:
+      tags:
+      - ERCUplink
+
+- type: listing
+  id: UplinkERCMedipenCaseToxin
+  productEntity: MedipenCaseToxinFilled
+  cost:
+    Speso: 24000
+  categories:
+  - UplinkERCMedicine
+  conditions:
+  - !type:StoreWhitelistCondition
+    whitelist:
+      tags:
+      - ERCUplink
+
+- type: listing
+  id: UplinkERCMedipenCaseRad
+  productEntity: MedipenCaseRadFilled
+  cost:
+    Speso: 24000
+  categories:
+  - UplinkERCMedicine
+  conditions:
+  - !type:StoreWhitelistCondition
+    whitelist:
+      tags:
+      - ERCUplink
+
+- type: listing
+  id: UplinkERCMedipenCaseExtra
+  productEntity: MedipenCaseExtraFilled
+  cost:
+    Speso: 24000
+  categories:
+  - UplinkERCMedicine
+  conditions:
+  - !type:StoreWhitelistCondition
+    whitelist:
+      tags:
+      - ERCUplink
 
 # Region utility
 

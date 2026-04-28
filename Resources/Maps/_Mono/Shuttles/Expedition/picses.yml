@@ -4,8 +4,8 @@ meta:
   engineVersion: 275.1.0
   forkId: ""
   forkVersion: ""
-  time: 04/26/2026 17:45:16
-  entityCount: 621
+  time: 04/28/2026 09:57:13
+  entityCount: 625
 maps: []
 grids:
 - 1
@@ -458,6 +458,13 @@ entities:
     - type: Transform
       pos: 0.5,-14.5
       parent: 1
+- proto: Airlock
+  entities:
+  - uid: 191
+    components:
+    - type: Transform
+      pos: -0.5,-10.5
+      parent: 1
 - proto: AirlockCargo
   entities:
   - uid: 147
@@ -533,13 +540,6 @@ entities:
     - type: Transform
       rot: -1.5707963267948966 rad
       pos: -8.5,-15.5
-      parent: 1
-- proto: AirlockStandardGlass
-  entities:
-  - uid: 191
-    components:
-    - type: Transform
-      pos: -0.5,-10.5
       parent: 1
 - proto: AmeController
   entities:
@@ -640,6 +640,28 @@ entities:
     - type: Transform
       rot: 1.5707963267948966 rad
       pos: -2.5,-12.5
+      parent: 1
+- proto: AtmosDeviceFanTiny
+  entities:
+  - uid: 622
+    components:
+    - type: Transform
+      pos: -8.5,-15.5
+      parent: 1
+  - uid: 623
+    components:
+    - type: Transform
+      pos: -8.5,-17.5
+      parent: 1
+  - uid: 624
+    components:
+    - type: Transform
+      pos: 7.5,-17.5
+      parent: 1
+  - uid: 625
+    components:
+    - type: Transform
+      pos: 7.5,-15.5
       parent: 1
 - proto: Bed
   entities:

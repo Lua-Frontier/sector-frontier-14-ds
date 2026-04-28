@@ -4,7 +4,7 @@ meta:
   engineVersion: 275.1.0
   forkId: ""
   forkVersion: ""
-  time: 04/26/2026 17:22:45
+  time: 04/28/2026 09:58:17
   entityCount: 396
 maps: []
 grids:
@@ -332,6 +332,13 @@ entities:
     - type: Transform
       pos: 0.5,-2.5
       parent: 1
+- proto: Airlock
+  entities:
+  - uid: 214
+    components:
+    - type: Transform
+      pos: -0.5,-2.5
+      parent: 1
 - proto: AirlockCargo
   entities:
   - uid: 152
@@ -378,13 +385,6 @@ entities:
     components:
     - type: Transform
       pos: 0.5,-10.5
-      parent: 1
-- proto: AirlockStandardGlass
-  entities:
-  - uid: 214
-    components:
-    - type: Transform
-      pos: -0.5,-2.5
       parent: 1
 - proto: APCBasic
   entities:

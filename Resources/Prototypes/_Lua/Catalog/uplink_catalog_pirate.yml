@@ -1118,7 +1118,21 @@
   productEntity: MedkitCombatFilled
   icon: { sprite: Objects/Specific/Medical/firstaidkits.rsi, state: blackkit }
   cost:
-    Doubloon: 1
+    Speso: 5000
+  categories:
+  - UplinkPirateMedical
+  conditions:
+  - !type:StoreWhitelistCondition
+    whitelist:
+      tags:
+      - PirateUplink
+
+# Medipen cases
+- type: listing
+  id: UplinkPirateMedipenCaseMech
+  productEntity: MedipenCaseMechFilled
+  cost:
+    Speso: 12000
   categories:
   - UplinkPirateMedical
   conditions:
@@ -1128,12 +1142,10 @@
       - PirateUplink
 
 - type: listing
-  id: UplinkPirateSyringeCaseFilled
-  name: uplink-pirate-syringe-case-name
-  description: uplink-pirate-syringe-case-desc
-  productEntity: SyringeCaseAltFilled
+  id: UplinkPirateMedipenCasePhys
+  productEntity: MedipenCasePhysFilled
   cost:
-    Doubloon: 4
+    Speso: 12000
   categories:
   - UplinkPirateMedical
   conditions:
@@ -1142,21 +1154,83 @@
       tags:
       - PirateUplink
 
-# - type: listing
-#   id: UplinkPirateCombatPen
-#   name:  uplink-pirate-combat-pen-name
-#   description: uplink-pirate-combat-pen-desc
-#   productEntity: CombatMedipen
-#   icon: { sprite: Objects/Specific/Medical/medipen.rsi, state: morphen }
-#   cost:
-#     Doubloon: 1
-#   categories:
-#     - UplinkPirateMedical
-#   conditions:
-#     - !type:StoreWhitelistCondition
-#       whitelist:
-#         tags:
-#           - PirateUplink
+- type: listing
+  id: UplinkPirateMedipenCaseToxin
+  productEntity: MedipenCaseToxinFilled
+  cost:
+    Speso: 12000
+  categories:
+  - UplinkPirateMedical
+  conditions:
+  - !type:StoreWhitelistCondition
+    whitelist:
+      tags:
+      - PirateUplink
+
+- type: listing
+  id: UplinkPirateMedipenCaseRad
+  productEntity: MedipenCaseRadFilled
+  cost:
+    Speso: 12000
+  categories:
+  - UplinkPirateMedical
+  conditions:
+  - !type:StoreWhitelistCondition
+    whitelist:
+      tags:
+      - PirateUplink
+
+- type: listing
+  id: UplinkPirateMedipenCaseExtra
+  productEntity: MedipenCaseExtraFilled
+  cost:
+    Speso: 12000
+  categories:
+  - UplinkPirateMedical
+  conditions:
+  - !type:StoreWhitelistCondition
+    whitelist:
+      tags:
+      - PirateUplink
+
+- type: listing
+  id: UplinkPirateMedipenCasePunct
+  productEntity: MedipenCasePunctFilled
+  cost:
+    Speso: 12000
+  categories:
+  - UplinkPirateMedical
+  conditions:
+  - !type:StoreWhitelistCondition
+    whitelist:
+      tags:
+      - PirateUplink
+
+- type: listing
+  id: UplinkPirateMedipenCasePyra
+  productEntity: MedipenCasePyraFilled
+  cost:
+    Speso: 12000
+  categories:
+  - UplinkPirateMedical
+  conditions:
+  - !type:StoreWhitelistCondition
+    whitelist:
+      tags:
+      - PirateUplink
+
+- type: listing
+  id: UplinkPirateMedipenCaseHyper
+  productEntity: MedipenCaseHyperFilled
+  cost:
+    Doubloon: 3
+  categories:
+  - UplinkPirateMedical
+  conditions:
+  - !type:StoreWhitelistCondition
+    whitelist:
+      tags:
+      - PirateUplink
 
 - type: listing
   id: UplinkPirateAntiPoisonPen
@@ -1165,7 +1239,7 @@
   productEntity: AntiPoisonMedipen
   icon: { sprite: Objects/Specific/Medical/medipen.rsi, state: penacid }
   cost:
-    Doubloon: 1
+    Speso: 1000
   categories:
   - UplinkPirateMedical
   conditions:
@@ -1181,7 +1255,7 @@
   productEntity: PunctAutoInjector
   icon: { sprite: Objects/Specific/Medical/medipen.rsi, state: punctpen }
   cost:
-    Doubloon: 1
+    Speso: 1000
   categories:
   - UplinkPirateMedical
   conditions:
@@ -1197,7 +1271,7 @@
   productEntity: PyraAutoInjector
   icon: { sprite: Objects/Specific/Medical/medipen.rsi, state: pyrapen }
   cost:
-    Doubloon: 1
+    Speso: 1000
   categories:
   - UplinkPirateMedical
   conditions:
@@ -1213,7 +1287,7 @@
   productEntity: RadAutoInjector
   icon: { sprite: Objects/Specific/Medical/medipen.rsi, state: arithpen }
   cost:
-    Doubloon: 1
+    Speso: 1000
   categories:
   - UplinkPirateMedical
   conditions:
@@ -1229,7 +1303,7 @@
   productEntity: Stimpack
   icon: { sprite: Objects/Specific/Medical/medipen.rsi, state: stimpen }
   cost:
-    Doubloon: 1
+    Speso: 5000
   categories:
   - UplinkPirateMedical
   conditions:
