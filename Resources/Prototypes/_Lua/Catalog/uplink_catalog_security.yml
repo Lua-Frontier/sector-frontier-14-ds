@@ -1683,15 +1683,168 @@
 
 #region medicine
 
+# Medipen cases
 - type: listing
-  id: UplinkSecurityMedipenCase
-  name: uplink-pirate-syringe-case-name
-  description: uplink-pirate-syringe-case-desc
-  productEntity: SyringeCaseAltFilled
+  id: UplinkSDMedipenCaseMech
+  productEntity: MedipenCaseMechFilled
   cost:
-    FrontierUplinkCoin: 6
+    Speso: 12000
   categories:
-    - UplinkSecurityMedicine
+  - UplinkSecurityMedicine
+  conditions:
+    - !type:StoreWhitelistCondition
+      whitelist:
+        tags:
+          - SecurityUplink
+    - !type:BuyerJobCondition
+      whitelist:
+      - Sheriff
+      - Bailiff
+      - SeniorOfficer
+      - Brigmedic
+      - SDEngineer
+      - Deputy
+      - Cadet
+
+- type: listing
+  id: UplinkSDMedipenCasePhys
+  productEntity: MedipenCasePhysFilled
+  cost:
+    Speso: 12000
+  categories:
+  - UplinkSecurityMedicine
+  conditions:
+    - !type:StoreWhitelistCondition
+      whitelist:
+        tags:
+          - SecurityUplink
+    - !type:BuyerJobCondition
+      whitelist:
+      - Sheriff
+      - Bailiff
+      - SeniorOfficer
+      - Brigmedic
+      - SDEngineer
+      - Deputy
+      - Cadet
+
+- type: listing
+  id: UplinkSDMedipenCaseToxin
+  productEntity: MedipenCaseToxinFilled
+  cost:
+    Speso: 12000
+  categories:
+  - UplinkSecurityMedicine
+  conditions:
+    - !type:StoreWhitelistCondition
+      whitelist:
+        tags:
+          - SecurityUplink
+    - !type:BuyerJobCondition
+      whitelist:
+      - Sheriff
+      - Bailiff
+      - SeniorOfficer
+      - Brigmedic
+      - SDEngineer
+      - Deputy
+      - Cadet
+
+- type: listing
+  id: UplinkSDMedipenCaseRad
+  productEntity: MedipenCaseRadFilled
+  cost:
+    Speso: 12000
+  categories:
+  - UplinkSecurityMedicine
+  conditions:
+    - !type:StoreWhitelistCondition
+      whitelist:
+        tags:
+          - SecurityUplink
+    - !type:BuyerJobCondition
+      whitelist:
+      - Sheriff
+      - Bailiff
+      - SeniorOfficer
+      - Brigmedic
+      - SDEngineer
+      - Deputy
+      - Cadet
+
+- type: listing
+  id: UplinkSDMedipenCaseExtra
+  productEntity: MedipenCaseExtraFilled
+  cost:
+    Speso: 12000
+  categories:
+  - UplinkSecurityMedicine
+  conditions:
+    - !type:StoreWhitelistCondition
+      whitelist:
+        tags:
+          - SecurityUplink
+    - !type:BuyerJobCondition
+      whitelist:
+      - Sheriff
+      - Bailiff
+      - SeniorOfficer
+      - Brigmedic
+      - SDEngineer
+      - Deputy
+      - Cadet
+
+- type: listing
+  id: UplinkSDMedipenCasePunct
+  productEntity: MedipenCasePunctFilled
+  cost:
+    Speso: 12000
+  categories:
+  - UplinkSecurityMedicine
+  conditions:
+    - !type:StoreWhitelistCondition
+      whitelist:
+        tags:
+          - SecurityUplink
+    - !type:BuyerJobCondition
+      whitelist:
+      - Sheriff
+      - Bailiff
+      - SeniorOfficer
+      - Brigmedic
+      - SDEngineer
+      - Deputy
+      - Cadet
+
+- type: listing
+  id: UplinkSDMedipenCasePyra
+  productEntity: MedipenCasePyraFilled
+  cost:
+    Speso: 12000
+  categories:
+  - UplinkSecurityMedicine
+  conditions:
+    - !type:StoreWhitelistCondition
+      whitelist:
+        tags:
+          - SecurityUplink
+    - !type:BuyerJobCondition
+      whitelist:
+      - Sheriff
+      - Bailiff
+      - SeniorOfficer
+      - Brigmedic
+      - SDEngineer
+      - Deputy
+      - Cadet
+
+- type: listing
+  id: UplinkSDMedipenCaseStim
+  productEntity: MedipenCaseStimFilled
+  cost:
+    FrontierUplinkCoin: 3
+  categories:
+  - UplinkSecurityMedicine
   conditions:
     - !type:StoreWhitelistCondition
       whitelist:
@@ -1728,7 +1881,6 @@
       - SDEngineer
       - Deputy
       - Cadet
-
 
 - type: listing
   id: UplinkSecurityRadPen

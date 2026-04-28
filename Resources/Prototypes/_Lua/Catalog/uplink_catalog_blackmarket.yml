@@ -928,7 +928,7 @@
   description: uplink-bm-mechmedipen-desc
   productEntity: BruteAutoInjector
   cost:
-    Speso: 5000
+    Speso: 2000
   categories:
     - UplinkBMMedicine
   conditions:
@@ -943,7 +943,7 @@
   description: uplink-bm-burnmedipen-desc
   productEntity: BurnAutoInjector
   cost:
-    Speso: 5000
+    Speso: 2000
   categories:
     - UplinkBMMedicine
   conditions:
@@ -969,7 +969,134 @@
           - BMUplink
     - !type:BuyerJobCondition
       whitelist:
-        - MercenaryBase
+        - Mercenary
+
+- type: listing
+  id: UplinkBMHypo
+  productEntity: HypoMini
+  cost:
+    Speso: 10000
+  categories:
+    - UplinkBMMedicine
+  conditions:
+    - !type:StoreWhitelistCondition
+      whitelist:
+        tags:
+          - BMUplink
+
+# Medipen cases
+- type: listing
+  id: UplinkBMMedipenCaseMech
+  productEntity: MedipenCaseMechFilled
+  cost:
+    Speso: 24000
+  categories:
+  - UplinkBMMedicine
+  conditions:
+  - !type:StoreWhitelistCondition
+    whitelist:
+      tags:
+      - BMUplink
+
+- type: listing
+  id: UplinkBMMedipenCasePhys
+  productEntity: MedipenCasePhysFilled
+  cost:
+    Speso: 24000
+  categories:
+  - UplinkBMMedicine
+  conditions:
+  - !type:StoreWhitelistCondition
+    whitelist:
+      tags:
+      - BMUplink
+
+- type: listing
+  id: UplinkBMMedipenCaseToxin
+  productEntity: MedipenCaseToxinFilled
+  cost:
+    Speso: 24000
+  categories:
+  - UplinkBMMedicine
+  conditions:
+  - !type:StoreWhitelistCondition
+    whitelist:
+      tags:
+      - BMUplink
+
+- type: listing
+  id: UplinkBMMedipenCaseRad
+  productEntity: MedipenCaseRadFilled
+  cost:
+    Speso: 24000
+  categories:
+  - UplinkBMMedicine
+  conditions:
+  - !type:StoreWhitelistCondition
+    whitelist:
+      tags:
+      - BMUplink
+
+- type: listing
+  id: UplinkBMMedipenCaseExtra
+  productEntity: MedipenCaseExtraFilled
+  cost:
+    Speso: 24000
+  categories:
+  - UplinkBMMedicine
+  conditions:
+  - !type:StoreWhitelistCondition
+    whitelist:
+      tags:
+      - BMUplink
+
+- type: listing
+  id: UplinkBMMedipenCasePunct
+  productEntity: MedipenCasePunctFilled
+  cost:
+    Speso: 24000
+  categories:
+  - UplinkBMMedicine
+  conditions:
+  - !type:StoreWhitelistCondition
+    whitelist:
+      tags:
+      - BMUplink
+  - !type:BuyerJobCondition
+    whitelist:
+      - Mercenary
+
+- type: listing
+  id: UplinkBMMedipenCasePyra
+  productEntity: MedipenCasePyraFilled
+  cost:
+    Speso: 24000
+  categories:
+  - UplinkBMMedicine
+  conditions:
+  - !type:StoreWhitelistCondition
+    whitelist:
+      tags:
+      - BMUplink
+  - !type:BuyerJobCondition
+    whitelist:
+      - Mercenary
+
+- type: listing
+  id: UplinkBMMedipenCasePyra
+  productEntity: MedipenCaseStimFilled
+  cost:
+    Speso: 48000
+  categories:
+  - UplinkBMMedicine
+  conditions:
+  - !type:StoreWhitelistCondition
+    whitelist:
+      tags:
+      - BMUplink
+  - !type:BuyerJobCondition
+    whitelist:
+      - Mercenary
 
 # Region utility
 

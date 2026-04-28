@@ -1,5 +1,5 @@
 - type: entity
-  parent: [ BaseCartridge, BaseC3PirateContraband ]
+  parent: BaseCartridge
   description: Large anti-material round, capable of punching through armor and walls easily.
   id: BaseCartridge127x99mm
   name: cartridge (12.7x99mm anti-material)
@@ -19,8 +19,6 @@
       map: ["enum.AmmoVisualLayers.Base"]
   - type: Appearance
   - type: SpentAmmoVisuals
-  - type: StaticPrice
-    price: 20
 
 # Standart
 - type: entity

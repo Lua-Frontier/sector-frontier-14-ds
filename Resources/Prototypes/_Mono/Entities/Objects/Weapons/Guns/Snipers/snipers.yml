@@ -30,8 +30,8 @@
     examineCaliber: gun-examine-caliber-76254 #Lua
 #    minAngle: 27 # comment from _Lua
 #    maxAngle: 39
-    minAngle: 1.4 #Lua
-    maxAngle: 7 #Lua
+    minAngle: 21.4 #Lua
+    maxAngle: 37 #Lua
     angleIncrease: 5.6 #Lua
     angleDecay: 3.7 #Lua
     fireRate: 3
