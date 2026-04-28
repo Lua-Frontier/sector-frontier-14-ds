@@ -1083,7 +1083,7 @@
       - Mercenary
 
 - type: listing
-  id: UplinkBMMedipenCasePyra
+  id: UplinkBMMedipenCaseStim
   productEntity: MedipenCaseStimFilled
   cost:
     Speso: 48000
