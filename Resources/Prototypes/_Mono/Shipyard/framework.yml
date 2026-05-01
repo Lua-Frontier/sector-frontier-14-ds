@@ -37,12 +37,8 @@
       stationProto: StandardFrontierExpeditionVessel
       components:
         - type: StationNameSetup
-          mapNameTemplate: 'Framework {1}'
+          mapNameTemplate: 'Framework'
           nameGenerator:
             !type:NanotrasenNameGenerator
             prefixCreator: '14'
-        - type: StationJobs
-          availableJobs:
-            Contractor: [ 0, 0 ]
-            Pilot: [ 0, 0 ]
-            Mercenary: [ 0, 0 ]
+            shipyardPrefix: 'ERC'

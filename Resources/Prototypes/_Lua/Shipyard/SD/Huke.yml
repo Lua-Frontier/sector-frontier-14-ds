@@ -32,7 +32,8 @@
       stationProto: StandardFrontierVessel
       components:
       - type: StationNameSetup
-        mapNameTemplate: 'Huke {1}'
+        mapNameTemplate: 'Huke'
         nameGenerator:
           !type:NanotrasenNameGenerator
             prefixCreator: '14'
+            shipyardPrefix: 'SD'

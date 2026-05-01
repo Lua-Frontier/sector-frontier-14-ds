@@ -28,9 +28,8 @@
       stationProto: StandardFrontierVessel
       components:
       - type: StationNameSetup
-        mapNameTemplate: 'Ample {1}'
+        mapNameTemplate: 'Ample'
         nameGenerator:
           !type:NanotrasenNameGenerator
           prefixCreator: '14'
-      - type: StationJobs
-        availableJobs: {}
+          shipyardPrefix: 'ERC'

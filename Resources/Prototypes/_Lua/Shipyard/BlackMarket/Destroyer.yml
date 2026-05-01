@@ -30,7 +30,8 @@
       stationProto: StandardFrontierVessel
       components:
         - type: StationNameSetup
-          mapNameTemplate: 'BM-Destroyer {1}'
+          mapNameTemplate: 'Destroyer'
           nameGenerator:
             !type:NanotrasenNameGenerator
             prefixCreator: '14'
+            shipyardPrefix: 'BM'

@@ -31,10 +31,8 @@
       stationProto: StandardFrontierVessel
       components:
         - type: StationNameSetup
-          mapNameTemplate: 'Europa {1}'
+          mapNameTemplate: 'Europa'
           nameGenerator:
             !type:NanotrasenNameGenerator
             prefixCreator: '14'
-        - type: StationJobs
-          availableJobs:
-            NFPirate: [ 0, 0 ]
+            shipyardPrefix: 'SC'

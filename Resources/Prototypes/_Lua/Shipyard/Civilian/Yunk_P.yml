@@ -29,13 +29,9 @@
       stationProto: StandardFrontierVessel
       components:
         - type: StationNameSetup
-          mapNameTemplate: 'NT Yunk-P {1}'
+          mapNameTemplate: 'Yunk-P'
           nameGenerator:
             !type:NanotrasenNameGenerator
             prefixCreator: '14'
-        - type: StationJobs
-          availableJobs:
-            Contractor: [ 0, 0 ]
-            Pilot: [ 0, 0 ]
-            Mercenary: [ 0, 0 ]
+            shipyardPrefix: 'ERC'
 

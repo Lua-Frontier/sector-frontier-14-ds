@@ -29,10 +29,8 @@
       stationProto: StandardFrontierSecurityVessel
       components:
       - type: StationNameSetup
-        mapNameTemplate: 'Sentinel {1}'
+        mapNameTemplate: 'Sentinel'
         nameGenerator:
           !type:NanotrasenNameGenerator
           prefixCreator: '14'
-      - type: StationJobs
-        availableJobs:
-          Deputy: [ 0, 0 ]
+          shipyardPrefix: 'SD'

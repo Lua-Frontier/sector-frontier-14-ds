@@ -31,7 +31,8 @@
       stationProto: StandardFrontierVessel
       components:
       - type: StationNameSetup
-        mapNameTemplate: 'Пурга {1}'
+        mapNameTemplate: 'Пурга'
         nameGenerator:
           !type:NanotrasenNameGenerator
             prefixCreator: '14'
+            shipyardPrefix: 'SD'

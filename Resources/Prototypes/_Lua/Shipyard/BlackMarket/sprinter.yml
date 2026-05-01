@@ -31,7 +31,8 @@
       stationProto: StandardFrontierVessel
       components:
         - type: StationNameSetup
-          mapNameTemplate: 'BM-Sprinter {1}'
+          mapNameTemplate: 'Sprinter'
           nameGenerator:
             !type:NanotrasenNameGenerator
             prefixCreator: '14'
+            shipyardPrefix: 'BM'

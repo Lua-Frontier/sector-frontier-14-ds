@@ -27,10 +27,8 @@
       stationProto: StandardFrontierVessel
       components:
         - type: StationNameSetup
-          mapNameTemplate: 'Gungnir RG{1}'
+          mapNameTemplate: 'Gungnir'
           nameGenerator:
             !type:NanotrasenNameGenerator
             prefixCreator: '14'
-        - type: StationJobs
-          availableJobs:
-            NFPirate: [ 0, 0 ]
+            shipyardPrefix: 'SC'

@@ -30,7 +30,8 @@
       stationProto: StandardFrontierVessel
       components:
         - type: StationNameSetup
-          mapNameTemplate: 'BM-Pathfinder {1}'
+          mapNameTemplate: 'Pathfinder'
           nameGenerator:
             !type:NanotrasenNameGenerator
             prefixCreator: '14'
+            shipyardPrefix: 'BM'

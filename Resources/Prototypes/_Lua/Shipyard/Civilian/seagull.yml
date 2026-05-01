@@ -32,7 +32,8 @@
       stationProto: StandardFrontierVessel
       components:
         - type: StationNameSetup
-          mapNameTemplate: 'GF-Seagull {1}'
+          mapNameTemplate: 'Seagull'
           nameGenerator:
             !type:NanotrasenNameGenerator
             prefixCreator: '14'
+            shipyardPrefix: 'MD'
