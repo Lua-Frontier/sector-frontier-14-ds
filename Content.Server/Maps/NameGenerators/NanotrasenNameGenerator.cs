@@ -10,7 +10,7 @@ public sealed partial class NanotrasenNameGenerator : StationNameGenerator
     ///     Where the map comes from. Should be a two or three letter code, for example "VG" for Packedstation.
     /// </summary>
     [DataField("prefixCreator")] public string PrefixCreator = default!;
-    [DataField("shipyardPrefix")] public string SuffixCode = default!;
+    [DataField("shipyardPrefix")] public string SuffixCode = "ERC";
 
     //private string Prefix => "NT";
     private string Prefix => "";
