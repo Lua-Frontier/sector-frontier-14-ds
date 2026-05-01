@@ -27,10 +27,8 @@
       stationProto: StandardFrontierVessel
       components:
         - type: StationNameSetup
-          mapNameTemplate: 'Anaconda {1}'
+          mapNameTemplate: 'Anaconda'
           nameGenerator:
             !type:NanotrasenNameGenerator
             prefixCreator: '14'
-        - type: StationJobs
-          availableJobs:
-            NFPirate: [ 0, 0 ]
+            shipyardPrefix: 'SC'

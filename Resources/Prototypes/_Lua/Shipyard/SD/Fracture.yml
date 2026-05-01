@@ -31,9 +31,10 @@
       stationProto: StandardFrontierVessel
       components:
       - type: StationNameSetup
-        mapNameTemplate: 'Fracture {1}'
+        mapNameTemplate: 'Fracture'
         nameGenerator:
           !type:NanotrasenNameGenerator
           prefixCreator: '14'
+          shipyardPrefix: 'SD'
 
 

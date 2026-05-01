@@ -33,7 +33,8 @@
       stationProto: StandardFrontierExpeditionVessel
       components:
         - type: StationNameSetup
-          mapNameTemplate: 'Magus {1}'
+          mapNameTemplate: 'Magus'
           nameGenerator:
             !type:NanotrasenNameGenerator
             prefixCreator: '14'
+            shipyardPrefix: 'ERC'

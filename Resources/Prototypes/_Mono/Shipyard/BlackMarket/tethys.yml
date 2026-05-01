@@ -26,10 +26,8 @@
       stationProto: StandardFrontierVessel
       components:
         - type: StationNameSetup
-          mapNameTemplate: 'Tethys {1}'
+          mapNameTemplate: 'Tethys'
           nameGenerator:
             !type:NanotrasenNameGenerator
             prefixCreator: '14'
-        - type: StationJobs
-          availableJobs:
-            NFPirate: [ 0, 0 ]
+            shipyardPrefix: 'SC'

@@ -30,7 +30,8 @@
       stationProto: StandardFrontierVessel
       components:
       - type: StationNameSetup
-        mapNameTemplate: 'Grabber {1}'
+        mapNameTemplate: 'Grabber'
         nameGenerator:
           !type:NanotrasenNameGenerator
             prefixCreator: '14'
+            shipyardPrefix: 'SD'

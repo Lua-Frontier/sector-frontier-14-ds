@@ -30,7 +30,8 @@
       stationProto: StandardFrontierVesselCargo
       components: &cargoStationComponents
         - type: StationNameSetup
-          mapNameTemplate: 'Тиния {1}'
+          mapNameTemplate: 'Тиния'
           nameGenerator:
             !type:NanotrasenNameGenerator
             prefixCreator: '14'
+            shipyardPrefix: 'ERC'
