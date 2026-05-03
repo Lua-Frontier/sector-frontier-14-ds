@@ -12900,7 +12900,7 @@ entities:
     - type: Transform
       pos: -6.3229804,7.5845165
       parent: 2
-- proto: EdisonMothershipComputer
+- proto: ComputerShipyard
   entities:
   - uid: 3182
     components:

@@ -15558,6 +15558,7 @@ entities:
     - type: GasMixer
       inletTwoConcentration: 0.23000002
       inletOneConcentration: 0.77
+      targetPressure: 4500
 - proto: GasPassiveGate
   entities:
   - uid: 1342

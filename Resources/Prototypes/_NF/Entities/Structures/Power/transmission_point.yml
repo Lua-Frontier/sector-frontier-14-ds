@@ -61,7 +61,7 @@
   - type: PowerTransmission
     account: Edison
   - type: PowerConsumer
-    drawRate: 100000
+    drawRate: 50000
   - type: ExaminableBattery
   - type: NodeContainer
     examinable: true

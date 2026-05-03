@@ -6,8 +6,8 @@
       #- id: UnknownShuttleRazor # ремапните меня пж
       - id: UnknownShuttleNebula
       - id: UnknownShuttlePerunAI
-      - id: UnknownShuttlePozvizdAI
-      - id: UnknownShuttleStribogAI
+      # - id: UnknownShuttlePozvizdAI
+      # - id: UnknownShuttleStribogAI
       - id: UnknownShuttleGust
       - id: UnknownShuttleRamDroneSmall
       - id: UnknownShuttleBasicMedium

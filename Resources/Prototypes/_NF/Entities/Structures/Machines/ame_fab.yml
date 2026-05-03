@@ -101,7 +101,7 @@
           components:
           - NFFuel
   - type: PowerConsumer
-    drawRate: 100000
+    drawRate: 50000
   - type: PowerMonitoringDevice
     group: Consumer
     loadNode: input
@@ -117,9 +117,9 @@
     key: enum.AdjustablePowerDrawUiKey.Key
   - type: EntitySpawnPowerConsumer
     spawn: AmeJarBig
-    energyPerSpawn: 1200000000 # 1.2 GJ (75% base eff.)
+    energyPerSpawn: 45000000 # 1.2 GJ (75% base eff.) #Lua 1 jar per 5 minutes with 150kWt consumption (+50kWt passive = 200kWt) = 45 000 000 < 1 200 000 000
     material: Plasteel
-    materialAmount: 500
+    materialAmount: 30
   - type: ItemSlots
     slots:
       output:
@@ -135,4 +135,4 @@
   - type: MaterialStorage
     materialWhiteList:
     - Plasteel
-    storageLimit: 15000
+    storageLimit: 360
