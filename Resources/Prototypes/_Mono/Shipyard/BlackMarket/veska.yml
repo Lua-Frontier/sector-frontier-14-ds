@@ -27,9 +27,7 @@
       stationProto: StandardFrontierVessel
       components:
       - type: StationNameSetup
-        mapNameTemplate: 'Veska {1}'
+        mapNameTemplate: 'Veska'
         nameGenerator:
-          !type:NanotrasenNameGenerator
-          prefixCreator: '14'
-      - type: StationJobs
-        availableJobs: {}
+            !type:ShuttleNameGenerator
+            shipyardPrefix: 'Err'

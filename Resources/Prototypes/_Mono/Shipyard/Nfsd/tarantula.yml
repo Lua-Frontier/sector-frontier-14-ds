@@ -34,11 +34,8 @@
       stationProto: StandardFrontierSecurityVessel
       components:
       - type: StationNameSetup
-        mapNameTemplate: 'Tarantula {1}'
+        mapNameTemplate: 'Tarantula'
         nameGenerator:
-          !type:NanotrasenNameGenerator
-          prefixCreator: '14'
-      - type: StationJobs
-        availableJobs:
-          Deputy: [ 0, 0 ]
+            !type:ShuttleNameGenerator
+            shipyardPrefix: 'SD'
 
