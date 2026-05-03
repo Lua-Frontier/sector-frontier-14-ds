@@ -1,5 +1,6 @@
 using JetBrains.Annotations;
 using Robust.Shared.Random;
+using Content.Server.Maps.NameGenerators;
 
 namespace Content.Server._Lua.Maps.NameGenerators;
 
