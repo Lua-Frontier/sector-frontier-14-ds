@@ -5,8 +5,9 @@
   playTimeTracker: JobPlantManager
   salary: 40000
   requirements:
-    - !type:OverallPlaytimeRequirement
-      time: 720000 # Frontier - 200 hrs Lua
+    - !type:DepartmentTimeRequirement #Lua
+      department: Frontier
+      time: 36000
   startingGear: PlantManagerGear
   alwaysUseSpawner: true
   icon: "JobIconPlantManager"

@@ -24,6 +24,10 @@
 #    - id: BluespaceCacheError
     - id: BluespaceCave
     - id: BluespaceVaultError
+    - id: BluespaceVaultErrorBig
+    - id: BluespaceVesselLuaTech
+    - id: BluespaceVesselSyndie
+    - id: BluespaceAsteroidSyndie
 #    - id: BluespaceVaultSmallError
 #    - id: BluespaceSyndicateFTLInterception
 #    - id: BluespaceWizardFederationScout # comment from _Lua
@@ -61,14 +65,15 @@
       tableId: SalvageBluespaceEventsTable
     minimumTimeUntilFirstEvent: 420 # 7 minutes
     minMaxEventTiming:
-      min: 4200 #2100 # 35 minutes between events Lua
-      max: 4800 #2400 # 40 minutes between events Lua
+      min: 1800 #2100 # 35 minutes between events Lua
+      max: 1800 #2400 # 40 minutes between events Lua
 
 - type: entityTable
   id: SalvageBluespaceEventsTable
   table: !type:AllSelector # we need to pass a list of rules, since rules have further restrictions to consider via StationEventComp
     children:
     - id: BluespaceCustomScrapFS #Lua BluespaceSalvage<BluespaceCustomScrapFS
+    - id: BluespaceCustomScrapAS
 
 - type: entity
   id: SmugglingEventScheduler

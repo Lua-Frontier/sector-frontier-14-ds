@@ -12,7 +12,7 @@
     warningRadioAnnouncementChannel: Engineering
     endRadioAnnouncement: station-event-bluespace-scrap-end-announcement
     endRadioAnnouncementChannel: Engineering
-    weight: 5
+    weight: 3
     duration: 1800 # 30 minutes
     maxDuration: 1800 # 30 minutes
   - type: BluespaceErrorRule
@@ -20,8 +20,8 @@
       grid: !type:GridSpawnGroup
         nameDataset: NamesScrap
         nameDatasetType: Nanotrasen # they're shuttles
-        minCount: 2
-        maxCount: 3
+        minCount: 3
+        maxCount: 5
         minimumDistance: 1000
         maximumDistance: 2000
         addComponents:
@@ -120,7 +120,7 @@
     warningRadioAnnouncementChannel: Engineering
     endRadioAnnouncement: station-event-bluespace-scrap-end-announcement
     endRadioAnnouncementChannel: Engineering
-    weight: 5
+    weight: 3
     duration: 1800 # 30 minutes
     maxDuration: 1800 # 30 minutes
   - type: BluespaceErrorRule
@@ -128,8 +128,8 @@
       grid: !type:GridSpawnGroup
         nameDataset: NamesCustomScrap
         nameDatasetType: Nanotrasen # they're shuttles
-        minCount: 2
-        maxCount: 3
+        minCount: 3
+        maxCount: 5
         minimumDistance: 1000
         maximumDistance: 2000
         addComponents:
@@ -168,7 +168,7 @@
     warningRadioAnnouncementChannel: Engineering
     endRadioAnnouncement: station-event-bluespace-scrap-end-announcement
     endRadioAnnouncementChannel: Engineering
-    weight: 5
+    weight: 3
     duration: 1800 # 30 minutes
     maxDuration: 1800 # 30 minutes
   - type: BluespaceErrorRule
@@ -177,8 +177,8 @@
       grid: !type:GridSpawnGroup
         nameDataset: NamesCustomScrap
         nameDatasetType: Nanotrasen # they're shuttles
-        minCount: 2
-        maxCount: 3
+        minCount: 3
+        maxCount: 5
         minimumDistance: 1000
         maximumDistance: 2000
         addComponents:
