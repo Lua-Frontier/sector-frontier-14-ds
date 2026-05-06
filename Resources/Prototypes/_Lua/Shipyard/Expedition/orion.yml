@@ -33,7 +33,7 @@
       stationProto: StandardFrontierExpeditionVessel
       components:
       - type: StationNameSetup
-        mapNameTemplate: 'MT Orion-P {1}'
+        mapNameTemplate: 'Orion-P'
         nameGenerator:
-          !type:NanotrasenNameGenerator
-            prefixCreator: '14'
+            !type:ShuttleNameGenerator
+            shipyardPrefix: 'ERC'

@@ -29,11 +29,8 @@
       stationProto: StandardFrontierSecurityVessel
       components:
       - type: StationNameSetup
-        mapNameTemplate: 'Spear {1}'
+        mapNameTemplate: 'Spear'
         nameGenerator:
-          !type:NanotrasenNameGenerator
-          prefixCreator: '14'
-      - type: StationJobs
-        availableJobs:
-          Deputy: [ 0, 0 ]
+            !type:ShuttleNameGenerator
+            shipyardPrefix: 'SD'
 
