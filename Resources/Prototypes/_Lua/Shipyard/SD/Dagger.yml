@@ -31,8 +31,8 @@
       stationProto: StandardFrontierSecurityVessel
       components:
       - type: StationNameSetup
-        mapNameTemplate: 'Dagger {1}'
+        mapNameTemplate: 'Dagger'
         nameGenerator:
-          !type:NanotrasenNameGenerator
-          prefixCreator: '14'
+            !type:ShuttleNameGenerator
+            shipyardPrefix: 'SD'
 

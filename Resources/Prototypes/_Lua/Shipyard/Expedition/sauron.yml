@@ -32,7 +32,7 @@
       stationProto: StandardFrontierExpeditionVessel
       components:
       - type: StationNameSetup
-        mapNameTemplate: 'Sauron {1}'
+        mapNameTemplate: 'Sauron'
         nameGenerator:
-          !type:NanotrasenNameGenerator
-            prefixCreator: '14'
+            !type:ShuttleNameGenerator
+            shipyardPrefix: 'ERC'

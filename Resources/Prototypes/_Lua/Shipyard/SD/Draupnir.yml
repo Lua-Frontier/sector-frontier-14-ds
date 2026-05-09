@@ -29,7 +29,7 @@
       stationProto: StandardFrontierVessel
       components:
       - type: StationNameSetup
-        mapNameTemplate: 'Draupnir {1}'
+        mapNameTemplate: 'Draupnir'
         nameGenerator:
-          !type:NanotrasenNameGenerator
-            prefixCreator: '14'
+            !type:ShuttleNameGenerator
+            shipyardPrefix: 'SD'

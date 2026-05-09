@@ -32,7 +32,7 @@
     maxAngle: 33.5 #Lua
     angleIncrease: 0.2 #Lua
     angleDecay: 1 #Lua
-    fireRate: 7 #Lua 6.5<7
+    fireRate: 8.1 #Lua 6.5<8.1
     projectileSpeed: 42.5 # Mono
     soundGunshot:
       path: /Audio/_Goobstation/Weapons/Guns/Gunshots/thock.ogg
@@ -114,7 +114,7 @@
     burstFireRate: 20 # Mono
     burstCooldown: 0.5 # Lua 0.4 -> 0.5
     projectileSpeed: 45
-    fireRate: 6 #Lua 5<6
+    fireRate: 7 #Lua 5<7
     soundGunshot:
       path: /Audio/_Mono/Weapons/Guns/SmallArms/Gunshots/wspr_fire.ogg # Mono change - Changed audio path
   - type: ItemSlots
@@ -181,7 +181,7 @@
     - SemiAuto
     - FullAuto
     selectedMode: FullAuto
-    fireRate: 7.2 #Lua
+    fireRate: 6 #Lua
     soundGunshot:
       path: /Audio/_Mono/Weapons/Guns/SmallArms/Gunshots/light_rifle_2.ogg # Mono
   - type: ItemSlots
@@ -236,7 +236,7 @@
     maxAngle: 37 #Lua
     angleIncrease: 5.6 #Lua
     angleDecay: 3.7 #Lua
-    fireRate: 3.6 #Lua 1.7<3.6
+    fireRate: 4.2 #Lua 1.7<4.2
     projectileSpeed: 40 # Mono
     soundGunshot:
       path: /Audio/Weapons/Guns/Gunshots/sniper.ogg

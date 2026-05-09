@@ -5,8 +5,9 @@
   playTimeTracker: JobPlantTechnician
   salary: 30000
   requirements:
-    - !type:OverallPlaytimeRequirement
-      time: 432000 # Frontier - 120 hrs Lua
+    - !type:DepartmentTimeRequirement #Lua
+      department: Frontier
+      time: 18000
   startingGear: PlantTechnicianGear
   alwaysUseSpawner: true
   icon: "JobIconPlantTechnician"

@@ -35,11 +35,8 @@
       stationProto: StandardFrontierSecurityVessel
       components:
       - type: StationNameSetup
-        mapNameTemplate: 'Legionnaire {1}'
+        mapNameTemplate: 'Legionnaire'
         nameGenerator:
-          !type:NanotrasenNameGenerator
-          prefixCreator: '14'
-      - type: StationJobs
-        availableJobs:
-          Deputy: [ 0, 0 ]
+            !type:ShuttleNameGenerator
+            shipyardPrefix: 'SD'
 

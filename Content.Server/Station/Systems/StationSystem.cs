@@ -441,6 +441,25 @@ public sealed partial class StationSystem : SharedStationSystem
         RaiseLocalEvent(station, new StationRenamedEvent(oldName, name), true);
     }
 
+    // Lua: Method for rename shuttles with saving shipyard prefix and shuttle number
+    public void RenameShuttle(EntityUid station, string name, bool loud = true, StationDataComponent? stationData = null, MetaDataComponent? metaData = null)
+    {
+        if (!Resolve(station, ref stationData, ref metaData))
+            throw new ArgumentException("Tried to use a non-station entity as a station!", nameof(station));
+
+        var oldName = metaData.EntityName;
+        string ShuttleNumbers = oldName.Split()[^1]; // Вычленение префикса верфи и номера из старого имени
+        string FinalName = string.Format("{0} {1}", name, ShuttleNumbers); // Сборка нового названия: Полученное на входе имя + префикс и номер через пробел
+        _metaData.SetEntityName(station, FinalName, metaData);
+
+        if (loud)
+        {
+            _chatSystem.DispatchStationAnnouncement(station, $"The station {oldName} has been renamed to {name}.");
+        }
+
+        RaiseLocalEvent(station, new StationRenamedEvent(oldName, name), true);
+    }
+
     /// <summary>
     /// Deletes the given station.
     /// </summary>

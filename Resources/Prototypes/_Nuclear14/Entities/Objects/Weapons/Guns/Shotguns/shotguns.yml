@@ -42,7 +42,7 @@
   components:
   - type: Gun
     examineCaliber: gun-examine-caliber-4g #Lua
-    fireRate: 2 #Lua 2.5<2
+    fireRate: 2.6 #Lua 2.5<2.6
     soundGunshot:
       collection: N14ShotgunGunshot
   - type: GunRequiresWield
@@ -102,7 +102,7 @@
     maxAngle: 104
     angleIncrease: 4
     angleDecay: 16  
-    fireRate: 2.5 #Lua 2<2.5
+    fireRate: 3.2 #Lua 2<3.2
     selectedMode: FullAuto
     availableModes:
     - FullAuto

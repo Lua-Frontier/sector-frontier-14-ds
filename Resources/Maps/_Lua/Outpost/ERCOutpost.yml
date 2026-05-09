@@ -4,8 +4,8 @@ meta:
   engineVersion: 272.0.0
   forkId: ""
   forkVersion: ""
-  time: 04/20/2026 13:58:46
-  entityCount: 4763
+  time: 04/29/2026 12:45:21
+  entityCount: 4764
 maps:
 - 6
 grids:
@@ -20069,7 +20069,7 @@ entities:
     - type: Transform
       pos: 10.5,19.5
       parent: 1
-- proto: MiniStationAnchorOff
+- proto: MiniStationAnchor
   entities:
   - uid: 4500
     components:
@@ -27499,6 +27499,13 @@ entities:
     components:
     - type: Transform
       pos: -3.5,13.5
+      parent: 1
+- proto: VendingMachineAmmoPOI
+  entities:
+  - uid: 4721
+    components:
+    - type: Transform
+      pos: 6.5,19.5
       parent: 1
 - proto: VendingMachineAstroVend
   entities:

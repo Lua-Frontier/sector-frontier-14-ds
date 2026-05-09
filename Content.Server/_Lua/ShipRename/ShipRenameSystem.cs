@@ -58,7 +58,7 @@ public sealed class ShipRenameSystem : EntitySystem
                             return;
                         if (string.IsNullOrWhiteSpace(finalString))
                             return;
-                        _stationSystem.RenameStation(station.Value, finalString);
+                        _stationSystem.RenameShuttle(station.Value, finalString);
                         QueueDel(uid);
                     });
             }

@@ -286,7 +286,7 @@
     maxAngle: 30 #Lua
     angleIncrease: 0 #Lua
     angleDecay: 0 #Lua
-    fireRate: 2.4 #Lua 1.2<2.4
+    fireRate: 2.8 #Lua 1.2<2.8
     soundGunshot:
       collection: N14LeverRifleGunshot
   - type: BallisticAmmoProvider

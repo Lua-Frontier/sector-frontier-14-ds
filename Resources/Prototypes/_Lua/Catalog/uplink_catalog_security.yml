@@ -1548,6 +1548,47 @@
     - Deputy
     - Cadet
 
+# Energy batteries
+
+- type: listing
+  id: UplinkSecurityBatteryCellHigh
+  productEntity: N14PowerCellHigh
+  cost:
+    Speso: 10000
+  categories:
+  - UplinkSecurityAmmo
+  conditions:
+  - !type:StoreWhitelistCondition
+    whitelist:
+      tags:
+      - SecurityUplink
+
+- type: listing
+  id: UplinkSecurityBatteryPlasma
+  productEntity: N14PlasmaCartridge
+  cost:
+    Speso: 10000
+  categories:
+  - UplinkSecurityAmmo
+  conditions:
+  - !type:StoreWhitelistCondition
+    whitelist:
+      tags:
+      - SecurityUplink
+
+- type: listing
+  id: UplinkSecurityBatteryFocused
+  productEntity: N14PowerCellFocused
+  cost:
+    Speso: 10000
+  categories:
+  - UplinkSecurityAmmo
+  conditions:
+  - !type:StoreWhitelistCondition
+    whitelist:
+      tags:
+      - SecurityUplink
+
 #region explosive
 
 - type: listing
@@ -1889,7 +1930,7 @@
   productEntity: RadAutoInjector
   icon: { sprite: Objects/Specific/Medical/medipen.rsi, state: arithpen }
   cost:
-    FrontierUplinkCoin: 1
+    Speso: 4000
   categories:
     - UplinkSecurityMedicine
   conditions:
@@ -1914,7 +1955,7 @@
   productEntity: PyraAutoInjector
   icon: { sprite: Objects/Specific/Medical/medipen.rsi, state: pyrapen }
   cost:
-    FrontierUplinkCoin: 1
+    Speso: 4000
   categories:
     - UplinkSecurityMedicine
   conditions:
@@ -1939,7 +1980,7 @@
   productEntity: PunctAutoInjector
   icon: { sprite: Objects/Specific/Medical/medipen.rsi, state: punctpen }
   cost:
-    FrontierUplinkCoin: 1
+    Speso: 4000
   categories:
     - UplinkSecurityMedicine
   conditions:
@@ -1964,7 +2005,7 @@
   productEntity: AntiPoisonMedipen
   icon: { sprite: Objects/Specific/Medical/medipen.rsi, state: penacid }
   cost:
-    FrontierUplinkCoin: 1
+    Speso: 4000
   categories:
     - UplinkSecurityMedicine
   conditions:
@@ -2023,7 +2064,6 @@
       - Deputy
       - Cadet
 
-
 - type: listing
   id: UplinkSecurityMedkit
   name:  uplink-security-medkit-name
@@ -2031,7 +2071,7 @@
   productEntity: MedkitCombatFilled
   icon: { sprite: _NF/Objects/Specific/Medical/firstaidkits.rsi, state: blackkit } # Frontier: _NF prefix
   cost:
-    FrontierUplinkCoin: 2
+    Speso: 10000
   categories:
     - UplinkSecurityMedicine
   conditions:
@@ -2246,7 +2286,7 @@
   productEntity: TelescopicShield
   icon: { sprite: Objects/Weapons/Melee/teleriot_shield.rsi, state: teleriot-on }
   cost:
-    FrontierUplinkCoin: 1
+    Speso: 10000
   categories:
     - UplinkSecurityUtility
   conditions:
@@ -2264,31 +2304,30 @@
       - Deputy
       - Cadet
 
-- type: listing
-  id: UplinkSecurityEnergyShield
-  name:  uplink-security-energyshield-name
-  description: uplink-security-energyshield-desc
-  productEntity: EnergyShieldNfsd
-  icon: { sprite: _NF/Objects/Weapons/Melee/e_shield.rsi, state: eshield-on }
-  cost:
-    FrontierUplinkCoin: 3
-  categories:
-    - UplinkSecurityUtility
-  conditions:
-    - !type:StoreWhitelistCondition
-      whitelist:
-        tags:
-          - SecurityUplink
-    - !type:BuyerJobCondition
-      whitelist:
-      - Sheriff
-      - Bailiff
-      - SeniorOfficer
-      - Brigmedic
-      - SDEngineer
-      - Deputy
-      - Cadet
-
+# - type: listing
+#   id: UplinkSecurityEnergyShield
+#   name:  uplink-security-energyshield-name
+#   description: uplink-security-energyshield-desc
+#   productEntity: EnergyShieldNfsd
+#   icon: { sprite: _NF/Objects/Weapons/Melee/e_shield.rsi, state: eshield-on }
+#   cost:
+#     FrontierUplinkCoin: 3
+#   categories:
+#     - UplinkSecurityUtility
+#   conditions:
+#     - !type:StoreWhitelistCondition
+#       whitelist:
+#         tags:
+#           - SecurityUplink
+#     - !type:BuyerJobCondition
+#       whitelist:
+#       - Sheriff
+#       - Bailiff
+#       - SeniorOfficer
+#       - Brigmedic
+#       - SDEngineer
+#       - Deputy
+#       - Cadet
 
 # - type: listing
 #   id: UplinkSecurityCash2500

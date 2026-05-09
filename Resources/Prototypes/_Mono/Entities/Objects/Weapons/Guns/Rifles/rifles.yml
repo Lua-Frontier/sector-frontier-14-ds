@@ -31,7 +31,7 @@
     maxAngle: 30 #Lua
     angleIncrease: 0 #Lua
     angleDecay: 0 #Lua
-    fireRate: 3.6 #Lua 4<3.6
+    fireRate: 4.2 #Lua 4<4.2
     selectedMode: SemiAuto
     availableModes:
     - SemiAuto
@@ -136,7 +136,7 @@
     maxAngle: 3.5 #Lua
     angleIncrease: 0.2 #Lua
     angleDecay: 1 #Lua
-    fireRate: 6 #Lua 5<6
+    fireRate: 5
     soundGunshot:
       path: /Audio/_Mono/Weapons/Guns/SmallArms/Gunshots/ak_fire.ogg
   - type: ChamberMagazineAmmoProvider
@@ -208,7 +208,7 @@
     maxAngle: 3.5 #Lua
     angleIncrease: 0.2 #Lua
     angleDecay: 1 #Lua
-    fireRate: 7.2 #Lua 10<7.2
+    fireRate: 6 #Lua 10<6
 #    shotsPerBurst: 3 # comment from _Lua
     availableModes:
 #    - Burst # comment from _Lua
@@ -354,7 +354,7 @@
     angleIncrease: 0.2 #Lua
     angleDecay: 1 #Lua
     cameraRecoilScalar: 1 #Lua 0 -> 1
-    fireRate: 6 #Lua 3<6
+    fireRate: 7 #Lua 3<7
     selectedMode: FullAuto #Lua Burst<FullAuto
     soundGunshot:
       path: /Audio/_Mono/Weapons/Guns/SmallArms/Gunshots/light_rifle_1.ogg # Mono
@@ -437,7 +437,7 @@
     angleIncrease: 0.2 #Lua
     angleDecay: 1 #Lua
     cameraRecoilScalar: 0.5 #Lua 0 -> 0.5
-    fireRate: 7.2 #Lua 9<7.2
+    fireRate: 8.4 #Lua 9<8.4
     availableModes:
     - FullAuto
     - SemiAuto

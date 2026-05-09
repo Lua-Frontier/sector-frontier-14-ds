@@ -854,6 +854,47 @@
       tags:
       - BMUplink
 
+# Energy batteries
+
+- type: listing
+  id: UplinkBMBatteryCellHigh
+  productEntity: N14PowerCellHigh
+  cost:
+    Speso: 15000
+  categories:
+  - UplinkBMAmmo
+  conditions:
+  - !type:StoreWhitelistCondition
+    whitelist:
+      tags:
+      - BMUplink
+
+- type: listing
+  id: UplinkBMBatteryPlasma
+  productEntity: N14PlasmaCartridge
+  cost:
+    Speso: 15000
+  categories:
+  - UplinkBMAmmo
+  conditions:
+  - !type:StoreWhitelistCondition
+    whitelist:
+      tags:
+      - BMUplink
+
+- type: listing
+  id: UplinkBMBatteryFocused
+  productEntity: N14PowerCellFocused
+  cost:
+    Speso: 15000
+  categories:
+  - UplinkBMAmmo
+  conditions:
+  - !type:StoreWhitelistCondition
+    whitelist:
+      tags:
+      - BMUplink
+
 # Region grenade
 
 - type: listing
@@ -928,7 +969,7 @@
   description: uplink-bm-mechmedipen-desc
   productEntity: BruteAutoInjector
   cost:
-    Speso: 2000
+    Speso: 6000
   categories:
     - UplinkBMMedicine
   conditions:
@@ -943,7 +984,7 @@
   description: uplink-bm-burnmedipen-desc
   productEntity: BurnAutoInjector
   cost:
-    Speso: 2000
+    Speso: 6000
   categories:
     - UplinkBMMedicine
   conditions:

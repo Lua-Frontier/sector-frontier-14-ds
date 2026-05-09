@@ -31,7 +31,7 @@
     maxAngle: 3.5 #Lua
     angleIncrease: 0.2 #Lua
     angleDecay: 1 #Lua
-    fireRate: 7.2 #Lua 8<7.2
+    fireRate: 8.4 #Lua 8<8.4
     selectedMode: FullAuto #Lua SemiAuto<FullAuto
     availableModes:
     - SemiAuto

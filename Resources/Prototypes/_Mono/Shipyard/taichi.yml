@@ -34,12 +34,7 @@
       stationProto: StandardFrontierVessel
       components:
         - type: StationNameSetup
-          mapNameTemplate: 'Taichi {1}'
+          mapNameTemplate: 'Taichi'
           nameGenerator:
-            !type:NanotrasenNameGenerator
-            prefixCreator: '14'
-        - type: StationJobs
-          availableJobs:
-            Contractor: [ 0, 0 ]
-            Pilot: [ 0, 0 ]
-            Mercenary: [ 0, 0 ]
+            !type:ShuttleNameGenerator
+            shipyardPrefix: 'MD'

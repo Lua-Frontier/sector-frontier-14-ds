@@ -50,7 +50,7 @@ public sealed partial class PowerTransmissionComponent : Component
     /// The rate per joule to credit the account while in the linear mode.
     ///</summary>
     [DataField]
-    public float LinearRate = 0.00003f; // $1/100 kJ
+    public float LinearRate = 0.0005f; // $1/100 kJ  // Lua 0.00003<0.0005; 0.1(6)$ per 1kJ (180k per hour with 300kW submit)
 
     ///<summary>
     /// The maximum value (inclusive) of the linear mode per deposit, in watts
