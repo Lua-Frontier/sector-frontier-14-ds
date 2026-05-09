@@ -35,7 +35,7 @@
     maxAngle: 7 #Lua
     angleIncrease: 5.6 #Lua
     angleDecay: 3.7 #Lua
-    fireRate: 4.2 #Lua
+    fireRate: 4.9 #Lua
     shotsPerBurst: 2
     selectedMode: SemiAuto
     availableModes:

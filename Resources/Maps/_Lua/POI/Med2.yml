@@ -1,10 +1,10 @@
 meta:
   format: 7
   category: Grid
-  engineVersion: 272.0.0
+  engineVersion: 275.1.0
   forkId: ""
   forkVersion: ""
-  time: 04/29/2026 13:34:33
+  time: 05/06/2026 13:32:33
   entityCount: 5114
 maps: []
 grids:
@@ -26522,6 +26522,8 @@ entities:
     - type: Transform
       pos: 9.5,-18.5
       parent: 1
+    - type: GasValve
+      open: False
     - type: AtmosPipeColor
       color: '#8932B8FF'
 - proto: SignCloning

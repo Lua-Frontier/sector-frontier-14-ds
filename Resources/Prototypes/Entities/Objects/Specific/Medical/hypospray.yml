@@ -280,6 +280,12 @@
     price: 75 # These are limited supply items.
   - type: TrashOnSolutionEmpty
     solution: pen
+  - type: Tag #Lua
+    tags:
+    - Medipen
+
+- type: Tag #Lua
+  id: Medipen
 
 - type: entity
   parent: ChemicalMedipen

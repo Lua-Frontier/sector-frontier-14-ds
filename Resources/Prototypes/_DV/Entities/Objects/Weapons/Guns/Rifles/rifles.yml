@@ -90,7 +90,7 @@
     maxAngle: 7 #Lua
     angleIncrease: 5.6 #Lua
     angleDecay: 3.7 #Lua
-    fireRate: 2.4 #Lua 2<2.4
+    fireRate: 2.8 #Lua 2<2.8
     selectedMode: SemiAuto
     availableModes:
     - SemiAuto
@@ -157,7 +157,7 @@
     maxAngle: 3.5 #Lua
     angleIncrease: 0.2 #Lua 2<0.2
     angleDecay: 1 #Lua 8<1
-    fireRate: 4.8 #Lua 8<4.8
+    fireRate: 4 #Lua 8<4
     projectileSpeed: 35 # Mono
     selectedMode: FullAuto
     availableModes:

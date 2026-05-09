@@ -360,19 +360,15 @@
     - 0,0,7,4
   - type: Clothing
     sprite: _Mono/Objects/Weapons/Guns/LMGs/ratel/Ratel-inhands.rsi
-#  - type: GunWieldBonus # comment (349-351; 353-356) from _Lua
-#    minAngle: -20
-#    maxAngle: -30
+  - type: GunWieldBonus
+    minAngle: -20
+    maxAngle: -30
   - type: Gun
     examineCaliber: gun-examine-caliber-865 #Lua
-#    minAngle: 25
-#    maxAngle: 40
-#    angleIncrease: 5
-#    angleDecay: 34
-    minAngle: 3 #Lua
-    maxAngle: 15 #Lua
-    angleIncrease: 1.3 #Lua
-    angleDecay: 4.7 #Lua
+    minAngle: 25
+    maxAngle: 40
+    angleIncrease: 5
+    angleDecay: 34
     fireRate: 5.83 # Lua 5.7<5.83
     selectedMode: FullAuto
     availableModes:

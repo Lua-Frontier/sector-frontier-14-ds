@@ -24,7 +24,7 @@
     examineCaliber: gun-examine-caliber-4g #Lua
     soundGunshot:
       path: /Audio/_Corvax/Weapons/Guns/Gunshots/shotgun_auto.ogg
-    fireRate: 3.5 #Lua
+    fireRate: 4.5 #Lua
     selectedMode: FullAuto
     availableModes:
     - FullAuto
@@ -89,7 +89,7 @@
     examineCaliber: gun-examine-caliber-4g #Lua
     soundGunshot:
       path: /Audio/_Corvax/Weapons/Guns/Gunshots/shotgun_metal.ogg
-    fireRate: 2
+    fireRate: 2.6 #Lua 2<2.6
 
 - type: entity
   id: NFWeaponShotgunKammerer
@@ -117,7 +117,7 @@
     examineCaliber: gun-examine-caliber-4g #Lua
     soundGunshot:
       path: /Audio/_Corvax/Weapons/Guns/Gunshots/shotgun_alt.ogg
-    fireRate: 1.5 #Lua 2<1.5
+    fireRate: 1.9 #Lua 2<1.9
   - type: NFWeaponDetails
     manufacturer: weapon-details-manufacturer-nanotrasen-munitions
 

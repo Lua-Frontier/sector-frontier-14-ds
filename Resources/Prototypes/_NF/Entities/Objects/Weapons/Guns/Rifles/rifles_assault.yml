@@ -32,7 +32,7 @@
     maxAngle: 3.5 #Lua
     angleIncrease: 0.2 #Lua
     angleDecay: 1 #Lua
-    fireRate: 5 #Lua
+    fireRate: 5.8 #Lua
 
 - type: entity # TODO: switch to .25 rifle (caseless)
   id: NFWeaponRifleAssaultM90GrenadeLauncher
@@ -54,7 +54,7 @@
     maxAngle: 3.5 #Lua
     angleIncrease: 0.2 #Lua
     angleDecay: 1 #Lua
-    fireRate: 8.4
+    fireRate: 7 #Lua 8.4<7
   - type: HeldSpeedModifier #Lua
     walkModifier: 0.7
     sprintModifier: 0.7
@@ -104,7 +104,7 @@
     maxAngle: 3.5 #Lua
     angleIncrease: 0.2 #Lua
     angleDecay: 1 #Lua
-    fireRate: 6 #Lua
+    fireRate: 7 #Lua
     soundGunshot:
       path: /Audio/Weapons/Guns/Gunshots/ltrifle.ogg
   - type: ItemSlots
@@ -154,7 +154,7 @@
     maxAngle: 3.5
     angleIncrease: 0.2
     angleDecay: 1
-    fireRate: 4
+    fireRate: 4.6 #Lua 4<4.6
 
 - type: entity
   id: NFWeaponRifleAssaultJackdaw
@@ -170,6 +170,7 @@
   - type: Clothing
     sprite: _DV/Objects/Weapons/Guns/Rifles/jackdaw.rsi
   - type: Item #Lua
+    size: Huge
     shape:
     - 0,0,3,2
   - type: Gun
@@ -197,7 +198,7 @@
     maxAngle: 3.5 #Lua
     angleIncrease: 0.2 #Lua
     angleDecay: 1 #Lua
-    fireRate: 3
+    fireRate: 3.5
     burstFireRate: 5
     shotsPerBurst: 2
     burstCooldown: 0.8
@@ -229,7 +230,7 @@
     maxAngle: 3.5 #Lua
     angleIncrease: 0.2 #Lua
     angleDecay: 1 #Lua
-    fireRate: 3.6 #Lua
+    fireRate: 4.2 #Lua
     selectedMode: FullAuto
     availableModes:
       - SemiAuto

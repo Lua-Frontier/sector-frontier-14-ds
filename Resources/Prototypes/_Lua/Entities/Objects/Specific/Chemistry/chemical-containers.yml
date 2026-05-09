@@ -93,10 +93,13 @@
       tags:
       - Pill
       - Bottle
-      - CentrifugeCompatible # Frontier: Vial > CentrifugeCompatible
+      - CentrifugeCompatible
       - Syringe
       components:
       - Injector
+    blacklist:
+      tags:
+      - Medipen
   - type: StorageFill
     contents:
     - id: AmpulaReinforced

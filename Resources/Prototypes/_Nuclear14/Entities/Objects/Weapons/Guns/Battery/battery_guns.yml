@@ -212,7 +212,7 @@
     maxAngle: 7 #Lua
     angleIncrease: 5.6 #Lua
     angleDecay: 3.7 #Lua
-    fireRate: 3.6 #Lua
+    fireRate: 4.3 #Lua
     soundGunshot:
       collection: N14RechargerRifleGunshot
     selectedMode: SemiAuto
@@ -336,7 +336,7 @@
     maxAngle: 3.5 #Lua
     angleIncrease: 0.2 #Lua
     angleDecay: 1 #Lua
-    fireRate: 4
+    fireRate: 4.8 #Lua 4<4.8
     soundGunshot:
       collection: N14LaserAutoRifleGunshot
     selectedMode: FullAuto
@@ -388,7 +388,7 @@
     maxAngle: 3.5 #Lua
     angleIncrease: 0.2 #Lua
     angleDecay: 1 #Lua
-    fireRate: 5 #Lua 4<5
+    fireRate: 6 #Lua 4<6
     soundGunshot:
       collection: N14PlasmaAutoRifleGunshot
     selectedMode: FullAuto
@@ -440,7 +440,7 @@
     maxAngle: 3.5 #Lua
     angleIncrease: 0.2 #Lua
     angleDecay: 1 #Lua
-    fireRate: 5 #Lua 4<5
+    fireRate: 6 #Lua 4<6
     soundGunshot:
       collection: N14LaserAutoRifleGunshot
     selectedMode: FullAuto
@@ -494,7 +494,7 @@
     maxAngle: 3.5 #Lua
     angleIncrease: 0.2 #Lua
     angleDecay: 1 #Lua
-    fireRate: 6 #Lua 3<6
+    fireRate: 7.2 #Lua 3<7.2
     soundGunshot:
       collection: N14LaserAutoRifleGunshot
     selectedMode: SemiAuto
@@ -546,7 +546,7 @@
     maxAngle: 3.5 #Lua
     angleIncrease: 0.2 #Lua
     angleDecay: 1 #Lua
-    fireRate: 4 #Lua 3<4
+    fireRate: 4.8 #Lua 3<4.8
     soundGunshot:
       collection: N14PlasmaAutoRifleGunshot
     selectedMode: SemiAuto
@@ -598,7 +598,7 @@
     maxAngle: 3.5 #Lua
     angleIncrease: 0.2 #Lua
     angleDecay: 1 #Lua
-    fireRate: 6 #Lua 4<6
+    fireRate: 7.2 #Lua 4<7.2
     soundGunshot:
       collection: N14PlasmaAutoRifleGunshot
     selectedMode: SemiAuto
@@ -652,7 +652,7 @@
     maxAngle: 3.5 #Lua
     angleIncrease: 0.2 #Lua
     angleDecay: 1 #Lua
-    fireRate: 7 # Lua 2<7
+    fireRate: 8.4 # Lua 2<8.4
     soundGunshot:
       collection: N14MultiplasGunshot
 
@@ -704,7 +704,7 @@
     maxAngle: 7 #Lua
     angleIncrease: 5.6 #Lua
     angleDecay: 3.7 #Lua
-    fireRate: 3 #Lua 2<3
+    fireRate: 3.6 #Lua 2<3.6
     soundGunshot:
       collection: N14WattzGunshot
     selectedMode: SemiAuto
@@ -833,7 +833,7 @@
     maxAngle: 7 #Lua
     angleIncrease: 5.6 #Lua
     angleDecay: 3.7 #Lua
-    fireRate: 2.4 #Lua 1.5<2.4
+    fireRate: 2.9 #Lua 1.5<2.9
     soundGunshot:
       collection: N14WattzGunshot
     selectedMode: SemiAuto
@@ -911,7 +911,7 @@
     maxAngle: 15 #Lua
     angleIncrease: 1.3 #Lua
     angleDecay: 4.7 #Lua
-    fireRate: 6 #Lua 8<6
+    fireRate: 7 #Lua 8<7
     soundGunshot:
       collection: N14LaserGatlingGunshot
     selectedMode: FullAuto

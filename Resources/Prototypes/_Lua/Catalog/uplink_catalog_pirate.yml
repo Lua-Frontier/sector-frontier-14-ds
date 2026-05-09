@@ -886,6 +886,47 @@
       tags:
       - PirateUplink
 
+# Energy batteries
+
+- type: listing
+  id: UplinkPirateBatteryCellHigh
+  productEntity: N14PowerCellHigh
+  cost:
+    Speso: 10000
+  categories:
+  - UplinkPirateAmmo
+  conditions:
+  - !type:StoreWhitelistCondition
+    whitelist:
+      tags:
+      - PirateUplink
+
+- type: listing
+  id: UplinkPirateBatteryPlasma
+  productEntity: N14PlasmaCartridge
+  cost:
+    Speso: 10000
+  categories:
+  - UplinkPirateAmmo
+  conditions:
+  - !type:StoreWhitelistCondition
+    whitelist:
+      tags:
+      - PirateUplink
+
+- type: listing
+  id: UplinkPirateBatteryFocused
+  productEntity: N14PowerCellFocused
+  cost:
+    Speso: 10000
+  categories:
+  - UplinkPirateAmmo
+  conditions:
+  - !type:StoreWhitelistCondition
+    whitelist:
+      tags:
+      - PirateUplink
+
 #region explosive
 
 - type: listing
@@ -1239,7 +1280,7 @@
   productEntity: AntiPoisonMedipen
   icon: { sprite: Objects/Specific/Medical/medipen.rsi, state: penacid }
   cost:
-    Speso: 1000
+    Speso: 4000
   categories:
   - UplinkPirateMedical
   conditions:
@@ -1255,7 +1296,7 @@
   productEntity: PunctAutoInjector
   icon: { sprite: Objects/Specific/Medical/medipen.rsi, state: punctpen }
   cost:
-    Speso: 1000
+    Speso: 4000
   categories:
   - UplinkPirateMedical
   conditions:
@@ -1271,7 +1312,7 @@
   productEntity: PyraAutoInjector
   icon: { sprite: Objects/Specific/Medical/medipen.rsi, state: pyrapen }
   cost:
-    Speso: 1000
+    Speso: 4000
   categories:
   - UplinkPirateMedical
   conditions:
@@ -1287,7 +1328,7 @@
   productEntity: RadAutoInjector
   icon: { sprite: Objects/Specific/Medical/medipen.rsi, state: arithpen }
   cost:
-    Speso: 1000
+    Speso: 4000
   categories:
   - UplinkPirateMedical
   conditions:
@@ -1303,7 +1344,7 @@
   productEntity: Stimpack
   icon: { sprite: Objects/Specific/Medical/medipen.rsi, state: stimpen }
   cost:
-    Speso: 5000
+    Speso: 6000
   categories:
   - UplinkPirateMedical
   conditions:
@@ -1376,21 +1417,37 @@
 #        tags:
 #          - PirateUplink
 
+# - type: listing
+#   id: UplinkPirateEnergyShield
+#   name: uplink-pirate-energy-shield-name
+#   description: uplink-pirate-energy-shield-desc
+#   icon: { sprite: /Textures/Objects/Weapons/Melee/e_shield.rsi, state: eshield-on }
+#   productEntity: EnergyShield
+#   cost:
+#     Doubloon: 3
+#   categories:
+#   - UplinkPirateUtility
+#   conditions:
+#   - !type:StoreWhitelistCondition
+#     whitelist:
+#       tags:
+#       - PirateUplink
+
 - type: listing
-  id: UplinkPirateEnergyShield
-  name: uplink-pirate-energy-shield-name
-  description: uplink-pirate-energy-shield-desc
-  icon: { sprite: /Textures/Objects/Weapons/Melee/e_shield.rsi, state: eshield-on }
-  productEntity: EnergyShield
+  id: UplinkPirateTeleShield
+  name:  uplink-security-teleshield-name
+  description: uplink-security-teleshield-desc
+  productEntity: TelescopicShield
+  icon: { sprite: Objects/Weapons/Melee/teleriot_shield.rsi, state: teleriot-on }
   cost:
-    Doubloon: 3
+    Speso: 10000
   categories:
-  - UplinkPirateUtility
+    - UplinkPirateUtility
   conditions:
-  - !type:StoreWhitelistCondition
-    whitelist:
-      tags:
-      - PirateUplink
+    - !type:StoreWhitelistCondition
+      whitelist:
+        tags:
+          - PirateUplink
 
 #- type: listing
 #  id: UplinkPirateThrusterKit

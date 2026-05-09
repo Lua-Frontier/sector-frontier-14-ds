@@ -37,7 +37,7 @@
     maxAngle: 30 #Lua
     angleIncrease: 0 #Lua
     angleDecay: 0 #Lua
-    fireRate: 4.8 #Lua
+    fireRate: 5.6 #Lua
     soundGunshot:
       collection: N14RifleR91Gunshot
   - type: ItemSlots
@@ -107,7 +107,7 @@
     maxAngle: 30 #Lua
     angleIncrease: 0 #Lua
     angleDecay: 0 #Lua
-    fireRate: 4
+    fireRate: 4.6 #Lua 4<4.6
     soundGunshot:
       collection: N14ChineseRifleGunshot
   - type: ItemSlots
@@ -173,7 +173,7 @@
     maxAngle: 30 #Lua
     angleIncrease: 0 #Lua
     angleDecay: 0 #Lua
-    fireRate: 6 #Lua
+    fireRate: 7 #Lua
     soundGunshot:
       collection: N14CarbineGunshot
     selectedMode: SemiAuto #Lua FullAuto<SemiAuto
@@ -265,7 +265,7 @@
     maxAngle: 30 #Lua
     angleIncrease: 0 #Lua
     angleDecay: 0 #Lua
-    fireRate: 5
+    fireRate: 5.8 #Lua 5<5.8
     soundGunshot:
       collection: N14MarksmanGunshot
     selectedMode: FullAuto #Lua SemiAuto<FullAuto
@@ -334,7 +334,7 @@
     maxAngle: 30 #Lua
     angleIncrease: 0 #Lua
     angleDecay: 0 #Lua
-    fireRate: 4.8 #Lua 5<4.8
+    fireRate: 5.6 #Lua 5<5.6
     soundGunshot:
       collection: N14ServiceGunshot
     selectedMode: SemiAuto
@@ -424,7 +424,7 @@
     maxAngle: 30 #Lua
     angleIncrease: 0 #Lua
     angleDecay: 0 #Lua
-    fireRate: 3 #Lua 6<3
+    fireRate: 3.5 #Lua 6<3.5
     soundGunshot:
       collection: N14ServiceGunshot
     selectedMode: SemiAuto #Lua FullAuto<SemiAuto
@@ -577,7 +577,7 @@
     maxAngle: 30 #Lua
     angleIncrease: 0 #Lua
     angleDecay: 0 #Lua
-    fireRate: 6 #Lua 4<6
+    fireRate: 7 #Lua 4<7
     soundGunshot:
       collection: N14OldCarbineGunshot
     selectedMode: FullAuto #Lua SemiAuto<FullAuto
