@@ -33,4 +33,3 @@
         nameGenerator:
             !type:ShuttleNameGenerator
             shipyardPrefix: 'SD'
-

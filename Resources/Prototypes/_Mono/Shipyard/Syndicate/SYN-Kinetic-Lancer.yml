@@ -29,9 +29,7 @@
       stationProto: StandardFrontierVessel
       components:
         - type: StationNameSetup
-          mapNameTemplate: 'Kinetic-Lancer {1}'
+          mapNameTemplate: 'Kinetic-Lancer'
           nameGenerator:
-            !type:NanotrasenNameGenerator
-            prefixCreator: '14'
-        - type: StationJobs
-          availableJobs: {}
+            !type:ShuttleNameGenerator
+            shipyardPrefix: 'TY'

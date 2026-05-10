@@ -33,7 +33,7 @@
       stationProto: StandardFrontierVessel
       components:
         - type: StationNameSetup
-          mapNameTemplate: 'Lancelot {1}'
+          mapNameTemplate: 'Lancelot'
           nameGenerator:
-            !type:NanotrasenNameGenerator
-            prefixCreator: '14'
+            !type:ShuttleNameGenerator
+            shipyardPrefix: 'TY'

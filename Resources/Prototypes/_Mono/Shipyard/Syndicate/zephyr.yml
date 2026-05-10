@@ -27,9 +27,7 @@
       stationProto: StandardFrontierVessel
       components:
       - type: StationNameSetup
-        mapNameTemplate: 'Zephyr {1}'
+        mapNameTemplate: 'Zephyr'
         nameGenerator:
-          !type:NanotrasenNameGenerator
-          prefixCreator: '14'
-      - type: StationJobs
-        availableJobs: {}
+          !type:ShuttleNameGenerator
+          shipyardPrefix: 'TY'

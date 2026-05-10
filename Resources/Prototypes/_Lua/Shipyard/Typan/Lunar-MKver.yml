@@ -31,7 +31,7 @@
       stationProto: StandardFrontierVessel
       components:
         - type: StationNameSetup
-          mapNameTemplate: 'Lunar {1}'
+          mapNameTemplate: 'Lunar'
           nameGenerator:
-            !type:NanotrasenNameGenerator
-            prefixCreator: '14'
+            !type:ShuttleNameGenerator
+            shipyardPrefix: 'TY'

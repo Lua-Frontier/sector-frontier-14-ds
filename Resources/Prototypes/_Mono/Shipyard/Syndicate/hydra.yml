@@ -28,9 +28,7 @@
       stationProto: StandardFrontierVessel
       components:
         - type: StationNameSetup
-          mapNameTemplate: 'Hydra {1}'
+          mapNameTemplate: 'Hydra'
           nameGenerator:
-            !type:NanotrasenNameGenerator
-            prefixCreator: '14'
-        - type: StationJobs
-          availableJobs: {}
+            !type:ShuttleNameGenerator
+            shipyardPrefix: 'TY'

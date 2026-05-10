@@ -31,7 +31,7 @@
       stationProto: StandardFrontierVessel
       components:
       - type: StationNameSetup
-        mapNameTemplate: 'Shukra-2 {1}'
+        mapNameTemplate: 'Shukra-2'
         nameGenerator:
-          !type:NanotrasenNameGenerator
-            prefixCreator: '14'
+          !type:ShuttleNameGenerator
+          shipyardPrefix: 'TY'

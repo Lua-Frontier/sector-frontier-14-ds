@@ -27,9 +27,7 @@
       stationProto: StandardFrontierVessel
       components:
         - type: StationNameSetup
-          mapNameTemplate: 'Infiltrator {1}'
+          mapNameTemplate: 'Infiltrator'
           nameGenerator:
-            !type:NanotrasenNameGenerator
-            prefixCreator: '14'
-        - type: StationJobs
-          availableJobs: {}
+            !type:ShuttleNameGenerator
+            shipyardPrefix: 'TY'

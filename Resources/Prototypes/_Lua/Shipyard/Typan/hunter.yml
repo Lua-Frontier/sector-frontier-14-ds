@@ -30,7 +30,7 @@
       stationProto: StandardFrontierExpeditionVessel
       components:
         - type: StationNameSetup
-          mapNameTemplate: 'Hunter {1}'
+          mapNameTemplate: 'Hunter'
           nameGenerator:
-            !type:NanotrasenNameGenerator
-            prefixCreator: '14'
+            !type:ShuttleNameGenerator
+            shipyardPrefix: 'TY'

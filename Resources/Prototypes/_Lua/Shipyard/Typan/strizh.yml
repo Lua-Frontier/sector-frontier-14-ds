@@ -31,7 +31,7 @@
       stationProto: StandardFrontierVessel
       components:
       - type: StationNameSetup
-        mapNameTemplate: 'Strizh {1}'
+        mapNameTemplate: 'Strizh'
         nameGenerator:
-          !type:NanotrasenNameGenerator
-            prefixCreator: '14'
+          !type:ShuttleNameGenerator
+          shipyardPrefix: 'TY'
