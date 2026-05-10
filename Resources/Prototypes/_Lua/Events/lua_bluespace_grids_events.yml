@@ -17,6 +17,8 @@
     reoccurrenceDelay: 360 # 6 hours
     requiredJobs:
       Sheriff: 1
+      SeniorOfficer: 1
+      Deputy: 1
   - type: BluespaceErrorRule
     asteroid: false
     groups:
@@ -62,6 +64,8 @@
     reoccurrenceDelay: 360 # 6 hours
     requiredJobs:
       Sheriff: 1
+      SeniorOfficer: 1
+      Deputy: 1
   - type: BluespaceErrorRule
     asteroid: false
     groups:
@@ -106,6 +110,8 @@
     reoccurrenceDelay: 240 # once per 4 hours
     requiredJobs:
       Sheriff: 1
+      SeniorOfficer: 1
+      Deputy: 1
   - type: BluespaceErrorRule
     asteroid: false
     groups:

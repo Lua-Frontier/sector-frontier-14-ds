@@ -290,8 +290,13 @@ public sealed class EventManagerSystem : EntitySystem
         // Frontier: require jobs to run event
         foreach (var (jobProtoId, numJobs) in stationEvent.RequiredJobs)
         {
-            if (_jobs.GetNumberOfActiveRoles(jobProtoId, false) < numJobs)
+            var k = 0;
+            if (_jobs.GetNumberOfActiveRoles(jobProtoId, false) < numJobs) { k += 1; }
+            if (k == stationEvent.RequiredJobs.Count)
                 return false;
+
+            // if (_jobs.GetNumberOfActiveRoles(jobProtoId, false) < numJobs)
+            //     return false;
         }
         // End Frontier
 
