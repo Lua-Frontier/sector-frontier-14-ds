@@ -641,6 +641,7 @@
 
 - type: construction
   id: Turnstile
+  name: construction-recipe-turnstile
   graph: Turnstile
   startNode: start
   targetNode: turnstile
